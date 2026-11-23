@@ -25,7 +25,15 @@ def fit(d, txt, size, maxw, bold=True):
     while size > 20 and d.textlength(txt, font=F(size, bold)) > maxw: size -= 4
     return F(size, bold)
 
+BGDIR = os.path.join(HERE, "bg")   # optional original AI backgrounds (Hugging Face), 9:16
+_BGS = sorted(f for f in os.listdir(BGDIR) if f.lower().endswith((".png", ".jpg", ".webp"))) if os.path.isdir(BGDIR) else []
 def bg(seed):
+    if _BGS:   # darkened art background so text stays readable
+        im = Image.open(os.path.join(BGDIR, _BGS[seed % len(_BGS)])).convert("RGB")
+        r = max(SW / im.width, SH / im.height); im = im.resize((int(im.width * r) + 1, int(im.height * r) + 1))
+        l = (im.width - SW) // 2; t = (im.height - SH) // 2; im = im.crop((l, t, l + SW, t + SH))
+        im = Image.blend(im, Image.new("RGB", (SW, SH), BG), 0.55)
+        return im
     im = Image.new("RGB", (SW, SH), BG); d = ImageDraw.Draw(im)
     for y in range(SH):
         t = y / SH; d.line([(0, y), (SW, y)], fill=(int(18 + 70 * t), int(6 + 8 * t), int(31 + 45 * (1 - t))))

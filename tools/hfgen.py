@@ -18,4 +18,6 @@ def call(prompt, ratio, out, neg="watermark, blurry, low resolution, misspelled 
     open(out, "wb").write(urllib.request.urlopen(url, timeout=120).read()); print("saved", out); return True
 
 jobs = json.loads(open(sys.argv[1], encoding="utf-8").read())
-for j in jobs: call(j["prompt"], j["ratio"], j["out"])
+for j in jobs:
+    try: call(j["prompt"], j["ratio"], j["out"], j.get("neg", "watermark, blurry, low resolution, misspelled text, extra text, real brand logos, people, faces"))
+    except Exception as e: print("error", j["out"], e)
