@@ -1,0 +1,33 @@
+name: Update GTA 6 headlines
+# Every 4 hours: fetch fresh GTA 6 headlines (free Google News RSS), commit, deploy. No AI, no cost.
+on:
+  schedule: [{ cron: "17 */4 * * *" }]
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: deploy, cancel-in-progress: false }
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Fetch headlines
+        id: feed
+        run: |
+          out=$(python -I tools/news_feed.py gta6-site); echo "$out"
+          if echo "$out" | grep -q '^changed'; then echo "changed=1" >> $GITHUB_OUTPUT; fi
+      - name: Commit
+        if: steps.feed.outputs.changed == '1'
+        run: |
+          git config user.name "gamerbhai-bot"; git config user.email "actions@users.noreply.github.com"
+          git add gta6-site/headlines.json && git commit -m "Auto: update GTA 6 headlines" && git push
+      - name: Deploy
+        if: steps.feed.outputs.changed == '1'
+        run: python -I build_zip.py && npx --yes wrangler@3 pages deploy gta6-site --project-name=ilovegta6 --branch=main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Ping news page
+        if: steps.feed.outputs.changed == '1'
+        run: curl -s -o /dev/null -w "IndexNow %{http_code}\n" "https://api.indexnow.org/indexnow?url=https://gamerbhai.com/news&key=$(python -c "import json;print(json.load(open('indexnow.json'))['key'])")"

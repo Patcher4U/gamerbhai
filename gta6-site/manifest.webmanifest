@@ -1,0 +1,20 @@
+{
+  "name": "GamerBhai – GTA 6 Guides, Map & Community",
+  "short_name": "GamerBhai",
+  "description": "GTA 6 guides, cheats, map tracker, walkthrough videos, community and a free neon racing mini-game.",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#12061f",
+  "theme_color": "#12061f",
+  "icons": [
+    { "src": "/img/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/img/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Cheats & Money", "url": "/guides" },
+    { "name": "100% Tracker", "url": "/map" },
+    { "name": "Community", "url": "/community" }
+  ]
+}

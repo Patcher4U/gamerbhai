@@ -1,0 +1,18 @@
+# Whitelist: only the website, tools and automation are ever committed.
+# Private files (client_secret_*.json, my-details.md, zips, videos) stay on this PC only.
+/*
+!/.gitignore
+!/.github/
+!/gta6-site/
+!/tools/
+!/supabase/
+!/build_zip.py
+!/gen_walk.py
+!/indexnow.json
+!/README.md
+!/AUTOPILOT-TASK.md
+gta6-site/.claude/
+*.zip
+*.mp4
+client_secret*
+my-details*

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 Community – Posts, Screenshots &amp; Live Chat | GamerBhai</title>
+<meta name="description" content="Talk GTA 6 with other players: share posts and screenshots, comment, and hang out in the live chat.">
+<link rel="canonical" href="https://gamerbhai.com/community">
+<meta property="og:image" content="https://gamerbhai.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="GamerBhai">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="GTA 6 Community – Posts, Screenshots &amp; Live Chat | GamerBhai">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/img/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#12061f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=202611240330">
+</head>
+<body data-page="community" data-seo="1">
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="scrim"></div>
+<header class="wrap phero reveal">
+  <div class="kicker">GAMERBHAI CREW</div>
+  <h1><span class="g">Community</span></h1>
+  <p class="lead">Post your best moments, drop screenshots, argue about the ending, and chat live with other players.</p>
+</header>
+<main class="wrap" id="cm">
+  <div class="cmtabs" role="tablist">
+    <button class="on" data-tab="feed" role="tab">📝 Posts</button>
+    <button data-tab="chat" role="tab">💬 Live chat</button>
+    <button data-tab="review" role="tab" id="cmReviewTab" hidden>🛡️ Review <b id="cmPendN">0</b></button>
+  </div>
+
+  <section class="cmpane on" id="cmFeed">
+    <div class="glass cmcompose" id="cmCompose">
+      <div id="cmNeedLogin" hidden>
+        <p>Sign in with Google to post and upload. It keeps spam out. Chat and comments work without it.</p>
+        <button class="btn primary" id="cmLogin">Sign in with Google</button>
+      </div>
+      <div id="cmForm" hidden>
+        <textarea id="cmBody" maxlength="2000" rows="3" placeholder="What's happening in Leonida?"></textarea>
+        <div class="cmrow">
+          <label class="btn cmfile">📷 Add image<input type="file" id="cmFile" accept="image/jpeg,image/png,image/webp,image/gif" hidden></label>
+          <span class="cmfname" id="cmFname"></span>
+          <button class="btn primary" id="cmPost">Post</button>
+        </div>
+        <p class="note">Text posts go live right away. Posts with an image show <b>⏳ Under review</b> until a moderator approves them. Images up to 5 MB. No spoilers without a warning, no hate, no leaks or piracy.</p>
+      </div>
+      <p class="cmmsg" id="cmMsg"></p>
+    </div>
+    <div id="cmPosts"><p class="note">Loading posts…</p></div>
+  </section>
+
+  <section class="cmpane" id="cmChat">
+    <div class="glass">
+      <div class="cmchat" id="cmChatLog"><p class="note">Loading chat…</p></div>
+      <div class="cmrow"><input id="cmChatIn" maxlength="300" placeholder="Say something…" autocomplete="off"><button class="btn primary" id="cmChatSend">Send</button></div>
+      <p class="note">Be nice. One message every 3 seconds. Moderators can remove messages.</p>
+    </div>
+  </section>
+
+  <section class="cmpane" id="cmReview">
+    <div id="cmQueue"></div>
+  </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="data.js?v=202611240330"></script>
+<script src="scene.js?v=202611240330"></script>
+<script src="app.js?v=202611240330"></script>
+</body>
+</html>

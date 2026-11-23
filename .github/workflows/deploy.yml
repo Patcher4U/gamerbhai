@@ -1,0 +1,26 @@
+name: Deploy site
+# Runs on every push that changes the site (and can be started by hand).
+on:
+  push:
+    branches: [main]
+    paths: ["gta6-site/**", "build_zip.py"]
+  workflow_dispatch:
+concurrency: { group: deploy, cancel-in-progress: false }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Health check (broken links / missing pages)
+        run: python -I tools/audit.py gta6-site | tee audit.txt; if grep -q "broken link\|missing" audit.txt; then exit 1; fi
+      - name: Stamp versions
+        run: python -I build_zip.py
+      - name: Deploy to Cloudflare Pages
+        run: npx --yes wrangler@3 pages deploy gta6-site --project-name=ilovegta6 --branch=main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Ping search engines (IndexNow)
+        run: curl -s -o /dev/null -w "IndexNow %{http_code}\n" -X POST -H "Content-Type: application/json; charset=utf-8" --data-binary @indexnow.json https://api.indexnow.org/indexnow

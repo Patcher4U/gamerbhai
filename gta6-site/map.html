@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 Interactive Map &amp; 100% Completion Tracker – Leonida</title>
+<meta name="description" content="Free GTA 6 100% tracker: story chapters, money unlocks, cheat goals and collectibles (Flamingos cards, watches, Girlypop cars) on an illustrated Leonida map. No account needed.">
+<link rel="canonical" href="https://gamerbhai.com/map">
+<meta property="og:title" content="GTA 6 Leonida Map &amp; 100% Tracker">
+<meta property="og:description" content="Track your GTA 6 completion: story, money unlocks, cheat goals and collectibles.">
+<meta property="og:image" content="https://gamerbhai.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="GamerBhai">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/img/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#12061f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=202611240330">
+</head>
+<body data-page="map" data-seo="1">
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="scrim"></div>
+<header class="wrap phero reveal">
+  <div class="kicker">LEONIDA · 100% TRACKER</div>
+  <h1><span class="g">Map &amp; Completion Tracker</span></h1>
+  <p class="lead">Tick off story chapters, money unlocks, cheat goals and collectibles. Your progress saves in this browser. No account needed.</p>
+</header>
+<main class="wrap">
+  <section class="reveal">
+    <div class="glass lmwrap">
+      <div class="lmhud">
+        <div><span class="lmpct" id="lmPct">0%</span><small>COMPLETE</small></div>
+        <div class="lmbar"><i id="lmBar"></i></div>
+      </div>
+      <div class="lmgrid">
+        <div class="lmmap">
+          <svg viewBox="0 0 600 720" role="img" aria-label="Illustrated map of Leonida regions">
+            <defs>
+              <linearGradient id="lmLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1748"/><stop offset="1" stop-color="#1a0f33"/></linearGradient>
+              <filter id="lmGlow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <g class="lmgrid-lines">
+              <path d="M0 120H600M0 240H600M0 360H600M0 480H600M0 600H600M120 0V720M240 0V720M360 0V720M480 0V720"/>
+            </g>
+            <path class="lmland" d="M60 70 L520 60 L530 120 L470 150 L455 230 L480 330 L500 420 L478 500 L430 560 L380 590 L330 585 L300 540 L270 470 L250 400 L215 340 L170 300 L120 270 L80 230 L50 180 Z"/>
+            <path class="lmkeys" d="M330 610 q30 14 60 10 M405 628 q25 6 48 -6 M300 640 q-30 18 -70 26 M215 672 q-30 8 -55 6"/>
+            <g id="lmRegions"></g>
+            <g id="lmPins"></g>
+          </svg>
+          <p class="note">Illustrated map, not to scale. Region shapes are approximate. Rockstar hasn't released an official full map.</p>
+        </div>
+        <div class="lmside">
+          <div class="lmfilter" id="lmFilter"></div>
+          <div id="lmList"></div>
+          <div class="lmsync">
+            <h3>📲 Move progress to another device</h3>
+            <div class="pfrow"><input id="lmCode" placeholder="Paste a sync code" spellcheck="false" autocomplete="off"><button class="btn" id="lmLoad">Load</button></div>
+            <div class="gbtns"><button class="btn" id="lmCopy">Copy my code</button><button class="btn" id="lmReset">Reset</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="ad reveal">Ad</div>
+</main>
+<script>
+(function(){
+  const R = {
+    kalaga:  { name:"Mount Kalaga",   x:300, y:115, d:"M150 80 L470 75 L455 150 L330 175 L190 160 Z" },
+    gellhorn:{ name:"Port Gellhorn",  x:125, y:215, d:"M60 95 L185 165 L200 250 L120 262 L60 190 Z" },
+    ambrosia:{ name:"Ambrosia",       x:330, y:270, d:"M195 170 L450 155 L465 330 L300 370 L215 330 Z" },
+    grass:   { name:"Grassrivers",    x:330, y:460, d:"M235 345 L420 335 L440 470 L380 560 L310 540 L265 450 Z" },
+    vice:    { name:"Vice City",      x:462, y:450, d:"M430 340 L495 420 L475 500 L440 540 L428 450 Z" },
+    keys:    { name:"Leonida Keys",   x:330, y:640, d:"M180 600 L480 600 L470 690 L170 690 Z" }
+  };
+  // id, label, group, region?, target count? , pin [x,y]?
+  const I = [
+    ["s0","Prologue","Story"],["s1","Chapter 1","Story"],["s2","Chapter 2","Story"],["s3","Chapter 3","Story"],["s4","Chapter 4","Story"],["s5","Chapter 5 (ending)","Story"],
+    ["m1","Kenton's first treasure dive","Money","keys",0,[300,628]],
+    ["m2","Exotic Animals front safe (Key Lento)","Money","keys",0,[262,648]],
+    ["m3","Sell a car to Moses","Money","gellhorn",0,[110,200]],
+    ["m4","La Cascara Motel operation","Money","gellhorn",0,[148,236]],
+    ["m5","First jewelry job for Yasmani","Money"],
+    ["m6","First car for Randy","Money"],
+    ["m7","First air drop for Pilot Pete","Money"],
+    ["m8","First big bank vault","Money"],
+    ["c1","Workouts","Cheat goals",0,100],["c2","Stunt jumps","Cheat goals",0,50],["c3","Shooting-range medals","Cheat goals",0,25],
+    ["c4","Lose a 3-star wanted level","Cheat goals",0,25],["c5","Skydives from 300 ft+","Cheat goals",0,50],["c6","Grenades thrown","Cheat goals",0,100],
+    ["c7","Fish caught","Cheat goals",0,100],["c8","Meditations","Cheat goals",0,50],["c9","Police vehicles stolen","Cheat goals",0,100],
+    ["k1","Vice City Flamingos cards","Collectibles",0,24],["k2","Girlypop vehicles","Collectibles",0,16],
+    ["k3","Collectible watches","Collectibles",0,20],["k4","Cocaine flamingos destroyed","Collectibles",0,50]
+  ].map(a => ({ id:a[0], t:a[1], g:a[2], r:a[3]||"", n:a[4]||0, pin:a[5]||null }));
+  const KEY = "lg100";
+  let st = {}; try { st = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch(e) {}
+  let reg = "";
+  const $ = s => document.querySelector(s);
+  const val = it => Math.max(0, Math.min(it.n || 1, Number(st[it.id] || 0)));
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch(e) {} };
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  function pct(){ return Math.round(I.reduce((a, it) => a + val(it) / (it.n || 1), 0) / I.length * 100); }
+  function hud(){ const p = pct(); $("#lmPct").textContent = p + "%"; $("#lmBar").style.width = p + "%"; }
+  function drawMap(){
+    $("#lmRegions").innerHTML = Object.entries(R).map(([k, r]) => {
+      const its = I.filter(i => i.r === k), done = its.filter(i => val(i) >= (i.n || 1)).length;
+      return `<g class="lmreg${reg === k ? " on" : ""}" data-r="${k}" tabindex="0" role="button" aria-label="${r.name}"><path d="${r.d}"/><text x="${r.x}" y="${r.y}">${r.name.toUpperCase()}</text>${its.length ? `<text class="lmcnt" x="${r.x}" y="${r.y + 18}">${done}/${its.length}</text>` : ""}</g>`;
+    }).join("");
+    $("#lmPins").innerHTML = I.filter(i => i.pin).map(i => `<g class="lmpin${val(i) ? " done" : ""}${reg && reg !== i.r ? " dim" : ""}" data-id="${i.id}" filter="url(#lmGlow)"><circle cx="${i.pin[0]}" cy="${i.pin[1]}" r="8"/><title>${esc(i.t)}</title></g>`).join("");
+  }
+  function drawList(){
+    const groups = [...new Set(I.map(i => i.g))];
+    $("#lmFilter").innerHTML = `<button class="${reg ? "" : "on"}" data-r="">All</button>` + Object.entries(R).filter(([k]) => I.some(i => i.r === k)).map(([k, r]) => `<button class="${reg === k ? "on" : ""}" data-r="${k}">${r.name}</button>`).join("");
+    $("#lmList").innerHTML = groups.map(g => {
+      const its = I.filter(i => i.g === g && (!reg || i.r === reg)); if (!its.length) return "";
+      return `<h3>${g}</h3><ul class="lmitems">` + its.map(i => i.n
+        ? `<li class="${val(i) >= i.n ? "done" : ""}"><span>${esc(i.t)}</span><span class="lmstep"><button data-dec="${i.id}" aria-label="minus">−</button><input data-num="${i.id}" type="number" min="0" max="${i.n}" value="${val(i)}"><em>/ ${i.n}</em><button data-inc="${i.id}" aria-label="plus">+</button></span></li>`
+        : `<li class="${val(i) ? "done" : ""}"><label><input type="checkbox" data-chk="${i.id}" ${val(i) ? "checked" : ""}> ${esc(i.t)}${i.r ? ` <small>📍 ${R[i.r].name}</small>` : ""}</label></li>`).join("") + `</ul>`;
+    }).join("") + (reg ? "" : `<p class="note">Story chapters: follow our <a href="walkthrough.html">full walkthrough</a>. Cheat goals unlock cheats from our <a href="guides.html#cheats">cheat list</a>.</p>`);
+  }
+  function all(){ drawMap(); drawList(); hud(); }
+  function set(id, v){ const it = I.find(i => i.id === id); if (!it) return; v = Math.max(0, Math.min(it.n || 1, Math.round(Number(v) || 0))); if (v) st[id] = v; else delete st[id]; save(); all(); if (pct() === 100 && typeof window.levelUp === "function") window.levelUp(); }
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-r],[data-inc],[data-dec],.lmpin"); if (!t) return;
+    if (t.dataset.inc) set(t.dataset.inc, val(I.find(i => i.id === t.dataset.inc)) + 1);
+    else if (t.dataset.dec) set(t.dataset.dec, val(I.find(i => i.id === t.dataset.dec)) - 1);
+    else if (t.classList.contains("lmpin")) { const id = t.dataset.id; set(id, val(I.find(i => i.id === id)) ? 0 : 1); }
+    else if (t.closest("#lmFilter,#lmRegions")) { reg = reg === t.dataset.r ? "" : t.dataset.r; all(); }
+  });
+  document.addEventListener("change", e => {
+    const t = e.target;
+    if (t.dataset.chk) set(t.dataset.chk, t.checked ? 1 : 0);
+    if (t.dataset.num) set(t.dataset.num, t.value);
+  });
+  $("#lmCopy").addEventListener("click", async () => {
+    const code = "LG1-" + btoa(JSON.stringify(st)).replace(/=+$/, "");
+    try { await navigator.clipboard.writeText(code); $("#lmCopy").textContent = "Copied ✓"; } catch(e) { $("#lmCode").value = code; $("#lmCopy").textContent = "Code is in the box"; }
+    setTimeout(() => $("#lmCopy").textContent = "Copy my code", 1800);
+  });
+  $("#lmLoad").addEventListener("click", () => {
+    const v = $("#lmCode").value.trim().replace(/^LG1-/, "");
+    try { const o = JSON.parse(atob(v)); if (o && typeof o === "object") { st = {}; for (const it of I) if (o[it.id]) st[it.id] = Number(o[it.id]); save(); all(); $("#lmLoad").textContent = "Loaded ✓"; } } catch(e) { $("#lmLoad").textContent = "Bad code"; }
+    setTimeout(() => $("#lmLoad").textContent = "Load", 1800);
+  });
+  $("#lmReset").addEventListener("click", () => { if ($("#lmReset").dataset.sure) { st = {}; save(); all(); $("#lmReset").textContent = "Reset"; delete $("#lmReset").dataset.sure; } else { $("#lmReset").dataset.sure = 1; $("#lmReset").textContent = "Tap again to reset"; } });
+  all();
+})();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="data.js?v=202611240330"></script>
+<script src="scene.js?v=202611240330"></script>
+<script src="app.js?v=202611240330"></script>
+</body>
+</html>
