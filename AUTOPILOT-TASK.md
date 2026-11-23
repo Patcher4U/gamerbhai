@@ -9,7 +9,7 @@ So each weekly Claude run only does:
 1. **Shorts batch:** render the next 7 Shorts with `python -I tools/render_short.py --next 7 --out promo/queue` (each writes <id>.mp4 + <id>.txt with title/description). Upload all 7 in YouTube Studio and schedule one per day at 7:00 PM for the coming 7 days (skip days that already have a scheduled Short). Log them in promo/SHORTS-LOG.md. If the bank has fewer than 7 left, write 7+ new ORIGINAL items into tools/shorts_bank.json first (same format; facts only from the site's guides or verified sources).
 2. **One curated news item** (optional): if a big verified story happened this week, add it to SITE.news in data.js with a source link.
 3. **Walkthrough videos** for the 3 missing missions (as below).
-4. **Deploy:** if GitHub is set up (a `.git` folder with a remote — check `git remote -v`), just `git add -A && git commit && git push` and GitHub deploys. Otherwise build + deploy in Chrome as below.
+4. **Deploy:** GitHub is set up (repo Patcher4U/gamerbhai, Cloudflare Pages project "gamerbhai" auto-deploys every push). Run `git add -A && git commit -m "..." && git pull --rebase && git push` from the Free Luck folder. Do NOT use the old Chrome upload flow or the old "ilovegta6" project.
 5. Remind the user about pending community uploads. Short report.
 Keep token use low: do not re-read big files you don't need, do not re-audit pages GitHub already checks.
 
