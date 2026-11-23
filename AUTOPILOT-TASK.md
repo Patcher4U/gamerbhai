@@ -1,6 +1,20 @@
-# GamerBhai daily autopilot — scheduled task
+# GamerBhai autopilot — scheduled task (WEEKLY since 24 Nov 2026)
 
-Schedule: every day at 2:00 PM (cron `0 14 * * *`). Task ID: `gamerbhai-daily-autopilot`.
+Schedule: every Monday at 2:00 PM (cron `0 14 * * 1`). Task ID: `gamerbhai-daily-autopilot`.
+
+## WEEKLY MODE (read this first — it overrides the daily list below)
+Free GitHub Actions now do the daily work without AI (once the user finishes GITHUB-SETUP.md):
+headlines every 4 h (tools/news_feed.py → gta6-site/headlines.json), deploy on every push, IndexNow pings, and weekly Short rendering.
+So each weekly Claude run only does:
+1. **Shorts batch:** render the next 7 Shorts with `python -I tools/render_short.py --next 7 --out promo/queue` (each writes <id>.mp4 + <id>.txt with title/description). Upload all 7 in YouTube Studio and schedule one per day at 7:00 PM for the coming 7 days (skip days that already have a scheduled Short). Log them in promo/SHORTS-LOG.md. If the bank has fewer than 7 left, write 7+ new ORIGINAL items into tools/shorts_bank.json first (same format; facts only from the site's guides or verified sources).
+2. **One curated news item** (optional): if a big verified story happened this week, add it to SITE.news in data.js with a source link.
+3. **Walkthrough videos** for the 3 missing missions (as below).
+4. **Deploy:** if GitHub is set up (a `.git` folder with a remote — check `git remote -v`), just `git add -A && git commit && git push` and GitHub deploys. Otherwise build + deploy in Chrome as below.
+5. Remind the user about pending community uploads. Short report.
+Keep token use low: do not re-read big files you don't need, do not re-audit pages GitHub already checks.
+
+---
+(Original daily instructions kept below for reference.)
 Runs while the Claude desktop app is open; if it's closed at 2 PM it runs on next launch. Chrome (with Claude in Chrome) must be open for deploys and YouTube.
 
 ## Prompt
