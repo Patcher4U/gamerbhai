@@ -13,8 +13,11 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - name: Health check (broken links / missing pages)
-        run: python -I tools/audit.py gta6-site | tee audit.txt; if grep -q "broken link\|missing" audit.txt; then exit 1; fi
+        run: |
+          python -I tools/audit.py gta6-site | tee audit.txt
+          if grep -q "broken link\|missing" audit.txt; then exit 1; fi
       - name: Wait for Cloudflare to finish deploying
         run: sleep 120
       - name: Ping search engines (IndexNow)
-        run: curl -s -o /dev/null -w "IndexNow %{http_code}\n" -X POST -H "Content-Type: application/json; charset=utf-8" --data-binary @indexnow.json https://api.indexnow.org/indexnow
+        run: |
+          curl -s -o /dev/null -w "IndexNow %{http_code}\n" -X POST -H "Content-Type: application/json; charset=utf-8" --data-binary @indexnow.json https://api.indexnow.org/indexnow
