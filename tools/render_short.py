@@ -7,6 +7,8 @@ Writes <id>.mp4 plus <id>.txt (title / description ready to paste) and records i
 Needs Pillow and ffmpeg (FFMPEG env var, C:/ffmpeg/bin/ffmpeg.exe, or ffmpeg on PATH).
 """
 import argparse, json, os, random, shutil, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import music   # original generated soundtrack (no copyright)
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -92,9 +94,13 @@ def render(item, out):
             if nxt is not None and f > total - 8: fr = Image.blend(fr, nxt, (f - (total - 8)) / 8)
             fr.save(os.path.join(frames, f"{n:05d}.jpg"), quality=88); n += 1
     mp4 = os.path.join(out, item["id"] + ".mp4")
-    subprocess.run([ffmpeg(), "-y", "-loglevel", "error", "-framerate", str(fps), "-i", os.path.join(frames, "%05d.jpg"), "-f", "lavfi", "-t", str(n / fps),
-                    "-i", "anullsrc=r=44100:cl=stereo", "-shortest", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-pix_fmt", "yuv420p",
-                    "-c:a", "aac", "-b:a", "64k", mp4], check=True)
+    cuts, acc = [], 0.0
+    for _, dur in slides[:-1]: acc += int(dur * fps) / fps; cuts.append(acc)
+    wav = os.path.join(frames, "music.wav")
+    music.soundtrack(wav, n / fps, cuts, seed=sum(map(ord, item["id"])))
+    subprocess.run([ffmpeg(), "-y", "-loglevel", "error", "-framerate", str(fps), "-i", os.path.join(frames, "%05d.jpg"), "-i", wav,
+                    "-shortest", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "128k", mp4], check=True)
     shutil.rmtree(frames)
     desc = f"{item['title'].replace(' #shorts', '')}.\n\nFree on GamerBhai: {item['link']}\n\n{item['tags']}"
     open(os.path.join(out, item["id"] + ".txt"), "w", encoding="utf-8").write(f"TITLE: {item['title']}\n\nDESCRIPTION:\n{desc}\n")
