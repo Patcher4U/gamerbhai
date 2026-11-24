@@ -489,6 +489,14 @@ function renderPage(){ (R[PAGE] || (() => {}))(); bindTilt(); bindReveal(); }
 /* ---------- mini-game UI: Neon Run ---------- */
 /* ---------- world leaderboard (Supabase, anonymous players + nickname) ---------- */
 const GOOGLE_LOGIN = true;    // flip to true once the Google provider is enabled in Supabase
+/* ---------- MONEY: switch on by filling these in (no other code changes needed) ---------- */
+const MONEY = {
+  adsense: "",            // AdSense publisher ID after approval, e.g. "ca-pub-1234567890123456"
+  adsenseSlot: "",        // optional display ad-unit slot ID (auto ads work without it)
+  noAdPages: ["story", "guides", "community", "game"],   // pages with Rockstar screenshots / user content stay ad-free
+  eneba: "",              // Eneba affiliate link to GTA 6 (from your Eneba/AWIN dashboard)
+  amazon: ""              // Amazon Associates link to GTA 6 / PS5 (optional)
+};
 const LB_CFG = { url: "https://wnzqjmvlfnrkwswcbpyk.supabase.co", key: "sb_publishable_qY_rBY_6XccjN6X-pWhVig_h2dGue_5" };   // public (publishable) key - safe in browser code
 const LB = {
   on: !!(LB_CFG.url && LB_CFG.key), sb: null, ready: null, run: null,
@@ -743,6 +751,25 @@ function bindProfile(){
   if (LB.on) setTimeout(() => LB.init(), 2500);   // sign the visitor in quietly so the ticket exists
 }
 
+
+
+/* ---------- monetization: ads + "where to buy" (inactive until MONEY is filled in) ---------- */
+function bindMoney(){
+  const slots = $$(".ad");
+  const hideSlots = () => slots.forEach(el => { el.hidden = true; el.style.display = "none"; });
+  if (!MONEY.adsense || MONEY.noAdPages.includes(PAGE)) hideSlots();
+  else {
+    const sc = document.createElement("script"); sc.async = true; sc.crossOrigin = "anonymous";
+    sc.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(MONEY.adsense);
+    document.head.appendChild(sc);
+    if (MONEY.adsenseSlot) slots.forEach(el => { el.className = "adslot"; el.innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="${esc(MONEY.adsense)}" data-ad-slot="${esc(MONEY.adsenseSlot)}" data-ad-format="auto" data-full-width-responsive="true"></ins>`; try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });
+    else hideSlots();   // auto ads place themselves
+  }
+  const links = [["Eneba", MONEY.eneba, "Digital key deals"], ["Amazon", MONEY.amazon, "Disc & console bundles"]].filter(l => l[1]);
+  if (!links.length || (!["price", "countries", "pc", "home"].includes(PAGE) && !document.body.dataset.country)) return;
+  const main = $("main"); if (!main) return;
+  main.insertAdjacentHTML("beforeend", `<section class="glass buybox reveal in"><h3>🛒 Where to buy GTA 6</h3><div class="buybtns">${links.map(([n, u, d]) => `<a class="btn primary" href="${esc(u)}" target="_blank" rel="noopener sponsored">${esc(n)}<small>${esc(d)}</small></a>`).join("")}</div><p class="note">Affiliate links: GamerBhai may earn a small commission at no extra cost to you. Only buy from official or trusted stores; avoid "free GTA 6" offers.</p></section>`);
+}
 
 /* ---------- share bar (free promotion: every visitor can spread the site) ---------- */
 function bindShare(){
@@ -1061,6 +1088,7 @@ bindVideos();
 bindDraw();
 bindProfile();
 bindCommunity();
+bindMoney();
 bindShare();
 transBar();
 if ("serviceWorker" in navigator && location.protocol === "https:") { const regSW = () => navigator.serviceWorker.register("/sw.js").catch(() => {}); document.readyState === "complete" ? setTimeout(regSW, 1500) : addEventListener("load", regSW); }
