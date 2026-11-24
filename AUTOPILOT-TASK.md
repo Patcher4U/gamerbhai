@@ -11,6 +11,7 @@ So each weekly Claude run only does:
 2. **One curated news item** (optional): if a big verified story happened this week, add it to SITE.news in data.js with a source link.
 3. **Walkthrough videos** for the 3 missing missions (as below).
 4. **Deploy:** GitHub is set up (repo Patcher4U/gamerbhai, Cloudflare Pages project "gamerbhai" auto-deploys every push). Run `git add -A && git commit -m "..." && git pull --rebase && git push` from the Free Luck folder. Do NOT use the old Chrome upload flow or the old "ilovegta6" project.
+4b. **TikTok (@gamer.bhai512) and Instagram (@gamerbhaigta)** — the user created these and asked to post: post at most 1 video per platform per day, original Shorts from promo/queue only (TikTok Studio upload page; Instagram Create → Reel), caption + link gamerbhai.com + 5 hashtags, turn on TikTok's AI-generated label (backgrounds are AI art). Never accept consent dialogs/terms yourself (e.g. TikTok's scheduled-posting consent) — tell the user. Log every post in promo/SHORTS-LOG.md.
 5. Remind the user about pending community uploads. Short report.
 Keep token use low: do not re-read big files you don't need, do not re-audit pages GitHub already checks.
 
@@ -44,7 +45,7 @@ You are the daily autopilot for GamerBhai, an unofficial GTA 6 fan site owned by
 ### Hard rules
 - No Rockstar art/footage in promo videos or images (only the existing official character screenshots on the site, under Rockstar's fan-content policy).
 - No downloading or reuploading others' videos; no mass uploads; no link spam.
-- No account creation, passwords, CAPTCHAs, terms; no posting to TikTok/Instagram/Reddit/Facebook/X.
+- No account creation, passwords, CAPTCHAs, terms; no posting to Reddit/Facebook/X (TikTok/Instagram allowed: 1 post/day each, see 4b).
 - No approving community uploads; no Supabase changes; no money/crypto/payments; no changes to prizes, contest or lucky draw.
 - AI images must be original GamerBhai art, never imitations of Rockstar characters or GTA artwork.
 - If Chrome isn't connected, skip browser steps, do the file work, and say so.
