@@ -21,7 +21,7 @@ subprocess.run([sys.executable, "-I", os.path.join(ROOT, "gen_walk.py"), SITE], 
 unesc = lambda s: html.unescape(re.sub(r"<[^>]+>", "", s))
 
 def page(title, desc, url, kicker, h1, lead, body, ld):
-    return (HEAD.format(stitle=e(title + " | GamerBhai" if len(title) <= 48 else title), title=e(title), desc=e(desc), url=url, ogtype="article", ld=json.dumps(ld, ensure_ascii=False), page="article")
+    return (HEAD.format(lang="en", stitle=e(title + " | GamerBhai" if len(title) <= 48 else title), title=e(title), desc=e(desc), url=url, ogtype="article", ld=json.dumps(ld, ensure_ascii=False), page="article")
             + f'<header class="wrap phero reveal">\n  <div class="kicker">{kicker}</div>\n  <h1><span class="g">{e(h1)}</span></h1>\n  <p class="lead">{lead}</p>\n</header>\n<main class="wrap article">\n'
             + body + '  <div class="ad reveal">Ad</div>\n</main>\n' + FOOT)
 def clip(t, n=158):
