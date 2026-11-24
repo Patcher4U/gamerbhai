@@ -73,6 +73,22 @@ def slide(s, seed):
         glow(im, (SW / 2, 620), s[1], 110, C["cyan"])
         for i, t in enumerate(s[2]): d.text((SW / 2, 840 + i * 105), t, font=fit(d, t, 52, SW - 120), fill=C["white"], anchor="mm")
         brand(im); return im, 2.0 + 0.8 * len(s[2])
+    if kind == "code":   # ["code", "BODY ARMOR", "↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓", "Unlock: do 100 workouts"]
+        glow(im, (SW / 2, 470), s[1], 120, C["orange"])
+        d.rounded_rectangle([50, 640, SW - 50, 900], radius=30, fill=(40, 18, 64), outline=C["cyan"], width=4)
+        d.text((SW / 2, 770), s[2], font=fit(d, s[2], 92, SW - 140), fill=C["white"], anchor="mm")
+        d.text((SW / 2, 990), "Hold L1+R1 (PS5) / LB+RB (Xbox)", font=fit(d, "Hold L1+R1 (PS5) / LB+RB (Xbox)", 46, SW - 120, False), fill=C["cyan"], anchor="mm")
+        d.rounded_rectangle([80, 1090, SW - 80, 1230], radius=24, fill=(60, 20, 50))
+        d.text((SW / 2, 1160), s[3], font=fit(d, s[3], 50, SW - 200), fill=C["green"], anchor="mm")
+        brand(im); return im, 4.2
+    if kind == "sub":    # ["sub", "gamerbhai.com/gta-6-body-armor-cheat"] - subscribe end card (own drawing, no logos)
+        glow(im, (SW / 2, 560), "WANT MORE", 110, C["cyan"]); glow(im, (SW / 2, 700), "GTA 6 CHEATS?", 110, C["orange"])
+        d.rounded_rectangle([SW / 2 - 330, 840, SW / 2 + 330, 990], radius=75, fill=(230, 33, 23))
+        d.text((SW / 2, 915), "SUBSCRIBE", font=F(84), fill=C["white"], anchor="mm")
+        d.text((SW / 2, 1080), "New GTA 6 Short every day", font=F(48, False), fill=C["white"], anchor="mm")
+        d.text((SW / 2, 1230), "Full unlock guide:", font=F(44, False), fill=C["white"], anchor="mm")
+        d.text((SW / 2, 1300), s[1], font=fit(d, s[1], 52, SW - 100), fill=C["pink"], anchor="mm")
+        return im, 3.2
     # cta
     glow(im, (SW / 2, 640), "FULL GUIDE", 110, C["cyan"]); glow(im, (SW / 2, 790), "FREE ON", 90, C["orange"])
     glow(im, (SW / 2, 1000), "gamerbhai.com", 110, C["pink"])
