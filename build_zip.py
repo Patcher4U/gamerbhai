@@ -12,6 +12,8 @@ for fn in os.listdir(src):
         p = os.path.join(src, fn)
         s = open(p, encoding="utf-8").read()
         t = pat.sub(lambda m: f'{m.group(1)}="{m.group(2)}?v={ver}"', s)
+        if fn != "index.html":  # speed: the ~600 KB 3D library only runs on the homepage; other pages use the CSS gradient fallback (body.no-webgl)
+            t = re.sub(r'<script src="https://cdnjs\.cloudflare\.com/ajax/libs/three\.js/[^"]*"></script>\n?', "", t)
         if t != s:
             open(p, "w", encoding="utf-8").write(t); n += 1
 out = os.path.join(root, "gta6-site-upload.zip")
