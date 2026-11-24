@@ -5,7 +5,7 @@ import os, re, time, zipfile, sys
 root = os.path.dirname(os.path.abspath(__file__))
 src = os.path.join(root, "gta6-site")
 ver = time.strftime("%Y%m%d%H%M")
-pat = re.compile(r'(src|href)="(app\.js|data\.js|scene\.js|style\.css)(\?v=[^"]*)?"')
+pat = re.compile(r'(src|href)="(/?(?:app\.js|data\.js|scene\.js|style\.css))(\?v=[^"]*)?"')
 n = 0
 for fn in os.listdir(src):
     if fn.endswith(".html"):
