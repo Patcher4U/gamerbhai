@@ -21,9 +21,11 @@ subprocess.run([sys.executable, "-I", os.path.join(ROOT, "gen_walk.py"), SITE], 
 unesc = lambda s: html.unescape(re.sub(r"<[^>]+>", "", s))
 
 def page(title, desc, url, kicker, h1, lead, body, ld):
-    return (HEAD.format(title=e(title), desc=e(desc), url=url, ogtype="article", ld=json.dumps(ld, ensure_ascii=False), page="article")
+    return (HEAD.format(stitle=e(title + " | GamerBhai" if len(title) <= 48 else title), title=e(title), desc=e(desc), url=url, ogtype="article", ld=json.dumps(ld, ensure_ascii=False), page="article")
             + f'<header class="wrap phero reveal">\n  <div class="kicker">{kicker}</div>\n  <h1><span class="g">{e(h1)}</span></h1>\n  <p class="lead">{lead}</p>\n</header>\n<main class="wrap article">\n'
             + body + '  <div class="ad reveal">Ad</div>\n</main>\n' + FOOT)
+def clip(t, n=158):
+    return t if len(t) <= n else t[:t.rfind(' ', 0, n - 1)].rstrip(' ,.:') + '…'
 def sec(n, h, inner): return f'  <section class="reveal"><h2><span class="n">{n}</span>{h}</h2><div class="glass">{inner}</div></section>\n'
 def crumbs(items):
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement":
@@ -45,8 +47,8 @@ for idx, (ci, k, m) in enumerate(seq):
     where = [(CH[a]["n"], b) for a, b, n in seq if n == m]
     prev = seq[idx - 1][2] if idx else None; nxt = seq[idx + 1][2] if idx + 1 < len(seq) else None
     vid = VIDEOS.get(m)
-    title = f"GTA 6 {m} Mission Walkthrough ({c['n']})"
-    desc = f"GTA 6 '{m}' walkthrough: {c['n']} ({chap}) mission {k} of {len(c['ms'])}, set in {unesc(c['area'])}." + (" Full video guide, previous and next missions." if vid else " Objective, previous and next missions.")
+    title = next(t for t in (f"GTA 6 {m} Mission Walkthrough", f"GTA 6 {m} Walkthrough", f"{m} - GTA 6 Walkthrough") if len(t) <= 48 or t.startswith(m))  # + " | GamerBhai" stays under ~60 chars
+    desc = clip(f"GTA 6 {m} walkthrough" + (" with full video" if vid else "") + f": {c['n']} mission {k} of {len(c['ms'])} in {unesc(c['area'])}. Previous and next missions, tips and chapter guide.")
     lead = f"<b>{e(m)}</b> is mission {k} of {len(c['ms'])} in <b>{e(c['n'])}: {c['t']}</b>." + (" Watch the full mission below, then jump to the next one." if vid else "")
     body = ""
     if c["spoil"]: body += '  <div class="warnbox reveal">⚠️ Spoiler warning: this mission is from a later chapter. The video may show story events.</div>\n'
@@ -98,8 +100,9 @@ for name_cell, code, unlock in rows:
 for ch in cheats: ch["slug"] = "gta-6-" + slugify(ch["name"].replace("$250,000", "money 250000").replace(" (fire truck)", "")) + "-cheat"
 for ch in cheats:
     n = ch["name"]; url = BASE + ch["slug"]; grp = GROUP(n)
-    title = f"GTA 6 {n} Cheat Code (PS5 & Xbox) and How to Unlock It"
-    desc = f"GTA 6 {n} cheat: D-pad code {ch['code']} on PS5 and Xbox. Unlock goal: {ch['unlock']}. How to enter it and what to know first."
+    sn = n.replace(" (fire truck)", "")
+    title = next(t for t in (f"GTA 6 {sn} Cheat Code (PS5 & Xbox)", f"GTA 6 {sn} Cheat Code") if len(t) <= 48 or t.endswith("Code"))
+    desc = clip(f"GTA 6 {n} cheat code for PS5 and Xbox: {ch['code']}. Unlock: {ch['unlock']}. How to enter it, plus related cheats.")
     body = sec("01", "The code", f'<p class="code" style="font-size:1.6em;letter-spacing:.08em">{ch["code"]}</p><p>{e(WHAT.get(n, "A chaos cheat that changes how Leonida reacts. Try it on a fresh save first."))}</p>')
     body += sec("02", "How to unlock it", f'<p><b>{e(ch["unlock"])}.</b> Every GTA 6 cheat is locked until you finish its goal; you can check progress under <b>Progress → Cheats</b>.</p><p>See every goal in our <a href="how-to-unlock-gta-6-cheats">cheat unlock guide</a> and track them on the <a href="map">100% tracker</a>.</p>')
     body += sec("03", "How to enter it", '<ol><li>Press <b>Up</b> on the D-pad to pull out the phone.</li><li>Hold <b>L1 + R1</b> (PS5) or <b>LB + RB</b> (Xbox Series X|S).</li><li>Keep holding and type the D-pad code above.</li></ol><div class="warnbox">⚠️ While a cheat is on, <b>trophies/achievements are off and you can\'t save</b>. Save first, then reload your clean save.</div>')

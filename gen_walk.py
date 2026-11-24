@@ -89,7 +89,7 @@ page = f'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA 6 Walkthrough – All {total} Story Missions in Order, Chapters &amp; Missables</title>
+<title>GTA 6 Walkthrough: All {total} Missions in Order | GamerBhai</title>
 <meta name="description" content="Full GTA 6 mission list in order: Prologue and Chapters 1–5, where each chapter happens, who you play, first-mission tips and every missable side mission.">
 <link rel="canonical" href="https://gamerbhai.com/walkthrough">
 <meta property="og:title" content="GTA 6 Walkthrough – All Story Missions in Order">
