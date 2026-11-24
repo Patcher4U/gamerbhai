@@ -1,7 +1,7 @@
 import os, re, sys, glob, json
 root = sys.argv[1]
 os.chdir(root)
-pages = sorted(glob.glob("*.html"))
+pages = sorted(f for f in glob.glob("*.html") if f != "404.html")
 problems = []
 clean = lambda u: u.split("#")[0].split("?")[0]
 for p in pages:
