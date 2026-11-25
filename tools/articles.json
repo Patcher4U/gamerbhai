@@ -1073,5 +1073,187 @@
     "https://gamerbhai.com/gta-6-map-size"
    ]
   ]
+ },
+ {
+  "slug": "gta-6-point-of-no-return-tourist-trap",
+  "date": "2026-11-26",
+  "emoji": "⚠️",
+  "title": "GTA 6 Point of No Return: Do This Before the Tourist Trap Mission",
+  "seo": "GTA 6 Point of No Return: Before Tourist Trap",
+  "desc": "GTA 6's Chapter 1 point of no return is Tourist Trap ('Take Up Mattia's Offer'). Finish Shirley's jobs, protect your cash and make a manual save first.",
+  "lead": "Chapter 1 ends with a mission that locks you out of the Leonida Keys for a long time, and players are losing side jobs, money and cars because nobody warned them. Here's what to do first. No story spoilers.",
+  "sections": [
+   [
+    "Which mission is it?",
+    "<b>Tourist Trap</b> is the Chapter 1 point of no return. On the map it shows as <b>'Take Up Mattia's Offer'</b> and it unlocks after the mission Recalibration. You still have free roam until you start it, so that's your last chance."
+   ],
+   [
+    "Finish Shirley's side jobs",
+    "<b>Get Shirley's Rum</b> and <b>Steal the Scooter</b> disappear for good once Tourist Trap starts. Do them first."
+   ],
+   [
+    "Protect your money (reported)",
+    "Guides report that Jason's <b>checking balance is emptied</b> when the chapter ends. Some say money moved into <b>Family Savings</b> is kept, so move or spend your cash before you go. This comes from early player guides, so treat it as reported."
+   ],
+   [
+    "Your car and upgrades (reported)",
+    "Several guides say personal vehicles and their upgrades, even Ultimate Edition cars, are lost in the run of missions Tourist Trap starts. Don't spend big on upgrades right before it."
+   ],
+   [
+    "Make a separate manual save",
+    "GTA 6 has no mission replay menu, so save in a <b>separate slot</b> before you select the mission. That save is your only way back to Chapter 1 free roam."
+   ],
+   [
+    "Plan the rest",
+    "See every chapter and the other missable side missions in our <a href=\"walkthrough\">walkthrough</a>, earn more first with the <a href=\"guides#money\">money guide</a>, or read this in <a href=\"gta-6-point-of-no-return-urdu\">Roman Urdu</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "Vice",
+    "https://www.vice.com/en/article/gta-6-chapter-1-length-missions-missable-content/"
+   ],
+   [
+    "TheClick",
+    "https://www.theclick.gg/gta-6-chapter-1-point-of-no-return/"
+   ],
+   [
+    "OutputLag",
+    "https://outputlag.com/guides/gta-6-missables/"
+   ]
+  ]
+ },
+ {
+  "slug": "gta-6-point-of-no-return-urdu",
+  "lang": "ur",
+  "date": "2026-11-26",
+  "emoji": "⚠️",
+  "title": "GTA 6 Point of No Return: Tourist Trap Se Pehle Ye Zaroor Karein (Urdu/Hindi)",
+  "seo": "GTA 6 Point of No Return (Urdu Guide)",
+  "desc": "GTA 6 Chapter 1 ka point of no return Tourist Trap mission hai. Shirley ke jobs khatam karein, paisa bachaayein aur alag manual save zaroor banayein.",
+  "lead": "Chapter 1 ke aakhir mein ek mission aapko Leonida Keys se lambe arse ke liye door kar deta hai. Bohat se players side jobs, paisa aur gaariyan kho rahe hain. Pehle ye kaam kar lein. Koi spoiler nahi.",
+  "sections": [
+   [
+    "Kaunsa mission?",
+    "<b>Tourist Trap</b>. Map par ye <b>'Take Up Mattia's Offer'</b> naam se dikhta hai aur Recalibration mission ke baad khulta hai. Shuru karne se pehle tak free roam hai, wahi aakhri mauqa hai."
+   ],
+   [
+    "Shirley ke jobs khatam karein",
+    "<b>Get Shirley's Rum</b> aur <b>Steal the Scooter</b> Tourist Trap shuru hote hi hamesha ke liye khatam ho jaate hain."
+   ],
+   [
+    "Paisa bachaayein (reported)",
+    "Guides ke mutabiq chapter khatam hone par Jason ka <b>checking balance khaali</b> ho jata hai. Kuch kehte hain <b>Family Savings</b> mein rakha paisa bach jata hai. Ye early player guides ki maloomat hai."
+   ],
+   [
+    "Gaari aur upgrades (reported)",
+    "Kai guides kehti hain ke personal gaariyan aur unke upgrades (Ultimate Edition wali bhi) is mission ke baad chali jaati hain. Is se pehle mehenge upgrades na karein."
+   ],
+   [
+    "Alag manual save banayein",
+    "GTA 6 mein mission replay menu nahi hai. Mission shuru karne se pehle <b>alag slot</b> mein save karein, wahi Chapter 1 mein wapas jaane ka rasta hai. English: <a href=\"gta-6-point-of-no-return-tourist-trap\">point of no return</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "Vice",
+    "https://www.vice.com/en/article/gta-6-chapter-1-length-missions-missable-content/"
+   ],
+   [
+    "TheClick",
+    "https://www.theclick.gg/gta-6-chapter-1-point-of-no-return/"
+   ],
+   [
+    "OutputLag",
+    "https://outputlag.com/guides/gta-6-missables/"
+   ]
+  ]
+ },
+ {
+  "slug": "gta-6-pc-port-shut-down",
+  "date": "2026-11-26",
+  "emoji": "🚫",
+  "title": "Unofficial GTA 6 PC Port Shut Down: 3,000+ Repos Taken Down by Take-Two",
+  "seo": "Unofficial GTA 6 PC Port Shut Down",
+  "desc": "Take-Two filed a takedown against 'Leonida', an unofficial GTA 6 PC port, removing 3,007 GitHub repositories. There's still no playable or official PC version.",
+  "lead": "If you saw videos of GTA 6 'running on PC' this week, that project is gone. Here's what happened and why you shouldn't download any 'GTA 6 PC' files.",
+  "sections": [
+   [
+    "What happened",
+    "On <b>24 November 2026</b> Take-Two filed a DMCA takedown against <b>Leonida</b>, the biggest unofficial project trying to run the Xbox version of GTA 6 on Windows. GitHub removed <b>3,007 repositories</b> (the original and its forks) and the project's Discord server was taken down too."
+   ],
+   [
+    "Why",
+    "Take-Two argued the project told users to 'bring your own files', which it says pointed to leaked game files. The developers say they didn't share the files themselves."
+   ],
+   [
+    "Is GTA 6 playable on PC?",
+    "<b>No.</b> There's still no playable PC version and no official PC release date. GTA 6 is out only on PS5 and Xbox Series X|S. Some other fan recompilation projects reportedly still exist but run poorly."
+   ],
+   [
+    "⚠️ Don't download 'GTA 6 PC'",
+    "Any 'GTA 6 PC download', 'crack' or 'port' you find now is either a scam, malware, or leaked files that can get you into legal trouble. Never enter passwords or card details on those sites."
+   ],
+   [
+    "Official PC news",
+    "We track every real announcement on our <a href=\"gta-6-pc-release-date-news\">GTA 6 PC release date</a> page (also in <a href=\"gta-6-pc-par-kab-aayega\">Roman Urdu</a>)."
+   ]
+  ],
+  "sources": [
+   [
+    "PC Guide",
+    "https://www.pcguide.com/news/unofficial-gta-6-pc-port-and-over-3000-repositories-taken-down-as-take-two-takes-action/"
+   ],
+   [
+    "Glitched",
+    "https://www.glitched.online/unofficial-gta-6-pc-ports-are-already-being-shut-down-as-take-two-steps-in/"
+   ],
+   [
+    "Mashable (via Time News)",
+    "https://time.news/unauthorized-gta-6-pc-port-shut-down-by-rockstar-games-parent-company/"
+   ]
+  ]
+ },
+ {
+  "slug": "gta-6-pc-port-band-urdu",
+  "lang": "ur",
+  "date": "2026-11-26",
+  "emoji": "🚫",
+  "title": "GTA 6 Ka Ghair-Official PC Port Band: Take-Two Ne 3,000+ Repos Hata Diye (Urdu/Hindi)",
+  "seo": "GTA 6 PC Port Band Ho Gaya (Urdu)",
+  "desc": "Take-Two ne 'Leonida' naam ka ghair-official GTA 6 PC port band karwa diya aur GitHub se 3,007 repositories hata di gayin. Official PC version abhi nahi hai.",
+  "lead": "Agar is hafte aapne GTA 6 'PC par chalte' hue videos dekhi hain, to wo project band ho chuka hai. Kya hua aur kyun koi 'GTA 6 PC' file download nahi karni chahiye.",
+  "sections": [
+   [
+    "Kya hua",
+    "<b>24 November 2026</b> ko Take-Two ne <b>Leonida</b> project ke khilaf DMCA takedown bheja. Ye GTA 6 ka Xbox version Windows par chalane ki koshish thi. GitHub ne <b>3,007 repositories</b> hata di aur Discord server bhi band ho gaya."
+   ],
+   [
+    "Kyun",
+    "Take-Two ke mutabiq project users ko 'apni files laao' kehta tha, jo leak hui game files ki taraf ishaara tha."
+   ],
+   [
+    "Kya PC par chal sakta hai?",
+    "<b>Nahi.</b> Koi playable PC version nahi aur official PC release date bhi nahi. GTA 6 sirf PS5 aur Xbox Series X|S par hai."
+   ],
+   [
+    "⚠️ 'GTA 6 PC' download na karein",
+    "Koi bhi 'GTA 6 PC download', 'crack' ya 'port' scam, virus ya leak files hain jin se qanooni masla bhi ho sakta hai. Wahan password ya card details kabhi na daalein. Taaza khabar: <a href=\"gta-6-pc-par-kab-aayega\">GTA 6 PC par kab aayega</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "PC Guide",
+    "https://www.pcguide.com/news/unofficial-gta-6-pc-port-and-over-3000-repositories-taken-down-as-take-two-takes-action/"
+   ],
+   [
+    "Glitched",
+    "https://www.glitched.online/unofficial-gta-6-pc-ports-are-already-being-shut-down-as-take-two-steps-in/"
+   ],
+   [
+    "Mashable (via Time News)",
+    "https://time.news/unauthorized-gta-6-pc-port-shut-down-by-rockstar-games-parent-company/"
+   ]
+  ]
  }
 ]
