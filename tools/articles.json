@@ -917,5 +917,161 @@
     "https://gamerbhai.com/guides#tips"
    ]
   ]
+ },
+ {
+  "slug": "gta-6-saare-missions-urdu",
+  "lang": "ur",
+  "date": "2026-11-26",
+  "emoji": "📖",
+  "title": "GTA 6 Ke Saare Missions: Chapters aur Missable Side Missions (Urdu/Hindi)",
+  "seo": "GTA 6 Ke Saare Missions (Urdu Walkthrough)",
+  "desc": "GTA 6 mein kitne missions hain? Prologue aur 5 chapters mein 119 missions, har chapter ka ilaqa, character aur miss hone wale side missions.",
+  "lead": "GTA 6 ki story Prologue aur 5 chapters mein bati hui hai, takreeban 119 main missions. Yahan har chapter ka khulasa hai, bina story spoil kiye.",
+  "sections": [
+   [
+    "Chapters ek nazar mein",
+    "<b>Prologue</b> (Leonida Penitentiary, Lucia): 1 mission. <b>Chapter 1</b> (Leonida Keys, pehle Jason phir Lucia): 24 missions. <b>Chapter 2</b> (Port Gellhorn, zyada tar Lucia): 18. <b>Chapter 3</b> (Vice City, Jason aur Lucia): 32. <b>Chapter 4</b> (Vice City, kai solo missions): 34. <b>Chapter 5</b> (final chapter): 10."
+   ],
+   [
+    "⚠️ Ye side missions miss ho sakte hain",
+    "<b>Chapter 1:</b> 'Get Shirley's Rum' aur 'Steal the Scooter' Keys chhodne se pehle kar lein, warna khatam. <b>Chapter 3:</b> Yago ki street race ('Race Against Yago') time-limited hai. <b>Chapter 4:</b> Shayna wala 'This Is a Free Call From...' (sirf Lucia) bhi time-limited hai."
+   ],
+   [
+    "Zaroori side quests",
+    "Chapter 2 mein Billy ki 'Thrillbillies' questline (Mud Club se shuru), Bret ka 'Veteran Hunted' (sirf Jason) aur McKittrick Farm ki kahani. Chapter 4 mein <b>'That's Where The Money Is...'</b> se bade bank vaults khulte hain."
+   ],
+   [
+    "Har mission ki video",
+    "112 missions ke alag pages hain jin mein poori gameplay video hai, jaise <a href=\"gta-6-gone-fishing-mission\">Gone Fishing</a>. Saare missions tarteeb se: <a href=\"walkthrough\">walkthrough</a>."
+   ],
+   [
+    "Mission names ke baare mein",
+    "Missions ke naam aur tarteeb kai player guides se mila kar likhe gaye hain aur update ho sakte hain. Chapter 2 ke baad ke naam halka sa spoiler ho sakte hain."
+   ]
+  ],
+  "sources": [
+   [
+    "GamerBhai walkthrough (player guides)",
+    "https://gamerbhai.com/walkthrough"
+   ]
+  ]
+ },
+ {
+  "slug": "gta-6-criminal-profile-urdu",
+  "lang": "ur",
+  "date": "2026-11-26",
+  "emoji": "🚨",
+  "title": "GTA 6 Criminal Profile Kya Hai? Professional se Irredeemable Tak (Urdu/Hindi)",
+  "seo": "GTA 6 Criminal Profile Kya Hai? (Urdu)",
+  "desc": "GTA 6 Criminal Profile aapka crime style dekhta hai: 5 levels, Psycho kaise bante hain, Professional kaise rahein, Irredeemable permanent kyun.",
+  "lead": "GTA 6 chupke se dekhta hai ke Jason aur Lucia crime kaise karte hain. Is ko Criminal Profile kehte hain. Ye Focus bonus deta hai aur zyada had se guzre to hamesha ke liye lock ho sakta hai.",
+  "sections": [
+   [
+    "5 levels",
+    "<b>Professional</b> (khamosh, bina maare), <b>Hardened</b> (pakde jaane par taaqat), <b>Violent</b> (police aur aam logon par hamla), <b>Psycho</b> (bila wajah tashaddud) aur <b>Irredeemable</b> (permanent lock). Kuch sites doosre level ko 'Aggressive' kehti hain."
+   ],
+   [
+    "Psycho ki taraf kya le jata hai",
+    "Police ko maarna, aam logon ko nuqsaan pohanchana (khaas kar bhaagte ya bebas logon ko), paaltu ya kamzor janwaron ko maarna aur bila wajah tabahi. Dhamki dena (jaise store clerk) aur self-defence shumar nahi hote."
+   ],
+   [
+    "Professional kaise rahein",
+    "Zaroorat na ho to violence na karein, nazar mein na aayein, non-lethal takedown istemal karein. Achhi khabar: Hardened, Violent aur Psycho se wapas aaya ja sakta hai."
+   ],
+   [
+    "Toota hua icon = aakhri warning",
+    "Agar Psycho icon mein <b>crack</b> aa jaye to ruk jayein. Iske baad Irredeemable hai, jo normal game mein wapas nahi aata aur dono characters par asar karta hai. Rampage se pehle <b>manual save</b> zaroor karein."
+   ],
+   [
+    "Iska faida",
+    "Har style alag tareeqe se <b>Focus</b> deta hai: khamosh players ko non-lethal takedowns par, violent players ko headshots par. English mein poori detail: <a href=\"gta-6-criminal-profile-explained\">Criminal Profile explained</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "GTABase",
+    "https://www.gtabase.com/articles/gta-6/gta-6-criminal-profile-explained-professional-to-psycho"
+   ],
+   [
+    "Beebom",
+    "https://beebom.com/gta-6-criminal-profile-explained/"
+   ]
+  ]
+ },
+ {
+  "slug": "gta-6-chupe-hue-controls",
+  "lang": "ur",
+  "date": "2026-11-26",
+  "emoji": "🕹️",
+  "title": "GTA 6 Ke Chupe Hue Controls aur Tricks (PS5 aur Xbox) - Urdu/Hindi",
+  "seo": "GTA 6 Chupe Hue Controls (Urdu Guide)",
+  "desc": "GTA 6 ke chupe controls: ulti gaari seedhi karna, kahin bhi baithna, vehicle menu, WAiNK scan, police se chhupna. PS5 aur Xbox buttons ke saath.",
+  "lead": "GTA 6 ka control scheme bohat bara hai aur tutorial bohat kuch nahi batata. Ye sab se kaam ke chupe hue controls hain (default layout).",
+  "sections": [
+   [
+    "Ulti gaari seedhi karein",
+    "Gaari ke side par jaa kar <b>Square / X daba kar rakhein</b>. Gaari bohat bhaari ho, stamina khatam ho ya dhalaan ho to fail ho sakta hai. Isi se kinare par khari boat ya jet ski paani mein dhakel sakte hain."
+   ],
+   [
+    "Kahin bhi baithein",
+    "Paidal <b>Circle / B daba kar rakhein</b>: ghaas ya ret par baith jayein ya deewar se tek lagayein. Halka sa dabaana crouch karta hai."
+   ],
+   [
+    "Vehicle menu aur WAiNK",
+    "Gaari mein <b>D-pad Left daba kar rakhein</b>: engine, hazard lights, trunk, windows. <b>D-pad Up daba kar rakhein</b> WAiNK app ke liye, phir <b>R1 / RB</b> se gaari scan karein: class, lock aur tracker pata chalta hai."
+   ],
+   [
+    "Police se chhupein",
+    "Gaari mein <b>Circle / B daba kar rakhein</b> to character neeche jhuk jata hai."
+   ],
+   [
+    "Mazay ke controls",
+    "Bhaagte hue <b>X / A</b> se gaari ke hood par slide. <b>R1 / RB</b> se ishaara, <b>right stick dabaa kar</b> logon par chillana, <b>L2 / LT</b> se seeti. Settings mein <b>Classic</b> layout purane GTA wale controls deta hai. English guide: <a href=\"gta-6-hidden-controls\">hidden controls</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "Kotaku",
+    "https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835"
+   ],
+   [
+    "GTABase controls",
+    "https://www.gtabase.com/articles/gta-6/gta-6-controls-guide-ps5-xbox-button-layout"
+   ]
+  ]
+ },
+ {
+  "slug": "gta-6-map-kitna-bara-hai",
+  "lang": "ur",
+  "date": "2026-11-26",
+  "emoji": "🗺️",
+  "title": "GTA 6 Ka Map Kitna Bara Hai? Leonida ke 6 Ilaqe (Urdu/Hindi)",
+  "seo": "GTA 6 Ka Map Kitna Bara Hai? (Urdu)",
+  "desc": "GTA 6 ka map Leonida Rockstar ka sab se bara map, GTA 5 se takreeban do guna. 6 ilaqe: Vice City, Keys, Grassrivers, Port Gellhorn, Ambrosia, Kalaga.",
+  "lead": "Leonida Rockstar ka ab tak ka sab se bara map hai. Lekin internet par square miles ke alag alag number milte hain. Yahan wo hai jo waqai pata hai.",
+  "sections": [
+   [
+    "Rockstar ne kya kaha",
+    "Sirf muqabla: Leonida <b>GTA 5 ke map se takreeban do guna</b>, Red Dead Redemption 2 se takreeban teen guna, aur GTA 4, GTA 5 aur RDR2 ke maps ko mila kar takreeban utna."
+   ],
+   [
+    "Square miles alag kyun",
+    "Koi official square-mile number nahi. Andaze <b>32 se 59 square miles</b> tak hain, is par depend ke GTA 5 ka size kitna maana gaya aur paani gina gaya ya nahi."
+   ],
+   [
+    "6 ilaqe",
+    "<b>Vice City</b> (bara shehar), <b>Leonida Keys</b> (jazeeray), <b>Grassrivers</b> (daldal), <b>Port Gellhorn</b>, <b>Ambrosia</b> aur <b>Mount Kalaga</b>. Vice City poora map nahi, balke poori Leonida state hai."
+   ],
+   [
+    "Poora map khoojein",
+    "Story chapters, collectibles aur cheat goals ke liye free <a href=\"map\">100% tracker</a>. Characters aur ilaqon ki detail: <a href=\"story\">characters & map</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "GamerBhai map size article",
+    "https://gamerbhai.com/gta-6-map-size"
+   ]
+  ]
  }
 ]
