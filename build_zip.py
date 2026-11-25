@@ -12,6 +12,9 @@ for fn in os.listdir(src):
         p = os.path.join(src, fn)
         s = open(p, encoding="utf-8").read()
         t = pat.sub(lambda m: f'{m.group(1)}="{m.group(2)}?v={ver}"', s)
+        # speed: Google Fonts must not block rendering (slow/blocked in some countries) -> load async, show fallback font first
+        t = re.sub(r'<link href="(https://fonts\.googleapis\.com/css2\?[^"]+)" rel="stylesheet">',
+                   lambda m: '<link rel="preload" as="style" href="' + m.group(1) + '" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + m.group(1) + '"></noscript>', t)
         if fn != "index.html":  # speed: the ~600 KB 3D library only runs on the homepage; other pages use the CSS gradient fallback (body.no-webgl)
             t = re.sub(r'<script src="https://cdnjs\.cloudflare\.com/ajax/libs/three\.js/[^"]*"></script>\n?', "", t)
         if t != s:
