@@ -84,6 +84,7 @@ function beep(freqs, dur=.09, type="square", vol=.05){
 
 /* ---------- chrome: bar, hud, radar, phone, loader, footer ---------- */
 function buildChrome(){
+  const ssr = document.getElementById("ssrBar"); if (ssr) ssr.remove();   // static header from the build (fast first paint) -> replaced by the full one
   const navLinks = PAGES.filter(p => p.id !== "home").map(p => `<a href="${p.href}" class="${p.id===PAGE?"cur":""}" data-nav="${p.nav}"></a>`).join("");
   document.body.insertAdjacentHTML("afterbegin", `
   <div class="bar"><div class="wrap">
@@ -303,8 +304,8 @@ function arriveIn(){
     setTimeout(() => a.classList.remove("show"), 2200);
   };
   const reveal = () => { L.classList.add("out"); setTimeout(() => { L.classList.remove("on", "out"); }, 650); banner(); };
-  if (first) {
-    // first visit this session: boot screen, bar follows real loading
+  if (first && PAGE === "home") {
+    // first visit this session, homepage only: short boot screen (other pages show content immediately for speed/LCP)
     fillLoader("GAMERBHAI", "▶ BOOTING");
     L.classList.add("on", "boot");
     const start = performance.now();
@@ -312,7 +313,7 @@ function arriveIn(){
     const finish = () => runPct(72, 100, 450, () => setTimeout(() => { L.classList.remove("boot"); reveal(); }, 150));
     const ready = () => setTimeout(finish, Math.max(0, 1100 - (performance.now() - start)));
     if (document.readyState === "complete") ready(); else addEventListener("load", ready, { once: true });
-    setTimeout(() => { if (L.classList.contains("boot")) finish(); }, 4500);
+    setTimeout(() => { if (L.classList.contains("boot")) finish(); }, 2000);
   } else if (fromNav) {
     fillLoader(""); $("#lfill").style.width = "100%"; $("#lpct").textContent = "100%"; $("#lcar").style.left = "100%";
     L.classList.add("on", "instant");
