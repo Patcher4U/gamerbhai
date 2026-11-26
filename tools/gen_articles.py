@@ -89,6 +89,22 @@ if ur:   # Roman Urdu / Hindi guides get their own section
     hub.append("".join(card(a) for a in ur))
 hub.append('</div></section>\n  <div class="ad reveal">Ad</div>\n</main>\n' + FOOT)
 open(os.path.join(SITE, "articles.html"), "w", encoding="utf-8").write("".join(hub))
+# homepage: crawlable "Popular GTA 6 guides" block between <!--guides:start--> and <!--guides:end--> (static HTML, newest first)
+ip = os.path.join(SITE, "index.html")
+if os.path.exists(ip):
+    home = open(ip, encoding="utf-8").read()
+    if "<!--guides:start-->" in home:
+        en = [a for a in arts if a.get("lang") != "ur"][:6]; urd = [a for a in arts if a.get("lang") == "ur"][:4]
+        hubs = [("📖", "Full walkthrough", "walkthrough"), ("🎮", "All 17 cheat codes", "guides#cheats"), ("💰", "Money guide", "guides#money"),
+                ("📋", "Missables", "gta-6-missables"), ("📍", "100% tracker", "map"), ("💵", "Price by country", "countries")]
+        blk = ('<!--guides:start-->\n  <section class="reveal"><h2><span class="n">04</span>Popular GTA 6 guides</h2>'
+               '<div class="pops">' + "".join(f'<a class="pc" href="{h}"><div class="c">{i}</div><div class="p">{e(t)}</div></a>' for i, t, h in hubs) + '</div>'
+               '<div class="grid">' + "".join(card(a) for a in en) + '</div>'
+               + ('<h3 style="margin-top:22px">🇵🇰 Urdu / Hindi guides</h3><div class="grid">' + "".join(card(a) for a in urd) + '</div>' if urd else '')
+               + '<p class="note"><a href="articles">All articles →</a> · <a href="gta-6-chapter-1-walkthrough">Chapter guides →</a></p></section>\n<!--guides:end-->')
+        home = re.sub(r"<!--guides:start-->.*?<!--guides:end-->", lambda m: blk, home, flags=re.S)
+        open(ip, "w", encoding="utf-8").write(home)
+
 
 # sitemap + indexnow
 sm_path = os.path.join(SITE, "sitemap.xml"); sm = open(sm_path, encoding="utf-8").read()
