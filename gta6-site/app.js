@@ -494,7 +494,7 @@ const GOOGLE_LOGIN = true;    // flip to true once the Google provider is enable
 const MONEY = {
   adsense: "",            // AdSense publisher ID after approval, e.g. "ca-pub-1234567890123456"
   adsenseSlot: "",        // optional display ad-unit slot ID (auto ads work without it)
-  noAdPages: ["story", "guides", "community", "game"],   // pages with Rockstar screenshots / user content stay ad-free
+  noAdPages: ["story", "guides", "community", "game", "char"],   // pages with Rockstar screenshots / user content stay ad-free
   eneba: "",              // Eneba affiliate link to GTA 6 (from your Eneba/AWIN dashboard)
   kinguin: "",            // Kinguin Up referral link (kinguin.net/kinguin-up dashboard), up to 10%, 30-day cookie
   amazon: ""              // Amazon Associates link to GTA 6 / PS5 (optional)

@@ -118,6 +118,11 @@ for c in CH:
     w = w.replace(chip, f'<span>🧾 <a href="{chslug(c)}">{n} mission{"s" if n > 1 else ""} - chapter guide</a></span>', 1)
 open(wp, "w", encoding="utf-8").write(w)
 
+# ---------------- character pages (tools/gen_chars.py, official self-hosted images, ad-free)
+sys.path.insert(0, HERE)
+import gen_chars
+char_slugs = gen_chars.build(SITE, page, sec, crumbs, e, made, BASE)
+
 # ---------------- cheats
 gp = os.path.join(SITE, "guides.html"); g = open(gp, encoding="utf-8").read()
 rows = re.findall(r'<tr><td>(.*?)</td><td class="code">(.*?)</td><td>(.*?)</td></tr>', g)
@@ -159,7 +164,7 @@ open(gp, "w", encoding="utf-8").write(g)
 
 # ---------------- sitemap + indexnow
 sm_path = os.path.join(SITE, "sitemap.xml"); sm = open(sm_path, encoding="utf-8").read()
-for s in list(made.values()) + [c["slug"] for c in cheats] + chapters:
+for s in list(made.values()) + [c["slug"] for c in cheats] + chapters + char_slugs:
     loc = f"<loc>{BASE}{s}</loc>"
     if loc not in sm: sm = sm.replace("</urlset>", f"  <url>{loc}<lastmod>{TODAY}</lastmod></url>\n</urlset>")
 open(sm_path, "w", encoding="utf-8").write(sm)
