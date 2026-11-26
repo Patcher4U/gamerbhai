@@ -82,11 +82,13 @@ def slide(s, seed):
         d.text((SW / 2, 1160), s[3], font=fit(d, s[3], 50, SW - 200), fill=C["green"], anchor="mm")
         brand(im); return im, 4.2
     if kind == "sub":    # ["sub", "gamerbhai.com/gta-6-body-armor-cheat"] - subscribe end card (own drawing, no logos)
-        glow(im, (SW / 2, 560), "WANT MORE", 110, C["cyan"]); glow(im, (SW / 2, 700), "GTA 6 CHEATS?", 110, C["orange"])
+        # optional Urdu/other text: ["sub", link, line1, line2, small, guideLabel]
+        l1, l2, small, lab = (s[2:6] + ["WANT MORE", "GTA 6 CHEATS?", "New GTA 6 Short every day", "Full unlock guide:"][len(s[2:6]):])
+        glow(im, (SW / 2, 560), l1, 110, C["cyan"]); glow(im, (SW / 2, 700), l2, 110, C["orange"])
         d.rounded_rectangle([SW / 2 - 330, 840, SW / 2 + 330, 990], radius=75, fill=(230, 33, 23))
         d.text((SW / 2, 915), "SUBSCRIBE", font=F(84), fill=C["white"], anchor="mm")
-        d.text((SW / 2, 1080), "New GTA 6 Short every day", font=F(48, False), fill=C["white"], anchor="mm")
-        d.text((SW / 2, 1230), "Full unlock guide:", font=F(44, False), fill=C["white"], anchor="mm")
+        d.text((SW / 2, 1080), small, font=fit(d, small, 48, SW - 120, False), fill=C["white"], anchor="mm")
+        d.text((SW / 2, 1230), lab, font=F(44, False), fill=C["white"], anchor="mm")
         d.text((SW / 2, 1300), s[1], font=fit(d, s[1], 52, SW - 100), fill=C["pink"], anchor="mm")
         return im, 3.2
     # cta

@@ -24,6 +24,7 @@ def page(title, desc, url, kicker, h1, lead, body, ld):
     return (HEAD.format(lang="en", stitle=e(title + " | GamerBhai" if len(title) <= 48 else title), title=e(title), desc=e(desc), url=url, ogtype="article", ld=json.dumps(ld, ensure_ascii=False), page="article")
             + f'<header class="wrap phero reveal">\n  <div class="kicker">{kicker}</div>\n  <h1><span class="g">{e(h1)}</span></h1>\n  <p class="lead">{lead}</p>\n</header>\n<main class="wrap article">\n'
             + body + '  <div class="ad reveal">Ad</div>\n</main>\n' + FOOT)
+def chslug(c): return f"gta-6-{slugify(c['n'])}-walkthrough"
 def clip(t, n=158):
     return t if len(t) <= n else t[:t.rfind(' ', 0, n - 1)].rstrip(' ,.:') + '…'
 def sec(n, h, inner): return f'  <section class="reveal"><h2><span class="n">{n}</span>{h}</h2><div class="glass">{inner}</div></section>\n'
@@ -67,7 +68,7 @@ for idx, (ci, k, m) in enumerate(seq):
     nav += '<a class="glass tilt area" href="walkthrough"><div class="pop"><div class="ic">📖</div><h3>All missions in order</h3></div></a></div>'
     body += f'  <section class="reveal"><h2><span class="n">03</span>Previous &amp; next mission</h2>{nav}</section>\n'
     others = [n for a, b, n in seq if a == ci and n != m]
-    body += sec("04", f"Other {e(c['n'])} missions", "<p>" + " · ".join(link(n) for n in dict.fromkeys(others)) + "</p>")
+    body += sec("04", f"Other <a href=\"{chslug(c)}\">{e(c['n'])}</a> missions", "<p>" + " · ".join(link(n) for n in dict.fromkeys(others)) + "</p>")
     side = [s for s in SIDE if s[2] == c["n"]]
     if side: body += sec("05", "Side missions in this chapter", "".join(f"<p>{a} <b>{b}</b>: {d}</p>" for a, b, cc, d in side))
     body += sec("★", "Helpful guides", '<p><a href="guides#money">💰 Make money fast</a> · <a href="guides#cheats">🎮 All cheat codes</a> · <a href="map">📍 100% tracker</a> · <a href="gta-6-hidden-controls">🕹️ Hidden controls</a></p><p class="note">Mission names and order are matched across several player guides. Videos belong to their YouTube creators. Unofficial fan guide, not affiliated with Rockstar Games.</p>')
@@ -80,6 +81,41 @@ for idx, (ci, k, m) in enumerate(seq):
 # link mission names on the walkthrough page
 wp = os.path.join(SITE, "walkthrough.html"); w = open(wp, encoding="utf-8").read()
 for m, s in made.items(): w = w.replace(f"<b>{e(m)}</b>", f'<b><a href="{s}">{e(m)}</a></b>')
+open(wp, "w", encoding="utf-8").write(w)
+
+# ---------------- chapter hub pages
+chapters = []
+for ci, c in enumerate(CH):
+    slug = chslug(c); url = BASE + slug; chapters.append(slug); chap = unesc(c["t"]); ms = list(dict.fromkeys(c["ms"]))
+    title = f"GTA 6 {c['n']} Walkthrough: All {len(c['ms'])} Missions" if len(c['ms']) > 1 else f"GTA 6 {c['n']} Walkthrough"
+    desc = clip(f"GTA 6 {c['n']} walkthrough: every mission in order with video guides, set in {unesc(c['area'])}. Who you play, missable side missions and tips.")
+    rows = []
+    for k, m in enumerate(c["ms"], 1):
+        tip = FIRST.get(m)
+        tag = " <span class=\"note\">(phone call)</span>" if m in PHONE else (" ▶" if VIDEOS.get(m) else "")
+        rows.append(f'<li><span class="mn">{k:02d}</span><div><b>{link(m)}</b>{tag}' + (f'<p>{e(tip)}</p>' if tip else '') + '</div></li>')
+    body = ""
+    if c["spoil"]: body += '  <div class="warnbox reveal">⚠️ Spoiler warning: mission names in this chapter may hint at story events.</div>\n'
+    body += sec("01", "Chapter overview", f'<ul><li>📍 <b>Area:</b> {c["area"]}</li><li>🎮 <b>Playable:</b> {c["who"]}</li><li>🧾 <b>Missions:</b> {len(c["ms"])}</li></ul><p>{c["intro"]}</p>')
+    body += sec("02", f"All {e(c['n'])} missions in order", f'<ol class="mlist">{"".join(rows)}</ol><p class="note">▶ = full video walkthrough on the mission page.</p>')
+    side = [x for x in SIDE if x[2] == c["n"]]
+    if side: body += sec("03", "Side missions &amp; missables", "".join(f"<p>{a} <b>{b}</b>: {d}</p>" for a, b, cc, d in side))
+    nav = '<div class="grid">'
+    if ci: nav += f'<a class="glass tilt area" href="{chslug(CH[ci-1])}"><div class="pop"><div class="ic">⬅️</div><h3>{e(CH[ci-1]["n"])}</h3></div></a>'
+    if ci + 1 < len(CH): nav += f'<a class="glass tilt area" href="{chslug(CH[ci+1])}"><div class="pop"><div class="ic">➡️</div><h3>{e(CH[ci+1]["n"])}</h3></div></a>'
+    nav += '<a class="glass tilt area" href="walkthrough"><div class="pop"><div class="ic">📖</div><h3>Full walkthrough</h3></div></a></div>'
+    body += f'  <section class="reveal"><h2><span class="n">04</span>Other chapters</h2>{nav}</section>\n'
+    body += sec("★", "Helpful guides", '<p><a href="guides#money">💰 Money guide</a> · <a href="gta-6-point-of-no-return-tourist-trap">⚠️ Point of no return</a> · <a href="guides#cheats">🎮 Cheats</a> · <a href="map">📍 100% tracker</a> · <a href="gta-6-saare-missions-urdu">🇵🇰 Urdu</a></p><p class="note">Mission names and order are matched across several player guides. Videos belong to their YouTube creators. Unofficial fan guide, not affiliated with Rockstar Games.</p>')
+    ld = [crumbs([("Home", ""), ("Walkthrough", "walkthrough"), (c["n"], slug)]),
+          {"@context": "https://schema.org", "@type": "ItemList", "name": title, "numberOfItems": len(c["ms"]),
+           "itemListElement": [{"@type": "ListItem", "position": k, "name": m, **({"url": BASE + made[m]} if m in made else {})} for k, m in enumerate(c["ms"], 1)]}]
+    open(os.path.join(SITE, slug + ".html"), "w", encoding="utf-8").write(
+        page(title, desc, url, f"GTA 6 WALKTHROUGH · {e(c['n'].upper())}", f"GTA 6 {c['n']}: {chap}", f"{len(c['ms'])} mission{'s' if len(c['ms']) > 1 else ''} · {c['area']} · {c['who']}", body, ld))
+# link chapter pages from the walkthrough page (the "N missions" chip of each chapter)
+w = open(wp, encoding="utf-8").read()
+for c in CH:
+    n = len(c["ms"]); chip = f'<span>🧾 {n} mission{"s" if n > 1 else ""}</span>'
+    w = w.replace(chip, f'<span>🧾 <a href="{chslug(c)}">{n} mission{"s" if n > 1 else ""} - chapter guide</a></span>', 1)
 open(wp, "w", encoding="utf-8").write(w)
 
 # ---------------- cheats
@@ -123,11 +159,11 @@ open(gp, "w", encoding="utf-8").write(g)
 
 # ---------------- sitemap + indexnow
 sm_path = os.path.join(SITE, "sitemap.xml"); sm = open(sm_path, encoding="utf-8").read()
-for s in list(made.values()) + [c["slug"] for c in cheats]:
+for s in list(made.values()) + [c["slug"] for c in cheats] + chapters:
     loc = f"<loc>{BASE}{s}</loc>"
     if loc not in sm: sm = sm.replace("</urlset>", f"  <url>{loc}<lastmod>{TODAY}</lastmod></url>\n</urlset>")
 open(sm_path, "w", encoding="utf-8").write(sm)
 inx = os.path.join(ROOT, "indexnow.json")
 if os.path.exists(inx):
     j = json.load(open(inx, encoding="utf-8")); j["urlList"] = re.findall(r"<loc>(.*?)</loc>", sm); json.dump(j, open(inx, "w", encoding="utf-8"))
-print(f"{len(made)} mission pages, {len(cheats)} cheat pages; sitemap {sm.count('<url>')} urls")
+print(f"{len(made)} mission pages, {len(chapters)} chapter pages, {len(cheats)} cheat pages; sitemap {sm.count('<url>')} urls")
