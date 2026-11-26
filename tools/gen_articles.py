@@ -81,7 +81,12 @@ ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "GTA 
 hub = [HEAD.format(lang="en", stitle=st("GTA 6 Articles: News, Guides & Explainers"), title="GTA 6 Articles – News, Guides & Explainers", desc="Original GTA 6 articles: reviews, sales, Easter eggs, fastest cars, radio, performance, patches, map size, PC and Online news.",
                    url=BASE + "articles", ogtype="website", ld=json.dumps(ld), page="articles")]
 hub.append('<header class="wrap phero reveal">\n  <div class="kicker">GAMERBHAI ARTICLES</div>\n  <h1><span class="g">GTA 6 Articles</span></h1>\n  <p class="lead">Short, fact-checked explainers on everything people are asking about GTA 6. New ones every week.</p>\n</header>\n<main class="wrap">\n  <section class="reveal"><div class="grid">')
-hub.append("".join(f'<a class="glass tilt area" href="{a["slug"]}"><div class="pop"><div class="ic">{a["emoji"]}</div><h3>{e(a["title"])}</h3><p>{e(a["desc"][:120])}…</p><div class="go">{e(fmt(a["date"]))}</div></div></a>' for a in arts))
+card = lambda a: f'<a class="glass tilt area" href="{a["slug"]}"><div class="pop"><div class="ic">{a["emoji"]}</div><h3>{e(a["title"])}</h3><p>{e(a["desc"][:120])}…</p><div class="go">{e(fmt(a["date"]))}</div></div></a>'
+ur = [a for a in arts if a.get("lang") == "ur"]
+hub.append("".join(card(a) for a in arts if a.get("lang") != "ur"))
+if ur:   # Roman Urdu / Hindi guides get their own section
+    hub.append('</div></section>\n  <section class="reveal" id="urdu"><h2><span class="n">🇵🇰</span>Roman Urdu / Hindi guides</h2><p class="note">GTA 6 guides asaan Urdu/Hindi mein: cheats, paise, missions, PC aur Online.</p><div class="grid">')
+    hub.append("".join(card(a) for a in ur))
 hub.append('</div></section>\n  <div class="ad reveal">Ad</div>\n</main>\n' + FOOT)
 open(os.path.join(SITE, "articles.html"), "w", encoding="utf-8").write("".join(hub))
 
