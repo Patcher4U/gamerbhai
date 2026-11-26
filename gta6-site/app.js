@@ -496,6 +496,7 @@ const MONEY = {
   adsenseSlot: "",        // optional display ad-unit slot ID (auto ads work without it)
   noAdPages: ["story", "guides", "community", "game"],   // pages with Rockstar screenshots / user content stay ad-free
   eneba: "",              // Eneba affiliate link to GTA 6 (from your Eneba/AWIN dashboard)
+  kinguin: "",            // Kinguin Up referral link (kinguin.net/kinguin-up dashboard), up to 10%, 30-day cookie
   amazon: ""              // Amazon Associates link to GTA 6 / PS5 (optional)
 };
 const LB_CFG = { url: "https://wnzqjmvlfnrkwswcbpyk.supabase.co", key: "sb_publishable_qY_rBY_6XccjN6X-pWhVig_h2dGue_5" };   // public (publishable) key - safe in browser code
@@ -766,8 +767,8 @@ function bindMoney(){
     if (MONEY.adsenseSlot) slots.forEach(el => { el.className = "adslot"; el.innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="${esc(MONEY.adsense)}" data-ad-slot="${esc(MONEY.adsenseSlot)}" data-ad-format="auto" data-full-width-responsive="true"></ins>`; try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });
     else hideSlots();   // auto ads place themselves
   }
-  const links = [["Eneba", MONEY.eneba, "Digital key deals"], ["Amazon", MONEY.amazon, "Disc & console bundles"]].filter(l => l[1]);
-  if (!links.length || (!["price", "countries", "pc", "home"].includes(PAGE) && !document.body.dataset.country)) return;
+  const links = [["Eneba", MONEY.eneba, "Digital key deals"], ["Kinguin", MONEY.kinguin, "Game keys & gift cards"], ["Amazon", MONEY.amazon, "Disc & console bundles"]].filter(l => l[1]);
+  if (!links.length || (!["price", "countries", "pc", "home", "article"].includes(PAGE) && !document.body.dataset.country)) return;
   const main = $("main"); if (!main) return;
   main.insertAdjacentHTML("beforeend", `<section class="glass buybox reveal in"><h3>🛒 Where to buy GTA 6</h3><div class="buybtns">${links.map(([n, u, d]) => `<a class="btn primary" href="${esc(u)}" target="_blank" rel="noopener sponsored">${esc(n)}<small>${esc(d)}</small></a>`).join("")}</div><p class="note">Affiliate links: GamerBhai may earn a small commission at no extra cost to you. Only buy from official or trusted stores; avoid "free GTA 6" offers.</p></section>`);
 }
