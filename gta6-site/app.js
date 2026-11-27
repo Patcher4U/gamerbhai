@@ -492,7 +492,7 @@ function renderPage(){ (R[PAGE] || (() => {}))(); bindTilt(); bindReveal(); }
 const GOOGLE_LOGIN = true;    // flip to true once the Google provider is enabled in Supabase
 /* ---------- MONEY: switch on by filling these in (no other code changes needed) ---------- */
 const MONEY = {
-  adsense: "",            // AdSense publisher ID after approval, e.g. "ca-pub-1234567890123456"
+  adsense: "ca-pub-2337467495659580",            // AdSense publisher ID after approval, e.g. "ca-pub-1234567890123456"
   adsenseSlot: "",        // optional display ad-unit slot ID (auto ads work without it)
   noAdPages: ["story", "guides", "community", "game", "char"],   // pages with Rockstar screenshots / user content stay ad-free
   eneba: "",              // Eneba affiliate link to GTA 6 (from your Eneba/AWIN dashboard)
@@ -761,9 +761,10 @@ function bindMoney(){
   const hideSlots = () => slots.forEach(el => { el.hidden = true; el.style.display = "none"; });
   if (!MONEY.adsense || MONEY.noAdPages.includes(PAGE)) hideSlots();
   else {
+    if (!document.querySelector('script[src*="adsbygoogle.js"]')) {
     const sc = document.createElement("script"); sc.async = true; sc.crossOrigin = "anonymous";
     sc.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(MONEY.adsense);
-    document.head.appendChild(sc);
+    document.head.appendChild(sc); }
     if (MONEY.adsenseSlot) slots.forEach(el => { el.className = "adslot"; el.innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="${esc(MONEY.adsense)}" data-ad-slot="${esc(MONEY.adsenseSlot)}" data-ad-format="auto" data-full-width-responsive="true"></ins>`; try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });
     else hideSlots();   // auto ads place themselves
   }
