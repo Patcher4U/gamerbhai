@@ -60,13 +60,23 @@ for gk, fn, name, emoji in GAMES:
             t = clean(l[2:])
             if t: cur["items"].append(("li", t))
             continue
+        if l.startswith("TH|"): continue
         cells = [clean(c) for c in l.split("|")]; cells = [c for c in cells if c]
         if not cells: continue
         if len(cells) == 1:
             if cells[0] in HEADERS: continue
-            cur["items"].append(("li", cells[0]))
+            cur["items"].append(("trow", cells[0], bool(ICON.search(l))))
         else:
             cur["items"].append(("row", cells))
+    for s_ in secs:  # in icon tables, rows without an icon are group labels
+        it, res, j = s_["items"], [], 0
+        while j < len(it):
+            if it[j][0] != "trow": res.append(it[j]); j += 1; continue
+            run = []
+            while j < len(it) and it[j][0] == "trow": run.append(it[j]); j += 1
+            icons = any(x[2] for x in run)
+            res += [("li", x[1] + (":" if icons and not x[2] else "")) for x in run]
+        s_["items"] = res
     # merge headings that repeat (e.g. "Collectibles" twice) and drop empty sections
     out = []
     for s in secs:
@@ -94,7 +104,7 @@ for gk, fn, name, emoji in GAMES:
     wiki = "https://gta.fandom.com/wiki/100%25_Completion_in_" + {"gta-5": "GTA_V", "gta-san-andreas": "GTA_San_Andreas", "gta-vice-city": "GTA_Vice_City", "gta-3": "GTA_III", "gta-4": "GTA_IV",
         "gta-liberty-city-stories": "GTA_Liberty_City_Stories", "gta-vice-city-stories": "GTA_Vice_City_Stories", "gta-chinatown-wars": "GTA_Chinatown_Wars"}[gk]
     top = (f'  <div class="warnbox">✅ Tick each task as you finish it – your ticks are saved in this browser only. <b id="chkc"></b></div>\n')
-    body = top + body + (f'  <p class="note">More: <a href="{gk}-missions">{e(name)} missions</a> · <a href="{gk}-cheats">{e(name)} cheats</a> (cheats can block achievements/trophies) · '
+    body = top + body + (f'  <p class="note">More: <a href="{gk}-missions">{e(name)} missions</a> · <a href="{gk}-cheats">{e(name)} cheats</a> (cheats can block achievements/trophies) · ' + ('<a href="gta-5-strangers-and-freaks">Strangers and Freaks missions</a> · ' if gk == "gta-5" else '')
              + " · ".join(f'<a href="{o}-100-percent-completion">{e(n2)} 100%</a>' for o, f2, n2, _ in GAMES if o != gk and os.path.exists(os.path.join(SRC, f2 + ".txt")))
              + f'. Checklist from the <a href="{wiki}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0). Unofficial fan guide, not affiliated with Rockstar Games.</p>\n')
     lead_txt = intro[0] if intro else f"Everything you need to do for 100% completion in {name}."
