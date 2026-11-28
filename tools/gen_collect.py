@@ -25,8 +25,16 @@ C = [("gta-5-spaceship-parts", "sp_v", "GTA 5", "gta-5", "🛸", "Spaceship Part
      ("gta-san-andreas-snapshots", "sn_sa", "GTA San Andreas", "gta-san-andreas", "📷", "Snapshots", "Snapshots"),
      ("gta-san-andreas-tags", "tg_sa", "GTA San Andreas", "gta-san-andreas", "🎨", "Gang Tags", "Tags"),
      ("gta-vice-city-hidden-packages", "pk_vc", "GTA Vice City", "gta-vice-city", "📦", "Hidden Packages", "Hidden_Packages_in_GTA_Vice_City"),
-     ("gta-3-hidden-packages", "pk_3", "GTA 3", "gta-3", "📦", "Hidden Packages", "Hidden_Packages_in_GTA_III")]
-SKIPH = ("Contents", "Interactive Map", "Beta Content", "Complete Letter", "Exploits", "Fail Safe")
+     ("gta-3-hidden-packages", "pk_3", "GTA 3", "gta-3", "📦", "Hidden Packages", "Hidden_Packages_in_GTA_III"),
+     ("gta-liberty-city-stories-hidden-packages", "pk_lcs", "GTA Liberty City Stories", "gta-liberty-city-stories", "📦", "Hidden Packages", "Hidden_Packages_in_GTA_Liberty_City_Stories"),
+     ("gta-vice-city-stories-red-balloons", "rb_vcs", "GTA Vice City Stories", "gta-vice-city-stories", "🎈", "Red Balloons", "Red_Balloons"),
+     ("gta-san-andreas-unique-stunt-jumps", "uj_sa", "GTA San Andreas", "gta-san-andreas", "🏍️", "Unique Stunt Jumps", "Unique_Stunt_Jumps_in_GTA_San_Andreas"),
+     ("gta-vice-city-unique-stunt-jumps", "uj_vc", "GTA Vice City", "gta-vice-city", "🏍️", "Unique Stunt Jumps", "Unique_Stunt_Jumps_in_GTA_Vice_City"),
+     ("gta-4-unique-stunt-jumps", "sj_4", "GTA 4", "gta-4", "🏍️", "Unique Stunt Jumps", "Unique_Stunt_Jumps_in_GTA_IV"),
+     ("gta-vice-city-rampages", "rp_vc", "GTA Vice City", "gta-vice-city", "💀", "Rampages", "Rampages_in_GTA_Vice_City"),
+     ("gta-3-rampages", "rp_3", "GTA 3", "gta-3", "💀", "Rampages", "Rampages_in_GTA_III"),
+     ("gta-liberty-city-stories-rampages", "rp_lcs", "GTA Liberty City Stories", "gta-liberty-city-stories", "💀", "Rampages", "Rampages_in_GTA_Liberty_City_Stories")]
+SKIPH = ("Contents", "Version Changes", "Interactive Map", "Beta Content", "Complete Letter", "Exploits", "Fail Safe")
 pages, made = [], []
 for slug, fn, game, gk, emo, what, wiki in C:
     p = os.path.join(SRC, fn + ".json")
@@ -35,7 +43,7 @@ for slug, fn, game, gk, emo, what, wiki in C:
     intro, secs, cur, table = [], [], None, None
     for x in raw:
         if "h" in x:
-            cur = None if x["h"] in SKIPH or x["h"] == "Locations" or x["h"] == "Stunt Jump Locations" else {"h": x["h"], "t": []}
+            cur = None if x["h"] in SKIPH or x["h"] == "Locations" or x["h"] in ("Stunt Jump Locations", "List of Stunt Jumps") else {"h": x["h"], "t": []}
             if cur: secs.append(cur)
             continue
         if "table" in x:
@@ -51,9 +59,12 @@ for slug, fn, game, gk, emo, what, wiki in C:
         for i, h in enumerate(hd):
             if any(h.startswith(n) for n in names): return i
         return None
-    i_n, i_d, i_a, i_l = ci("ref number", "#", "jump #"), ci("location description", "description"), ci("area"), ci("landing")
+    i_n, i_d, i_a, i_l = ci("ref number", "#", "jump #"), ci("location description", "description", "jump description", "location"), ci("area"), ci("landing")
+    i_w, i_o = ci("weapon"), ci("objective")
+    for r in table:
+        for j, c in enumerate(r): r[j] = re.sub(r"\s*/\s*$", "", re.sub(r"\s*(Original|Alternative) location:\s*", lambda m: (" / " if m.group(1) == "Alternative" else "") + m.group(1) + ": ", c).strip()).strip(" /")
     rows = [r for r in table[1:] if i_d is not None and i_d < len(r) and r[i_d]]
-    extra = [("Area", i_a), ("To pass", i_l)]
+    extra = [("Area", i_a), ("To pass", i_l), ("Weapon", i_w), ("Objective", i_o)]
     extra = [(n, i) for n, i in extra if i is not None]
     th = "<thead><tr><th>✔</th><th>#</th><th>Where</th>" + "".join(f"<th>{n}</th>" for n, _ in extra) + "</tr></thead>"
     trs = "".join(f'<tr><td class="chk"><input type="checkbox" aria-label="found {j + 1}"></td><td>{e(r[i_n]) if i_n is not None and r[i_n] else j + 1}</td><td>{e(r[i_d])}</td>'
