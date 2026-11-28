@@ -96,7 +96,7 @@ if os.path.exists(ip):
     if "<!--guides:start-->" in home:
         en = [a for a in arts if a.get("lang") != "ur"][:6]; urd = [a for a in arts if a.get("lang") == "ur"][:4]
         hubs = [("📖", "Full walkthrough", "walkthrough"), ("🎮", "All 17 cheat codes", "guides#cheats"), ("💰", "Money guide", "guides#money"),
-                ("📋", "Missables", "gta-6-missables"), ("📍", "100% tracker", "map"), ("💵", "Price by country", "countries"), ("🕹️", "GTA 5, San Andreas & older cheats", "gta-cheats")]
+                ("📋", "Missables", "gta-6-missables"), ("📍", "100% tracker", "map"), ("💵", "Price by country", "countries"), ("🕹️", "GTA 5, San Andreas & older: cheats + missions", "gta-cheats")]
         blk = ('<!--guides:start-->\n  <section class="reveal"><h2><span class="n">04</span>Popular GTA 6 guides</h2>'
                '<div class="pops">' + "".join(f'<a class="pc" href="{h}"><div class="c">{i}</div><div class="p">{e(t)}</div></a>' for i, t, h in hubs) + '</div>'
                '<div class="grid">' + "".join(card(a) for a in en) + '</div>'

@@ -1700,7 +1700,7 @@
   },
   {
    "name": "Weapon Set 2",
-   "effect": "Poor weapons set and refill ammo (Knife, Pistol, Pump Shotgun, Micro-SMG, Jbbjduc Rifle, Combat Sniper, Molotov Cocktail and RPG)",
+   "effect": "Poor weapons set and refill ammo (Knife, Pistol, Pump Shotgun, Micro-SMG, Assault Rifle, Combat Sniper, Molotov Cocktail and RPG)",
    "phone": "486-555-0150",
    "episode": ""
   },
@@ -1868,7 +1868,7 @@
   },
   {
    "name": "TBoGT Weapon Set",
-   "effect": "Advanced weapons set and refill ammo (Knife, Pistol .44, Explosive Shotgun, Jbbjduc SMG, Advanced MG, Advanced Sniper, Grenade Launcher, Sticky Bombs)",
+   "effect": "Advanced weapons set and refill ammo (Knife, Pistol .44, Explosive Shotgun, Assault SMG, Advanced MG, Advanced Sniper, Grenade Launcher, Sticky Bombs)",
    "phone": "486-555-0100",
    "episode": "The Ballad of Gay Tony"
   }

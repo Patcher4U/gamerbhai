@@ -111,7 +111,7 @@ for gk in ORDER:
     for gr in grps:
         rows = "".join(f'<tr><td><a href="{c["slug"]}">{e(c["name"])}</a></td>' + "".join(f'<td>{code_html(c, k)}</td>' for _, k in plats) + '</tr>' for c in cheats if c["grp"] == gr)
         body += sec(f"{n:02d}", e(gr), f'<div class="gtable"><table class="cheats cw"><thead><tr><th>Cheat</th>{head}</tr></thead><tbody>{rows}</tbody></table></div>'); n += 1
-    body += f'  <p class="note">Other games: ' + " · ".join(f'<a href="{o}-cheats">{e(G[o]["name"])} cheats</a>' for o in ORDER if o != gk) + ' · <a href="guides#cheats">GTA 6 cheats</a>. Codes cross-checked with the GTA Wiki (CC BY-SA). Unofficial fan guide.</p>\n'
+    body += f'  <p class="note">📖 <a href="{gk}-missions">All {e(g["name"])} missions (walkthrough)</a> · Other games: ' + " · ".join(f'<a href="{o}-cheats">{e(G[o]["name"])} cheats</a>' for o in ORDER if o != gk) + ' · <a href="guides#cheats">GTA 6 cheats</a>. Codes cross-checked with the GTA Wiki (CC BY-SA). Unofficial fan guide.</p>\n'
     top = ", ".join(f'{c["name"]} ({c.get("pc") or c.get("phone")})' for c in cheats[:3] if c.get("pc") or c.get("phone"))
     title = f"All {g['name']} Cheats ({len(cheats)} Codes)"
     desc = clip(f"Every {g['name']} cheat code for " + ", ".join(lab for lab, _ in plats) + f": {top} and more. How to enter them, one page per cheat.")
@@ -122,7 +122,7 @@ for gk in ORDER:
 
 # ---- all-games hub
 cards = '<div class="grid"><a class="glass tilt area" href="guides#cheats"><div class="pop"><div class="ic">🌴</div><h3>GTA 6 cheats</h3><p>17 confirmed codes for PS5 &amp; Xbox Series X|S (2026)</p></div></a>' + "".join(
-    f'<a class="glass tilt area" href="{gk}-cheats"><div class="pop"><div class="ic">{G[gk]["emoji"]}</div><h3>{e(G[gk]["name"])} cheats</h3><p>{len(DATA[gk])} codes · {G[gk]["year"]} · {e(", ".join(l for l, _ in G[gk]["plats"]))}</p></div></a>' for gk in ORDER) + '</div>'
+    f'<a class="glass tilt area" href="{gk}-cheats"><div class="pop"><div class="ic">{G[gk]["emoji"]}</div><h3>{e(G[gk]["name"])} cheats</h3><p>{len(DATA[gk])} codes · {G[gk]["year"]} · {e(", ".join(l for l, _ in G[gk]["plats"]))}</p></div></a>' for gk in ORDER) + '</div><p class="note">📖 Mission walkthroughs: <a href="walkthrough">GTA 6</a> · ' + " · ".join(f'<a href="{gk}-missions">{e(G[gk]["name"])}</a>' for gk in ORDER) + '</p>'
 pop = ""
 for gk, nm in (("gta-san-andreas", "Health, Armor & $250,000 (HESOYAM)"), ("gta-san-andreas", "Never Wanted"), ("gta-5", "Invincibility"), ("gta-5", "Max Health & Armor"), ("gta-vice-city", "Full Health"), ("gta-4", "Health, Armor & Ammo")):
     c = next((x for x in DATA[gk] if x["name"] == nm), None)
@@ -130,7 +130,7 @@ for gk, nm in (("gta-san-andreas", "Health, Armor & $250,000 (HESOYAM)"), ("gta-
 body = sec("01", "Pick your game", cards) + sec("02", "Most searched cheats", f'<div class="gtable"><table class="cheats cw"><thead><tr><th>Cheat</th><th>PC / phone code</th></tr></thead><tbody>{pop}</tbody></table></div>')
 total = sum(len(DATA[g]) for g in ORDER)
 open(os.path.join(SITE, "gta-cheats.html"), "w", encoding="utf-8").write(
-    page("All GTA Cheats: GTA 6, 5, San Andreas, Vice City, 4, 3", clip(f"Cheat codes for every Grand Theft Auto: GTA 6, GTA 5, San Andreas, Vice City, GTA 4 and GTA 3 – {total}+ codes for PC, PlayStation, Xbox and phone."),
+    page("All GTA Cheats & Missions: GTA 6, 5, San Andreas, Vice City, 4, 3", clip(f"Cheat codes for every Grand Theft Auto: GTA 6, GTA 5, San Andreas, Vice City, GTA 4 and GTA 3 – {total}+ codes for PC, PlayStation, Xbox and phone."),
          BASE + "gta-cheats", "GTA CHEATS · EVERY GAME", "GTA Cheats for Every Game", f"🎮 {total}+ cheat codes across 6 Grand Theft Auto games – one page per cheat.", body,
          [crumbs([("Home", ""), ("GTA cheats", "gta-cheats")])]))
 hubs.append("gta-cheats")

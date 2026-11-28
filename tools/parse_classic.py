@@ -180,6 +180,8 @@ XMAP = {"R1": "RT", "R2": "RB", "L1": "LT", "L2": "LB", "Cross": "A", "Circle": 
 for g in ("gta-san-andreas", "gta-vice-city", "gta-3"):
     for c in games[g]:
         c["xbox"] = ", ".join(XMAP.get(b.strip(), b.strip()) for b in c["ps"].split(",")) if c.get("ps") else ""
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from wiki_clean import fix
+games = json.loads(fix(json.dumps(games, ensure_ascii=False)))
 json.dump(games, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for k, l in games.items():
     print(k, len(l))

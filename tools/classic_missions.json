@@ -1,0 +1,2805 @@
+{
+ "gta-5": [
+  {
+   "name": "Prologue",
+   "region": "Ludendorff, North Yankton",
+   "giver": "",
+   "desc": "In 2004, Michael Townley, Trevor Philips, and Brad Snider attempt to rob a bank in Ludendorff, North Yankton.",
+   "reward": "Access to Grand Theft Auto Online"
+  },
+  {
+   "name": "Franklin and Lamar",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Franklin Clinton and his best friend Lamar Davis must repossess a pair of high-end sports cars and race them back to Simeon Yetarian's dealership.",
+   "reward": "Ability to play as Franklin Franklin's Safehouse Franklin's Buffalo S $250 Barber Shops Atomic Blimp Stunt Plane Time Trials Ammu-Nation Ammu-Nation Shooting Ranges Los Santos Customs Car Washes Beeker's Garage Movie Theatres Strip Club Cable Cars Fairground Rides Stunt Jumps Soapboxers Prostitutes Taxi Fares Stock Markets Convenience Stores Monkey Mosaics (Enhanced version only)"
+  },
+  {
+   "name": "Repossession",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Franklin and Lamar must repossess a green motorcycle belonging to a member of the Vagos gang.",
+   "reward": "Letter Scraps Monkey Mosaics are properly introduced by Lamar New weapons at Ammu-Nation Lamar is available for friend activities Simeon Yetarian as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "Complications",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Franklin must break into Michael's house and repossess his son's car without being detected by anyone on the property.",
+   "reward": "Ability to play as Michael Michael's mansion Franklin's Bagger Strip Club Cinemas Fairground Golf Tennis Michael De Santa as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "Father/Son",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Michael and Franklin try to save the former's son Jimmy from gangsters who have stolen Michael's yacht.",
+   "reward": "Los Santos Customs Garages Michael as a contact for Franklin and vice versa Jimmy as a contact for Franklin Jimmy and Franklin are able to hang out Jimmy De Santa as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "Marriage Counseling",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Michael and Franklin must chase a tennis coach who was caught sleeping with Michael's wife. Following the coach to a mansion in Vinewood Hills, Michael damages the house in his anger, unaware of the identity of its true owner.",
+   "reward": ""
+  },
+  {
+   "name": "Daddy's Little Girl",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Michael decides to take Jimmy for a bike ride on Vespucci Beach. When Jimmy reveals that his sister Tracey is \"entertaining\" some guests at a party on a yacht out in the ocean, Michael goes to crash the party and save his daughter.",
+   "reward": "Triathlons Tracey De Santa as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "Chop",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Lamar plans to earn some extra cash by getting into the kidnapping business, and convinces Franklin to help him kidnap a Ballas member named D with the help of his pet Rottweiler, Chop.",
+   "reward": "Chop"
+  },
+  {
+   "name": "The Long Stretch",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Lamar and his friend Stretch ask Franklin to accompany them to a deal with D. When the deal turns out to be an ambush, the trio must escape from the Ballas and the police.",
+   "reward": "Stretch as a contact for Franklin Lamar and Stretch as Director Mode characters (Enhanced version only)"
+  },
+  {
+   "name": "Friend Request",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Michael reunites with his old friend Lester Crest, who asks him for a favor: to infiltrate the corporate headquarters of Lifeinvader and rig a prototype of their latest invention (the Lifeinvader Phone) with an explosive, which is later activated at a press conference, killing their founder and CEO, Jay Norris.",
+   "reward": "Clothing stores New customization options at Los Santos Customs Stock Market Rickie Lukens can be hired as a hacker (only if Michael gets a call from him post-mission)"
+  },
+  {
+   "name": "Casing the Jewel Store",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Michael and Lester scout out and plan a robbery of a jewelry store to pay off the former's debt to Martin Madrazo.",
+   "reward": "Heist Crew Members as Director Mode characters (Enhanced version only)"
+  },
+  {
+   "name": "Carbine Rifles",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Steal some Carbine Rifles from the police.",
+   "reward": "Tactical team truck"
+  },
+  {
+   "name": "Bugstars Equipment",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Steal an exterminator van.",
+   "reward": ""
+  },
+  {
+   "name": "BZ Gas Grenades",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Steal a van containing gas grenades.",
+   "reward": ""
+  },
+  {
+   "name": "The Jewel Store Job",
+   "region": "Los Santos, Part I",
+   "giver": "",
+   "desc": "Michael, Franklin, and their accomplices steal millions of dollars' worth of jewelry from Vangelico, escaping from the police on motorbikes. The heist can be performed in two ways: Loud Approach or Smart Approach, based on the player's choice in Casing the Jewel Store.",
+   "reward": "Lester as a contact for Franklin Carbine Rifle and Tear Gas available at Ammu-Nation"
+  },
+  {
+   "name": "Mr. Philips",
+   "region": "Blaine County, Part I",
+   "giver": "",
+   "desc": "After discovering Michael is still alive, Trevor murders Johnny Klebitz and goes to kill more members of The Lost MC at their trailer park before they can retaliate. Afterwards, he intimidates Aztecas leader Ortega, securing control of Blaine County's methamphetamine trade.",
+   "reward": "Ability to play as Trevor Tattoo Parlors Antique Cavalry Dagger, Vintage Pistol and Sawed-Off Shotgun available at Ammu-Nation (PS4, XB1 & PC versions only (Antique Cavalry Dagger and Vintage Pistol)) Offroad Races Stock Car Racing (Enhanced version only) Trevor Philips and Wade Hebert as Director Mode characters (Enhanced version only)"
+  },
+  {
+   "name": "Nervous Ron",
+   "region": "Blaine County, Part I",
+   "giver": "",
+   "desc": "Trevor is furious after some members of The Lost MC vandalized his trailer and heads to the Sandy Shores Airfield with his friend Ron Jakowski to kill them and take over their arms dealing business.",
+   "reward": "$62,680 Machete and Sniper Rifle available at Ammu-Nation (Enhanced version only) Properties New customization options at Los Santos Customs Aircraft hangar and helipad available at the Sandy Shores Airfield for Trevor Ron Jakowski as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "Trevor Philips Industries",
+   "region": "Blaine County, Part I",
+   "giver": "",
+   "desc": "While meeting with Tao Cheng and his translator to negotiate a partnership with the Los Santos Triads, Trevor must defend his tlao lab from the Aztecas with the help of his crystal tlao manufacturer, Chef.",
+   "reward": "Tao Cheng as a contact for Trevor Grenade Launcher and Hatchet available at Ammu-Nation (PS4, XB1 & PC versions only (Hatchet))"
+  },
+  {
+   "name": "Crystal Maze",
+   "region": "Blaine County, Part I",
+   "giver": "",
+   "desc": "After discovering that the Triads have decided to use the O'Neil Brothers as suppliers instead of him, Trevor raids the O'Neils' farmhouse, which doubles as a tlao lab, and sets fire to the place, killing most of the brothers in the process.",
+   "reward": "Jerry Can available at Ammu-Nation Darts"
+  },
+  {
+   "name": "Friends Reunited",
+   "region": "Blaine County, Part I",
+   "giver": "",
+   "desc": "After his friend Wade Hebert returns with news of Michael's whereabouts, Trevor destroys The Lost MC's trailer park and travels to Los Santos with Wade, moving into the apartment of Wade's cousin Floyd.",
+   "reward": "Floyd's Apartment as a safehouse for Trevor Flight School Ability to play as Michael and Franklin again Sticky Bomb available at Ammu-Nation LSPD Auto Impound available to buy if Franklin has completed Pulling One Last Favor Floyd Hebert as a Director Mode character (Enhanced version only) The Jewel Store Job payout"
+  },
+  {
+   "name": "Fame or Shame",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "After a tense reunion, Michael and Trevor hear that Tracey is trying out for Fame or Shame and go to the auditions to prevent her from humiliating herself. During the audition, Lazlow Jones performs a sexual pose on Tracey, and the duo pursue him in retaliation.",
+   "reward": "Michael as a contact for Trevor and vice versa Jimmy as a contact for Trevor Lazlow Jones and Fabien LaRouche as Director Mode characters (Enhanced version only)"
+  },
+  {
+   "name": "Dead Man Walking",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael meets with Dave Norton to discuss Trevor's return before Dave asks Michael for a favor: to infiltrate the city morgue and confirm the death of an FIB suspect.",
+   "reward": "Combat Pistol and Heavy Pistol available at Ammu-Nation (PS4, XB1 & PC versions only (Heavy Pistol)) Dave Norton as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "Three's Company",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "After meeting Steve Haines, Michael is blackmailed into helping the FIB and must work with Franklin and Trevor to retrieve Mr. K from the IAA Headquarters.",
+   "reward": "Franklin as a contact for Trevor and vice versa Frogger available at Trevor's Airfield AP Pistol and Heavy Sniper available at Ammu-Nation Steve Haines as a Director Mode character (Enhanced version only)"
+  },
+  {
+   "name": "By the Book",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Trevor must torture Mr. K to extract information that can help Michael and Dave identify and assassinate a suspected terrorist.",
+   "reward": "Devin Weston as a Director Mode character"
+  },
+  {
+   "name": "Scouting the Port",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Trevor, Wade, and Floyd scout out the Port of Los Santos in preparation for a planned robbery of Merryweather Security.",
+   "reward": ""
+  },
+  {
+   "name": "Minisub",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Steal a submarine off a freighter.",
+   "reward": ""
+  },
+  {
+   "name": "Cargobob",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Steal the Cargobob from Fort Zancudo.",
+   "reward": ""
+  },
+  {
+   "name": "The Merryweather Heist",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Trevor, Michael, and Franklin steal a Merryweather high-tech device, either at the docks or out in the ocean, only to be forced to return it immediately afterwards. The heist can be performed in two ways: Freighter Method or Offshore Method, based on the player's choice in Scouting the Port.",
+   "reward": ""
+  },
+  {
+   "name": "Did Somebody Say Yoga?",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael decides to give yoga a try with his wife and her instructor to see what it's like. However, after Michael attacks the instructor in an outburst, and later unknowingly takes drugs while driving Jimmy back home from Burger Shot, he finds himself abandoned by his family.",
+   "reward": ""
+  },
+  {
+   "name": "Hood Safari",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Franklin, Trevor, and Lamar have to fight their way through an ambush at Grove Street after a drug deal set up by Stretch goes wrong.",
+   "reward": "Lamar as a contact for Trevor Sea Races Machine Pistol available at Ammu-Nation (PS4, XB1 & PC versions only)"
+  },
+  {
+   "name": "The Hotel Assassination",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Lester asks Franklin to assassinate Brett Lowrey, the CEO of Bilkinton Research, to help his stock market manipulation, rewarding him with a new safehouse in Vinewood Hills.",
+   "reward": "$9,000 3671 Whispymound Drive as Franklin's new safehouse"
+  },
+  {
+   "name": "Blitz Play Intro",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael, Franklin, and Trevor meet up with Steve Haines, Dave Norton, and Andreas Sanchez at the Murrieta Oil Field to discuss business.",
+   "reward": "Dave Norton as a contact for Franklin and Trevor"
+  },
+  {
+   "name": "Masks",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Buy masks at a Vespucci Beach mask shop.",
+   "reward": ""
+  },
+  {
+   "name": "Boiler Suits",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Buy boiler suits at Ammu-Nation.",
+   "reward": ""
+  },
+  {
+   "name": "Trash Truck",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Steal a garbage truck.",
+   "reward": ""
+  },
+  {
+   "name": "Tow Truck",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Steal a tow truck.",
+   "reward": ""
+  },
+  {
+   "name": "Blitz Play",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael, Franklin, and Trevor must steal agency funds from an armored car and deliver them to Steve Haines' contact, Devin Weston.",
+   "reward": "Chef can be hired as a gunman New weapons at Ammu-Nation"
+  },
+  {
+   "name": "I Fought the Law...",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael and Trevor pose as police officers to steal an Entity XF and a Cheetah for Devin Weston, after the cars' drivers are challenged to a street race by Franklin.",
+   "reward": "Final upgrades at Los Santos Customs (limo window tints, 100% brakes, armor and engine upgrades etc.) Nightstick available at Ammu-Nation Cheetah and Entity XF available for purchase on the Legendary Motorsport website"
+  },
+  {
+   "name": "Eye in the Sky",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Trevor must use the LSPD's latest identification technology to locate the owner of a Z-Type so Franklin can steal the car for Devin Weston.",
+   "reward": ""
+  },
+  {
+   "name": "Mr. Richards",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael must persuade Rocco Pelosi to obey Solomon Richards' wishes for his latest film.",
+   "reward": "Solomon Richards as a contact for Michael Michael can access Backlot City Marksman Pistol and Musket available at Ammu-Nation (PS4, XB1 & PC versions only) Solomon Richards as a Director Mode character"
+  },
+  {
+   "name": "Caida Libre",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Michael must shoot down Martin Madrazo's cousin's plane in order for Trevor to retrieve a package for Madrazo.",
+   "reward": "Patricia Madrazo as a Director Mode character"
+  },
+  {
+   "name": "Deep Inside",
+   "region": "Los Santos, Part II",
+   "giver": "Michael De Santa",
+   "desc": "Franklin must infiltrate Backlot City to steal a JB 700 for Devin Weston.",
+   "reward": "JB 700 available for purchase on the Legendary Motorsport website"
+  },
+  {
+   "name": "Minor Turbulence",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "While hiding from Martin Madrazo with Michael, Trevor is informed of a Merryweather cargo plane carrying weapons and attempts to hijack it mid-flight.",
+   "reward": "Parachute, Homing Launcher and Rail Gun available at Ammu-Nation (Enhanced version only (Rail Gun)) Ability to play as Michael and Trevor again Free Parachutes when entering any aircraft"
+  },
+  {
+   "name": "Paleto Score Setup",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "Michael, Trevor, and Lester scout out the bank and police of Paleto Bay in preparation for a robbery.",
+   "reward": "Lester as a contact for Trevor Heist Crew Members as Director Mode characters"
+  },
+  {
+   "name": "Military Hardware",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "Steal the military convoy.",
+   "reward": "Combat PDW available at Ammu-Nation (Enhanced version only)"
+  },
+  {
+   "name": "Predator",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "Trevor, Michael, Franklin, and Chop hunt down the remaining O'Neil Brothers in the woods of Raton Canyon.",
+   "reward": ""
+  },
+  {
+   "name": "The Paleto Score",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "Michael, Trevor, Franklin, and one accomplice rob the bank in Paleto Bay to finance an upcoming raid on a research facility.",
+   "reward": "$464,395 MG and Minigun available at Ammu-Nation"
+  },
+  {
+   "name": "Derailed",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "Michael and Trevor hijack a Merryweather train to nab whatever gold or loot it contains in the hopes of giving it to Martin Madrazo as a peace offering.",
+   "reward": ""
+  },
+  {
+   "name": "Monkey Business",
+   "region": "Blaine County, Part II",
+   "giver": "",
+   "desc": "Michael, Dave Norton, and Steve Haines infiltrate a research facility to steal a neurotoxin, with help from Trevor and Franklin. Afterwards, Trevor returns Patricia to Martin Madrazo, along with his and Michael's peace offering, allowing the pair to return to Los Santos.",
+   "reward": "Trevor and Michael can freely re-enter Los Santos Michael has his Tailgater returned (with modifications) Pistol .50, Heavy Shotgun and Stun Gun available at Ammu-Nation (Enhanced version only (Heavy Shotgun))"
+  },
+  {
+   "name": "Hang Ten",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "After a confrontation with Floyd and Debra in their apartment, which results in their deaths, Trevor takes Wade to the Vanilla Unicorn strip club, which he decides to take over.",
+   "reward": "Vanilla Unicorn as a new safehouse for Trevor Michael, Franklin and Trevor now have bonuses at Vanilla Unicorn Mr. Raspberry Jam as a custom item for Trevor's Bodhi"
+  },
+  {
+   "name": "Surveying the Score",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael, Franklin, Trevor, and Lester scout out the Union Depository Tower in preparation for their ultimate robbery.",
+   "reward": "First part of the Union Depository Intel"
+  },
+  {
+   "name": "Bury the Hatchet",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Trevor loses his trust in Michael after discovering the truth about what went down in Ludendorff nine years prior, and abandons him to the mercy of the Los Santos Triads.",
+   "reward": ""
+  },
+  {
+   "name": "Pack Man",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "After stealing the final car on Devin Weston's list, Franklin, Trevor, and Lamar attempt to deliver all the cars to Paleto Bay, despite the police's efforts to stop them.",
+   "reward": ""
+  },
+  {
+   "name": "Fresh Meat",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Franklin must find and rescue Michael from the Triads before they kill him.",
+   "reward": "Ability to play as Michael again"
+  },
+  {
+   "name": "Cleaning out the Bureau",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael and Lester follow a janitor back to his house and steal his ID card in preparation for an upcoming job for Steve Haines: to break into the FIB Headquarters.",
+   "reward": ""
+  },
+  {
+   "name": "Architect's Plans",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Franklin must steal the briefcase of architect Chip Peterson containing the blueprints of the FIB Headquarters.",
+   "reward": ""
+  },
+  {
+   "name": "Fire Truck",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Steal a fire truck.",
+   "reward": ""
+  },
+  {
+   "name": "Reuniting the Family",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "At Jimmy's advice, Michael decides to reunite the family at Dr. Friedlander's.",
+   "reward": "Michael can hang out with Amanda and Jimmy again The Tennis Court at Michael's home becomes available again"
+  },
+  {
+   "name": "The Bureau Raid",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael, Franklin, and their accomplices infiltrate the FIB Headquarters to retrieve incriminating information against Steve Haines. Michael seizes the opportunity to delete his own criminal record, destroying Haines' leverage over him. The heist can be performed in two ways: Covert Approach or Roof Approach, based on the player's choice in Architect's Plans.",
+   "reward": "$149,392 - $242,346 (Franklin only)"
+  },
+  {
+   "name": "The Wrap Up",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "After Michael and Dave Norton are betrayed by Steve Haines during a meeting at the Kortz Center, they become caught in a standoff between the FIB, IAA, and Merryweather. Trevor comes to Michael and Dave's rescue, having decided that he needs Michael alive for the Union Depository heist.",
+   "reward": ""
+  },
+  {
+   "name": "Lamar Down",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Franklin, Michael, and Trevor must work together to save Lamar from the Ballas after he was set up by Stretch. Afterwards, Dave Norton and Steve Haines approach Franklin with a new task.",
+   "reward": "Tanisha Jackson as a Director Mode character"
+  },
+  {
+   "name": "The Ballad of Rocco",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael must chase and kill Rocco Pelosi and his accomplice after they attacked Solomon Richards. Afterwards, Solomon calls Michael back to the studio for a surprise.",
+   "reward": ""
+  },
+  {
+   "name": "Legal Trouble",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "When Devin Weston attempts to have the film studio closed, threatening the end of production for the film he and Solomon have been making, Michael chases Weston's assistant to retrieve the film reel, with unforeseen consequences.",
+   "reward": ""
+  },
+  {
+   "name": "Meltdown",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael and Jimmy attend the premiere of Meltdown. However, Devin Weston arrives to tell Michael that he sent a Merryweather platoon to murder his family as revenge for interfering with his plans, forcing Michael to go and rescue them.",
+   "reward": ""
+  },
+  {
+   "name": "Planning the Big Score",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael, Trevor, Franklin, and Lester choose the approach and crew for their upcoming robbery of the Union Depository.",
+   "reward": ""
+  },
+  {
+   "name": "Stingers",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Steal a Police Transporter from the South Los Santos police station.",
+   "reward": ""
+  },
+  {
+   "name": "Gauntlet",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Steal and modify 3 Bravado Gauntlets.",
+   "reward": ""
+  },
+  {
+   "name": "Driller",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Steal a driller from a warehouse in La Mesa.",
+   "reward": ""
+  },
+  {
+   "name": "Sidetracked",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Steal a train in the Grand Senora Desert.",
+   "reward": ""
+  },
+  {
+   "name": "The Big Score",
+   "region": "Los Santos, Part III",
+   "giver": "",
+   "desc": "Michael, Trevor, Franklin, Lester, and their accomplices steal four tons of gold bullion from the Union Depository Tower, escaping from the police and Merryweather. The heist can be performed in two ways: Subtle Approach or Obvious Approach, based on the player's choice in Planning the Big Score.",
+   "reward": "Advanced Rifle and Bullpup Rifle available at Ammu-Nation (PS4, XB1 & PC versions only (Bullpup Rifle))"
+  },
+  {
+   "name": "Something Sensible",
+   "region": "Endings",
+   "giver": "",
+   "desc": "Franklin must chase and kill Trevor for Steve Haines. (choosing Ending A)",
+   "reward": "The Big Score payout (Michael and Franklin only) Gusenberg Sweeper available at Ammu-Nation (PS4, XB1 & PC versions only)"
+  },
+  {
+   "name": "The Time's Come",
+   "region": "Endings",
+   "giver": "",
+   "desc": "Franklin must chase and kill Michael for Devin Weston. (choosing Ending B)",
+   "reward": "The Big Score payout (Trevor and Franklin only) Gusenberg Sweeper available at Ammu-Nation (PS4, XB1 & PC versions only) Hot Rod Blazer for Trevor"
+  },
+  {
+   "name": "The Third Way",
+   "region": "Endings",
+   "giver": "",
+   "desc": "Franklin, Michael, and Trevor must survive an onslaught from the FIB and Merryweather with Lamar and Lester's help, before splitting up to eliminate their remaining enemies: Wei Cheng, Stretch, Steve Haines, and Devin Weston. (choosing Ending C)",
+   "reward": "The Big Score payout Gusenberg Sweeper available at Ammu-Nation (PS4, XB1 & PC versions only) Hot Rod Blazer for Trevor Michael and Trevor can hang out again"
+  }
+ ],
+ "gta-san-andreas": [
+  {
+   "name": "In the Beginning",
+   "region": "Los Santos",
+   "giver": "Introduction",
+   "desc": "Carl Johnson returns to Los Santos after living in Liberty City for five years. His brother Sweet Johnson informs him about his mother's death. When he reaches home, he gets captured by C.R.A.S.H. officers, who take his money and force him into their car before throwing him out within a Ballas territory. Make the way back to Grove Street to receive the first mission.",
+   "reward": ""
+  },
+  {
+   "name": "Big Smoke",
+   "region": "Los Santos",
+   "giver": "Carl Johnson",
+   "desc": "Carl enters his home at Grove Street, where he recalls his childhood memories and finds his deceased mother's photo. Carl reunites with his childhood friend Big Smoke, who promises to avenge his mother's death by finding the killer. Meet Big Smoke inside the Johnson House.",
+   "reward": ""
+  },
+  {
+   "name": "Sweet & Kendl",
+   "region": "Los Santos",
+   "giver": "Carl Johnson",
+   "desc": "Carl and Big Smoke go to a cemetery, where Carl reunites with his siblings Sweet and Kendl. Sweet blames Carl for their mother's death and explains what happened when Carl fled the city. As the gang leaves the cemetery, they are ambushed by the Ballas. They head back to Grove Street while escaping the Ballas. Arrive at the cemetery in Temple and escape from a Ballas car using a BMX.",
+   "reward": "Respect Johnson House"
+  },
+  {
+   "name": "Ryder",
+   "region": "Los Santos",
+   "giver": "Ryder",
+   "desc": "Carl reunites with Ryder at his house on Grove Street. Ryder suggests that Carl should improve his physical appearance, so he makes him get a haircut. Afterwards, they try to deal with a pizzeria owner who keeps on spraying over Grove Street tags. Go with Ryder to get a haircut at the barber shop and eat at the pizzeria.",
+   "reward": "Respect Barbers Restaurants Tattoo Parlors"
+  },
+  {
+   "name": "Tagging Up Turf",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Carl visits Sweet and Big Smoke at Sweet's house. Sweet questions Carl about what made him return to the hood, and gives him a spray can to let him spray over some enemy graffiti. Sweet, however, changes his mind and decides to help him. Spray over some Ballas tags.",
+   "reward": "Respect $200 Spray Can inside the Johnson House"
+  },
+  {
+   "name": "Cleaning the Hood",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Sweet, Big Smoke and Ryder are discussing the rise in crack cocaine in the city. After a brief argument, Ryder and CJ decide to take care of the business. Take out a drug dealer in the territory of the Grove and assault a Ballas crack den.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Drive-Thru",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Big Smoke, Sweet, and Ryder go to eat, and CJ joins them. They head to Cluckin' Bell and get some orders. While eating, they spot the same Ballas who chased them earlier heading towards Grove Street. Visit Cluckin' Bell and stop the Ballas from getting to Grove Street.",
+   "reward": "Respect $200 Gyms"
+  },
+  {
+   "name": "Nines and AK's",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "CJ finds out that Grove Street Families currently have no weapons to defend themselves. Big Smoke and CJ go to pay a visit to Emmet, a member of Seville Boulevard Families, to practice some shooting. Visit Emmet for some target practice and buy clothes at a Binco shop.",
+   "reward": "Respect Emmet's Binco, Sub Urban and ProLaps clothing"
+  },
+  {
+   "name": "Drive-By",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Ryder complains about CJ's driving skills, saying that CJ always crashes cars. Sweet, however, allows CJ to drive, while he, Ryder, and Big Smoke will ride shotgun. The gang drives to a territory of the Ballas for a drive-by. Perform drive-by shootings on the Ballas.",
+   "reward": "$500 Respect"
+  },
+  {
+   "name": "Sweet's Girl",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "CJ gets a phone call from Sweet who says that he and his girlfriend are trapped by the Seville Boulevard Families. CJ heads to rescue them before they die. Save Sweet and his girl from an onslaught of the Seville Boulevard Families gang members.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Cesar Vialpando",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Sweet and Kendl argue about Kendl's relationship with Mexican gangster Cesar Vialpando, the Varrios Los Aztecas leader. Sweet tells Carl to keep an eye on her to avoid any danger. Win the Lowrider Challenge.",
+   "reward": "$50-$1,000 (based on the wager) Savanna Loco Low Co. TransFender Lowrider Challenge"
+  },
+  {
+   "name": "OG Loc",
+   "region": "Los Santos",
+   "giver": "Big Smoke",
+   "desc": "OG Loc is released from prison and CJ, Sweet, and Big Smoke go to the police station to pick him up. Loc reveals that a Mexican gangster, Freddy, raped him in jail and stole his rhymes. Loc goes to confront Freddy at his house. Pick up OG Loc from jail, chase and kill Freddy, and take OG Loc to Burger Shot.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Running Dog",
+   "region": "Los Santos",
+   "giver": "Big Smoke",
+   "desc": "Smoke tells CJ that his cousin is arriving in the city from Mexico and he's going to pick her up. CJ and Smoke drive to East Los Santos where they confront two Vagos gangsters. After an argument between them, Smoke kills one member while CJ chases the other. Chase down and kill a Los Santos Vagos gang member.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Wrong Side of the Tracks",
+   "region": "Los Santos",
+   "giver": "Big Smoke",
+   "desc": "Smoke informs CJ about a deal between the Vagos and San Fierro Rifa and decides to crash their meeting. After arriving at Unity Station, however, the Vagos attempt to escape by train, and Smoke and CJ give chase to stop them. Disrupt a gang meeting and follow a train.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Just Business",
+   "region": "Los Santos",
+   "giver": "Big Smoke",
+   "desc": "Big Smoke has some business to take care of and goes with CJ to the Atrium in Commerce. After getting inside, they fight against the Russian Mafia. Help Big Smoke fight against the Russian Mafia in the Atrium and then escape from them using the sewer system.",
+   "reward": "Respect Sawnoff Shotgun available in Ammu-Nation (if Doberman is completed first)"
+  },
+  {
+   "name": "Home Invasion",
+   "region": "Los Santos",
+   "giver": "Ryder",
+   "desc": "Ryder can't find the drugs he buried inside his lawn. He asks Carl to steal weapon crates from a war veteran living in East Beach. At 22:00, they go for the robbery. Rob a war veteran living in East Beach for weapons crates.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Catalyst",
+   "region": "Los Santos",
+   "giver": "Ryder",
+   "desc": "After failing to find the stuff he buried, Ryder prepares his drugs. C.R.A.S.H. arrives and informs that an ammo train will be arriving shortly at East Los Santos. However, when CJ and Ryder get to the location, the Vagos and the Ballas can be seen attempting to rob the train as well. Steal crates of weapons from a train.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Robbing Uncle Sam",
+   "region": "Los Santos",
+   "giver": "Ryder",
+   "desc": "Ryder tells CJ that the army has many weapons. They both head to an army base in Ocean Docks to steal the army weapons. Raid a National Guard base in the Ocean Docks area.",
+   "reward": "Respect SMG available in Ammu-Nation (if Doberman is completed first)"
+  },
+  {
+   "name": "High Stakes, Low-Rider",
+   "region": "Los Santos",
+   "giver": "Cesar Vialpando",
+   "desc": "CJ visits Cesar at his house and Cesar explains to him the rules of the street race they both are competing in. Race Cesar Vialpando and other racers in the Lowrider Race.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Life's a Beach",
+   "region": "Los Santos",
+   "giver": "OG Loc",
+   "desc": "CJ visits OG Loc, who is working at the Burger Shot in Marina. Loc is planning to host a house party, but he lacks a sound system. He tells CJ to steal a sound van from a beach party. Steal a sound system Pony for OG Loc's house party.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Madd Dogg's Rhymes",
+   "region": "Los Santos",
+   "giver": "OG Loc",
+   "desc": "Although Loc has the sound system, he doesn't have rhymes to read for rapping. Loc asks CJ to steal a rhyme book owned by rapper Madd Dogg, which is found inside his mansion. Steal Madd Dogg's rhyme book.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Management Issues",
+   "region": "Los Santos",
+   "giver": "OG Loc",
+   "desc": "Now that Loc has what he wants for his party, he still isn't satisfied. Loc reveals that Madd Dogg's manager Alan Crawford is preventing Loc from getting into music, becoming Loc's huge problem. Loc wants the manager killed. Kidnap and kill Madd Dogg's manager and his girlfriend.",
+   "reward": "Respect"
+  },
+  {
+   "name": "House Party",
+   "region": "Los Santos",
+   "giver": "OG Loc",
+   "desc": "OG Loc quits the janitor job and decides to go back to prison, but wants to have the party before. He tells CJ to prepare everything for the party. CJ visits the party, but soon gets warned about an incoming attack from the Ballas on Grove Street. CJ and Sweet defend it. Visit OG Loc's party and protect Grove Street from a Ballas attack.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Burning Desire",
+   "region": "Los Santos",
+   "giver": "C.R.A.S.H.",
+   "desc": "CJ reluctantly meets C.R.A.S.H at the doughnut shop. Tenpenny informs CJ about a Vagos gang member who is trying to get in their way and orders CJ to kill him. Burn down a Vagos member's house and rescue a girl.",
+   "reward": "Denise Robinson as a girlfriend"
+  },
+  {
+   "name": "Gray Imports",
+   "region": "Los Santos",
+   "giver": "C.R.A.S.H.",
+   "desc": "Tenpenny informs CJ about a deal between the Ballas and Russians at the warehouse in Ocean Docks, and orders CJ to destroy the deal by killing the dealer. Kill a Russian arms dealer.",
+   "reward": "Silenced 9mm available in Ammu-Nation (if Doberman is completed first)"
+  },
+  {
+   "name": "Doberman",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "After a phone call from Sweet, CJ heads to Ammu-Nation to purchase some firearms to kill a former GSF member, who betrayed them and joined Ballas. Take over Glen Park and kill the snitch.",
+   "reward": "Respect Access to Ammu-Nation Johnson House asset"
+  },
+  {
+   "name": "Los Sepulcros",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "The Ballas are holding a funeral for Little Weasel. Sweet and CJ decide to disrupt the funeral to kill the leader of the Front Yard Ballas. Raid the funeral and kill the Ballas gang leader.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Reuniting the Families",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Sweet decides to reunite all the Grove Street gang sets that have been split up, as the Ballas have been dealing with the drugs for too long. The gang heads to Jefferson Motel where all the sets meet, but shortly after, they are ambushed by the police. Take Sweet, Big Smoke, and Ryder to the meet to reunite the Grove Street Families and escape from the police.",
+   "reward": "Respect"
+  },
+  {
+   "name": "The Green Sabre",
+   "region": "Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Following the Grove Street Families reunion, Sweet decides to put justice against the Ballas. Sweet tells CJ to meet him at the gunfight between GSF and Ballas, but CJ is forced to meet Cesar, who reveals to him Big Smoke and Ryder's true colors. Witness Smoke and Ryder's betrayal, then rush to rescue Sweet.",
+   "reward": "Access to Flint County, Whetstone, and San Fierro Countryside safehouses purchasable Angel Pine Save Point"
+  },
+  {
+   "name": "Badlands",
+   "region": "Countryside",
+   "giver": "C.R.A.S.H.",
+   "desc": "After CJ is arrested and taken away from Los Santos, Tenpenny wants CJ to do tasks for him for Sweet's safety. In his first task, CJ has to kill an informant who has some information about Tenpenny and is hiding at Mount Chiliad guarded by the FBI. Take out an FBI witness for Tenpenny.",
+   "reward": ""
+  },
+  {
+   "name": "First Date",
+   "region": "Countryside",
+   "giver": "Mystery",
+   "desc": "Cesar calls CJ to tell him about his cousin, who can help him. CJ meets Cesar's cousin, Catalina, who gives him four targets for robberies that they will perform. Meet Cesar's cousin. NOTE: Choose a Robbery mission listed below after the cutscene (Tanker Commander is recommended, because this mission takes place in Dillimore, which is the player's location, removing the need to travel to Dillimore and then away from it).",
+   "reward": ""
+  },
+  {
+   "name": "Tanker Commander",
+   "region": "Countryside",
+   "giver": "Mystery",
+   "desc": "Hijack a petrol tanker in Dillimore.",
+   "reward": "$5,000"
+  },
+  {
+   "name": "Body Harvest",
+   "region": "Countryside",
+   "giver": "The Truth",
+   "desc": "Tenpenny introduces The Truth to CJ and tells CJ to pay Truth for the weed. Before the payment, he wants CJ to steal a combine harvester from a farm in Flint County. Steal a Combine Harvester for The Truth.",
+   "reward": "Respect Rifle available in Ammu-Nation"
+  },
+  {
+   "name": "King in Exile",
+   "region": "Countryside",
+   "giver": "Cesar Vialpando",
+   "desc": "CJ meets Cesar and Kendl inside the trailer in Angel Pine. Cesar informs CJ about some suspicious drug shipments across Los Santos and San Fierro. CJ tells Cesar to lay low while he will take care of them whenever he spots them. Meet Cesar and Kendl again.",
+   "reward": ""
+  },
+  {
+   "name": "First Base",
+   "region": "Countryside",
+   "giver": "Catalina",
+   "desc": "Catalina is furious at CJ for abandoning the robberies. CJ apologizes to her. While initially angry at him, Catalina shows some love toward CJ. NOTE: Choose a Robbery mission listed below after the cutscene (Local Liquor Store is recommended).",
+   "reward": "Catalina's Hideout"
+  },
+  {
+   "name": "Local Liquor Store",
+   "region": "Countryside",
+   "giver": "Catalina",
+   "desc": "Rob a liquor store in Blueberry.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Gone Courting",
+   "region": "Countryside",
+   "giver": "Catalina",
+   "desc": "Catalina shows her love for CJ by torturing him. NOTE: Choose a Robbery mission listed below after the cutscene (Against All Odds is recommended).",
+   "reward": ""
+  },
+  {
+   "name": "Against All Odds",
+   "region": "Countryside",
+   "giver": "Catalina",
+   "desc": "Rob the Inside Track betting shop in Montgomery.",
+   "reward": "$2,000 Remote Explosives available in Ammu-Nation"
+  },
+  {
+   "name": "Made in Heaven",
+   "region": "Countryside",
+   "giver": "Catalina",
+   "desc": "Catalina tells CJ that she does not love him anymore and wants to be just his partner. NOTE: Choose a Robbery mission listed below after the cutscene (Small Town Bank is recommended).",
+   "reward": ""
+  },
+  {
+   "name": "Small Town Bank",
+   "region": "Countryside",
+   "giver": "Catalina",
+   "desc": "Rob a bank in Palomino Creek.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Wu Zi Mu",
+   "region": "Countryside",
+   "giver": "Cesar Vialpando",
+   "desc": "Cesar invites CJ for a race across Red County. Wu Zi Mu, the race organizer, arrives and says that this race will reward the winner with either cash or a pink slip. Race against Wu Zi Mu.",
+   "reward": "$5,000"
+  },
+  {
+   "name": "Farewell, My Love...",
+   "region": "Countryside",
+   "giver": "Cesar Vialpando",
+   "desc": "Catalina confronts CJ again and introduces to him her new boyfriend, Claude. Calling CJ jealous and a coward, Catalina challenges him to a race. Race against Catalina and her new boyfriend, Claude.",
+   "reward": "ZR-350"
+  },
+  {
+   "name": "Are You Going to San Fierro?",
+   "region": "Countryside",
+   "giver": "The Truth",
+   "desc": "After being rewarded a garage in San Fierro, CJ meets The Truth at his farm and pays him for the weed. Later, both are ambushed by the police. Truth tells CJ that they must burn the weed and leave the place. Burn down The Truth's cannabis plantation and drive to San Fierro.",
+   "reward": "Respect 5-star wanted level achievable Safehouses in San Fierro purchasable Doherty Garage ZIP clothing available"
+  },
+  {
+   "name": "Wear Flowers in Your Hair",
+   "region": "San Fierro",
+   "giver": "Carl Johnson",
+   "desc": "CJ doesn't like the reward he got for winning the race. Cesar and Kendl convince CJ by telling him that they will help him in making it into a garage. The Truth, who listened to the conversation, tells CJ that he has a few friends who can help CJ with the garage. Pick up some friends of The Truth, who can help with the garage.",
+   "reward": "Zero RC shop purchasable"
+  },
+  {
+   "name": "555 We Tip",
+   "region": "San Fierro",
+   "giver": "C.R.A.S.H.",
+   "desc": "CJ receives a phone call from Tenpenny, who informs him about a district attorney who is causing problems for C.R.A.S.H. He tells CJ to secretly plant the weeds he got from The Truth into the DA's car. Frame a district attorney that is causing Tenpenny problems, by posing as a valet and planting drugs in his car.",
+   "reward": "Valet Uniform available in wardrobe"
+  },
+  {
+   "name": "Deconstruction",
+   "region": "San Fierro",
+   "giver": "Carl Johnson",
+   "desc": "Kendl is angry with the workers at the construction site behind the garage for calling her a hooker. Cesar attempts to confront them, but CJ convinces Cesar to stay with her, telling him that he will take care of this. Get revenge on some builders for calling Kendl a hooker by destroying portable buildings and burying the foreman.",
+   "reward": ""
+  },
+  {
+   "name": "Air Raid",
+   "region": "San Fierro",
+   "giver": "Zero",
+   "desc": "CJ visits Zero at his shop. Zero learns that his long-time rival Berkley is back. Berkley launches a full-scale attack on Zero by using RC Barons to destroy the transmitters on the rooftop. Defend Zero's transmitters from Berkley's bombers.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "Supply Lines...",
+   "region": "San Fierro",
+   "giver": "Zero",
+   "desc": "Zero explains to CJ that Berkley humiliated him. CJ tells him to take revenge and asks what weapons Zero has, with Zero saying that he has a miniature plane, which both of them use to go after Berkley. Kill Berkley's delivery boys.",
+   "reward": "$5,000"
+  },
+  {
+   "name": "New Model Army",
+   "region": "San Fierro",
+   "giver": "Zero",
+   "desc": "Zero prepares for an ultimate battle against Berkley, where the loser must leave San Fierro for good. Help Zero in an RC war.",
+   "reward": "$7,000 Zero RC as an asset"
+  },
+  {
+   "name": "Back to School",
+   "region": "San Fierro",
+   "giver": "Driving School",
+   "desc": "Learn some advanced driving techniques.",
+   "reward": "Driving skill increased Super GT (all bronze) Bullet (all silver) Hotknife (all gold) Wang Cars available to purchase (if Yay Ka-Boom-Boom is completed first) Banshee spawns next to the Cobra Marital Arts Gym Bullet spawns at the Burger Shot in Juniper Hollow"
+  },
+  {
+   "name": "Photo Opportunity",
+   "region": "San Fierro",
+   "giver": "Cesar Vialpando",
+   "desc": "Cesar spots a Ballas car in Red County heading to San Fierro to buy drugs. After CJ meets Cesar, both head to Angel Pine where the car was seen previously. Photograph the meeting between Ryder and the members of the Loco Syndicate.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Jizzy",
+   "region": "San Fierro",
+   "giver": "Loco Syndicate",
+   "desc": "CJ meets Cesar and Woozie at his garage. Woozie explains to CJ that the people CJ took photos of are the members of the Loco Syndicate, a drug-dealing gang. CJ decides to meet one of the members of Loco Syndicate, the pimp Jizzy B., who is found at the Pleasure Domes in Battery Point. Go and meet Jizzy at his club. Help Jizzy out with his pimping duties.",
+   "reward": "$3,000 Respect Broadway"
+  },
+  {
+   "name": "T-Bone Mendez",
+   "region": "San Fierro",
+   "giver": "Loco Syndicate",
+   "desc": "Jizzy argues with T-Bone Mendez about Jizzy's cut with the Loco Syndicate. CJ arrives and he is introduced to Mendez, but Mendez discovers that a shipment of drugs has been highjacked by bikers. Retrieve some stolen cash from the bikers.",
+   "reward": "$5,000 Respect"
+  },
+  {
+   "name": "Mike Toreno",
+   "region": "San Fierro",
+   "giver": "Loco Syndicate",
+   "desc": "T-Bone receives a call from Mike Toreno, who says that he is in danger and needs help. The van containing the drug shipment is stolen with Toreno still inside. CJ and T-Bone go to rescue Toreno. Find and rescue Mike Toreno.",
+   "reward": "$7,000 Respect"
+  },
+  {
+   "name": "Mountain Cloud Boys",
+   "region": "San Fierro",
+   "giver": "Woozie",
+   "desc": "CJ meets Woozie at his apartment. Woozie explains that a Triad meeting that happened last time had some Triads missing. Woozie wants to meet those Triads. Escort Woozie to a Triad meeting, then escape the Da Nang Boys.",
+   "reward": "$5,000 Respect"
+  },
+  {
+   "name": "Ran Fa Li",
+   "region": "San Fierro",
+   "giver": "Woozie",
+   "desc": "CJ is introduced to Ran Fa Li, the leader of the Red Gecko Tong. Ran Fa Li explains that the Da Nang Boys are about to move to San Fierro. Woozie plans to stop them by allowing CJ to steal a car with a package inside from the airport. Steal a car from the airport and take it to a lockup, escaping the Da Nang Boys.",
+   "reward": "$6,000 Respect"
+  },
+  {
+   "name": "Lure",
+   "region": "San Fierro",
+   "giver": "Woozie",
+   "desc": "The Da Nang Boys are after Ran Fa Li, preventing him from going back home. CJ thinks of a plan to lure the Da Nang Boys by acting as a decoy so that Ran Fa Li and his assistants can leave Chinatown safely. Act as a decoy for Ran Fa Li, and lead the Da Nang Boys on a chase through the countryside.",
+   "reward": "$8,000 Respect AK47 available in Ammu-Nation"
+  },
+  {
+   "name": "Amphibious Assault",
+   "region": "San Fierro",
+   "giver": "Woozie",
+   "desc": "Woozie plans to plant a bug on a ship owned by the Da Nang boys. He asks CJ to do it, but CJ initially refuses as he is scared of swimming. Woozie admits that he cannot do it as he is blind, leading CJ to finally agree. Plant a bug on a ship of the Da Nang Boys.",
+   "reward": "$11,000 Respect"
+  },
+  {
+   "name": "The Da Nang Thang",
+   "region": "San Fierro",
+   "giver": "Woozie",
+   "desc": "Woozie is informed by his Triad that the Da Nang Boys have arrived with their leader, The Snakehead, on a freighter ship. They brought along some refugees locked inside a container as well. CJ and the Triad launch an attack on the ship. Sneak on board, release some slaves from the ship, and kill The Snakehead.",
+   "reward": "$15,000 Respect"
+  },
+  {
+   "name": "Outrider",
+   "region": "San Fierro",
+   "giver": "Loco Syndicate",
+   "desc": "After getting orders from Jizzy, CJ gets in a car in Easter Basin, only to be ambushed by T-Bone from behind, as he suspects CJ to be working for someone else. CJ convinces T-Bone that he is only working for money. Toreno arrives and orders CJ to look after the shipment delivery. Transport drugs past roadblocks.",
+   "reward": "$9,000 Respect"
+  },
+  {
+   "name": "Snail Trail",
+   "region": "San Fierro",
+   "giver": "C.R.A.S.H.",
+   "desc": "CJ meets Tenpenny and Pulaski in his office. Tenpenny informs CJ about a journalist who is trying to investigate Pulaski and orders CJ to kill both him and a reporter meeting him. Take out the reporter and the journalist.",
+   "reward": ""
+  },
+  {
+   "name": "Ice Cold Killa",
+   "region": "San Fierro",
+   "giver": "Triads",
+   "desc": "Woozie has left a message about the meeting between the Ballas and the Loco Syndicate, but CJ has to find out where the meeting will take place. The only way to find out is through Jizzy's phone, so CJ decides to kill Jizzy to take his phone and discover the meeting's location. Break into the Pleasure Domes and kill Jizzy B.",
+   "reward": "$12,000 Respect"
+  },
+  {
+   "name": "Pier 69",
+   "region": "San Fierro",
+   "giver": "Triads",
+   "desc": "CJ finds out that the meeting will take place at Pier 69. CJ and Cesar plan to stop the meeting with help from Woozie's Triads before the deal is successful. Raid a deal between the Ballas and the Loco Syndicate to kill T-Bone Mendez and Ryder.",
+   "reward": "$15,000 Respect Sniper Rifle available in Ammu-Nation"
+  },
+  {
+   "name": "Toreno's Last Flight",
+   "region": "San Fierro",
+   "giver": "Triads",
+   "desc": "Woozie informs CJ that Mike Toreno's helicopter is at the police headquarters about to take off. CJ invades the place to stop the helicopter. Shoot down Mike Toreno's helicopter.",
+   "reward": "$18,000 Respect"
+  },
+  {
+   "name": "Yay Ka-Boom-Boom",
+   "region": "San Fierro",
+   "giver": "Triads",
+   "desc": "The Loco Syndicate has almost come to an end. Woozie says that the only thing left is to destroy the crack factory in Doherty to end the Syndicate for good. Blow up the Loco Syndicate's drug factory.",
+   "reward": "$25,000 Respect Access to Tierra Robada, Bone County, and Las Venturas Desert safehouses buyable Wang Cars showroom buyable (if Back to School is completed first) M4 available in Ammu-Nation Mike Toreno's Ranch"
+  },
+  {
+   "name": "Zeroing In",
+   "region": "San Fierro",
+   "giver": "Cesar Vialpando",
+   "desc": "Zero reveals he has prepared a tracking automobile that tracks the cellphone signals made by the driver. CJ uses it to steal a vehicle. Steal a car with the help of a tracking system.",
+   "reward": "$5,000 Respect Uranus in Wang Cars showroom Wheel Arch Angels available"
+  },
+  {
+   "name": "Test Drive",
+   "region": "San Fierro",
+   "giver": "Cesar Vialpando",
+   "desc": "Cesar informs CJ that he has located two more cars on a customer's wishlist. CJ and Cesar drive to an automobile showroom to steal the cars. Steal and test some racing cars with Cesar.",
+   "reward": "$5,000 Respect Elegy and Sultan in Wang Cars showroom"
+  },
+  {
+   "name": "Customs Fast Track",
+   "region": "San Fierro",
+   "giver": "Cesar Vialpando",
+   "desc": "Cesar reveals that there is another car that is loaded onto a container in Easter Basin. Cesar and CJ head to the docks to find it. Steal a car from a container at the docks and beat the security guards.",
+   "reward": "Up to $10,000 Respect Savanna in Wang Cars showroom"
+  },
+  {
+   "name": "Puncture Wounds",
+   "region": "San Fierro",
+   "giver": "Cesar Vialpando",
+   "desc": "Cesar is angry because he failed to steal a car, saying that the driver is too fast. CJ plans to use stingers to stop and puncture the car. Use stingers to steal a Stratum.",
+   "reward": "$5,000 Respect Stratum in Wang Cars showroom Wang Cars showroom as an asset"
+  },
+  {
+   "name": "Monster",
+   "region": "Desert",
+   "giver": "Mystery",
+   "desc": "CJ walks into a mysterious voice, who seems to know about CJ's family. The voice tells CJ that he needs to impress him by driving a Monster within the time limit. Complete a time trial in a Monster Truck.",
+   "reward": "Money depending on time: $5,000 (< 4:20) $4,000 (4:20 - 5:00) $3,000 (5:00 - 5:30) $2,000 (5:30 - 6:00) $1,000 (6:00 - 6:30)"
+  },
+  {
+   "name": "Highjack",
+   "region": "Desert",
+   "giver": "Mystery",
+   "desc": "Mike Toreno, the man behind the mysterious voice, surprises CJ and reveals his real identity to him. Toreno wants CJ to do some tasks for him, the first one being commandeering a tanker truck. Hijack a tanker and drive it back to Doherty with Cesar.",
+   "reward": "$7,000"
+  },
+  {
+   "name": "Interdiction",
+   "region": "Desert",
+   "giver": "Mike Toreno",
+   "desc": "Mike Toreno explains to CJ his brother's status and Frank Tenpenny's crimes. He states that a cargo helicopter is delivering contraband and wants CJ to collect it by defending the helicopter. Escort and protect Toreno's helicopter, then take the contraband dropped by it.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Verdant Meadows",
+   "region": "Desert",
+   "giver": "Mike Toreno",
+   "desc": "After CJ successfully does Mike Toreno's favor, Toreno wants him to purchase an abandoned airstrip in Bone County. Purchase the Verdant Meadows airstrip in Bone County.",
+   "reward": "Respect Verdant Meadows Airfield available to purchase"
+  },
+  {
+   "name": "Learning to Fly",
+   "region": "Desert",
+   "giver": "Mike Toreno",
+   "desc": "Toreno tells CJ to learn to fly by taking flying lessons at the airstrip. CJ initially refuses but accepts after Toreno tells him that this is a step toward his brother's release from prison. Complete the ten Pilot School courses.",
+   "reward": "Respect Pilot's license (if the player has a low flying skill stat before finishing this mission) Increased Flying Skill Rustler spawns at Verdant Meadows Police Maverick spawns on the roof of the Los Santos Police Headquarters Raindance spawns on Santa Maria Beach Stuntplane spawns at Verdant Meadows (if the player has completed all tests with silver medals) Hunter spawns at the Easter Basin Naval Station (always) and at Verdant Meadows (if the player has completed all tests with gold medals) Las Venturas safehouses purchasable The Four Dragons Casino 6-star wanted level achievable All aircraft in Easter Bay Airport apart from the Maverick are unlocked Victim"
+  },
+  {
+   "name": "N.O.E.",
+   "region": "Desert",
+   "giver": "Mike Toreno",
+   "desc": "Toreno explains that his agents are in trouble and need some equipment. Toreno wants CJ to deliver a package of equipment using a plane before nightfall. Fly under the radar to Angel Pine and back within the time limit.",
+   "reward": "$15,000"
+  },
+  {
+   "name": "Stowaway",
+   "region": "Desert",
+   "giver": "Mike Toreno",
+   "desc": "A cargo plane arrives at the airstrip with some government agents. Toreno reveals that those people are from a rival agency. Toreno wants CJ to kill all the agents and blow up the plane. Destroy a government plane.",
+   "reward": "$20,000"
+  },
+  {
+   "name": "Black Project",
+   "region": "Desert",
+   "giver": "The Truth",
+   "desc": "CJ meets The Truth at the airstrip. Truth questions CJ about working for the government and then explains to him about a powerful military base where the Black Project is being developed. The Truth wants CJ to steal the Black Project. Break into Area 69 and steal the Black Project.",
+   "reward": "Desert Eagle available in Ammu-Nation"
+  },
+  {
+   "name": "Green Goo",
+   "region": "Desert",
+   "giver": "The Truth",
+   "desc": "The Truth flies the Jetpack that CJ has stolen, but falls off due to being unable to control it. Truth tells CJ to steal unknown stuff from a train using the Jetpack. Using the Jetpack, steal the Green Goo from a train.",
+   "reward": "$20,000 Jetpack at Verdant Meadows Verdant Meadows Airfield as an asset"
+  },
+  {
+   "name": "Fender Ketchup",
+   "region": "Las Venturas",
+   "giver": "Woozie",
+   "desc": "Woozie invites CJ to his new business, The Four Dragons Casino, in Las Venturas. CJ meets him at the casino. Woozie explains that the Mafia are causing trouble for his business. Woozie offers CJ a share in the casino, in exchange for CJ's help. A mafia thug was caught and Woozie wants to get rid of him, whereas CJ has another plan in mind. Scare Johnny Sindacco by driving around with him on the car's windscreen.",
+   "reward": "$5,000 Respect"
+  },
+  {
+   "name": "Explosive Situation",
+   "region": "Las Venturas",
+   "giver": "Woozie",
+   "desc": "CJ finds out that the Sindacco Family is the main problem for Woozie's casino. Knowing this, Woozie asks CJ to get dynamite from the Hunter Quarry. Steal the dynamite from the Hunter Quarry.",
+   "reward": "$7,000 Respect"
+  },
+  {
+   "name": "You've Had Your Chips",
+   "region": "Las Venturas",
+   "giver": "Woozie",
+   "desc": "Woozie receives two casino chips and finds out that one of them is fake. An enraged Woozie deduces that the Sindacco Family is behind this, and wants to blow up the chip factory where these chips are made. CJ tells Woozie that he got this. Destroy the Sindacco's fake casino chip-making machines.",
+   "reward": "$10,000 Respect Combat Shotgun available in Ammu-Nation"
+  },
+  {
+   "name": "Don Peyote",
+   "region": "Las Venturas",
+   "giver": "The Truth",
+   "desc": "CJ receives a call from The Truth, who says that he went on a peyote safari with a band and something unknowingly happened that led to him being separated from them. Truth tells that they're in Arco del Oeste and asks CJ to go there and check whether the pair are alive or not. Rescue Maccer and Kent Paul from the desert and bring them to Caligula's Palace, escaping the snake farmers.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Architectural Espionage",
+   "region": "Las Venturas",
+   "giver": "Woozie (Heist)",
+   "desc": "Woozie plans a heist at Caligula's Casino. To prepare for that, the first step they need to take is to get the blueprints for the casino. CJ heads to the City Planning Department where the blueprints are located to take a photo of them. Steal the blueprints of Caligula's Casino.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Key to Her Heart",
+   "region": "Las Venturas",
+   "giver": "Woozie (Heist)",
+   "desc": "CJ and Woozie got the blueprints. The next step is to get a keycard for the casino that allows access to restricted areas in the casino. The casino's croupier has the keycard, and CJ needs to gain her trust to get the keycard. Gain the affection of Millie Perkins to gain a keycard for the casino.",
+   "reward": "Respect Millie as a girlfriend Gimp Suit"
+  },
+  {
+   "name": "Dam and Blast",
+   "region": "Las Venturas",
+   "giver": "Woozie (Heist)",
+   "desc": "CJ gained the trust of Millie Perkins and the keycard is yet to be received anytime. The next step is to establish a means of temporarily cutting the power supply to Las Venturas, so that the power could be disabled during the heist. CJ heads to the Sherman Dam to plant explosives on the generators. Plant explosive charges on the generators at the Sherman Dam.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Cop Wheels",
+   "region": "Las Venturas",
+   "giver": "Woozie (Heist)",
+   "desc": "After planting explosive charges on the generators, CJ's next step is to steal four police bikes that need to be used as outriders for an armored vehicle where the cash is hauled off. CJ heads to steal the bikes within a limited time. Steal four police bikes.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Up, Up and Away!",
+   "region": "Las Venturas",
+   "giver": "Woozie (Heist)",
+   "desc": "CJ has stolen the police bikes. His final step is to steal an armored truck that must be used as a getaway vehicle to haul off cash. Instead of gaining suspicion by simple carjacking, the team plans to steal a sky crane to lift the truck. CJ heads to the K.A.C.C. military depot where the sky crane is located. Steal an armored truck using a Leviathan obtained from the K.A.C.C. Military Fuels.",
+   "reward": "Respect Leviathan at Verdant Meadows"
+  },
+  {
+   "name": "Intensive Care",
+   "region": "Las Venturas",
+   "giver": "Ken Rosenberg",
+   "desc": "Ken Rosenberg is distressed, stating that he is under pressure from the three mafia families. To make things worse, the Forellis learn that Johnny Sindacco, whom CJ scared previously, is in a coma and they plan to kidnap him. CJ decides to rescue Johnny to keep Rosenberg safe. Rescue Johnny Sindacco from the ambulance hijacked by the Forelli Crime Family.",
+   "reward": "$5,000 Respect"
+  },
+  {
+   "name": "The Meat Business",
+   "region": "Las Venturas",
+   "giver": "Ken Rosenberg",
+   "desc": "Ken Rosenberg is out of distress and decides to visit the Sindacco Family. CJ and Rosie head to the Sindaccos' abattoir to visit Johnny Sindacco, who is recovering from a coma. However, Johnny dies of a heart attack after seeing CJ, the one who put him in this state. The Sindaccos realize the truth and launch an attack on CJ and Rosie. Escape from the meat factory.",
+   "reward": "$8,000 Respect"
+  },
+  {
+   "name": "Fish in a Barrel",
+   "region": "Las Venturas",
+   "giver": "Woozie",
+   "desc": "CJ and Ran Fa Li meet Woozie at the casino. Woozie makes both of them sign a document to become his partners in the casino. Take co-ownership of the Four Dragons Casino.",
+   "reward": ""
+  },
+  {
+   "name": "Madd Dogg",
+   "region": "Las Venturas",
+   "giver": "Madd Dogg",
+   "desc": "CJ finds out that rapper Madd Dogg is attempting suicide because of losing everything as his rhyme book was stolen and his manager was killed. CJ advises him not to do so, but Madd Dogg ignores him and proceeds to jump. Rescue Madd Dogg from a suicide attempt.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Freefall",
+   "region": "Las Venturas",
+   "giver": "Salvatore Leone",
+   "desc": "Salvatore Leone, the leader of the Leone Family, is at Caligula's Casino and meets CJ. He informs CJ that a plane containing Forelli hitmen is arriving at Las Venturas to kill him, and orders CJ to stop them from arriving. Intercept, board, empty, and land a plane full of Forellis.",
+   "reward": "$15,000 Respect"
+  },
+  {
+   "name": "Misappropriation",
+   "region": "Las Venturas",
+   "giver": "C.R.A.S.H.",
+   "desc": "CJ visits C.R.A.S.H. at a house in Prickle Pine. Tenpenny is infuriated about his career coming to an end. He informs CJ about an FBI agent carrying a dossier containing information about their corruption and orders CJ to kill him and get the dossier. Kill some federal agents in Bone County and steal a dossier.",
+   "reward": ""
+  },
+  {
+   "name": "High Noon",
+   "region": "Las Venturas",
+   "giver": "C.R.A.S.H.",
+   "desc": "CJ gives C.R.A.S.H. the dossier he has stolen and asks if he's done with them, but Tenpenny is still infuriated when he attacks Jimmy Hernandez and berates him for selling them out. He then orders CJ to dig the grave for Hernandez and himself and leaves Pulaski to look after CJ while he's digging. CJ tries to convince Pulaski, but fails as Pulaski kills Hernandez and attempts to escape. Chase and kill Eddie Pulaski.",
+   "reward": ""
+  },
+  {
+   "name": "Saint Mark's Bistro",
+   "region": "Las Venturas",
+   "giver": "Salvatore Leone",
+   "desc": "Salvatore congratulates CJ for taking out the Forellis and decides to send CJ to Marco's Bistro to take out Marco Forelli. He also allows CJ to select Paul, Maccer, and Rosenberg as his backups. However, CJ tells the three of them to leave Las Venturas, while he does the task. Fly to Liberty City and kill Marco Forelli and his men.",
+   "reward": "$20,000 Respect Didier Sachs"
+  },
+  {
+   "name": "Breaking the Bank at Caligula's",
+   "region": "Las Venturas",
+   "giver": "Woozie (Heist)",
+   "desc": "Now that all the preparations are done, it's time for the ultimate heist. CJ and his crew go to rob Caligula's Casino. Rob the Caligula's Casino and escape back to the airstrip.",
+   "reward": "$100,000 Respect"
+  },
+  {
+   "name": "A Home in the Hills",
+   "region": "Las Venturas",
+   "giver": "Woozie",
+   "desc": "Madd Dogg has recovered and decides to go back to his mansion in Los Santos, but the mansion is seized by the Los Santos Vagos and their leader Big Poppa. CJ decides to permanently return to Los Santos to take back the mansion and use it as his new base of operations. Retake Madd Dogg's Crib and kill Big Poppa.",
+   "reward": "Respect Madd Dogg's Crib"
+  },
+  {
+   "name": "Vertical Bird",
+   "region": "Return to Los Santos",
+   "giver": "Mike Toreno",
+   "desc": "Toreno returns to CJ and requests for another task to be performed by him in exchange for his brother's release from prison. Steal a Hydra from an aircraft carrier and use it to destroy some spy ships while defending against enemy jets.",
+   "reward": "$50,000 Respect Hydra at Verdant Meadows Weapons at Mike Toreno's Ranch"
+  },
+  {
+   "name": "Home Coming",
+   "region": "Return to Los Santos",
+   "giver": "Mike Toreno",
+   "desc": "Toreno asks for one final job to be done by CJ, but CJ gets annoyed and threatens to kill him. CJ, however, receives a call from his brother Sweet saying that he has been released from prison. CJ asks Toreno what the job is, with Toreno saying none other than picking up his brother. Pick up Sweet from the police station, take out some drug dealers, and reclaim Ganton from the Ballas.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Cut Throat Business",
+   "region": "Return to Los Santos",
+   "giver": "Madd Dogg",
+   "desc": "Madd Dogg finds out that the rival rapper OG Loc is at a video shoot and that the rhymes by Loc are actually from his book that CJ stole for Loc before. CJ and Madd Dogg decide to go to the shoot to interrupt Loc. Chase OG Loc to reclaim Madd Dogg's rhyme book.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Beat Down on B Dup",
+   "region": "Return to Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Sweet is about to smoke crack from one of B Dup's crack whores and is stopped by CJ. CJ and Sweet go to confront B Dup at his house, only to find out that B Dup has shifted to Glen Park. They then head to Glen Park. Start a gang war to reclaim Glen Park, and then confront B Dup.",
+   "reward": "Respect"
+  },
+  {
+   "name": "Grove 4 Life",
+   "region": "Return to Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Sweet is happy to see the Grove Street Families back. He then comes into an argument with CJ about CJ abandoning Grove Street. CJ admits to it and then both of them set out to put Grove Street back on the map. Claim two areas of Idlewood from the Ballas.",
+   "reward": "$10,000 Respect"
+  },
+  {
+   "name": "Riot",
+   "region": "Return to Los Santos",
+   "giver": "Carl Johnson",
+   "desc": "CJ and his group find out in the news that Tenpenny is finally arrested due to his corruption, but then, due to lack of evidence, he is released. This leads to riots all over the city. Drive to Grove Street from the mansion and witness the riot.",
+   "reward": ""
+  },
+  {
+   "name": "Los Desperados",
+   "region": "Return to Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "Cesar asks CJ for help in taking back his hood from the Vagos. CJ says that he is worried about his own hood, but Sweet tells CJ to pay his debts to his friends. Help Cesar retake the Varrios Los Aztecas territory from the Vagos.",
+   "reward": "Respect"
+  },
+  {
+   "name": "End of the Line",
+   "region": "Return to Los Santos",
+   "giver": "Sweet Johnson",
+   "desc": "After finding out where Big Smoke is hiding, CJ and Sweet decide to bring justice to the city by eliminating both Smoke and Tenpenny. Take out Big Smoke in his crack palace, and chase down Frank Tenpenny to end things once and for all.",
+   "reward": "Respect $250,000"
+  }
+ ],
+ "gta-vice-city": [
+  {
+   "name": "In The Beginning...",
+   "region": "Vice City",
+   "giver": "Introduction",
+   "desc": "After escaping an ambushed drug deal with Vance brothers, drive to the Ocean View Hotel.",
+   "reward": "Ocean View Hotel Safehouse"
+  },
+  {
+   "name": "An Old Friend",
+   "region": "Vice City",
+   "giver": "Sonny Forelli",
+   "desc": "Call Sonny Forelli.",
+   "reward": ""
+  },
+  {
+   "name": "The Party",
+   "region": "Vice City",
+   "giver": "Lawyer",
+   "desc": "Meet Juan Cortez at a party on his yacht, where you are introduced to Ricardo Diaz, and then take Mercedes Cortez over to The Pole Position Club.",
+   "reward": "$100 Soiree Outfit"
+  },
+  {
+   "name": "Back Alley Brawl",
+   "region": "Vice City",
+   "giver": "Lawyer",
+   "desc": "Kill Leo Teal and then visit Ammu-Nation with Lance Vance.",
+   "reward": "$200 Cellphone Pistol"
+  },
+  {
+   "name": "Jury Fury",
+   "region": "Vice City",
+   "giver": "Lawyer",
+   "desc": "Intimidate two jury members in Giorgio Forelli's fraud trial.",
+   "reward": "$400 Body Armor available in Ammu-Nation"
+  },
+  {
+   "name": "Riot",
+   "region": "Vice City",
+   "giver": "Lawyer",
+   "desc": "Cause a riot to bankrupt a delivery company.",
+   "reward": "$1,000 Coveralls Outfit Baseball Bat available in Bunch of Tools"
+  },
+  {
+   "name": "Four Iron",
+   "region": "Vice City",
+   "giver": "Avery Carrington",
+   "desc": "Kill Avery's business rival at the Leaf Links country club.",
+   "reward": "$500 Leaf Links Country Club Country Club Outfit"
+  },
+  {
+   "name": "Demolition Man",
+   "region": "Vice City",
+   "giver": "Avery Carrington",
+   "desc": "Blow up a building using an RC helicopter.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Treacherous Swine",
+   "region": "Vice City",
+   "giver": "Juan Cortez",
+   "desc": "Chase Gonzales out of his penthouse in Vice Point and kill him for leaking information.",
+   "reward": "$250 Chainsaw Machete available at Bunch of Tools and Screw This Casual Outfit"
+  },
+  {
+   "name": "Mall Shootout",
+   "region": "Vice City",
+   "giver": "Juan Cortez",
+   "desc": "Meet up with Pierre La Ponce at the Washington Mall, escape French military intelligence operatives, and chase and kill Pierre, retrieving some stolen military technology.",
+   "reward": "$500 Shotgun available in Ammu-Nation"
+  },
+  {
+   "name": "Guardian Angels",
+   "region": "Vice City",
+   "giver": "Juan Cortez",
+   "desc": "After collecting some special firepower from the multi-storey car park in Washington Beach and meeting Lance Vance, protect Ricardo Diaz from the Haitians in a drug deal with the Cubans and collect his money.",
+   "reward": "$1,000 Kruger available in Ammu-Nation Access to Starfish Island Ability to gain five-star wanted level"
+  },
+  {
+   "name": "The Chase",
+   "region": "Vice City",
+   "giver": "Ricardo Diaz",
+   "desc": "Chase one of Diaz's dealers, who has been skimming from him, to his hideout on Prawn Island.",
+   "reward": "$1,000 Stubby Shotgun available in Ammu-Nation Katana available in Tooled Up Chainsaw available in Screw This"
+  },
+  {
+   "name": "Phnom Penh '86",
+   "region": "Vice City",
+   "giver": "Ricardo Diaz",
+   "desc": "Kill the dealer and his associates while flying in a helicopter, and then retrieve the stolen money from the mansion on Prawn Island.",
+   "reward": "$2,000 Sniper Rifle available in Ammu-Nation Access to Vice City Mainland"
+  },
+  {
+   "name": "The Fastest Boat",
+   "region": "Vice City",
+   "giver": "Ricardo Diaz",
+   "desc": "Steal a speedboat from the boatyard.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Supply & Demand",
+   "region": "Vice City",
+   "giver": "Ricardo Diaz",
+   "desc": "Complete a drug deal before other prospective buyers can purchase the goods, and then take out all of the gunmen in a speedboat chase.",
+   "reward": "$10,000 Black Tracksuit appears outside Jocksport in Downtown."
+  },
+  {
+   "name": "Sir, Yes Sir!",
+   "region": "Vice City",
+   "giver": "Juan Cortez",
+   "desc": "Hijack an army tank and deliver it to a lockup before the tank explodes.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Two Bit Hit",
+   "region": "Vice City",
+   "giver": "Avery Carrington",
+   "desc": "Disguise as a Cuban gang member and ambush the funeral of a Haitian gang lieutenant, killing his successor to start a gang war between the Cubans and the Haitians.",
+   "reward": "$2,500 Havana Outfit"
+  },
+  {
+   "name": "Death Row",
+   "region": "Vice City",
+   "giver": "Kent Paul",
+   "desc": "Save Lance Vance from Ricardo Diaz's men at the junkyard, and then take him to the hospital before he bleeds out.",
+   "reward": ""
+  },
+  {
+   "name": "All Hands On Deck!",
+   "region": "Vice City",
+   "giver": "Juan Cortez",
+   "desc": "Help Juan Cortez escape French military intelligence on his yacht.",
+   "reward": "$5,000 Speeder"
+  },
+  {
+   "name": "Rub Out",
+   "region": "Vice City",
+   "giver": "Lance Vance",
+   "desc": "Infiltrate Diaz's mansion with Lance and kill Ricardo Diaz.",
+   "reward": "$50,000 Vercetti Estate Ability to gain six-star wanted level .357, MP5 and M4 availables in Ammu-Nation"
+  },
+  {
+   "name": "Shakedown",
+   "region": "Vice City",
+   "giver": "Vercetti Estate",
+   "desc": "Intimidate shop owners at the North Point Mall into paying protection money.",
+   "reward": "$2,000 .308 Sniper available in Ammu-Nation"
+  },
+  {
+   "name": "Bar Brawl",
+   "region": "Vice City",
+   "giver": "Vercetti Estate",
+   "desc": "Drive DBP Security out of Ocean Beach.",
+   "reward": "$4,000 SPAS 12 available in Ammu-Nation"
+  },
+  {
+   "name": "Cop Land",
+   "region": "Vice City",
+   "giver": "Vercetti Estate",
+   "desc": "Blow up a store in the mall while posing as a cop.",
+   "reward": "$10,000 Cop Outfit Vercetti Estate generates up to $5,000 a day"
+  },
+  {
+   "name": "Stunt Boat Challenge",
+   "region": "Vice City",
+   "giver": "Umberto Robina",
+   "desc": "Complete a boat race.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Cannon Fodder",
+   "region": "Vice City",
+   "giver": "Umberto Robina",
+   "desc": "Steal a drug shipment.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Naval Engagement",
+   "region": "Vice City",
+   "giver": "Umberto Robina",
+   "desc": "Ambush a drug deal between the Sharks and the Haitians.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Juju Scramble",
+   "region": "Vice City",
+   "giver": "Auntie Poulet",
+   "desc": "Collect several packages full of \"juju\" scattered around Little Haiti.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Bombs Away!",
+   "region": "Vice City",
+   "giver": "Auntie Poulet",
+   "desc": "Drop bombs on Cuban drug dealers using RC planes.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Dirty Lickin's",
+   "region": "Vice City",
+   "giver": "Auntie Poulet",
+   "desc": "Snipe dead some Cuban gang members before they beat the Haitians in a street fight.",
+   "reward": "$5,000"
+  },
+  {
+   "name": "Trojan Voodoo",
+   "region": "Vice City",
+   "giver": "Umberto Robina",
+   "desc": "Café Robina, Little Havana",
+   "reward": "Infiltrate and blow up a Haitian drug factory."
+  },
+  {
+   "name": "Love Juice",
+   "region": "Vice City",
+   "giver": "Love Fist",
+   "desc": "Buy drugs for the band and bring Mercedes Cortez to Love Fist's studio.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Psycho Killer",
+   "region": "Vice City",
+   "giver": "Love Fist",
+   "desc": "Kill an obsessed stalker.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Alloy Wheels of Steel",
+   "region": "Vice City",
+   "giver": "Mitch Baker",
+   "desc": "Win a bike race around Downtown.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Messing with the Man",
+   "region": "Vice City",
+   "giver": "Mitch Baker",
+   "desc": "Cause havoc on the streets to prove yourself to Mitch.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Hog Tied",
+   "region": "Vice City",
+   "giver": "Mitch Baker",
+   "desc": "Retrieve Mitch's stolen Angel from the Sharks.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Publicity Tour",
+   "region": "Vice City",
+   "giver": "Love Fist",
+   "desc": "Drive around in the band's limo while Love Fist defuses a bomb planted by the obsessed stalker.",
+   "reward": "$8,000 Love Fist Limo spawn point (subsequent versions only except PlayStation 4)"
+  },
+  {
+   "name": "Checkpoint Charlie",
+   "region": "Asset missions",
+   "giver": "Boatyard",
+   "desc": "Recover drug packages scattered across the ocean.",
+   "reward": "$5,000 $50,000 if all races are completed Asset generates up to $2,000 a day"
+  },
+  {
+   "name": "Distribution",
+   "region": "Asset missions",
+   "giver": "Cherry Popper Ice Cream Factory",
+   "desc": "Sell drugs to the people of Vice City from the cover of an ice cream van. After selling to 50 customers, the mission is completed.",
+   "reward": "Asset generates up to $3,000 a day"
+  },
+  {
+   "name": "Club Pole Position",
+   "region": "Asset missions",
+   "giver": "The Pole Position Club",
+   "desc": "Enjoy a private dance in the back room. After spending $300, the mission is completed.",
+   "reward": "Asset generates up to $4,000 a day"
+  },
+  {
+   "name": "Sunshine Autos Import Garage",
+   "region": "Asset missions",
+   "giver": "Sunshine Autos",
+   "desc": "Steal cars to complete the lists.",
+   "reward": "Deluxo, Sabre Turbo, Sandking, Hotring Racer will be parked in the dealership. Sunshine Autos will generate up to $9,000 a day"
+  },
+  {
+   "name": "Recruitment Drive",
+   "region": "Asset missions",
+   "giver": "InterGlobal Film Studio",
+   "desc": "Recruit Candy Suxxx and Mercedes Cortez for the production of a pornographic film.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Dildo Dodo",
+   "region": "Asset missions",
+   "giver": "InterGlobal Film Studio",
+   "desc": "Drop fliers advertising the film a Skimmer seaplane.",
+   "reward": "$2,000 Skimmer"
+  },
+  {
+   "name": "Martha's Mug Shot",
+   "region": "Asset missions",
+   "giver": "InterGlobal Film Studio",
+   "desc": "Acquire incriminating pictures of Alex Shrub.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "G-Spotlight",
+   "region": "Asset missions",
+   "giver": "InterGlobal Film Studio",
+   "desc": "Arrange a huge publicity stunt involving a rooftop spotlight.",
+   "reward": "$8,000 Film Asset generates up to $7,000 a day"
+  },
+  {
+   "name": "V.I.P.",
+   "region": "Asset missions",
+   "giver": "Kaufman Cabs",
+   "desc": "Deliver a fare to the airport.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Friendly Rivalry",
+   "region": "Asset missions",
+   "giver": "Kaufman Cabs",
+   "desc": "Destroy three cabs from a rival company.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Cabmaggedon",
+   "region": "Asset missions",
+   "giver": "Kaufman Cabs",
+   "desc": "Survive the rival cab company's retaliation and take out their leader.",
+   "reward": "$5,000 Zebra Cab Cab Asset generates up to $5,000 a day"
+  },
+  {
+   "name": "No Escape?",
+   "region": "Asset missions",
+   "giver": "Malibu Club",
+   "desc": "Break Cam Jones out of jail.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "The Shootist",
+   "region": "Asset missions",
+   "giver": "Malibu Club",
+   "desc": "Beat Phil Cassidy in a shooting contest.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "The Driver",
+   "region": "Asset missions",
+   "giver": "Malibu Club",
+   "desc": "Beat Hilary King in a street race.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "The Job",
+   "region": "Asset missions",
+   "giver": "Malibu Club",
+   "desc": "Rob El Banco Corrupto Grande bank.",
+   "reward": "$50,000 Bank Job Outfit Asset generates up to $10,000 daily"
+  },
+  {
+   "name": "Gun Runner",
+   "region": "Asset missions",
+   "giver": "Phil Cassidy",
+   "desc": "Kill the gun runner Pedro Garcia and collect weapons for Phil.",
+   "reward": "$2,000 + $100 for every of Garcia's men killed"
+  },
+  {
+   "name": "Boomshine Saigon",
+   "region": "Asset missions",
+   "giver": "Phil Cassidy",
+   "desc": "Rush Phil Cassidy to a surgeon.",
+   "reward": "$4,000 Weapons purchasable from Phil's Place"
+  },
+  {
+   "name": "Road Kill",
+   "region": "Phone missions",
+   "giver": "Mr. Black",
+   "desc": "Assassinate Carl Pearson.",
+   "reward": "$500"
+  },
+  {
+   "name": "Waste the Wife",
+   "region": "Phone missions",
+   "giver": "Mr. Black",
+   "desc": "Assassinate Mrs. Dawson.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Autocide",
+   "region": "Phone missions",
+   "giver": "Mr. Black",
+   "desc": "Assassinate Mike Griffin, Dick Tanner, Franco Carter, Marcus Hammond, Nick Kong and Charlie Dilson.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Check Out at the Check In",
+   "region": "Phone missions",
+   "giver": "Mr. Black",
+   "desc": "Assassinate a businessman at the airport and deliver a briefcase he's carrying to the Downtown Ammu-Nation.",
+   "reward": "$8,000"
+  },
+  {
+   "name": "Loose Ends",
+   "region": "Phone missions",
+   "giver": "Mr. Black",
+   "desc": "Sabotage a deal between the Streetwannabe's and an unnamed organization.",
+   "reward": "$16,000"
+  },
+  {
+   "name": "Spilling the Beans",
+   "region": "Final missions",
+   "giver": "Print Works",
+   "desc": "Raid a ship in the docks and extract information on counterfeit plates from the head of the Vice City Triads.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Hit the Courier",
+   "region": "Final missions",
+   "giver": "Print Works",
+   "desc": "Kill the courier and steal the counterfeit plates.",
+   "reward": "$5,000 Asset generates up to $8,000 daily"
+  },
+  {
+   "name": "Cap the Collector",
+   "region": "Final missions",
+   "giver": "Print Works",
+   "desc": "Kill the collectors taxing your businesses.",
+   "reward": "$30,000"
+  },
+  {
+   "name": "Keep Your Friends Close...",
+   "region": "Final missions",
+   "giver": "Tommy Vercetti",
+   "desc": "Kill Lance Vance and Sonny Forelli.",
+   "reward": "$30,000 Hunter spawns in Fort Baxter Air Base"
+  }
+ ],
+ "gta-3": [
+  {
+   "name": "Introduction",
+   "region": "Portland",
+   "giver": "Introduction",
+   "desc": "Cutscenes depicting Catalina's betrayal of Claude, and the explosion which leaves Portland isolated from the rest of the city and Claude's escape with 8-Ball.",
+   "reward": ""
+  },
+  {
+   "name": "Give Me Liberty",
+   "region": "Portland",
+   "giver": "Introduction",
+   "desc": "Go to the hideout, before going to Luigi's club with 8-Ball.",
+   "reward": ""
+  },
+  {
+   "name": "Luigi's Girls",
+   "region": "Portland",
+   "giver": "Introduction",
+   "desc": "Drive to the hospital and bring Misty to Luigi's club.",
+   "reward": "$1,500 Portland Safehouse"
+  },
+  {
+   "name": "Don't Spank Ma Bitch Up",
+   "region": "Portland",
+   "giver": "Luigi Goterelli",
+   "desc": "Kill a drug dealer and steal, respray and deliver his car to Luigi.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Drive Misty For Me",
+   "region": "Portland",
+   "giver": "Luigi Goterelli",
+   "desc": "Pick up Misty from Hepburn Heights and drive her to Joey's garage.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Pump-Action Pimp",
+   "region": "Portland",
+   "giver": "Luigi Goterelli",
+   "desc": "Kill two pimps.",
+   "reward": "$4,000 Pistol available in Ammu-Nation (If Farewell 'Chunky' Lee Chong has not yet been completed)"
+  },
+  {
+   "name": "The Fuzz Ball",
+   "region": "Portland",
+   "giver": "Luigi Goterelli",
+   "desc": "Bring as many prostitutes as possible to the Old School Hall.",
+   "reward": "$2,000 – $4,000"
+  },
+  {
+   "name": "Mike Lips Last Lunch",
+   "region": "Portland",
+   "giver": "Joey Leone",
+   "desc": "Steal and arm Mike Forelli's car with a bomb and blow him up.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Farewell 'Chunky' Lee Chong",
+   "region": "Portland",
+   "giver": "Joey Leone",
+   "desc": "Kill Lee Chong.",
+   "reward": "$10,000 Pistol available in Ammu-Nation (If Pump-Action Pimp has not yet been completed)"
+  },
+  {
+   "name": "Van Heist",
+   "region": "Portland",
+   "giver": "Joey Leone",
+   "desc": "Damage and steal a Securicar and bring it to a garage in Portland Harbor.",
+   "reward": "$20,000"
+  },
+  {
+   "name": "Cipriani's Chauffeur",
+   "region": "Portland",
+   "giver": "Joey Leone",
+   "desc": "Drive Toni Cipriani to the Laundry and to his home.",
+   "reward": "$3,000 Uzi available in Ammu-Nation"
+  },
+  {
+   "name": "Dead Skunk in the Trunk",
+   "region": "Portland",
+   "giver": "Joey Leone",
+   "desc": "Bring a car to the car crusher.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "The Getaway",
+   "region": "Portland",
+   "giver": "Joey Leone",
+   "desc": "Pick up and drive three mafia members for a bank robbery and bring them back to their hideout.",
+   "reward": "$10,000 – $30,000"
+  },
+  {
+   "name": "Taking Out the Laundry",
+   "region": "Portland",
+   "giver": "Toni Cipriani",
+   "desc": "Destroy three laundry vans.",
+   "reward": "$20,000"
+  },
+  {
+   "name": "The Pick-Up",
+   "region": "Portland",
+   "giver": "Toni Cipriani",
+   "desc": "Pick up a briefcase, waste the Triads and take it to the Cipriani Restaurant.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Salvatore's Called a Meeting",
+   "region": "Portland",
+   "giver": "Toni Cipriani",
+   "desc": "Pick up and bring Joey, Luigi and Toni to Salvatore Leone's mansion.",
+   "reward": "$15,000"
+  },
+  {
+   "name": "Chaperone",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Drive Maria to Chico and a party in Atlantic Quays before driving her back to Salvatore's mansion.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Triads and Tribulations",
+   "region": "Portland",
+   "giver": "Toni Cipriani",
+   "desc": "Kill three triad warlords.",
+   "reward": "$30,000"
+  },
+  {
+   "name": "Blow Fish",
+   "region": "Portland",
+   "giver": "Toni Cipriani",
+   "desc": "Drive a Truck to the Triad's fish factory, before blowing up the factory.",
+   "reward": "$30,000"
+  },
+  {
+   "name": "Cutting the Grass",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Follow and kill Curly Bob.",
+   "reward": "$15,000"
+  },
+  {
+   "name": "Bomb Da Base: Act I",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Go to 8-Ball's bomb shop.",
+   "reward": ""
+  },
+  {
+   "name": "Bomb Da Base: Act II",
+   "region": "Portland",
+   "giver": "8-Ball",
+   "desc": "Help 8-Ball to blow up the Cartel Ship.",
+   "reward": "$150,000"
+  },
+  {
+   "name": "Last Requests",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Meet Maria and Asuka at Callahan Point, before escaping from Portland with them. Unlocks Staunton Island.",
+   "reward": "$20,000 access to Staunton Island Staunton Island Safehouse ability to gain five-star wanted level"
+  },
+  {
+   "name": "The Crook",
+   "region": "Portland",
+   "giver": "Marty Chonks (phone)",
+   "desc": "Bring a bank manager to the dog food factory and crush the evidence.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "The Thieves",
+   "region": "Portland",
+   "giver": "Marty Chonks (phone)",
+   "desc": "Bring two thieves to the food factory and respray Marty's car.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "The Wife",
+   "region": "Portland",
+   "giver": "Marty Chonks (phone)",
+   "desc": "Bring Marty's wife to the food factory and dump the car into the sea.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Her Lover",
+   "region": "Portland",
+   "giver": "Marty Chonks (phone)",
+   "desc": "Bring Carl to the food factory.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "Turismo",
+   "region": "Portland",
+   "giver": "El Burro (phone)",
+   "desc": "Win a street race.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "I Scream, You Scream",
+   "region": "Portland",
+   "giver": "El Burro (phone)",
+   "desc": "Arm an ice cream truck with a bomb and blow up a group of gang members.",
+   "reward": "$8,000"
+  },
+  {
+   "name": "Trial By Fire",
+   "region": "Portland",
+   "giver": "El Burro (phone)",
+   "desc": "Burn twenty-five Triads in two minutes.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Big'n'Veiny",
+   "region": "Portland",
+   "giver": "El Burro (phone)",
+   "desc": "Pick up some magazines and take them to XXXMags in Red Light District.",
+   "reward": "$20,000"
+  },
+  {
+   "name": "Sayonara Salvatore",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Kill Salvatore Leone.",
+   "reward": "$25,000"
+  },
+  {
+   "name": "Under Surveillance",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Kill the spies located around Staunton Island.",
+   "reward": "$15,000"
+  },
+  {
+   "name": "Paparazzi Purge",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Kill a reporter using a boat.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Payday For Ray",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Go to four payphones located around Staunton Island before bringing Ray's money to him.",
+   "reward": "$11,000"
+  },
+  {
+   "name": "Two-Faced Tanner",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Head to the casino and kill Tanner.",
+   "reward": "$20,000"
+  },
+  {
+   "name": "Kanbu Bust-out",
+   "region": "Staunton Island",
+   "giver": "Kenji Kasen",
+   "desc": "Destroy a cell wall in the police station, and drive a high ranked Yakuza member to the Yakuza Dojo.",
+   "reward": "$30,000"
+  },
+  {
+   "name": "Grand Theft Auto",
+   "region": "Staunton Island",
+   "giver": "Kenji Kasen",
+   "desc": "Bring three sport cars to a garage.",
+   "reward": "$25,000"
+  },
+  {
+   "name": "Deal Steal",
+   "region": "Staunton Island",
+   "giver": "Kenji Kasen",
+   "desc": "Pick up a contract and ambush a deal between the Cartel and the Yardies, before stealing and taking the money to the casino.",
+   "reward": "$25,000"
+  },
+  {
+   "name": "Shima",
+   "region": "Staunton Island",
+   "giver": "Kenji Kasen",
+   "desc": "Collect two briefcases of protection money, and kill the Diablos, before collecting the third briefcase and delivering the briefcases to the casino.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Smack Down",
+   "region": "Staunton Island",
+   "giver": "Kenji Kasen",
+   "desc": "Kill as many yardie drug dealers as possible.",
+   "reward": "$10,000 - $1000 for each dealer killed"
+  },
+  {
+   "name": "Silence the Sneak",
+   "region": "Staunton Island",
+   "giver": "Ray Machowski",
+   "desc": "Torch Leon McAffrey's house and kill him.",
+   "reward": "$30,000"
+  },
+  {
+   "name": "Arms Shortage",
+   "region": "Staunton Island",
+   "giver": "Ray Machowski",
+   "desc": "Go to Phil Cassidy's base and defend him from the Colombian Cartel.",
+   "reward": "$10,000 Phil's Army Surplus"
+  },
+  {
+   "name": "Evidence Dash",
+   "region": "Staunton Island",
+   "giver": "Ray Machowski",
+   "desc": "Ram a vehicle and pick up six images before torching the car that the pictures are in.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Gone Fishing",
+   "region": "Staunton Island",
+   "giver": "Ray Machowski",
+   "desc": "Kill Ray's partner using a boat.",
+   "reward": "$15,000"
+  },
+  {
+   "name": "Plaster Blaster",
+   "region": "Staunton Island",
+   "giver": "Ray Machowski",
+   "desc": "Ram the Ambulance and kill Leon McAffrey again, who is still alive.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Liberator",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Go to the Cartel Compound before rescuing the Old Oriental Gentleman and bring him back to Donald's building.",
+   "reward": "$40,000"
+  },
+  {
+   "name": "Waka-Gashira Wipeout!",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Kill Kenji Kasen in a Colombian car and dump the car.",
+   "reward": "$30,000"
+  },
+  {
+   "name": "A Drop in the Ocean",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Pick up six packages using a boat and bring it back to Donald's building. Unlocks Shoreside Vale.",
+   "reward": "$10,000 access to Shoreside Vale Shoreside Vale Safehouse ability to gain six-star wanted level"
+  },
+  {
+   "name": "Grand Theft Aero",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Go to the airport, kill the Colombians, get the packages at the construction site, and bring them back to Donald's building.",
+   "reward": "$50,000"
+  },
+  {
+   "name": "Escort Service",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Defend a Securicar.",
+   "reward": "$40,000"
+  },
+  {
+   "name": "Decoy",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Get inside a Securicar and act as a decoy around for three minutes.",
+   "reward": "$35,000"
+  },
+  {
+   "name": "Love's Disappearance",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Donald Love is not at the building as usual, so the decision is to leave the Love Media building.",
+   "reward": ""
+  },
+  {
+   "name": "Marked Man",
+   "region": "Staunton Island",
+   "giver": "Ray Machowski",
+   "desc": "Take Ray to the airport and then go to his lock-up.",
+   "reward": "$20,000 bulletproof Patriot Sniper Rifle, M16, Rocket Launcher and Flamethrower"
+  },
+  {
+   "name": "Bait",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Lead three Colombian death squads into a trap.",
+   "reward": "$35,000"
+  },
+  {
+   "name": "Espresso-2-Go!",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Destroy nine espresso stands.",
+   "reward": "$40,000"
+  },
+  {
+   "name": "S.A.M.",
+   "region": "Staunton Island",
+   "giver": "Asuka Kasen",
+   "desc": "Blow up a Dodo with a rocket launcher and bring the SPANK packages to Asuka.",
+   "reward": "$45,000"
+  },
+  {
+   "name": "Ransom",
+   "region": "Staunton Island",
+   "giver": "Catalina",
+   "desc": "Asuka Kasen and Miguel are killed, Maria is kidnapped by Catalina, and there is a letter left by her.",
+   "reward": "$45,000"
+  },
+  {
+   "name": "Bling-bling Scramble",
+   "region": "Staunton Island",
+   "giver": "King Courtney (phone)",
+   "desc": "Win a checkpoint race.",
+   "reward": "Up to $15,000"
+  },
+  {
+   "name": "Uzi Rider",
+   "region": "Staunton Island",
+   "giver": "King Courtney (phone)",
+   "desc": "Kill ten Diablo gang members.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Gangcar Round-up",
+   "region": "Staunton Island",
+   "giver": "King Courtney (phone)",
+   "desc": "Bring three gang cars to a garage in Newport.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Kingdom Come",
+   "region": "Staunton Island",
+   "giver": "King Courtney (phone)",
+   "desc": "Destroy some SPANKed up madmen vans and reveal the betrayal of King Courtney.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Uzi Money",
+   "region": "Shoreside Vale",
+   "giver": "D-Ice (phone)",
+   "desc": "Drive-by 25 Purple Nines in two minutes.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Toyminator",
+   "region": "Shoreside Vale",
+   "giver": "D-Ice (phone)",
+   "desc": "Destroy three gang cars with an RC Bandit.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "Rigged to Blow",
+   "region": "Shoreside Vale",
+   "giver": "D-Ice (phone)",
+   "desc": "Bring an armed car to a garage before it explodes.",
+   "reward": "$20,000"
+  },
+  {
+   "name": "Bullion Run",
+   "region": "Shoreside Vale",
+   "giver": "D-Ice (phone)",
+   "desc": "Pick up as many pieces of bullion as possible and take them to a garage.",
+   "reward": "$25,000"
+  },
+  {
+   "name": "Rumble",
+   "region": "Shoreside Vale",
+   "giver": "D-Ice (phone)",
+   "desc": "Kill all remaining Purple Nines in a final battle using only baseball bats.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "The Exchange",
+   "region": "Shoreside Vale",
+   "giver": "Catalina",
+   "desc": "Rescue Maria and kill Catalina.",
+   "reward": "$1,000,000 Rhino at Phil's Army Surplus"
+  }
+ ],
+ "gta-4": [
+  {
+   "name": "The Cousins Bellic",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Watch the Introduction, before meeting Roman Bellic and driving him to his apartment.",
+   "reward": "$25 Broker Safehouse"
+  },
+  {
+   "name": "It's Your Call",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Drive Roman to a hardware store, receive his old phone and escape from the loan sharks.",
+   "reward": "$30 Badger Cellphone"
+  },
+  {
+   "name": "Three's a Crowd",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Pick up Mallorie Bardas and Michelle from the subway station, drive them to Michelle's place, and go buy new clothes.",
+   "reward": "Clothing Stores Increase in Roman Bellic's likeness and respect"
+  },
+  {
+   "name": "First Date",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Michelle",
+   "desc": "Take Michelle bowling.",
+   "reward": "Ability to date Michelle Ability to hang out with Roman Bellic (if Bleed Out has been completed)"
+  },
+  {
+   "name": "Bleed Out",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Save Roman from the loan sharks and kill Bledar Morina, Kalem and Dardan Petrela.",
+   "reward": "$50 Ability to hang out with Roman Bellic (if First Date has been completed)"
+  },
+  {
+   "name": "Easy Fare",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Drive Jermaine Andrews to the lockup and lose the cops.",
+   "reward": "$100 Pay n' Spray"
+  },
+  {
+   "name": "Jamaican Heat",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Pick up Little Jacob, watch over a meeting and kill the gang members.",
+   "reward": "$150"
+  },
+  {
+   "name": "Concrete Jungle",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Little Jacob",
+   "desc": "Drive Jacob to a drug deal and kill the dealers who set him up.",
+   "reward": "$200"
+  },
+  {
+   "name": "Bull in a China Shop",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Vladimir Glebov",
+   "desc": "Smash a shop window and retrieve Vlad's money, then take it back to Vlad.",
+   "reward": "$50 Taxi Rides"
+  },
+  {
+   "name": "Hung Out to Dry",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Vladimir Glebov",
+   "desc": "Chase down a laundromat owner to enforce the payment of protection money for Vlad.",
+   "reward": "$100"
+  },
+  {
+   "name": "Clean Getaway",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Vladimir Glebov",
+   "desc": "Travel by train to steal a car that belongs to Vlad. Steal Jimmy's car, take it to a car wash, then to Vlad's lockup.",
+   "reward": "$150"
+  },
+  {
+   "name": "Ivan the Not So Terrible",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Vladimir Glebov",
+   "desc": "Chase Ivan Bytchkov, then kill or spare him.",
+   "reward": "$200"
+  },
+  {
+   "name": "Uncle Vlad",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Kill Vladimir Glebov.",
+   "reward": ""
+  },
+  {
+   "name": "Crime and Punishment",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Meet Mikhail Faustin and Dimitri Rascalov, steal a police car, and then steal a van full of TV's led by Kenny Petrovic and driven by Petrovic's henchmen.",
+   "reward": "$200 Unlocks police computer options"
+  },
+  {
+   "name": "Do You Have Protection?",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Mikhail Faustin",
+   "desc": "Threaten Joseph Kaplan at a sex shop, reclaim the money and go to the gun shop to receive a gun after leaving or killing Joseph.",
+   "reward": "Underground Gun Shops Micro-SMG $400"
+  },
+  {
+   "name": "Final Destination",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Mikhail Faustin",
+   "desc": "Kill Lenny Petrovic.",
+   "reward": "$500"
+  },
+  {
+   "name": "No Love Lost",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Mikhail Faustin",
+   "desc": "Kill Jason Michaels and his biker friends.",
+   "reward": "$500"
+  },
+  {
+   "name": "Rigged to Blow",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Mikhail Faustin",
+   "desc": "Pick up a truck full of explosives, take it to Kenny Petrovic's garage, then detonate the truck.",
+   "reward": "$700"
+  },
+  {
+   "name": "Shadow",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Little Jacob",
+   "desc": "Follow a dealer to his apartment, then kill him and his backup.",
+   "reward": "$250 Ability to hang out with Little Jacob"
+  },
+  {
+   "name": "Logging On",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Meet Brucie Kibbutz, then log in to a computer at the internet café.",
+   "reward": "Eyefind Mail Ability to receive e-mails Exotic Exports missions via e-mail"
+  },
+  {
+   "name": "Search and Delete",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Brucie Kibbutz",
+   "desc": "Find a police car, access the computer database, then find and kill Lyle Rivas.",
+   "reward": "$3500"
+  },
+  {
+   "name": "Easy as Can Be",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Brucie Kibbutz",
+   "desc": "Steal Lyle's Oracle, escape from the gangsters protecting it, and drive it to Brucie's lockup.",
+   "reward": "$3500"
+  },
+  {
+   "name": "The Master and the Molotov",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Dimitri Rascalov",
+   "desc": "Kill Mikhail Faustin.",
+   "reward": "Molotov Cocktails available at Underground Gun Shops"
+  },
+  {
+   "name": "Russian Revolution",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Dimitri Rascalov",
+   "desc": "Witness Dimitri's betrayal by being confronted by Ray Bulgarin before escaping Dimitri and Bulgarin's ambush and lose the cops.",
+   "reward": ""
+  },
+  {
+   "name": "Roman's Sorrow",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Roman Bellic",
+   "desc": "Witness the destruction of Roman's apartment and taxi business caused by Dimitri and Bulgarin and move to Bohan.",
+   "reward": "South Bohan Safehouse"
+  },
+  {
+   "name": "Out of the Closet",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Brucie Kibbutz",
+   "desc": "Use the Internet, set up a date with Tom Rivas, then kill him at the meeting.",
+   "reward": "$6750"
+  },
+  {
+   "name": "Escuela of the Streets",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Manny Escuela",
+   "desc": "Follow the gang member to a warehouse, then kill him and his associates.",
+   "reward": "$1000"
+  },
+  {
+   "name": "Street Sweeper",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Manny Escuela",
+   "desc": "Kill the gang members at the garage.",
+   "reward": "$1100"
+  },
+  {
+   "name": "Luck of the Irish",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Elizabeta Torres",
+   "desc": "Go to a rooftop and watch over Patrick McReary's meeting using a sniper rifle.",
+   "reward": "$1500 SMG, Sniper Rifle and Combat Sniper available at Underground Gun Shops"
+  },
+  {
+   "name": "Blow Your Cover",
+   "region": "Broker, Dukes & Bohan",
+   "giver": "Elizabeta Torres",
+   "desc": "Go to the drug deal, Meet up with Johnny Klebitz then escape the LCPD ambush with Playboy X.",
+   "reward": "$2000 Access to Algonquin Integrity 2.0 as a radio station Combat Shotgun available at Underground Gun Shops Ability to purchase clothing from Perseus and Modo"
+  },
+  {
+   "name": "Call and Collect",
+   "region": "Algonquin",
+   "giver": "Francis McReary",
+   "desc": "Kill the blackmailer and take the pictures to Francis.",
+   "reward": "$1000"
+  },
+  {
+   "name": "The Puerto Rican Connection",
+   "region": "Algonquin",
+   "giver": "Manny Escuela",
+   "desc": "Follow the train, then kill the guys who get off.",
+   "reward": "$1500"
+  },
+  {
+   "name": "The Snow Storm",
+   "region": "Algonquin",
+   "giver": "Elizabeta Torres",
+   "desc": "Steal back some cocaine from the abandoned hospital, lose the cops, and meet Little Jacob before witnessing Michelle's betrayal.",
+   "reward": "$2500"
+  },
+  {
+   "name": "Have a Heart",
+   "region": "Algonquin",
+   "giver": "Elizabeta Torres",
+   "desc": "Enter the scene where Manny Escuela and Jay Hamilton are killed by Elizabeta Torres before taking their corpses in the car to The Doctor.",
+   "reward": "$3000"
+  },
+  {
+   "name": "Final Interview",
+   "region": "Algonquin",
+   "giver": "Francis McReary",
+   "desc": "Set up a job interview to meet Tom Goldberg, kill him and take his files back to Francis.",
+   "reward": "$1000"
+  },
+  {
+   "name": "Holland Nights",
+   "region": "Algonquin",
+   "giver": "Francis McReary",
+   "desc": "Kill or spare Clarence Little.",
+   "reward": "$5000"
+  },
+  {
+   "name": "Lure",
+   "region": "Algonquin",
+   "giver": "Francis McReary",
+   "desc": "Kill Clarence's chief lieutenant.",
+   "reward": "$5000"
+  },
+  {
+   "name": "Harboring a Grudge",
+   "region": "Algonquin",
+   "giver": "Patrick McReary",
+   "desc": "Steal the truck from the Triads and drive it to Ray Boccino's lockup.",
+   "reward": "$7500"
+  },
+  {
+   "name": "Waste Not Want Knots",
+   "region": "Algonquin",
+   "giver": "Patrick McReary",
+   "desc": "Steal the money from the Ancelotti Family which is organized by Ray Boccino.",
+   "reward": "$8000 Ability to date Kate McReary"
+  },
+  {
+   "name": "Three Leaf Clover",
+   "region": "Algonquin",
+   "giver": "Patrick McReary",
+   "desc": "Rob the Bank of Liberty and escape through the subway while defending Packie McReary and Derrick McReary.",
+   "reward": "$250000 Balaclava Carbine Rifle available at Underground Gun Shops Access to Alderney Ability to hang out with Patrick McReary"
+  },
+  {
+   "name": "Actions Speak Louder than Words",
+   "region": "Algonquin",
+   "giver": "Gerald McReary",
+   "desc": "Kill Anthony Spoleto by attaching a Car Bomb to his car, then exploding it at a meet with the Ancelottis before killing everyone else.",
+   "reward": "$9000"
+  },
+  {
+   "name": "I Need Your Clothes, Your Boots, and Your Motorcycle",
+   "region": "Algonquin",
+   "giver": "Gerald McReary",
+   "desc": "Kill Frank Garone on a motorbike in order to break the alliance between the Ancelottis and the Albanians.",
+   "reward": "$9250 Albanian Biker Jacket"
+  },
+  {
+   "name": "Smackdown",
+   "region": "Alderney",
+   "giver": "Derrick McReary",
+   "desc": "Use the LCPD Computer to locate Bucky Sligo and follow him back to his hangout before killing him and his crew.",
+   "reward": "$6500 Alderney Safehouse (If A Long Way to Fall is completed)"
+  },
+  {
+   "name": "A Long Way to Fall",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Kill Teddy Benavidez and his guards.",
+   "reward": "$8500 Alderney Safehouse (If Smackdown is completed)"
+  },
+  {
+   "name": "Taking in the Trash",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Pick up Ray's Diamonds left by his ally, alongside Luca Silvestri and his crew.",
+   "reward": "$9000 Liberty Sanitation Department outfit"
+  },
+  {
+   "name": "Meltdown",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Kill Luca and his crew to retrieve the Diamonds, then take them back to Ray.",
+   "reward": "$9500"
+  },
+  {
+   "name": "Museum Piece",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Go to The Libertonian alongside Johnny Klebitz, then escape the ambush caused by Luis Lopez while killing Isaac's guards.",
+   "reward": "$9500 Combat Pistol available at Underground Gun Shops"
+  },
+  {
+   "name": "No Way on the Subway",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Meet Phil Bell before killing Jim Fitzgerald and his accomplice.",
+   "reward": "$10000"
+  },
+  {
+   "name": "Babysitting",
+   "region": "Alderney",
+   "giver": "Derrick McReary",
+   "desc": "Watch over Kim Young-Guk and destroy the boats and helicopter attacking him, led by the Albanians.",
+   "reward": "$7000 RPG available at Underground Gun Shops"
+  },
+  {
+   "name": "Tunnel of Death",
+   "region": "Alderney",
+   "giver": "Derrick McReary",
+   "desc": "Ambush a police convoy in the Booth Tunnel, kidnap Aiden O'Malley and kill him for attempting to rat out Derrick McReary.",
+   "reward": "$7500"
+  },
+  {
+   "name": "Blood Brothers",
+   "region": "Alderney",
+   "giver": "Francis McReary",
+   "desc": "Kill Francis McReary or Derrick McReary.",
+   "reward": "Kill Derrick: $10,000 or $20,000 plus ability to lose wanted level from Francis Kill Francis: Increases friendship with Packie."
+  },
+  {
+   "name": "Undertaker",
+   "region": "Alderney",
+   "giver": "Patrick McReary",
+   "desc": "Attend McReary's funeral and transport their body to the graveyard while fighting off the Albanians.",
+   "reward": ""
+  },
+  {
+   "name": "I'll Take Her",
+   "region": "Alderney",
+   "giver": "Gerald McReary",
+   "desc": "Kidnap Gracie Ancelotti.",
+   "reward": "$9500"
+  },
+  {
+   "name": "Late Checkout",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Kill Isaac Roth and his bodyguards.",
+   "reward": "$11000"
+  },
+  {
+   "name": "Truck Hustle",
+   "region": "Alderney",
+   "giver": "Phil Bell",
+   "desc": "Steal a truck holding the heroin from the Liberty City Triads and take it to Frankie Gallo's garage.",
+   "reward": "$11000"
+  },
+  {
+   "name": "Pegorino's Pride",
+   "region": "Alderney",
+   "giver": "Jimmy Pegorino",
+   "desc": "Watch over the meeting of Jimmy and Pavano goons, kill the mobsters and protect Pegorino when the deal goes wrong, resulting in the death of Pegorino's two henchmen, Pegorino himself getting injured and the package being stolen, retrieve it after rescuing Pegorino.",
+   "reward": "$10500"
+  },
+  {
+   "name": "Payback",
+   "region": "Alderney",
+   "giver": "Jimmy Pegorino",
+   "desc": "Follow and kill the Pavano goons.",
+   "reward": "$12000"
+  },
+  {
+   "name": "Catch the Wave",
+   "region": "Alderney",
+   "giver": "Phil Bell",
+   "desc": "Discover the alliance between the Albanians and the Russians and steal the Russian's coke boats while holding off the Russians.",
+   "reward": "$7500"
+  },
+  {
+   "name": "Flatline",
+   "region": "Alderney",
+   "giver": "Jimmy Pegorino",
+   "desc": "Kill Anthony Corrado at the hospital before fleeing from the authorities.",
+   "reward": "$13000 Hospital Scrubs (only if the player obtains them during the mission)"
+  },
+  {
+   "name": "Trespass",
+   "region": "Alderney",
+   "giver": "Phil Bell",
+   "desc": "Hold off the Russians and kill Charles Matteo at the Sprunk Factory.",
+   "reward": "$10500"
+  },
+  {
+   "name": "To Live and Die in Alderney",
+   "region": "Alderney",
+   "giver": "Phil Bell",
+   "desc": "Go to Frankie Gallo, then escape from the feds with the Heroin with Phil Bell and Frankie (who could be killed).",
+   "reward": "$12000"
+  },
+  {
+   "name": "Deconstruction for Beginners",
+   "region": "Alderney",
+   "giver": "Whiz Cellphone Acquisition",
+   "desc": "Meet Dwayne Forge, go to the construction site, and kill the union officials.",
+   "reward": "$6500 Grenades and Assault Rifle available at Underground Gun Shops"
+  },
+  {
+   "name": "Photo Shoot",
+   "region": "Alderney",
+   "giver": "Whiz Cellphone Acquisition",
+   "desc": "Use your new Whiz Cellphone to take a picture of Marlon Bridges so he can be identified and killed.",
+   "reward": "$6750 Whiz Cellphone"
+  },
+  {
+   "name": "Hostile Negotiation",
+   "region": "Alderney",
+   "giver": "Whiz Cellphone Required",
+   "desc": "Rescue Roman from the kidnappers, led by Dimitri.",
+   "reward": "Middle Park East Safehouse (after answering a phone call from Roman)"
+  },
+  {
+   "name": "Wrong is Right",
+   "region": "Alderney",
+   "giver": "United Liberty Paper",
+   "desc": "Go to Oleg Minkov's apartment, then kill him at the meet.",
+   "reward": "$6750"
+  },
+  {
+   "name": "Portrait of a Killer",
+   "region": "Alderney",
+   "giver": "United Liberty Paper",
+   "desc": "Use your Whiz Cellphone on the LCPD Computer to identifity a target and kill him.",
+   "reward": "$6750"
+  },
+  {
+   "name": "Dust Off",
+   "region": "Alderney",
+   "giver": "United Liberty Paper",
+   "desc": "Follow the Helicopter and steal it when it lands.",
+   "reward": "$6750"
+  },
+  {
+   "name": "Paper Trail",
+   "region": "Alderney",
+   "giver": "United Liberty Paper",
+   "desc": "Use the Helicopter to kill Eduard Borodin.",
+   "reward": "$7500"
+  },
+  {
+   "name": "Ransom",
+   "region": "Alderney",
+   "giver": "Patrick McReary",
+   "desc": "Take a picture of Gracie with the Whiz Cellphone camera and send it to Packie.",
+   "reward": "$9500"
+  },
+  {
+   "name": "Weekend at Florian's",
+   "region": "Alderney",
+   "giver": "Ray Boccino",
+   "desc": "Follow Talbot Daniels' directions and encounter Florian Cravic with Roman after letting Talbot go or killing him.",
+   "reward": ""
+  },
+  {
+   "name": "She's a Keeper",
+   "region": "Search for Darko Brevic",
+   "giver": "Gerald McReary",
+   "desc": "Transport Gracie to another safehouse and defend her from the Ancelotti Family.",
+   "reward": "$9750"
+  },
+  {
+   "name": "Diamonds Are a Girl's Best Friend",
+   "region": "Search for Darko Brevic",
+   "giver": "Gerald McReary",
+   "desc": "Meet two associates of the Ancelotti Family and trade Gracie for the Diamonds alongside Packie, then escape Ray Bulgarin's ambush after discovering his secret.",
+   "reward": ""
+  },
+  {
+   "name": "Pest Control",
+   "region": "Search for Darko Brevic",
+   "giver": "Jimmy Pegorino",
+   "desc": "Kill Ray Boccino.",
+   "reward": "$14500"
+  },
+  {
+   "name": "Hating the Haters",
+   "region": "Search for Darko Brevic",
+   "giver": "Bernie Crane",
+   "desc": "Kill the homophobic man stalking Bernie Crane.",
+   "reward": "$6000"
+  },
+  {
+   "name": "Union Drive",
+   "region": "Search for Darko Brevic",
+   "giver": "Bernie Crane",
+   "desc": "Meet Bernie's blackmailers sent by Dimitri and kill them before they blackmail Bernie's boyfriend Bryce Dawkins.",
+   "reward": "$6500"
+  },
+  {
+   "name": "Buoys Ahoy",
+   "region": "Search for Darko Brevic",
+   "giver": "Bernie Crane",
+   "desc": "Spend some time with Bernie only to be attacked by the Russians led by Dimitri before chasing down Dimitri's goons and killing them.",
+   "reward": "$6500 Infernus"
+  },
+  {
+   "name": "Entourage",
+   "region": "Search for Darko Brevic",
+   "giver": "Jon Gravelli",
+   "desc": "Escort Bobby Jefferson to City Hall, and fight off his ambushers, led and organized by Dimitri.",
+   "reward": "$12000"
+  },
+  {
+   "name": "Dining Out",
+   "region": "Search for Darko Brevic",
+   "giver": "Jon Gravelli",
+   "desc": "Kill Kim Young-Guk.",
+   "reward": "$13250"
+  },
+  {
+   "name": "Liquidize the Assets",
+   "region": "Search for Darko Brevic",
+   "giver": "Jon Gravelli",
+   "desc": "Destroy the Russian coke vans while killing the Russians who are attacking and organized this.",
+   "reward": "$14500"
+  },
+  {
+   "name": "That Special Someone",
+   "region": "Search for Darko Brevic",
+   "giver": "United Liberty Paper",
+   "desc": "Confront Darko Brevic, then kill or spare him.",
+   "reward": ""
+  },
+  {
+   "name": "One Last Thing",
+   "region": "Search for Darko Brevic",
+   "giver": "Jimmy Pegorino",
+   "desc": "Pegorino explains that he needs Niko to partake in a Heroin deal that is his last chance to get on The Commission; but since the deal involves the old rival Dimitri Rascalov, Niko is left unable to decide. Now the player must decide to either exact Revenge or strike a Deal with/against Rascalov after persuasion from both Roman and Kate McReary, both of whom suggest Niko does the opposite to what either says and after both calls, make the final decision.",
+   "reward": ""
+  },
+  {
+   "name": "If the Price is Right",
+   "region": "Finale",
+   "giver": "Deal Ending",
+   "desc": "After betraying again, Dimitri leaves Niko to steal the money alongside Phil Bell.",
+   "reward": "$250,000"
+  },
+  {
+   "name": "Mr. & Mrs. Bellic",
+   "region": "Finale",
+   "giver": "Deal Ending",
+   "desc": "Attend Roman and Mallorie's wedding, and witness a horrible plot event there, caused by Dimitri.",
+   "reward": ""
+  },
+  {
+   "name": "A Revenger's Tragedy",
+   "region": "Finale",
+   "giver": "Deal Ending",
+   "desc": "Chase and kill Dimitri (who kills Jimmy Pegorino before dying).",
+   "reward": ""
+  },
+  {
+   "name": "A Dish Served Cold",
+   "region": "Finale",
+   "giver": "Revenge Ending",
+   "desc": "Blast through the Platypus, the same ship that sailed in the beginning to Liberty City, and kill Dimitri.",
+   "reward": ""
+  },
+  {
+   "name": "Mr. & Mrs. Bellic",
+   "region": "Finale",
+   "giver": "Revenge Ending",
+   "desc": "Attend Roman and Mallorie's wedding with Kate and see a horrible plot event there, caused by Jimmy.",
+   "reward": ""
+  },
+  {
+   "name": "Out of Commission",
+   "region": "Finale",
+   "giver": "Revenge Ending",
+   "desc": "Chase and kill Jimmy.",
+   "reward": "$250,000"
+  },
+  {
+   "name": "No. 1",
+   "region": "Optional missions",
+   "giver": "Brucie Kibbutz",
+   "desc": "Win a street race with a Comet.",
+   "reward": "$6750 Comet Ability to hang out with Brucie Kibbutz"
+  },
+  {
+   "name": "Ruff Rider",
+   "region": "Optional missions",
+   "giver": "Dwayne Forge",
+   "desc": "Kill Jayvon Simson, after choosing the fate of Cherise Glover.",
+   "reward": "$6000"
+  },
+  {
+   "name": "Undress to Kill",
+   "region": "Optional missions",
+   "giver": "Dwayne Forge",
+   "desc": "Take back The Triangle Club for Dwayne by killing the Trunchez Brothers.",
+   "reward": "$6250"
+  },
+  {
+   "name": "The Holland Play",
+   "region": "Optional missions",
+   "giver": "Playboy X",
+   "desc": "Kill Playboy X or Dwayne Forge.",
+   "reward": "Killing Playboy X: Playboy X's Penthouse, Claude's outfit, Patriot, Dwayne becomes a possible friend. or Killing Dwayne: $25,000."
+  }
+ ]
+}
