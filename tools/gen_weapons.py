@@ -31,7 +31,7 @@ for gk, k, name, wk in GAMES:
     mslug = {m["name"].lower(): f"{gk}-{slugify(m['name'])}-mission" for m in MIS.get(gk, [])}
     def ml(t):
         s = mslug.get(t.lower()); return f'<a href="{s}">{e(t)}</a>' if s and os.path.exists(os.path.join(SITE, s + ".html")) else e(t)
-    more = lambda: f'  <p class="note">More {e(name)}: <a href="{gk}-cheats">cheats</a> (weapon cheats included) · <a href="{gk}-missions">missions</a> · <a href="{gk}-100-percent-completion">100% checklist</a> · <a href="{gk}-weapons">weapons</a> · <a href="{gk}-safehouses">safehouses</a></p>\n'
+    more = lambda: f'  <p class="note">More {e(name)}: <a href="{gk}-cheats">cheats</a> (weapon cheats included) · <a href="{gk}-missions">missions</a> · <a href="{gk}-100-percent-completion">100% checklist</a> · <a href="{gk}-weapons">weapons</a> · <a href="{gk}-safehouses">safehouses</a> · <a href="{gk}-radio-stations">radio</a></p>\n'
     # ---------- weapons
     p = os.path.join(SRC, f"w_{k}2.json")
     if os.path.exists(p):
