@@ -27,6 +27,9 @@ for fn in os.listdir(src):
                    lambda m: '<link rel="preload" as="style" href="' + m.group(1) + '" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + m.group(1) + '"></noscript>', t)
         if 'id="ssrBar"' not in t and _pages:
             t = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + "\n" + ssr_bar(fn), t, count=1)
+        if fn == "index.html":  # speed: self-host three.js (cdnjs is slow/blocked in some countries) and let all scripts load without blocking first paint
+            t = re.sub(r'<script src="https://cdnjs\.cloudflare\.com/ajax/libs/three\.js/r128/three\.min\.js"></script>', '<script defer src="/js/three.min.js"></script>', t)
+            t = re.sub(r'<script src="((?:data|scene|app)\.js[^"]*)"></script>', lambda m: '<script defer src="' + m.group(1) + '"></script>', t)
         if fn != "index.html":  # speed: the ~600 KB 3D library only runs on the homepage; other pages use the CSS gradient fallback (body.no-webgl)
             t = re.sub(r'<script src="https://cdnjs\.cloudflare\.com/ajax/libs/three\.js/[^"]*"></script>\n?', "", t)
         if t != s:
