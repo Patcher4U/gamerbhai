@@ -30,8 +30,10 @@ G = {"gta-5": dict(name="GTA 5", emoji="🌴", area="Chapter", heal=("Max Health
      "gta-4": dict(name="GTA 4", emoji="🗽", area="Part", heal=("Health & Armor", "call 362-555-0100", "gta-4-health-and-armor-cheat"))}
 G["gta-liberty-city-stories"] = dict(name="GTA Liberty City Stories", emoji="🎰", area="Island", heal=("Full Health", "L1, R1, X, L1, R1, Square, L1, R1", "gta-liberty-city-stories-full-health-cheat"))
 G["gta-vice-city-stories"] = dict(name="GTA Vice City Stories", emoji="🌴", area="Area", heal=("Full Health", "Up, Down, Left, Right, Circle, Circle, L1, R1", "gta-vice-city-stories-full-health-cheat"))
+G["gta-the-lost-and-damned"] = dict(name="GTA The Lost and Damned", emoji="🏍️", area="Part", cheats="gta-4-cheats", heal=("Health & Armor", "call 362-555-0100", "gta-4-health-and-armor-cheat"))
+G["gta-the-ballad-of-gay-tony"] = dict(name="GTA The Ballad of Gay Tony", emoji="🪩", area="Part", cheats="gta-4-cheats", heal=("Health & Armor", "call 362-555-0100", "gta-4-health-and-armor-cheat"))
 G["gta-chinatown-wars"] = dict(name="GTA Chinatown Wars", emoji="🐉", area="City", heal=("Full Health", "L, L, R, A, A, B, B, R on DS or LIFEUP on the mobile whiteboard", "gta-chinatown-wars-full-health-cheat"))
-ORDER = [g for g in ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4", "gta-liberty-city-stories", "gta-vice-city-stories", "gta-chinatown-wars"] if g in DATA and g in G]
+ORDER = [g for g in ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4", "gta-liberty-city-stories", "gta-vice-city-stories", "gta-chinatown-wars", "gta-the-lost-and-damned", "gta-the-ballad-of-gay-tony"] if g in DATA and g in G]
 
 pages, hubs = [], []
 for gk in ORDER:
@@ -56,10 +58,10 @@ for gk in ORDER:
         body += sec("02", "What happens", f'<p>{e(m["desc"])}</p><p class="note">Summary from the <a href="{wiki}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0).</p>')
         hn, hc, hs = g["heal"]
         body += sec("03", "Tips", f'<ul><li>💾 Save at a safehouse before starting – if you fail, you restart with full health and your weapons.</li>'
-                    f'<li>❤️ Low on health? The <a href="{hs}">{e(hn)} cheat</a> is {e(hc)}. See <a href="{gk}-cheats">all {e(g["name"])} cheats</a> (cheats can block achievements/trophies).</li>'
+                    f'<li>❤️ Low on health? The <a href="{hs}">{e(hn)} cheat</a> is {e(hc)}. See <a href="{g.get("cheats", gk + "-cheats")}">all {e(g["name"])} cheats</a> (cheats can block achievements/trophies).</li>'
                     f'<li>▶️ Stuck? <a href="{yt}" rel="nofollow noopener" target="_blank">Watch a video walkthrough of “{e(n)}” on YouTube</a>.</li></ul>')
         nav = "".join(f'<a class="glass tilt area" href="{x["slug"]}"><div class="pop"><div class="ic">{lab}</div><h3>{e(x["name"])}</h3><p>{e(x["giver"] or x["region"])}</p></div></a>' for lab, x in (("⬅️", prev), ("➡️", nxt)) if x)
-        body += f'  <section class="reveal"><h2><span class="n">04</span>Previous &amp; next mission</h2><div class="grid">{nav}</div><p class="note"><a href="{gk}-missions">All {N} {e(g["name"])} missions →</a> · <a href="{gk}-cheats">{e(g["name"])} cheats →</a> · <a href="gta-cheats">Every GTA game →</a></p></section>\n'
+        body += f'  <section class="reveal"><h2><span class="n">04</span>Previous &amp; next mission</h2><div class="grid">{nav}</div><p class="note"><a href="{gk}-missions">All {N} {e(g["name"])} missions →</a> · <a href="{g.get("cheats", gk + "-cheats")}">{e(g["name"])} cheats →</a> · <a href="gta-cheats">Every GTA game →</a></p></section>\n'
         body += '  <p class="note">Unofficial fan guide, not affiliated with Rockstar Games.</p>\n'
         title = f"{g['name']} “{n}” Mission Walkthrough"
         bits = [f"mission {i + 1} of {N}"] + ([f"given by {m['giver']}"] if m["giver"] else []) + ([f"reward: {m['reward']}"] if m["reward"] else [])
@@ -80,7 +82,8 @@ for gk in ORDER:
             flush(); rows = []; cur = m["region"]
         rows.append(f'<tr><td>{i + 1}</td><td><a href="{m["slug"]}">{e(m["name"])}</a></td><td>{e(m["giver"])}</td><td><small>{e(m["reward"])}</small></td></tr>')
     flush()
-    body += f'  <p class="note">✅ <a href="{gk}-100-percent-completion">{e(g["name"])} 100% completion checklist</a> · 🔫 <a href="{gk}-weapons">weapons</a> · 🏠 <a href="{gk}-safehouses">safehouses</a> · 📻 <a href="{gk}-radio-stations">radio stations</a> · 🚗 <a href="{gk}-vehicles">vehicles</a> · 👥 <a href="{gk}-characters">characters</a>' + (' · 🃏 <a href="gta-5-strangers-and-freaks">Strangers and Freaks side missions</a> · 🎲 <a href="gta-5-random-events">random events</a>' if gk == "gta-5" else '') + (' · 💘 <a href="gta-san-andreas-girlfriends">girlfriends guide</a>' if gk == "gta-san-andreas" else '') + '. Other games: ' + " · ".join(f'<a href="{o}-missions">{e(G[o]["name"])} missions</a>' for o in ORDER if o != gk) + f' · <a href="{gk}-cheats">{e(g["name"])} cheats</a> · <a href="walkthrough">GTA 6 walkthrough</a>. Mission data from the GTA Wiki (CC BY-SA 3.0). Unofficial fan guide.</p>\n'
+    extra = [(f"{gk}-{s2}", lab) for s2, lab in (("100-percent-completion", f"✅ {e(g['name'])} 100% completion checklist"), ("weapons", "🔫 weapons"), ("safehouses", "🏠 safehouses"), ("radio-stations", "📻 radio stations"), ("vehicles", "🚗 vehicles"), ("characters", "👥 characters"), ("achievements", "🏆 achievements")) if os.path.exists(os.path.join(SITE, f"{gk}-{s2}.html"))]
+    body += f'  <p class="note">' + " · ".join(f'<a href="{u}">{lab}</a>' for u, lab in extra) + (' · 🃏 <a href="gta-5-strangers-and-freaks">Strangers and Freaks side missions</a> · 🎲 <a href="gta-5-random-events">random events</a>' if gk == "gta-5" else '') + (' · 💘 <a href="gta-san-andreas-girlfriends">girlfriends guide</a>' if gk == "gta-san-andreas" else '') + '. Other games: ' + " · ".join(f'<a href="{o}-missions">{e(G[o]["name"])} missions</a>' for o in ORDER if o != gk) + f' · <a href="{g.get("cheats", gk + "-cheats")}">{e(g["name"])} cheats</a> · <a href="walkthrough">GTA 6 walkthrough</a>. Mission data from the GTA Wiki (CC BY-SA 3.0). Unofficial fan guide.</p>\n'
     title = f"All {N} {g['name']} Missions: Full List & Walkthrough"
     desc = clip(f"Every {g['name']} story mission in order ({N} missions), from “{ms[0]['name']}” to “{ms[-1]['name']}”, with who gives each mission and the reward.")
     open(os.path.join(SITE, f"{gk}-missions.html"), "w", encoding="utf-8").write(

@@ -4123,5 +4123,345 @@
    "desc": "Chase and kill the real traitor.",
    "reward": ""
   }
+ ],
+ "gta-the-lost-and-damned": [
+  {
+   "name": "Clean and Serene",
+   "region": "",
+   "giver": "Billy Grey",
+   "desc": "Help Billy retrieve his bike from the Angels of Death.",
+   "reward": "$750 Hexer Sawed-Off Shotgun The Lost MC Clubhouse One Percenter achievement/trophy"
+  },
+  {
+   "name": "Angels in America",
+   "region": "",
+   "giver": "Billy Grey",
+   "desc": "Chase and kill members of the Angels of Death before they can warn the rest of their club that their truce with the Lost MC is off.",
+   "reward": "$750 Diabolus can now be requested from Clay"
+  },
+  {
+   "name": "It's War",
+   "region": "",
+   "giver": "Billy Grey",
+   "desc": "Save members of The Lost from the Angels of Death ambush.",
+   "reward": "$750"
+  },
+  {
+   "name": "Action/Reaction",
+   "region": "",
+   "giver": "Billy Grey",
+   "desc": "Attack the Angels of Death clubhouse to get revenge for the death of Jason Michaels.",
+   "reward": "$1000 Grenade Launcher Hellfury can now be requested from Clay"
+  },
+  {
+   "name": "Liberty City Choppers",
+   "region": "",
+   "giver": "Jim Fitzgerald",
+   "desc": "Steal bikes from the Angels of Death with Jim",
+   "reward": "$1000 Bike Races Zombie can now be requested from Clay."
+  },
+  {
+   "name": "Bad Cop Drop",
+   "region": "",
+   "giver": "Jim Fitzgerald",
+   "desc": "Lure corrupt cops Jimmy Matthews and Ed McCornish into an ambush and kill them.",
+   "reward": "$2000 Automatic 9mm Gang Wars (if Politics has been completed) Angus' Bike Thefts (if Politics has been completed)"
+  },
+  {
+   "name": "Buyer's Market",
+   "region": "",
+   "giver": "Elizabeta Torres",
+   "desc": "Attend a heroin deal with Niko Bellic and Playboy X and flee from the LCPD.",
+   "reward": "Integrity 2.0 as a radio station"
+  },
+  {
+   "name": "Politics",
+   "region": "",
+   "giver": "Thomas Stubbs",
+   "desc": "Kill Stubbs' uncle at Francis International Airport.",
+   "reward": "$3000 Gang Wars (if Bad Cop Drop has been completed) Angus' Bike Thefts (if Bad Cop Drop has been completed)"
+  },
+  {
+   "name": "Off Route",
+   "region": "",
+   "giver": "Thomas Stubbs",
+   "desc": "Liberate a prison bus full of white-collar criminals from the LCPD.",
+   "reward": "$5000 Stubbs' Dirty Laundry"
+  },
+  {
+   "name": "Coming Down",
+   "region": "",
+   "giver": "Ashley Butler",
+   "desc": "Save Ashley from drug addicts.",
+   "reward": ""
+  },
+  {
+   "name": "This Shit's Cursed",
+   "region": "",
+   "giver": "Billy Grey",
+   "desc": "Attend a heroin deal with the Triads and escape their ambush with Jim, then watch Billy getting arrested.",
+   "reward": "Johnny becomes President of the Lost MC Alderney Chapter Revenant can now be requested from Clay The Lost Boy achievement/trophy"
+  },
+  {
+   "name": "Hit the Pipe",
+   "region": "",
+   "giver": "Jim Fitzgerald",
+   "desc": "Destroy Angels of Death vans with pipe bombs.",
+   "reward": "$2000 Pipe Bombs"
+  },
+  {
+   "name": "End of Chapter",
+   "region": "",
+   "giver": "Jim Fitzgerald",
+   "desc": "Meet up with Brian and his faction and survive their ambush.",
+   "reward": "$2000"
+  },
+  {
+   "name": "Bad Standing",
+   "region": "",
+   "giver": "Jim Fitzgerald",
+   "desc": "Kill or spare Brian Jeremy.",
+   "reward": "$2000 Brian Jeremy's Safehouse"
+  },
+  {
+   "name": "Heavy Toll",
+   "region": "",
+   "giver": "Elizabeta Torres",
+   "desc": "Take control of the toll booth at the East Borough Bridge and steal a Slamvan full of cocaine.",
+   "reward": "$1000 Assault Shotgun"
+  },
+  {
+   "name": "Marta Full of Grace",
+   "region": "",
+   "giver": "Elizabeta Torres",
+   "desc": "Pick up Marta from the airport and bring her to Elizabeta's apartment after losing the cops.",
+   "reward": "$2000"
+  },
+  {
+   "name": "Shifting Weight",
+   "region": "",
+   "giver": "Elizabeta Torres",
+   "desc": "Attend a drug deal and escape from the LCPD with Malc and DeSean.",
+   "reward": "$3000 Double T can now be requested from Clay"
+  },
+  {
+   "name": "Roman's Holiday",
+   "region": "",
+   "giver": "Ashley Butler",
+   "desc": "Kidnap Roman Bellic with Malc in orders of Dimitri Rascalov's men.",
+   "reward": ""
+  },
+  {
+   "name": "Diamonds in the Rough",
+   "region": "",
+   "giver": "Ray Boccino",
+   "desc": "Kill Evan Moss and steal the diamonds from him.",
+   "reward": ""
+  },
+  {
+   "name": "Collector's Item",
+   "region": "",
+   "giver": "Ray Boccino",
+   "desc": "Attend the diamond deal with Niko Bellic at The Libertonian and escape with the money.",
+   "reward": "$10,000 Lycan can now be requested from Clay"
+  },
+  {
+   "name": "Was It Worth It?",
+   "region": "",
+   "giver": "Ray Boccino",
+   "desc": "Kill all the hitmen Ray's set after Johnny.",
+   "reward": ""
+  },
+  {
+   "name": "Get Lost",
+   "region": "",
+   "giver": "Thomas Stubbs",
+   "desc": "Break into the Alderney State Correctional Facility and kill Billy Grey.",
+   "reward": "$7000"
+  }
+ ],
+ "gta-the-ballad-of-gay-tony": [
+  {
+   "name": "I Luv LC",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Take Tony to Hercules, Maisonette 9, then take your friends home, then go to your apartment.",
+   "reward": "Luis' Apartment Buffalo, Cavalcade FXT, Serrano, and Turismo can be requested from Henrique Grenade Launcher can be purchased from Armando's Cavalcade"
+  },
+  {
+   "name": "Practice Swing",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Play some golf and kill the Union Official's men.",
+   "reward": "$1500 Golf Club Management (if Chinese Takeout has been completed)"
+  },
+  {
+   "name": "Chinese Takeout",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Go to the Triad building, and then escape from it.",
+   "reward": "$1000 Assault SMG Club Management (if Practice Swing has been completed)"
+  },
+  {
+   "name": "Momma's Boy",
+   "region": "",
+   "giver": "Adriana Yanira Lopez",
+   "desc": "Assist or kill Mr. Santo in making money by attending the L.C. Cage Fighters.",
+   "reward": "$1000 L.C. Cage Fighters"
+  },
+  {
+   "name": "Corner Kids",
+   "region": "",
+   "giver": "Armando Torres and Henrique Bardas",
+   "desc": "Assist Armando & Henrique in a Drug Deal that is botched.",
+   "reward": "$2500 Automatic Shotgun Drug Wars"
+  },
+  {
+   "name": "Clocking Off",
+   "region": "",
+   "giver": "Armando Torres and Henrique Bardas",
+   "desc": "Assist Armando & Henrique in a robbery.",
+   "reward": "$5000"
+  },
+  {
+   "name": "Sexy Time",
+   "region": "",
+   "giver": "Yusuf Amir",
+   "desc": "Steal the Buzzard and destroy the yacht, killing Frickie Van Hardenburg.",
+   "reward": "$10,000"
+  },
+  {
+   "name": "High Dive",
+   "region": "",
+   "giver": "Yusuf Amir",
+   "desc": "Kill Tahir Saeed and Ahmed Khaleel, and escape the ambush.",
+   "reward": "$15,000 Parachute Base Jumps Explosive rounds for the Automatic Shotgun"
+  },
+  {
+   "name": "Caught With Your Pants Down",
+   "region": "",
+   "giver": "Yusuf Amir",
+   "desc": "Steal an APC and escape or wipe out the LCPD.",
+   "reward": "$20,000 Advanced Sniper"
+  },
+  {
+   "name": "Kibbutz Number One",
+   "region": "",
+   "giver": "Mori Kibbutz",
+   "desc": "Kill Mori's rivals.",
+   "reward": "$500"
+  },
+  {
+   "name": "This Ain't Checkers",
+   "region": "",
+   "giver": "Mori Kibbutz",
+   "desc": "Race Mori betting Luis's eternal loyalty and all of Tony's debts.",
+   "reward": "$1000 Triathlons"
+  },
+  {
+   "name": "No. 3",
+   "region": "",
+   "giver": "Mori Kibbutz",
+   "desc": "Escape the cops with Mori and Brucie Kibbutz after stealing some cars.",
+   "reward": "$1500 F620 and Bullet can now be requested from Henrique."
+  },
+  {
+   "name": "Bang Bang",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Use the Sticky Bombs to destroy the targets.",
+   "reward": "$2500 Sticky Bombs"
+  },
+  {
+   "name": "Blog This!...",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Set up a deal for The Celebinator after dropping off Tony Prince and Gracie Ancelotti.",
+   "reward": "$500"
+  },
+  {
+   "name": "Frosting on the Cake",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Buy the Diamonds along with Tony only to be ambushed by Ray Boccino who has sent Johnny Klebitz and The Lost MC to steal the Ice, escape with Tony while killing the bikers as well as the Feds and fleeing them before taking Tony home but not while witnessing the death of Evan Moss.",
+   "reward": "$3500"
+  },
+  {
+   "name": "Boulevard Baby",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Go to Bahama Mamas to dance with Monique, then kill Vic Manzano and leaving the club while killing Vic's guards.",
+   "reward": "$3000 Pistol .44"
+  },
+  {
+   "name": "...Blog This!",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Teach The Celebinator a lesson.",
+   "reward": "$2000"
+  },
+  {
+   "name": "Not So Fast",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Steal the diamonds from Isaac Roth, and then escape the museum from the LCPD in the Buzzard that Yusuf Amir gave you.",
+   "reward": "$4000"
+  },
+  {
+   "name": "Ladies' Night",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Follow Packie McReary to where Gracie Ancelotti's being held captive after discovering Gracie's kidnapping.",
+   "reward": "$4500"
+  },
+  {
+   "name": "Going Deep",
+   "region": "",
+   "giver": "Ray Bulgarin",
+   "desc": "Eliminate the NOOSE associating with Marki Ashvilli.",
+   "reward": "$2000 M249"
+  },
+  {
+   "name": "Dropping In",
+   "region": "",
+   "giver": "Ray Bulgarin",
+   "desc": "Kill Marki Ashvilli.",
+   "reward": "$4000"
+  },
+  {
+   "name": "In the Crosshairs",
+   "region": "",
+   "giver": "Ray Bulgarin",
+   "desc": "Escape Bulgarin's ambush after discovering his betrayal and his confession about The Diamonds.",
+   "reward": "$6000"
+  },
+  {
+   "name": "For the Man Who Has Everything",
+   "region": "",
+   "giver": "Yusuf Amir",
+   "desc": "Steal a subway car.",
+   "reward": "$25,000 Super Drop Diamond Gold SMG APC at Yusuf Amir's construction site (if all the 50 Seagulls are collected)"
+  },
+  {
+   "name": "Ladies Half Price",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Deal with the guys who kidnapped Gracie Ancelotti, trade the diamonds for her and escape Bulgarin's ambush.",
+   "reward": "$5000"
+  },
+  {
+   "name": "Party's Over",
+   "region": "",
+   "giver": "Rocco Pelosi",
+   "desc": "Meet up with Rocco Pelosi, kill Uncle Vince, and then kill Bulgarin's men.",
+   "reward": "$5000"
+  },
+  {
+   "name": "Departure Time",
+   "region": "",
+   "giver": "Tony Prince",
+   "desc": "Chase and Kill Ray Bulgarin, after destroying the Heroin Shipment and wiping out Timur and the entire Bulgarin Bratva.",
+   "reward": "$10,000 Golden Buzzard Attack Chopper becomes available at the helipad beside the golf club on the West River APC can now be requested from Henrique Ability to replay missions"
+  }
  ]
 }
