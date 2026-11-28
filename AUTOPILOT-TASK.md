@@ -16,6 +16,7 @@ So each weekly Claude run only does:
 1f. **Older GTA 100% checklists:** `python -I tools/gen_completion.py <folder with c_*.txt> gta6-site` (8 pages, wiki text saved via the browser; one-off, re-run only if the data folder exists). Hubs link to them.
 1g. **GTA 5 Strangers and Freaks:** `python -I tools/gen_sf.py <sf_v.json> gta6-site` (hub + 18 character pages; one-off, data saved via the browser).
 1h. **GTA 5 random events + SA girlfriends:** `python -I tools/gen_side.py <folder with re_v.json gf_sa.json> gta6-site` (37 + 1 pages; one-off).
+1i. **Collectible checklists:** `python -I tools/gen_collect.py <folder with sp_v.json ...> gta6-site` (9 pages; writes tools/collectibles.json, which gen_completion.py reads for links; one-off).
 2. **One curated news item** (optional): if a big verified story happened this week, add it to SITE.news in data.js with a source link.
 3. **Walkthrough videos** for the 3 missing missions (as below).
 4. **Deploy:** GitHub is set up (repo Patcher4U/gamerbhai, Cloudflare Pages project "gamerbhai" auto-deploys every push). Run `git add -A && git commit -m "..." && git pull --rebase && git push` from the Free Luck folder. Do NOT use the old Chrome upload flow or the old "ilovegta6" project.
