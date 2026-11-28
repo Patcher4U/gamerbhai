@@ -87,7 +87,7 @@ for gk, k, name, wk, year in [("gta-1", "1", "GTA 1", "GTA_1", 1997), ("gta-lond
            "gta-london-1969": "Type the code as your player name before starting a game (PC), or enter it as your name on PlayStation.",
            "gta-2": "Enter the code as your player name on the name entry screen. Some codes only work on one platform."}[gk]
     body = f'  <div class="warnbox">⌨️ <b>How to enter the codes:</b> {e(how)}</div>\n' + body
-    body += (f'  <p class="note">More: <a href="gta-cheats">cheats for every GTA game</a> · <a href="gta-3-cheats">GTA 3 cheats</a> · <a href="gta-vice-city-cheats">Vice City cheats</a></p>\n'
+    body += (f'  <p class="note">More: <a href="gta-cheats">cheats for every GTA game</a>' + (' · <a href="gta-2-missions">GTA 2 missions</a>' if gk == "gta-2" else '') + ' · <a href="gta-3-cheats">GTA 3 cheats</a> · <a href="gta-vice-city-cheats">Vice City cheats</a></p>\n'
              f'  <p class="note">Codes from the <a href="https://gta.fandom.com/wiki/Cheats_in_{wk}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0). Unofficial fan guide, not affiliated with Rockstar Games.</p>\n')
     write(f"{gk}-cheats", f"All {name} Cheats & Codes ({year})", clip(f"Every {name} ({year}) cheat code ({total}) for PC and PlayStation: all weapons, lives, levels, points and debug keys, with how to enter them."),
           f"{e(name.upper())} · CHEATS", f"{name} Cheats", f"🕹️ {total} codes for the original top-down {e(name)} ({year}).", body, f"{name} cheats")
