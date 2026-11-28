@@ -33,6 +33,13 @@ C = [("gta-5-spaceship-parts", "sp_v", "GTA 5", "gta-5", "🛸", "Spaceship Part
      ("gta-4-unique-stunt-jumps", "sj_4", "GTA 4", "gta-4", "🏍️", "Unique Stunt Jumps", "Unique_Stunt_Jumps_in_GTA_IV"),
      ("gta-vice-city-rampages", "rp_vc", "GTA Vice City", "gta-vice-city", "💀", "Rampages", "Rampages_in_GTA_Vice_City"),
      ("gta-3-rampages", "rp_3", "GTA 3", "gta-3", "💀", "Rampages", "Rampages_in_GTA_III"),
+     ("gta-online-signal-jammers", "oc_jam", "GTA Online", "gta-online", "📡", "Signal Jammers", "Signal_Jammers"),
+     ("gta-online-playing-cards", "oc_cards", "GTA Online", "gta-online", "🃏", "Playing Cards", "Playing_Cards"),
+     ("gta-online-action-figures", "oc_fig", "GTA Online", "gta-online", "🧸", "Action Figures", "Action_Figures"),
+     ("gta-online-ld-organics", "oc_ld", "GTA Online", "gta-online", "🌿", "LD Organics Product", "LD_Organics_Product"),
+     ("gta-online-shipwrecks", "oc_wreck", "GTA Online", "gta-online", "⚓", "Shipwrecks", "Shipwrecks"),
+     ("gta-online-media-sticks", "oc_media", "GTA Online", "gta-online", "💾", "Media Sticks", "Media_Sticks"),
+     ("gta-online-junk-energy-skydives", "oc_sky", "GTA Online", "gta-online", "🪂", "Junk Energy Skydives", "Junk_Energy_Skydives"),
      ("gta-liberty-city-stories-rampages", "rp_lcs", "GTA Liberty City Stories", "gta-liberty-city-stories", "💀", "Rampages", "Rampages_in_GTA_Liberty_City_Stories")]
 SKIPH = ("Contents", "Version Changes", "Interactive Map", "Beta Content", "Complete Letter", "Exploits", "Fail Safe")
 pages, made = [], []
@@ -43,7 +50,7 @@ for slug, fn, game, gk, emo, what, wiki in C:
     intro, secs, cur, table = [], [], None, None
     for x in raw:
         if "h" in x:
-            cur = None if x["h"] in SKIPH or x["h"] == "Locations" or x["h"] in ("Stunt Jump Locations", "List of Stunt Jumps") else {"h": x["h"], "t": []}
+            cur = None if x["h"] in SKIPH or x["h"] == "Locations" or x["h"] in ("Stunt Jump Locations", "List of Stunt Jumps", "Jumps") else {"h": x["h"], "t": []}
             if cur: secs.append(cur)
             continue
         if "table" in x:
@@ -59,12 +66,12 @@ for slug, fn, game, gk, emo, what, wiki in C:
         for i, h in enumerate(hd):
             if any(h.startswith(n) for n in names): return i
         return None
-    i_n, i_d, i_a, i_l = ci("ref number", "#", "jump #"), ci("location description", "description", "jump description", "location"), ci("area"), ci("landing")
-    i_w, i_o = ci("weapon"), ci("objective")
+    i_n, i_d, i_a, i_l = ci("ref number", "#", "jump #", "map number"), ci("location description", "description", "jump description", "location/info", "location"), ci("area"), ci("landing")
+    i_w, i_o, i_m = ci("weapon"), ci("objective"), ci("mix")
     for r in table:
         for j, c in enumerate(r): r[j] = re.sub(r"\s*/\s*$", "", re.sub(r"\s*(Original|Alternative) location:\s*", lambda m: (" / " if m.group(1) == "Alternative" else "") + m.group(1) + ": ", c).strip()).strip(" /")
     rows = [r for r in table[1:] if i_d is not None and i_d < len(r) and r[i_d]]
-    extra = [("Area", i_a), ("To pass", i_l), ("Weapon", i_w), ("Objective", i_o)]
+    extra = [("Area", i_a), ("To pass", i_l), ("Weapon", i_w), ("Objective", i_o), ("Mix", i_m)]
     extra = [(n, i) for n, i in extra if i is not None]
     th = "<thead><tr><th>✔</th><th>#</th><th>Where</th>" + "".join(f"<th>{n}</th>" for n, _ in extra) + "</tr></thead>"
     trs = "".join(f'<tr><td class="chk"><input type="checkbox" aria-label="found {j + 1}"></td><td>{e(r[i_n]) if i_n is not None and r[i_n] else j + 1}</td><td>{e(r[i_d])}</td>'
@@ -77,13 +84,16 @@ for slug, fn, game, gk, emo, what, wiki in C:
         body += sec(k, e(s["h"]), inner); k += 1
     body += sec(k, f"All {N} {e(what.lower())} locations", f'<div class="gtable"><table class="cheats cw">{th}<tbody>{trs}</tbody></table></div>'); k += 1
     sib = " · ".join(f'<a href="{o[0]}">{e(o[5])}</a>' for o in C if o[3] == gk and o[0] != slug and os.path.exists(os.path.join(SRC, o[1] + ".json")))
-    body += (f'  <p class="note">More {e(game)}: ' + (sib + " · " if sib else "") + f'<a href="{gk}-100-percent-completion">100% checklist</a> · <a href="{gk}-missions">missions</a> · <a href="{gk}-cheats">cheats</a></p>\n'
+    hub_links = (f'<a href="{gk}-100-percent-completion">100% checklist</a> · <a href="{gk}-missions">missions</a> · <a href="{gk}-cheats">cheats</a>' if gk != "gta-online"
+                 else '<a href="gta-online">GTA Online hub</a> · <a href="gta-online-heists">heists</a>')
+    hub_url, hub_name = (f"{gk}-100-percent-completion", f"{game} 100%") if gk != "gta-online" else ("gta-online", "GTA Online")
+    body += (f'  <p class="note">More {e(game)}: ' + (sib + " · " if sib else "") + hub_links + '</p>\n'
              f'  <p class="note">Locations from the <a href="https://gta.fandom.com/wiki/{wiki}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0). Unofficial fan guide, not affiliated with Rockstar Games.</p>\n')
     reward = next((t for s in secs if s["h"] == "Rewards" for _, t in s["t"]), "")
     title = f"All {N} {game} {what} Locations (Checklist)"
     desc = clip(f"Where to find all {N} {what.lower()} in {game}, with a tick-box checklist. " + (reward or (intro[0] if intro else "")))
     ld = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": BASE},
-          {"@type": "ListItem", "position": 2, "name": f"{game} 100%", "item": BASE + f"{gk}-100-percent-completion"}, {"@type": "ListItem", "position": 3, "name": what, "item": BASE + slug}]}]
+          {"@type": "ListItem", "position": 2, "name": hub_name, "item": BASE + hub_url}, {"@type": "ListItem", "position": 3, "name": what, "item": BASE + slug}]}]
     doc = (HEAD.format(lang="en", stitle=e(title), title=e(title), desc=e(desc), url=BASE + slug, ogtype="article", ld=json.dumps(ld, ensure_ascii=False), page="article")
            + f'<header class="wrap phero reveal">\n  <div class="kicker">{e(game.upper())} · COLLECTIBLES</div>\n  <h1><span class="g">{e(game)} {e(what)}</span></h1>\n  <p class="lead">{emo} All {N} locations, one line each. ' + e(clip(intro[0], 140) if intro else "") + '</p>\n</header>\n<main class="wrap article">\n'
            + body + '  <div class="ad reveal">Ad</div>\n</main>\n' + JS.replace("'.chk input'", "'.chk input, td.chk input'") + FOOT)
