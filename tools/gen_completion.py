@@ -11,6 +11,7 @@ e = lambda s: html.escape(s, quote=True)
 asrc = open(os.path.join(HERE, "gen_articles.py"), encoding="utf-8").read()
 A = {}; exec(asrc[asrc.index("HEAD ="):asrc.index("def fmt")], A); HEAD, FOOT = A["HEAD"], A["FOOT"]
 sys.path.insert(0, HERE); from wiki_clean import fix
+COL = json.load(open(os.path.join(HERE, "collectibles.json"), encoding="utf-8")) if os.path.exists(os.path.join(HERE, "collectibles.json")) else []
 MIS = json.load(open(os.path.join(HERE, "classic_missions.json"), encoding="utf-8"))
 
 def slugify(s): return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower().replace("'", "").replace("&", "and").replace("$", "").replace(",", "").replace(".", ""))).strip("-")
@@ -104,7 +105,7 @@ for gk, fn, name, emoji in GAMES:
     wiki = "https://gta.fandom.com/wiki/100%25_Completion_in_" + {"gta-5": "GTA_V", "gta-san-andreas": "GTA_San_Andreas", "gta-vice-city": "GTA_Vice_City", "gta-3": "GTA_III", "gta-4": "GTA_IV",
         "gta-liberty-city-stories": "GTA_Liberty_City_Stories", "gta-vice-city-stories": "GTA_Vice_City_Stories", "gta-chinatown-wars": "GTA_Chinatown_Wars"}[gk]
     top = (f'  <div class="warnbox">✅ Tick each task as you finish it – your ticks are saved in this browser only. <b id="chkc"></b></div>\n')
-    body = top + body + (f'  <p class="note">More: <a href="{gk}-missions">{e(name)} missions</a> · <a href="{gk}-cheats">{e(name)} cheats</a> (cheats can block achievements/trophies) · ' + ('<a href="gta-5-strangers-and-freaks">Strangers and Freaks missions</a> · <a href="gta-5-random-events">random events</a> · ' if gk == "gta-5" else '') + ('<a href="gta-san-andreas-girlfriends">girlfriends guide</a> · ' if gk == "gta-san-andreas" else '')
+    body = top + body + (f'  <p class="note">More: ' + "".join(f'📍 <a href="{cs}">{e(cw)} locations</a> · ' for cg, cs, cw in COL if cg == gk) + f'<a href="{gk}-missions">{e(name)} missions</a> · <a href="{gk}-cheats">{e(name)} cheats</a> (cheats can block achievements/trophies) · ' + ('<a href="gta-5-strangers-and-freaks">Strangers and Freaks missions</a> · <a href="gta-5-random-events">random events</a> · ' if gk == "gta-5" else '') + ('<a href="gta-san-andreas-girlfriends">girlfriends guide</a> · ' if gk == "gta-san-andreas" else '')
              + " · ".join(f'<a href="{o}-100-percent-completion">{e(n2)} 100%</a>' for o, f2, n2, _ in GAMES if o != gk and os.path.exists(os.path.join(SRC, f2 + ".txt")))
              + f'. Checklist from the <a href="{wiki}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0). Unofficial fan guide, not affiliated with Rockstar Games.</p>\n')
     lead_txt = intro[0] if intro else f"Everything you need to do for 100% completion in {name}."

@@ -846,3 +846,5 @@ a.mvid{text-decoration:none;display:inline-block}
 .chk label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
 .chk input{width:18px;height:18px;margin-top:2px;flex:none;accent-color:var(--orange)}
 .chk input:checked+*,.chk label:has(input:checked){opacity:.55;text-decoration:line-through}
+tr:has(td.chk input:checked){opacity:.5}
+td.chk{width:28px}
