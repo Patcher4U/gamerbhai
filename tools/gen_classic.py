@@ -126,7 +126,7 @@ for gk in ORDER:
     for gr in grps:
         rows = "".join(f'<tr><td><a href="{c["slug"]}">{e(c["name"])}</a></td>' + "".join(f'<td>{code_html(c, k)}</td>' for _, k in plats) + '</tr>' for c in cheats if c["grp"] == gr)
         body += sec(f"{n:02d}", e(gr), f'<div class="gtable"><table class="cheats cw"><thead><tr><th>Cheat</th>{head}</tr></thead><tbody>{rows}</tbody></table></div>'); n += 1
-    body += f'  <p class="note">' + (f'📖 <a href="{gk}-missions">All {e(g["name"])} missions (walkthrough)</a> · ' if gk in MISSIONS else '') + 'Other games: ' + " · ".join(f'<a href="{o}-cheats">{e(G[o]["name"])} cheats</a>' for o in ORDER if o != gk) + ' · <a href="guides#cheats">GTA 6 cheats</a>. Codes cross-checked with the GTA Wiki (CC BY-SA). Unofficial fan guide.</p>\n'
+    body += f'  <p class="note">' + (f'📖 <a href="{gk}-missions">All {e(g["name"])} missions (walkthrough)</a> · ✅ <a href="{gk}-100-percent-completion">100% checklist</a> · ' if gk in MISSIONS else '') + 'Other games: ' + " · ".join(f'<a href="{o}-cheats">{e(G[o]["name"])} cheats</a>' for o in ORDER if o != gk) + ' · <a href="guides#cheats">GTA 6 cheats</a>. Codes cross-checked with the GTA Wiki (CC BY-SA). Unofficial fan guide.</p>\n'
     top = ", ".join(f'{c["name"]} ({c.get("pc") or c.get("phone")})' for c in cheats[:3] if c.get("pc") or c.get("phone"))
     title = f"All {g['name']} Cheats ({len(cheats)} Codes)"
     desc = clip(f"Every {g['name']} cheat code for " + ", ".join(lab for lab, _ in plats) + f": {top} and more. How to enter them, one page per cheat.")

@@ -840,3 +840,9 @@ a.mvid{text-decoration:none;display:inline-block}
 /* articles */
 .article .glass p{font-size:17px;line-height:1.7}
 .article .glass p a{color:var(--cyan)}
+.chk{list-style:none;padding-left:0;margin:6px 0}
+.chk li{padding:5px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.chk li.grp{padding-top:12px;border:0}
+.chk label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.chk input{width:18px;height:18px;margin-top:2px;flex:none;accent-color:var(--orange)}
+.chk input:checked+*,.chk label:has(input:checked){opacity:.55;text-decoration:line-through}
