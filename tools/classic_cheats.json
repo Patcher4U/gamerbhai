@@ -1,0 +1,1876 @@
+{
+ "gta-5": [
+  {
+   "name": "Spawn Trashmaster",
+   "effect": "Spawn Trashmaster",
+   "xbox": "B, RB, B, RB, Left, Left, RB, LB, B, Right",
+   "ps": "Circle, R1, Circle, R1, Left, Left, R1, L1, Circle, Right",
+   "pc": "TRASHED",
+   "phone": "1-999-872-433"
+  },
+  {
+   "name": "Spawn Stretch",
+   "effect": "Spawn Stretch",
+   "xbox": "RT, Right, LT, Left, Left, RB, LB, B, Right",
+   "ps": "R2, Right, L2, Left, Left, R1, L1, Circle, Right",
+   "pc": "VINEWOOD",
+   "phone": "1-999-846-39663"
+  },
+  {
+   "name": "Spawn Mallard",
+   "effect": "Spawn Mallard",
+   "xbox": "B, Right, LB, LT, Left, RB, LB, LB, Left, Left, A, Y",
+   "ps": "Circle, Right, L1, L2, Left, R1, L1, L1, Left, Left, X, Triangle",
+   "pc": "BARNSTORM",
+   "phone": "1-999-227-678-676"
+  },
+  {
+   "name": "Spawn Sanchez",
+   "effect": "Spawn Sanchez",
+   "xbox": "B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB",
+   "ps": "Circle, X, L1, Circle, Circle, L1, Circle, R1, R2, L2, L1, L1",
+   "pc": "OFFROAD",
+   "phone": "1-999-633-7623"
+  },
+  {
+   "name": "Spawn Comet",
+   "effect": "Spawn Comet",
+   "xbox": "RB, B, RT, Right, LB, LT, A, A, X, RB",
+   "ps": "R1, Circle, R2, Right, L1, L2, X, X, Square, R1",
+   "pc": "COMET",
+   "phone": "1-999-266-38"
+  },
+  {
+   "name": "Spawn Buzzard Attack Chopper",
+   "effect": "Spawn Buzzard Attack Chopper",
+   "xbox": "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y",
+   "ps": "Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle",
+   "pc": "BUZZOFF",
+   "phone": "1-999-289-9633"
+  },
+  {
+   "name": "Spawn Caddy",
+   "effect": "Spawn Caddy",
+   "xbox": "B, LB, Left, RB, LT, A, RB, LB, B, A",
+   "ps": "Circle, L1, Left, R1, L2, X, R1, L1, Circle, X",
+   "pc": "HOLEIN1",
+   "phone": "1-999-465-3461"
+  },
+  {
+   "name": "Spawn Duster",
+   "effect": "Spawn Duster",
+   "xbox": "Right, Left, RB, RB, RB, Left, Y, Y, A, B, LB, LB",
+   "ps": "Right, Left, R1, R1, R1, Left, Triangle, Triangle, X, Circle, L1, L1",
+   "pc": "FLYSPRAY",
+   "phone": "1-999-359-77729"
+  },
+  {
+   "name": "Spawn Rapid GT",
+   "effect": "Spawn Rapid GT",
+   "xbox": "RT, LB, B, Right, LB, RB, Right, Left, B, RT",
+   "ps": "R2, L1, Circle, Right, L1, R1, Right, Left, Circle, R2",
+   "pc": "RAPIDGT",
+   "phone": "1-999-727-4348"
+  },
+  {
+   "name": "Spawn PCJ-600",
+   "effect": "Spawn PCJ-600",
+   "xbox": "RB, Right, Left, Right, RT, Left, Right, X, Right, LT, LB, LB",
+   "ps": "R1, Right, Left, Right, R2, Left, Right, Square, Right, L2, L1, L1",
+   "pc": "ROCKET",
+   "phone": "1-999-762-538"
+  },
+  {
+   "name": "Parachute",
+   "effect": "Give Parachute",
+   "xbox": "Left, Right, LB, LT, RB, RT, RT, Left, Left, Right, LB",
+   "ps": "Left, Right, L1, L2, R1, R2, R2, Left, Left, Right, L1",
+   "pc": "SKYDIVE",
+   "phone": "1-999-759-3483"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Raise Wanted Level (+1 star per use)",
+   "xbox": "RB, RB, B, RT, Left, Right, Left, Right, Left, Right",
+   "ps": "R1, R1, Circle, R2, Left, Right, Left, Right, Left, Right",
+   "pc": "FUGITIVE",
+   "phone": "1-999-384-48483"
+  },
+  {
+   "name": "Lower Wanted Level",
+   "effect": "Lower Wanted Level (-1 star per use)",
+   "xbox": "RB, RB, B, RT, Right, Left, Right, Left, Right, Left",
+   "ps": "R1, R1, Circle, R2, Right, Left, Right, Left, Right, Left",
+   "pc": "LAWYERUP",
+   "phone": "1-999-529-93787"
+  },
+  {
+   "name": "Explosive Melee Attacks",
+   "effect": "Explosive Melee Attacks",
+   "xbox": "Right, Left, A, Y, RB, B, B, B, LT",
+   "ps": "Right, Left, X, Triangle, R1, Circle, Circle, Circle, L2",
+   "pc": "HOTHANDS",
+   "phone": "1-999-468-42637"
+  },
+  {
+   "name": "Drunk Mode",
+   "effect": "Drunk Mode",
+   "xbox": "Y, Right, Right, Left, Right, X, B, Left",
+   "ps": "Triangle, Right, Right, Left, Right, Square, Circle, Left",
+   "pc": "LIQUOR",
+   "phone": "1-999-547-867"
+  },
+  {
+   "name": "Fast Run",
+   "effect": "Fast Running",
+   "xbox": "Y, Left, Right, Right, LT, LB, X",
+   "ps": "Triangle, Left, Right, Right, L2, L1, Square",
+   "pc": "CATCHME",
+   "phone": "1-999-228-2463"
+  },
+  {
+   "name": "Change Weather",
+   "effect": "Change weather",
+   "xbox": "RT, A, LB, LB, LT, LT, LT, X",
+   "ps": "R2, X, L1, L1, L2, L2, L2, Square",
+   "pc": "MAKEITRAIN",
+   "phone": "1-999-625-348-7246"
+  },
+  {
+   "name": "Slippery Cars",
+   "effect": "Slidey Cars",
+   "xbox": "Y, RB, RB, Left, RB, LB, RT, LB",
+   "ps": "Triangle, R1, R1, Left, R1, L1, R2, L1",
+   "pc": "SNOWDAY",
+   "phone": "1-999-766-9329"
+  },
+  {
+   "name": "Slow Motion",
+   "effect": "Slow Motion (Can be entered up to 4 times, each slowing even more, fourth time disables)",
+   "xbox": "Y, Left, Right, Right, X, RT, RB",
+   "ps": "Triangle, Left, Right, Right, Square, R2, R1",
+   "pc": "SLOWMO",
+   "phone": "1-999-756-966"
+  },
+  {
+   "name": "Slow Motion Aim",
+   "effect": "Slow Motion Aiming (Can be entered up to 4 times, each slowing even more, fourth time disables)",
+   "xbox": "X, LT, RB, Y, Left, X, LT, Right, A",
+   "pc": "DEADEYE",
+   "phone": "1-999-332-3393"
+  },
+  {
+   "name": "Recharge Special Ability",
+   "effect": "Recharge Special Ability",
+   "xbox": "A, A, X, RB, LB, A, Right, Left, A",
+   "ps": "X, X, Square, R1, L1, X, Right, Left, X",
+   "pc": "POWERUP",
+   "phone": "1-999-769-3787"
+  },
+  {
+   "name": "Skyfall",
+   "effect": "Skyfall (Character is warped up to a great height and falls to the ground)",
+   "xbox": "LB, LT, RB, RT, Left, Right, Left, Right, LB, LT, RB, RT, Left, Right, Left, Right",
+   "ps": "L1, L2, R1, R2, Left, Right, Left, Right, L1, L2, R1, R2, Left, Right, Left, Right",
+   "pc": "SKYFALL",
+   "phone": "1-999-759-3255"
+  },
+  {
+   "name": "Invincibility",
+   "effect": "Invincibility (Lasts only 5 minutes)",
+   "xbox": "Right, A, Right, Left, Right, RB, Right, Left, A, Y",
+   "ps": "Right, X, Right, Left, Right, R1, Right, Left, X, Triangle",
+   "pc": "PAINKILLER",
+   "phone": "1-999-724-654-5537"
+  },
+  {
+   "name": "Max Health & Armor",
+   "effect": "Max Health & Armor",
+   "xbox": "B, LB, Y, RT, A, X, B, Right, X, LB, LB, LB",
+   "ps": "Circle, L1, Triangle, R2, X, Square, Circle, Right, Square, L1, L1, L1",
+   "pc": "TURTLE",
+   "phone": "1-999-887-853"
+  },
+  {
+   "name": "Weapons & Ammo",
+   "effect": "Weapons & Ammo",
+   "xbox": "Y, RT, Left, LB, A, Right, Y, Down, X, LB, LB, LB",
+   "ps": "Triangle, R2, Left, L1, X, Right, Triangle, Down, Square, L1, L1, L1",
+   "pc": "TOOLUP",
+   "phone": "1-999-866-587"
+  },
+  {
+   "name": "Moon Gravity",
+   "effect": "Low Gravity",
+   "xbox": "Left, Left, LB, RB, LB, Right, Left, LB, Left",
+   "ps": "Left, Left, L1, R1, L1, Right, Left, L1, Left",
+   "pc": "FLOATER",
+   "phone": "1-999-356-2837"
+  },
+  {
+   "name": "Super Jump",
+   "effect": "Super Jump",
+   "xbox": "Left, Left, Y, Y, Right, Right, Left, Right, X, RB, RT",
+   "ps": "Left, Left, Triangle, Triangle, Right, Right, Left, Right, Square, R1, R2",
+   "pc": "HOPTOIT",
+   "phone": "1-999-467-8648"
+  },
+  {
+   "name": "Flaming Bullets",
+   "effect": "Flaming Bullets",
+   "xbox": "LB, RB, X, RB, Left, RT, RB, Left, X, Right, LB, LB",
+   "ps": "L1, R1, Square, R1, Left, R2, R1, Left, Square, Right, L1, L1",
+   "pc": "INCENDIARY",
+   "phone": "1-999-462-363-4279"
+  },
+  {
+   "name": "Explosive Bullets",
+   "effect": "Explosive Bullets",
+   "xbox": "Right, X, A, Left, RB, RT, Left, Right, Right, LB, LB, LB",
+   "ps": "Right, Square, X, Left, R1, R2, Left, Right, Right, L1, L1, L1",
+   "pc": "HIGHEX",
+   "phone": "1-999-444-439"
+  },
+  {
+   "name": "Spawn BMX",
+   "effect": "Spawn BMX",
+   "pc": "BANDIT",
+   "phone": "1-999-226-348"
+  },
+  {
+   "name": "Spawn Dodo",
+   "effect": "Spawn Dodo",
+   "pc": "EXTINCT",
+   "phone": "1-999-3984628"
+  },
+  {
+   "name": "Spawn Duke O'Death",
+   "effect": "Spawn Duke O'Death",
+   "pc": "DEATHCAR",
+   "phone": "1-999-33284227"
+  },
+  {
+   "name": "Spawn Kraken",
+   "effect": "Spawn Kraken",
+   "pc": "BUBBLES",
+   "phone": "1-999-282-2537"
+  },
+  {
+   "name": "Fast Swim",
+   "effect": "Fast Swim",
+   "pc": "GOTGILLS",
+   "phone": "1-999-468-44557"
+  },
+  {
+   "name": "Director Mode",
+   "effect": "Director Mode",
+   "phone": "1-999-57825368"
+  },
+  {
+   "name": "Black Cellphone",
+   "effect": "Black Cellphone",
+   "phone": "1-999-367-3767"
+  }
+ ],
+ "gta-san-andreas": [
+  {
+   "name": "Adrenaline Mode",
+   "effect": "Adrenaline effects",
+   "group": "Player",
+   "ps": "Cross, Cross, Square, R1, L1, Cross, Down, Left, Cross",
+   "pc": "ANOSEONGLASS",
+   "pc_alt": "TAKEACHILLPILL",
+   "xbox": "A, A, X, RT, LT, A, Down, Left, A"
+  },
+  {
+   "name": "Health, Armor & $250,000 (HESOYAM)",
+   "effect": "Armor, health and $250,000 in money (also repairs vehicles occupied by the player and increases the criminal rating to 40)",
+   "group": "Player",
+   "ps": "R1, R2, L1, Cross, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "HESOYAM",
+   "pc_alt": "INEEDSOMEHELP",
+   "xbox": "RT, RB, LT, A, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Super Jump",
+   "effect": "CJ jumps 10 times higher",
+   "group": "Player",
+   "ps": "Up, Up, Triangle, Triangle, Up, Up, Left, Right, Square, R2, R2",
+   "pc": "LFGMHAL",
+   "pc_alt": "KANGAROO",
+   "xbox": "Up, Up, Y, Y, Up, Up, Left, Right, X, RB, RB"
+  },
+  {
+   "name": "Suicide",
+   "effect": "Commit suicide",
+   "group": "Player",
+   "ps": "Right, L2, Down, R1, Left, Left, R1, L1, L2, L1",
+   "pc": "SZCMAWO",
+   "pc_alt": "GOODBYECRUELWORLD",
+   "xbox": "Right, LB, Down, RT, Left, Left, RT, LT, LB, LT"
+  },
+  {
+   "name": "Hitman Weapon Skills",
+   "effect": "Hitman level for all weapons",
+   "group": "Player",
+   "ps": "Down, Square, Cross, Left, R1, R2, Left, Down, Down, L1, L1, L1",
+   "pc": "NCSGDAG",
+   "pc_alt": "PROFESSIONALKILLER",
+   "xbox": "Down, X, A, Left, RT, RB, Left, Down, Down, LT, LT, LT"
+  },
+  {
+   "name": "Never Wanted",
+   "effect": "Lock wanted level (Facilitates exploration of islands/cities and restricted areas before they're unlocked)",
+   "group": "Player",
+   "ps": "Circle, Right, Circle, Right, Left, Square, Triangle, Up",
+   "pc": "AEZAKMI",
+   "pc_alt": "IDOASIPLEASE",
+   "xbox": "B, Right, B, Right, Left, X, Y, Up"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Raise wanted level by two stars",
+   "group": "Player",
+   "ps": "R1, R1, Circle, R2, Left, Right, Left, Right, Left, Right",
+   "pc": "OSRBLHH",
+   "pc_alt": "TURNUPTHEHEAT",
+   "xbox": "RT, RT, B, RB, Left, Right, Left, Right, Left, Right"
+  },
+  {
+   "name": "Remove Wanted Level",
+   "effect": "Remove wanted level",
+   "group": "Player",
+   "ps": "R1, R1, Circle, R2, Up, Down, Up, Down, Up, Down",
+   "pc": "ASNAEB",
+   "pc_alt": "TURNDOWNTHEHEAT",
+   "xbox": "RT, RT, B, RB, Up, Down, Up, Down, Up, Down"
+  },
+  {
+   "name": "Six-Star Wanted Level",
+   "effect": "Six-star wanted level",
+   "group": "Player",
+   "ps": "Circle, Right, Circle, Right, Left, Square, Cross, Down",
+   "pc": "LJSPQK",
+   "pc_alt": "BRINGITON",
+   "xbox": "B, Right, B, Right, Left, X, A, Down"
+  },
+  {
+   "name": "Max Fat",
+   "effect": "Maximum fat",
+   "group": "Player",
+   "ps": "Triangle, Up, Up, Left, Right, Square, Circle, Down",
+   "pc": "BTCDBCB",
+   "pc_alt": "WHOATEALLTHEPIES",
+   "xbox": "Y, Up, Up, Left, Right, X, B, Down"
+  },
+  {
+   "name": "Infinite Lung Capacity",
+   "effect": "Infinite Lung capacity",
+   "group": "Player",
+   "ps": "Down, Left, L1, Down, Down, R2, Down, L2, Down",
+   "pc": "CVWKXAM",
+   "pc_alt": "MANFROMATLANTIS",
+   "xbox": "Down, Left, LT, Down, Down, RB, Down, LB, Down"
+  },
+  {
+   "name": "Max Muscle",
+   "effect": "Maximum muscle",
+   "group": "Player",
+   "ps": "Triangle, Up, Up, Left, Right, Square, Circle, Left",
+   "pc": "JYSDSOD",
+   "pc_alt": "BUFFMEUP",
+   "xbox": "Y, Up, Up, Left, Right, X, B, Left"
+  },
+  {
+   "name": "Max Respect",
+   "effect": "Maximum respect",
+   "group": "Player",
+   "ps": "L1, R1, Triangle, Down, R2, Cross, L1, Up, L2, L2, L1, L1",
+   "pc": "OGXSDAG",
+   "pc_alt": "WORSHIPME",
+   "xbox": "LT, RT, Y, Down, RB, A, LT, Up, LB, LB, LT, LT"
+  },
+  {
+   "name": "Max Sex Appeal",
+   "effect": "Maximum sex appeal",
+   "group": "Player",
+   "ps": "Circle, Triangle, Triangle, Up, Circle, R1, L2, Up, Triangle, L1, L1, L1",
+   "pc": "EHIBXQS",
+   "pc_alt": "HELLOLADIES",
+   "xbox": "B, Y, Y, Up, B, RT, LB, Up, Y, LT, LT, LT"
+  },
+  {
+   "name": "Max Stamina",
+   "effect": "Maximum stamina",
+   "group": "Player",
+   "ps": "Up, Cross, Triangle, Cross, Triangle, Cross, Square, R2, Right",
+   "pc": "VKYPQCF",
+   "pc_alt": "ICANGOALLNIGHT",
+   "xbox": "Up, A, Y, A, Y, A, X, RB, Right"
+  },
+  {
+   "name": "Max Driving Skills",
+   "effect": "Maximum vehicle skills (Driving, flying, bike, cycling)",
+   "group": "Player",
+   "ps": "Square, L2, Cross, R1, L2, L2, Left, R1, Right, L1, L1, L1",
+   "pc": "VQIMAHA",
+   "pc_alt": "NATURALTALENT",
+   "xbox": "X, LB, A, RT, LB, LB, Left, RT, Right, LT, LT, LT"
+  },
+  {
+   "name": "Skinny CJ",
+   "effect": "Minimum fat and muscle",
+   "group": "Player",
+   "ps": "Triangle, Up, Up, Left, Right, Square, Circle, Right",
+   "pc": "KVGYZQK",
+   "pc_alt": "LEANANDMEAN",
+   "xbox": "Y, Up, Up, Left, Right, X, B, Right"
+  },
+  {
+   "name": "Never Hungry",
+   "effect": "CJ never gets hungry",
+   "group": "Player",
+   "ps": "Square, L2, R1, Triangle, Up, Square, L2, Up, Cross",
+   "pc": "AEDUWNV",
+   "pc_alt": "IAMNEVERHUNGRY",
+   "xbox": "X, LB, RT, Y, Up, X, LB, Up, A"
+  },
+  {
+   "name": "Spawn Jetpack",
+   "effect": "Spawn Jetpack",
+   "group": "Player",
+   "ps": "Left, Right, L1, L2, R1, R2, Up, Down, Left, Right",
+   "pc": "YECGAA",
+   "pc_alt": "ROCKETMAN",
+   "xbox": "Left, Right, LT, LB, RT, RB, Up, Down, Left, Right"
+  },
+  {
+   "name": "Spawn Parachute",
+   "effect": "Spawn Parachute",
+   "group": "Player",
+   "ps": "Left, Right, L1, L2, R1, R2, R2, Up, Down, Right, L1",
+   "pc": "AIYPWZQP",
+   "pc_alt": "LETSGOBASEJUMPING",
+   "xbox": "Left, Right, LT, LB, RT, RB, RB, Up, Down, Right, LT"
+  },
+  {
+   "name": "Super Punch",
+   "effect": "Super punches (one hit kills)",
+   "group": "Player",
+   "ps": "Up, Left, Cross, Triangle, R1, Circle, Circle, Circle, L2",
+   "pc": "IAVENJQ",
+   "pc_alt": "STINGLIKEABEE",
+   "xbox": "Up, Left, A, Y, RT, B, B, B, LB"
+  },
+  {
+   "name": "Infinite Ammo",
+   "effect": "Unlimited ammunition with no reload for all weapons",
+   "group": "Player",
+   "ps": "L1, R1, Square, R1, Left, R2, R1, Left, Square, Down, L1, L1",
+   "pc": "WANRLTW",
+   "pc_alt": "FULLCLIP",
+   "xbox": "LT, RT, X, RT, Left, RB, RT, Left, X, Down, LT, LT"
+  },
+  {
+   "name": "Infinite Health",
+   "effect": "Unlimited health",
+   "group": "Player",
+   "ps": "Down, Cross, Right, Left, Right, R1, Right, Down, Up, Triangle",
+   "pc": "BAGUVIX",
+   "pc_alt": "NOONECANHURTME",
+   "xbox": "Down, A, Right, Left, Right, RT, Right, Down, Up, Y"
+  },
+  {
+   "name": "Weapon Set 1",
+   "effect": "Weapons, tier 1 (Brass Knuckles, Baseball Bat, Pistol, Shotgun, Micro SMG, AK47, Rifle, Rocket Launcher, Molotov Cocktails & Spray Paint)",
+   "group": "Player",
+   "ps": "R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "LXGIWYL",
+   "pc_alt": "THUGSARMOURY",
+   "xbox": "RT, RB, LT, RB, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Weapon Set 2",
+   "effect": "Weapons, tier 2 (Fist, Knife, Desert Eagle, Sawn-Off Shotgun, TEC 9, M4, Sniper Rifle, Flamethrower, Fire Extinguisher & Grenades)",
+   "group": "Player",
+   "ps": "R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Down, Left",
+   "pc": "KJKSZPJ",
+   "pc_alt": "PROFESSIONALSKIT",
+   "xbox": "RT, RB, LT, RB, Left, Down, Right, Up, Left, Down, Down, Left"
+  },
+  {
+   "name": "Weapon Set 3",
+   "effect": "Weapons, tier 3 (Fist, Chainsaw, Silenced 9mm, SPAS 12, SMG, M4, Heat-Seeking Rocket Launcher, Satchel Charges & Detonator)",
+   "group": "Player",
+   "ps": "R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Down, Down",
+   "pc": "UZUMYMW",
+   "pc_alt": "NUTTERSTOYS",
+   "xbox": "RT, RB, LT, RB, Left, Down, Right, Up, Left, Down, Down, Down"
+  },
+  {
+   "name": "Weapon Set 4",
+   "effect": "Weapons, tier 4 (Minigun, Vibrator, Random: Night Vision Goggles or Thermal Vision Goggles)",
+   "group": "Player",
+   "ps": "",
+   "pc": "",
+   "pc_alt": "",
+   "xbox": ""
+  },
+  {
+   "name": "Invincibility",
+   "effect": "Complete invulnerability",
+   "group": "Player",
+   "ps": "",
+   "pc": "",
+   "pc_alt": "",
+   "xbox": ""
+  },
+  {
+   "name": "Nitro on All Cars",
+   "effect": "All cars have nitrous",
+   "group": "Vehicles",
+   "ps": "Left, Triangle, R1, L1, Up, Square, Triangle, Down, Circle, L2, L1, L1",
+   "pc": "COXEFGU",
+   "pc_alt": "SPEEDFREAK",
+   "xbox": "Left, Y, RT, LT, Up, X, Y, Down, B, LB, LT, LT"
+  },
+  {
+   "name": "Drive on Water",
+   "effect": "Cars drive on water",
+   "group": "Vehicles",
+   "ps": "Right, R2, Circle, R1, L2, Square, R1, R2",
+   "pc": "",
+   "pc_alt": "",
+   "xbox": "Right, RB, B, RT, LB, X, RT, RB"
+  },
+  {
+   "name": "Flying Boats",
+   "effect": "Flying boats",
+   "group": "Vehicles",
+   "ps": "R2, Circle, Up, L1, Right, R1, Right, Up, Square, Triangle",
+   "pc": "AFSNMSMW",
+   "pc_alt": "FLYINGFISH",
+   "xbox": "RB, B, Up, LT, Right, RT, Right, Up, X, Y"
+  },
+  {
+   "name": "Flying Cars",
+   "effect": "Flying cars",
+   "group": "Vehicles",
+   "ps": "Square, Down, L2, Up, L1, Circle, Up, Cross, Left",
+   "pc": "RIPAZHA",
+   "pc_alt": "CHITTYCHITTYBANGBANG",
+   "xbox": "X, Down, LB, Up, LT, B, Up, A, Left"
+  },
+  {
+   "name": "Sports Car Traffic (Console)",
+   "effect": "Spawn sport cars",
+   "group": "Vehicles",
+   "ps": "Up, L1, R1, Up, Right, Up, Cross, L2, Cross, L1",
+   "pc": "",
+   "pc_alt": "",
+   "xbox": "Up, LT, RT, Up, Right, Up, A, LB, A, LT"
+  },
+  {
+   "name": "Perfect Handling",
+   "effect": "Improved suspensions",
+   "group": "Vehicles",
+   "ps": "Square, Square, R2, Left, Up, Square, R2, Cross, Cross, Cross",
+   "pc": "PGGOMOY",
+   "pc_alt": "STICKLIKEGLUE",
+   "xbox": "X, X, RB, Left, Up, X, RB, A, A, A"
+  },
+  {
+   "name": "Full Aim While Driving",
+   "effect": "Full weapon aiming in vehicles + Micro SMG (If CJ doesn't have this type of weapon)",
+   "group": "Vehicles",
+   "ps": "Up, Up, Square, L2, Right, Cross, R1, Down, R2, Circle",
+   "pc": "OUIQDMW",
+   "pc_alt": "IWANNADRIVEBY",
+   "xbox": "Up, Up, X, LB, Right, A, RT, Down, RB, B"
+  },
+  {
+   "name": "Mega Bike Jump",
+   "effect": "Massive bicycle bunny hops (Jump 100 feet in air)",
+   "group": "Vehicles",
+   "ps": "Triangle, Square, Circle, Circle, Square, Circle, Circle, L1, L2, L2, R1, R2",
+   "pc": "JHJOECW",
+   "pc_alt": "CJPHONEHOME",
+   "xbox": "Y, X, B, B, X, B, B, LT, LB, LB, RT, RB"
+  },
+  {
+   "name": "Spawn Bloodring Banger",
+   "effect": "Spawn Bloodring Banger",
+   "group": "Vehicles",
+   "ps": "Down, R1, Circle, L2, L2, Cross, R1, L1, Left, Left",
+   "pc": "CQZIJMB",
+   "pc_alt": "OLDSPEEDDEMON",
+   "xbox": "Down, RT, B, LB, LB, A, RT, LT, Left, Left"
+  },
+  {
+   "name": "Spawn Caddy",
+   "effect": "Spawn Caddy",
+   "group": "Vehicles",
+   "ps": "Circle, L1, Up, R1, L2, Cross, R1, L1, Circle, Cross",
+   "pc": "RZHSUEW",
+   "pc_alt": "18HOLES",
+   "xbox": "B, LT, Up, RT, LB, A, RT, LT, B, A"
+  },
+  {
+   "name": "Spawn Dozer",
+   "effect": "Spawn Dozer",
+   "group": "Vehicles",
+   "ps": "R2, L1, L1, Right, Right, Up, Up, Cross, L1, Left",
+   "pc": "EEGCYXT",
+   "pc_alt": "ITSALLBULL",
+   "xbox": "RB, LT, LT, Right, Right, Up, Up, A, LT, Left"
+  },
+  {
+   "name": "Spawn Hunter",
+   "effect": "Spawn Hunter",
+   "group": "Vehicles",
+   "ps": "Circle, Cross, L1, Circle, Circle, L1, Circle, R1, R2, L2, L1, L1",
+   "pc": "OHDUDE",
+   "pc_alt": "",
+   "xbox": "B, A, LT, B, B, LT, B, RT, RB, LB, LT, LT"
+  },
+  {
+   "name": "Spawn Hydra",
+   "effect": "Spawn Hydra",
+   "group": "Vehicles",
+   "ps": "Triangle, Triangle, Square, Circle, Cross, L1, L1, Down, Up",
+   "pc": "JUMPJET",
+   "pc_alt": "",
+   "xbox": "Y, Y, X, B, A, LT, LT, Down, Up"
+  },
+  {
+   "name": "Spawn Monster Truck",
+   "effect": "Spawn Monster Truck (second variant)",
+   "group": "Vehicles",
+   "ps": "Right, Up, R1, R1, R1, Down, Triangle, Triangle, Cross, Circle, L1, L1",
+   "pc": "AGBDLCID",
+   "pc_alt": "MONSTERMASH",
+   "xbox": "Right, Up, RT, RT, RT, Down, Y, Y, A, B, LT, LT"
+  },
+  {
+   "name": "Spawn Quad",
+   "effect": "Spawn Quad",
+   "group": "Vehicles",
+   "ps": "Left, Left, Down, Down, Up, Up, Square, Circle, Triangle, R1, R2",
+   "pc": "AKJJYGLC",
+   "pc_alt": "FOURWHEELFUN",
+   "xbox": "Left, Left, Down, Down, Up, Up, X, B, Y, RT, RB"
+  },
+  {
+   "name": "Spawn Hotring Racer",
+   "effect": "Spawn Hotring Racer (second variant)",
+   "group": "Vehicles",
+   "ps": "R1, Circle, R2, Right, L1, L2, Cross, Cross, Square, R1",
+   "pc": "VROCKPOKEY",
+   "pc_alt": "NOTFORPUBLICROADS",
+   "xbox": "RT, B, RB, Right, LT, LB, A, A, X, RT"
+  },
+  {
+   "name": "Spawn Hotring Racer 2",
+   "effect": "Spawn Hotring Racer (third variant)",
+   "group": "Vehicles",
+   "ps": "R2, L1, Circle, Right, L1, R1, Right, Up, Circle, R2",
+   "pc": "VPJTQWV",
+   "pc_alt": "JUSTTRYANDSTOPME",
+   "xbox": "RB, LT, B, Right, LT, RT, Right, Up, B, RB"
+  },
+  {
+   "name": "Spawn Rancher",
+   "effect": "Spawn Rancher (Lure variant)",
+   "group": "Vehicles",
+   "ps": "Up, Right, Right, L1, Right, Up, Square, L2",
+   "pc": "JQNTDMH",
+   "pc_alt": "DOUGHNUTHANDICAP",
+   "xbox": "Up, Right, Right, LT, Right, Up, X, LB"
+  },
+  {
+   "name": "Spawn Rhino",
+   "effect": "Spawn Rhino",
+   "group": "Vehicles",
+   "ps": "Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle",
+   "pc": "AIWPRTON",
+   "pc_alt": "TIMETOKICKASS",
+   "xbox": "B, B, LT, B, B, B, LT, LB, RT, Y, B, Y"
+  },
+  {
+   "name": "Spawn Romero",
+   "effect": "Spawn Romero",
+   "group": "Vehicles",
+   "ps": "Down, R2, Down, R1, L2, Left, R1, L1, Left, Right",
+   "pc": "AQTBCODX",
+   "pc_alt": "WHERESTHEFUNERAL",
+   "xbox": "Down, RB, Down, RT, LB, Left, RT, LT, Left, Right"
+  },
+  {
+   "name": "Spawn Stretch Limousine",
+   "effect": "Spawn Stretch Limousine",
+   "group": "Vehicles",
+   "ps": "R2, Up, L2, Left, Left, R1, L1, Circle, Right",
+   "pc": "KRIJEBR",
+   "pc_alt": "CELEBRITYSTATUS",
+   "xbox": "RB, Up, LB, Left, Left, RT, LT, B, Right"
+  },
+  {
+   "name": "Spawn Stunt Plane",
+   "effect": "Spawn Stunt Plane",
+   "group": "Vehicles",
+   "ps": "Circle, Up, L1, L2, Down, R1, L1, L1, Left, Left, Cross, Triangle",
+   "pc": "URKQSRK",
+   "pc_alt": "FLYINGTOSTUNT",
+   "xbox": "B, Up, LT, LB, Down, RT, LT, LT, Left, Left, A, Y"
+  },
+  {
+   "name": "Spawn Tanker Truck",
+   "effect": "Spawn Tanker with attached tanker trailer",
+   "group": "Vehicles",
+   "ps": "R1, Up, Left, Right, R2, Up, Right, Square, Right, L2, L1, L1",
+   "pc": "AMOMHRER",
+   "pc_alt": "HITTHEROADJACK",
+   "xbox": "RT, Up, Left, Right, RB, Up, Right, X, Right, LB, LT, LT"
+  },
+  {
+   "name": "Spawn Trashmaster",
+   "effect": "Spawn Trashmaster",
+   "group": "Vehicles",
+   "ps": "Circle, R1, Circle, R1, Left, Left, R1, L1, Circle, Right",
+   "pc": "UBHYZHQ",
+   "pc_alt": "TRUEGRIME",
+   "xbox": "B, RT, B, RT, Left, Left, RT, LT, B, Right"
+  },
+  {
+   "name": "Spawn Vortex",
+   "effect": "Spawn Vortex",
+   "group": "Vehicles",
+   "ps": "Triangle, Triangle, Square, Circle, Cross, L1, L2, Down, Down",
+   "pc": "KGGGDKP",
+   "pc_alt": "IWANTTOHOVER",
+   "xbox": "Y, Y, X, B, A, LT, LB, Down, Down"
+  },
+  {
+   "name": "Taxi Nitro (Taxi Missions Done)",
+   "effect": "Taxi missions completed",
+   "group": "Vehicles",
+   "ps": "Up, Cross, Triangle, Cross, Triangle, Cross, Square, R2, Right",
+   "pc": "",
+   "pc_alt": "",
+   "xbox": "Up, A, Y, A, Y, A, X, RB, Right"
+  },
+  {
+   "name": "Destroy Cars on Touch",
+   "effect": "Carl's car is invincible and can instantly destroy other vehicles (auto-immune car)",
+   "group": "Vehicles",
+   "ps": "L1, L2, L2, Up, Down, Down, Up, R1, R2, R2",
+   "pc": "JCNRUAD",
+   "pc_alt": "TOUCHMYCARYOUDIE",
+   "xbox": "LT, LB, LB, Up, Down, Down, Up, RT, RB, RB"
+  },
+  {
+   "name": "Aggressive Traffic",
+   "effect": "Aggressive drivers",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Right, R2, Up, Up, R2, Circle, Square, R2, L1, Right, Down, L1",
+   "pc": "YLTEICZ",
+   "pc_alt": "ALLDRIVERSARECRIMINALS",
+   "xbox": "Right, RB, Up, Up, RB, B, X, RB, LT, Right, Down, LT"
+  },
+  {
+   "name": "Beach Party Theme",
+   "effect": "Beach party theme (CJ's outfit is changed to Victim olive shorts, flip-flops, and ProLaps sunglasses. Traffic and pedestrians are replaced with those usually seen around Verona Beach. Weather set to very sunny.)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Up, Up, Down, Down, Square, Circle, L1, R1, Triangle, Down",
+   "pc": "CIKGCGX",
+   "pc_alt": "LIFESABEACH",
+   "xbox": "Up, Up, Down, Down, X, B, LT, RT, Y, Down"
+  },
+  {
+   "name": "Cheap Cars Traffic",
+   "effect": "Beater/cheap traffic",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "L2, Right, L1, Up, Cross, L1, L2, R2, R1, L1, L1, L1",
+   "pc": "BGKGTJH",
+   "pc_alt": "",
+   "xbox": "LB, Right, LT, Up, A, LT, LB, RB, RT, LT, LT, LT"
+  },
+  {
+   "name": "Black Traffic",
+   "effect": "Black traffic",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Circle, L2, Up, R1, Left, Cross, R1, L1, Left, Circle",
+   "pc": "IOWDLAC",
+   "pc_alt": "SOLONGASITSBLACK",
+   "xbox": "B, LB, Up, RT, Left, A, RT, LT, Left, B"
+  },
+  {
+   "name": "Funhouse Theme",
+   "effect": "Carnival/funhouse theme (CJ's outfit changes to a pink Cesar haircut, joker glasses and red heart boxers. Pedestrians are replaced with fast food workers and clowns. Traffic consists of Pizza Boys, BF Injections, Hotknifes, Tugs, Quads, Karts, Mr. Whoopees, and Hotdogs. All four-wheeled vehicles, except emergency vehicles, are equipped with hydraulics.)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Triangle, Triangle, L1, Square, Square, Circle, Square, Down, Circle",
+   "pc": "PRIEBJ",
+   "pc_alt": "CRAZYTOWN",
+   "xbox": "Y, Y, LT, X, X, B, X, Down, B"
+  },
+  {
+   "name": "Cars Fly Away When Hit",
+   "effect": "Cars float away when hit",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Square, R2, Down, Down, Left, Down, Left, Left, L2, Cross",
+   "pc": "BSXSGGC",
+   "pc_alt": "BUBBLECARS",
+   "xbox": "X, RB, Down, Down, Left, Down, Left, Left, LB, A"
+  },
+  {
+   "name": "Riot Mode",
+   "effect": "Pedestrians riot",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "L2, Right, L1, Triangle, Right, Right, R1, L1, Right, L1, L1, L1",
+   "pc": "IOJUFZN",
+   "pc_alt": "STATEOFEMERGENCY",
+   "xbox": "LB, Right, LT, Y, Right, Right, RT, LT, Right, LT, LT, LT"
+  },
+  {
+   "name": "Blow Up All Cars",
+   "effect": "Explode all vehicles (except bicycles)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "R2, L2, R1, L1, L2, R2, Square, Triangle, Circle, Triangle, L2, L1",
+   "pc": "CPKTNWT",
+   "pc_alt": "ALLCARSGOBOOM",
+   "xbox": "RB, LB, RT, LT, LB, RB, X, Y, B, Y, LB, LT"
+  },
+  {
+   "name": "Invisible Cars",
+   "effect": "Invisible cars",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Triangle, L1, Triangle, R2, Square, L1, L1",
+   "pc": "XICWMD",
+   "pc_alt": "WHEELSONLYPLEASE",
+   "xbox": "Y, LT, Y, RB, X, LT, LT"
+  },
+  {
+   "name": "Empty Streets",
+   "effect": "No pedestrians/reduced traffic",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Cross, Down, Up, R2, Down, Triangle, L1, Triangle, Left",
+   "pc": "THGLOJ",
+   "pc_alt": "GHOSTTOWN",
+   "xbox": "A, Down, Up, RB, Down, Y, LT, Y, Left"
+  },
+  {
+   "name": "Elvis Everywhere",
+   "effect": "Pedestrians are Elvis",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "L1, Circle, Triangle, L1, L1, Square, L2, Up, Down, Left",
+   "pc": "ASBHGRB",
+   "pc_alt": "BLUESUEDESHOES",
+   "xbox": "LT, B, Y, LT, LT, X, LB, Up, Down, Left"
+  },
+  {
+   "name": "Peds Attack CJ",
+   "effect": "Pedestrians attack Carl",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Down, Up, Up, Up, Cross, R2, R1, L2, L2",
+   "pc": "BAGOWPG",
+   "pc_alt": "STOPPICKINGONME",
+   "xbox": "Down, Up, Up, Up, A, RB, RT, LB, LB"
+  },
+  {
+   "name": "Peds Attack CJ with Guns",
+   "effect": "Pedestrians attack Carl with guns",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Cross, L1, Up, Square, Down, Cross, L2, Triangle, Down, R1, L1, L1",
+   "pc": "BGLUAWML",
+   "pc_alt": "ATTACKOFTHEVILLAGEPEOPLE",
+   "xbox": "A, LT, Up, X, Down, A, LB, Y, Down, RT, LT, LT"
+  },
+  {
+   "name": "Armed Pedestrians",
+   "effect": "Pedestrians have weapons (Baseball Bat, Pistol, Shotgun, M4, Rocket Launcher)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "R2, R1, Cross, Triangle, Cross, Triangle, Up, Down",
+   "pc": "FOOOXFT",
+   "pc_alt": "SURROUNDEDBYNUTTERS",
+   "xbox": "RB, RT, A, Y, A, Y, Up, Down"
+  },
+  {
+   "name": "Riot with Golf Clubs",
+   "effect": "Pedestrians riot (with golf club)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Down, Left, Up, Left, Cross, R2, R1, L2, L1",
+   "pc": "AJLOJYQY",
+   "pc_alt": "ROUGHNEIGHBOURHOOD",
+   "xbox": "Down, Left, Up, Left, A, RB, RT, LB, LT"
+  },
+  {
+   "name": "Pink Traffic",
+   "effect": "Pink traffic",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Circle, L1, Down, L2, Left, Cross, R1, L1, Right, Circle",
+   "pc": "LLQPFBN",
+   "pc_alt": "PINKISTHENEWCOOL",
+   "xbox": "B, LT, Down, LB, Left, A, RT, LT, Right, B"
+  },
+  {
+   "name": "Farm Vehicle Traffic",
+   "effect": "Rural traffic",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "L1, L1, R1, R1, L2, L1, R2, Down, Left, Up",
+   "pc": "KKZRPKW",
+   "pc_alt": "EVERYONEISPOOR",
+   "xbox": "LT, LT, RT, RT, LB, LT, RB, Down, Left, Up"
+  },
+  {
+   "name": "Country Theme",
+   "effect": "Rural theme (CJ's outfit changes to a Binco Trucker Cap and overalls. Traffic and pedestrians are replaced with those usually seen in Red and Flint counties.)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Triangle, Left, Square, R2, Up, L2, Down, L1, Cross, L1, L1, L1",
+   "pc": "FVTMNBZ",
+   "pc_alt": "HICKSVILLE",
+   "xbox": "Y, Left, X, RB, Up, LB, Down, LT, A, LT, LT, LT"
+  },
+  {
+   "name": "Sports Car Traffic",
+   "effect": "Sports car traffic (Traffic consists of Buffalos, Cheetahs, Uranuses, Euroses, Bullets, Infernuses, ZR-350s, Stratums, Elegies, Flashes, Jesters, Sultans, Clubs, Phoenixes, Hotknives, Super GTs, Banshees, Comets and Turismos.)Note: Random vehicle spawn points also spawn sports cars. The cheat does not tend to spawn Alphas, however",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Up, L1, R1, Up, Right, Up, Cross, L2, Cross, L1",
+   "pc": "GUSNHDE",
+   "pc_alt": "EVERYONEISRICH",
+   "xbox": "Up, LT, RT, Up, Right, Up, A, LB, A, LT"
+  },
+  {
+   "name": "Always Green Lights",
+   "effect": "Traffic lights always green",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Right, R1, Up, L2, L2, Left, R1, L1, R1, R1",
+   "pc": "ZEIIVG",
+   "pc_alt": "DONTTRYANDSTOPME",
+   "xbox": "Right, RT, Up, LB, LB, Left, RT, LT, RT, RT"
+  },
+  {
+   "name": "Ninja Theme",
+   "effect": "Triad theme (CJ is equipped with a katana and all pedestrians are replaced with groups of Triads. Traffic mostly consists of PCJ 600s, FCR-900s, and BF-400s. All vehicles spawn in all black, behaving identically to the black traffic cheat.)",
+   "group": "Themes/Pedestrian Behavior",
+   "ps": "Cross, Cross, Down, R2, L2, Circle, R1, Circle, Square",
+   "pc": "AFPHULTL",
+   "pc_alt": "NINJATOWN",
+   "xbox": "A, A, Down, RB, LB, B, RT, B, X"
+  },
+  {
+   "name": "More Gang Members",
+   "effect": "Gang members spawn much faster (can be deactivated)",
+   "group": "Gangs",
+   "ps": "Left, Right, Right, Right, Left, Cross, Down, Up, Square, Right",
+   "pc": "MROEMZH",
+   "pc_alt": "",
+   "xbox": "Left, Right, Right, Right, Left, A, Down, Up, X, Right"
+  },
+  {
+   "name": "Gang Wars Everywhere",
+   "effect": "Gang wars break out all over San Andreas (can be deactivated)",
+   "group": "Gangs",
+   "ps": "L1, Up, R1, R1, Left, R1, R1, R2, Right, Down",
+   "pc": "ONLYHOMIESALLOWED",
+   "pc_alt": "",
+   "xbox": "LT, Up, RT, RT, Left, RT, RT, RB, Right, Down"
+  },
+  {
+   "name": "Gangs Control the Streets",
+   "effect": "No citizens or cops, only gang members having gunfights (can be deactivated)",
+   "group": "Gangs",
+   "ps": "L2, Up, R1, R1, Left, R1, R1, R2, Right, Down",
+   "pc": "BIFBUZZ",
+   "pc_alt": "BETTERSTAYINDOORS",
+   "xbox": "LB, Up, RT, RT, Left, RT, RT, RB, Right, Down"
+  },
+  {
+   "name": "Recruit Anyone (Pistols)",
+   "effect": "Recruit anyone into gang with Pistols",
+   "group": "Gangs",
+   "ps": "Down, Square, Up, R2, R2, Up, Right, Right, Up",
+   "pc": "SJMAHPE",
+   "pc_alt": "WANNABEINMYGANG",
+   "xbox": "Down, X, Up, RB, RB, Up, Right, Right, Up"
+  },
+  {
+   "name": "Recruit Anyone (Rockets)",
+   "effect": "Recruit anyone into gang with rocket launchers",
+   "group": "Gangs",
+   "ps": "R2, R2, R2, Cross, L2, L1, R2, L1, Down, Cross",
+   "pc": "ZSOXFSQ",
+   "pc_alt": "ROCKETMAYHEM",
+   "xbox": "RB, RB, RB, A, LB, LT, RB, LT, Down, A"
+  },
+  {
+   "name": "Recruit Anyone (AK-47s)",
+   "effect": "Recruit anyone into gang with AK47s",
+   "group": "Gangs",
+   "ps": "",
+   "pc": "BMTPWHR",
+   "pc_alt": "NOONECANSTOPUS",
+   "xbox": ""
+  },
+  {
+   "name": "Always Midnight",
+   "effect": "Always midnight (00:00)",
+   "group": "Time and Weather",
+   "ps": "Square, L1, R1, Right, Cross, Up, L1, Left, Left",
+   "pc": "XJVSNAJ",
+   "pc_alt": "NIGHTPROWLER",
+   "xbox": "X, LT, RT, Right, A, Up, LT, Left, Left"
+  },
+  {
+   "name": "Orange Sky (Always 9 PM)",
+   "effect": "Always 21:00 with orange sky",
+   "group": "Time and Weather",
+   "ps": "Left, Left, L2, R1, Right, Square, Square, L1, L2, Cross",
+   "pc": "OFVIAC",
+   "pc_alt": "DONTBRINGONTHENIGHT",
+   "xbox": "Left, Left, LB, RT, Right, X, X, LT, LB, A"
+  },
+  {
+   "name": "Cloudy Weather",
+   "effect": "Cloudy weather",
+   "group": "Time and Weather",
+   "ps": "L2, Down, Down, Left, Square, Left, R2, Square, Cross, R1, L1, L1",
+   "pc": "ALNSFMZO",
+   "pc_alt": "DULLDULLDAY",
+   "xbox": "LB, Down, Down, Left, X, Left, RB, X, A, RT, LT, LT"
+  },
+  {
+   "name": "Faster Gameplay",
+   "effect": "Fast gameplay",
+   "group": "Time and Weather",
+   "ps": "Triangle, Up, Right, Down, L2, L1, Square",
+   "pc": "PPGWJHT",
+   "pc_alt": "SPEEDITUP",
+   "xbox": "Y, Up, Right, Down, LB, LT, X"
+  },
+  {
+   "name": "Slow Motion",
+   "effect": "Slow gameplay",
+   "group": "Time and Weather",
+   "ps": "Triangle, Up, Right, Down, Square, R2, R1",
+   "pc": "LIYOAAY",
+   "pc_alt": "SLOWITDOWN",
+   "xbox": "Y, Up, Right, Down, X, RB, RT"
+  },
+  {
+   "name": "Faster Clock",
+   "effect": "Speed up time",
+   "group": "Time and Weather",
+   "ps": "Circle, Circle, L1, Square, L1, Square, Square, Square, L1, Triangle, Circle, Triangle",
+   "pc": "YSOHNUL",
+   "pc_alt": "TIMEJUSTFLIESBY",
+   "xbox": "B, B, LT, X, LT, X, X, X, LT, Y, B, Y"
+  },
+  {
+   "name": "Foggy Weather",
+   "effect": "Foggy weather",
+   "group": "Time and Weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Cross",
+   "pc": "CFVFGMJ",
+   "pc_alt": "CANTSEEWHEREIMGOING",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, A"
+  },
+  {
+   "name": "Sandstorm",
+   "effect": "Sandstorm",
+   "group": "Time and Weather",
+   "ps": "Up, Down, L1, L1, L2, L2, L1, L2, R1, R2",
+   "pc": "CWJXUOC",
+   "pc_alt": "SANDINMYEARS",
+   "xbox": "Up, Down, LT, LT, LB, LB, LT, LB, RT, RB"
+  },
+  {
+   "name": "Rainy Weather",
+   "effect": "Rainy weather",
+   "group": "Time and Weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Cross",
+   "pc": "AUIFRVQS",
+   "pc_alt": "STAYINANDWATCHTV",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, A"
+  },
+  {
+   "name": "Stormy Weather",
+   "effect": "Stormy weather",
+   "group": "Time and Weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Circle",
+   "pc": "MGHXYRM",
+   "pc_alt": "SCOTTISHSUMMER",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, B"
+  },
+  {
+   "name": "Sunny Weather",
+   "effect": "Sunny weather",
+   "group": "Time and Weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Triangle",
+   "pc": "AFZLLQLL",
+   "pc_alt": "PLEASANTLYWARM",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, Y"
+  },
+  {
+   "name": "Very Sunny Weather",
+   "effect": "Very sunny weather",
+   "group": "Time and Weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Down",
+   "pc": "ICIKPYH",
+   "pc_alt": "TOODAMNHOT",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, Down"
+  },
+  {
+   "name": "Skip 4 Hours (Console)",
+   "effect": "Advance 4 hours",
+   "group": "Time and Weather",
+   "ps": "",
+   "pc": "",
+   "pc_alt": "",
+   "xbox": ""
+  }
+ ],
+ "gta-vice-city": [
+  {
+   "name": "Full Health",
+   "effect": "Replenish player health; if driving vehicle, replenish health and fixes tires of vehicle",
+   "ps": "R1, R2, L1, Circle, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "ASPIRINE",
+   "xbox": "RT, RB, LT, B, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Full Armor",
+   "effect": "Replenish player armor",
+   "ps": "R1, R2, L1, Cross, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "PRECIOUSPROTECTION",
+   "xbox": "RT, RB, LT, A, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Weapon Set 1",
+   "effect": "Basic weapons set (Brass Knuckles, Baseball Bat, Molotov Cocktails, Pistol, Chrome Shotgun, Tec 9, Ruger, Sniper Rifle, Flamethrower)",
+   "ps": "R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "THUGSTOOLS",
+   "xbox": "RT, RB, LT, RB, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Weapon Set 2",
+   "effect": "Intermediate weapons set (Katana, Detonator Grenade, .357, Stubby Shotgun, Mac 10, M4, .308 Sniper, Rocket Launcher)",
+   "ps": "R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Down, Left",
+   "pc": "PROFESSIONALTOOLS",
+   "xbox": "RT, RB, LT, RB, Left, Down, Right, Up, Left, Down, Down, Left"
+  },
+  {
+   "name": "Weapon Set 3",
+   "effect": "Advanced weapons set (Chainsaw, Grenades, .357, S.P.A.S. 12, SMG, M4, .308 Sniper, Minigun)",
+   "ps": "R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Down, Down",
+   "pc": "NUTTERTOOLS",
+   "xbox": "RT, RB, LT, RB, Left, Down, Right, Up, Left, Down, Down, Down"
+  },
+  {
+   "name": "Spawn Sabre Turbo",
+   "effect": "Spawn a Sabre Turbo",
+   "ps": "Right, L2, Down, L2, L2, Cross, R1, L1, Circle, Left",
+   "pc": "GETTHEREFAST",
+   "xbox": "Right, LB, Down, LB, LB, A, RT, LT, B, Left"
+  },
+  {
+   "name": "Spawn Caddy",
+   "effect": "Spawn a Caddy",
+   "ps": "Circle, L1, Up, R1, L2, Cross, R1, L1, Circle, Cross",
+   "pc": "BETTERTHANWALKING",
+   "xbox": "B, LT, Up, RT, LB, A, RT, LT, B, A"
+  },
+  {
+   "name": "Spawn Romero's Hearse",
+   "effect": "Spawn a Romero's Hearse",
+   "ps": "Down, R2, Down, R1, L2, Left, R1, L1, Left, Right",
+   "pc": "THELASTRIDE",
+   "xbox": "Down, RB, Down, RT, LB, Left, RT, LT, Left, Right"
+  },
+  {
+   "name": "Spawn Trashmaster",
+   "effect": "Spawn a Trashmaster",
+   "ps": "Circle, R1, Circle, R1, Left, Left, R1, L1, Circle, Right",
+   "pc": "RUBBISHCAR",
+   "xbox": "B, RT, B, RT, Left, Left, RT, LT, B, Right"
+  },
+  {
+   "name": "Spawn Love Fist Limo",
+   "effect": "Spawn Love Fist",
+   "ps": "R2, Up, L2, Left, Left, R1, L1, Circle, Right",
+   "pc": "ROCKANDROLLCAR",
+   "xbox": "RB, Up, LB, Left, Left, RT, LT, B, Right"
+  },
+  {
+   "name": "Spawn Rhino Tank",
+   "effect": "Spawn a Rhino (On Android, instead of a tank, the first time the cheat is used a Landstalker spawns, after which random cars are spawned)",
+   "ps": "Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle",
+   "pc": "PANZER",
+   "xbox": "B, B, LT, B, B, B, LT, LB, RT, Y, B, Y"
+  },
+  {
+   "name": "Spawn Hotring Racer",
+   "effect": "Spawn a Hotring Racer (second variant)",
+   "ps": "R1, Circle, R2, Right, L1, L2, Cross, Cross, Square, R1",
+   "pc": "GETTHEREAMAZINGLYFAST",
+   "xbox": "RT, B, RB, Right, LT, LB, A, A, X, RT"
+  },
+  {
+   "name": "Spawn Hotring Racer 2",
+   "effect": "Spawn a Hotring Racer (third variant)",
+   "ps": "R2, L1, Circle, Right, L1, R1, Right, Up, Circle, R2",
+   "pc": "GETTHEREVERYFASTINDEED",
+   "xbox": "RB, LT, B, Right, LT, RT, Right, Up, B, RB"
+  },
+  {
+   "name": "Spawn Bloodring Banger",
+   "effect": "Spawn a Bloodring Banger (Glendale variant)",
+   "ps": "Up, Right, Right, L1, Right, Up, Square, L2",
+   "pc": "GETTHEREQUICKLY",
+   "xbox": "Up, Right, Right, LT, Right, Up, X, LB"
+  },
+  {
+   "name": "Spawn Bloodring Banger 2",
+   "effect": "Spawn a Bloodring Banger (Oceanic variant)",
+   "ps": "Down, R1, Circle, L2, L2, Cross, R1, L1, Left, Left",
+   "pc": "TRAVELINSTYLE",
+   "xbox": "Down, RT, B, LB, LB, A, RT, LT, Left, Left"
+  },
+  {
+   "name": "Aggressive Traffic",
+   "effect": "Aggressive drivers",
+   "ps": "R2, Circle, R1, L2, Left, R1, L1, R2, L2",
+   "pc": "MIAMITRAFFIC",
+   "xbox": "RB, B, RT, LB, Left, RT, LT, RB, LB"
+  },
+  {
+   "name": "Black Traffic",
+   "effect": "All traffic cars are black",
+   "ps": "Circle, L2, Up, R1, Left, Cross, R1, L1, Left, Circle",
+   "pc": "IWANTITPAINTEDBLACK",
+   "xbox": "B, LB, Up, RT, Left, A, RT, LT, Left, B"
+  },
+  {
+   "name": "Pink Traffic",
+   "effect": "All traffic cars are pink",
+   "ps": "Circle, L1, Down, L2, Left, Cross, R1, L1, Right, Circle",
+   "pc": "AHAIRDRESSERSCAR",
+   "xbox": "B, LT, Down, LB, Left, A, RT, LT, Right, B"
+  },
+  {
+   "name": "Always Green Lights",
+   "effect": "All traffic lights are green",
+   "ps": "Right, R1, Up, L2, L2, Left, R1, L1, R1, R1",
+   "pc": "GREENLIGHT",
+   "xbox": "Right, RT, Up, LB, LB, Left, RT, LT, RT, RT"
+  },
+  {
+   "name": "Blow Up All Cars",
+   "effect": "Blow up/explode/destroy all vehicles, excluding police-controlled helicopters and NPC Dodo",
+   "ps": "R2, L2, R1, L1, L2, R2, Square, Triangle, Circle, Triangle, L2, L1",
+   "pc": "BIGBANG",
+   "xbox": "RB, LB, RT, LT, LB, RB, X, Y, B, Y, LB, LT"
+  },
+  {
+   "name": "Drive on Water",
+   "effect": "Cars can drive/hover over water",
+   "ps": "Right, R2, Circle, R1, L2, Square, R1, R2",
+   "pc": "SEAWAYS",
+   "xbox": "Right, RB, B, RT, LB, X, RT, RB"
+  },
+  {
+   "name": "Flying Cars",
+   "effect": "Low gravity for cars, cars control like plane in air",
+   "ps": "Right, R2, Circle, R1, L2, Down, L1, R1",
+   "pc": "COMEFLYWITHME",
+   "xbox": "Right, RB, B, RT, LB, Down, LT, RT"
+  },
+  {
+   "name": "Flying Boats",
+   "effect": "Low gravity for boats, boats control like plane in air",
+   "ps": "",
+   "pc": "AIRSHIP",
+   "xbox": ""
+  },
+  {
+   "name": "Invisible Cars",
+   "effect": "Only the wheels of cars are visible",
+   "ps": "Triangle, L1, Triangle, R2, Square, L1, L1",
+   "pc": "WHEELSAREALLINEED",
+   "xbox": "Y, LT, Y, RB, X, LT, LT"
+  },
+  {
+   "name": "Vehicle Changes",
+   "effect": "Various changes to vehicle properties, including wheel size, top speed, acceleration, and handling",
+   "ps": "R1, Cross, Triangle, Right, R2, Square, Up, Down, Square",
+   "pc": "LOADSOFLITTLETHINGS",
+   "xbox": "RT, A, Y, Right, RB, X, Up, Down, X"
+  },
+  {
+   "name": "Better Handling",
+   "effect": "Increase grip on ground, boost jump ability in all cars, disables unique stunt jumps",
+   "ps": "Triangle, R1, R1, Left, R1, L1, R2, L1",
+   "pc": "GRIPISEVERYTHING",
+   "xbox": "Y, RT, RT, Left, RT, LT, RB, LT"
+  },
+  {
+   "name": "Suicide",
+   "effect": "Commit suicide or, with sufficiently high health, suffer major loss of health",
+   "ps": "Right, L2, Down, R1, Left, Left, R1, L1, L2, L1",
+   "pc": "ICANTTAKEITANYMORE",
+   "xbox": "Right, LB, Down, RT, Left, Left, RT, LT, LB, LT"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Increase wanted level by two stars",
+   "ps": "R1, R1, Circle, R2, Left, Right, Left, Right, Left, Right",
+   "pc": "YOUWONTTAKEMEALIVE",
+   "xbox": "RT, RT, B, RB, Left, Right, Left, Right, Left, Right"
+  },
+  {
+   "name": "Remove Wanted Level",
+   "effect": "Remove all wanted level",
+   "ps": "R1, R1, Circle, R2, Up, Down, Up, Down, Up, Down",
+   "pc": "LEAVEMEALONE",
+   "xbox": "RT, RT, B, RB, Up, Down, Up, Down, Up, Down"
+  },
+  {
+   "name": "Sunny Weather",
+   "effect": "Sunny/clear weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Down",
+   "pc": "ALOVELYDAY",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, Down"
+  },
+  {
+   "name": "Cloudy Weather",
+   "effect": "Light clouds",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Triangle",
+   "pc": "APLEASANTDAY",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, Y"
+  },
+  {
+   "name": "Stormy Weather",
+   "effect": "Stormy weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Circle",
+   "pc": "CATSANDDOGS",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, B"
+  },
+  {
+   "name": "Foggy Weather",
+   "effect": "Foggy weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Cross",
+   "pc": "CANTSEEATHING",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, A"
+  },
+  {
+   "name": "Overcast Weather",
+   "effect": "Overcast weather",
+   "ps": "R2, Cross, L1, L1, L2, L2, L2, Square",
+   "pc": "ABITDRIEG",
+   "xbox": "RB, A, LT, LT, LB, LB, LB, X"
+  },
+  {
+   "name": "Skinny Tommy",
+   "effect": "Gives Tommy thin arms/legs",
+   "ps": "",
+   "pc": "PROGRAMMER",
+   "xbox": ""
+  },
+  {
+   "name": "Fat Tommy",
+   "effect": "Gives Tommy thick arms/legs",
+   "ps": "",
+   "pc": "DEEPFRIEDMARSBARS",
+   "xbox": ""
+  },
+  {
+   "name": "Women Follow Tommy",
+   "effect": "Women will be attracted to and follow Tommy",
+   "ps": "Circle, Cross, L1, L1, R2, Cross, Cross, Circle, Triangle",
+   "pc": "FANNYMAGNET",
+   "xbox": "B, A, LT, LT, RB, A, A, B, Y"
+  },
+  {
+   "name": "Peds Get in Your Car",
+   "effect": "Nearby pedestrians will enter Tommy's vehicle",
+   "ps": "",
+   "pc": "HOPINGIRL",
+   "xbox": ""
+  },
+  {
+   "name": "Faster Gameplay",
+   "effect": "Increase game speed by 2, up to x4 normal speed",
+   "ps": "Triangle, Up, Right, Down, L2, L1, Square",
+   "pc": "ONSPEED",
+   "xbox": "Y, Up, Right, Down, LB, LT, X"
+  },
+  {
+   "name": "Slow Motion",
+   "effect": "Decrease game speed by half, down to x0.25 normal speed",
+   "ps": "Triangle, Up, Right, Down, Square, R2, R1",
+   "pc": "BOOOOOORING",
+   "xbox": "Y, Up, Right, Down, X, RB, RT"
+  },
+  {
+   "name": "Faster Clock",
+   "effect": "Speed up game clock",
+   "ps": "Circle, Circle, L1, Square, L1, Square, Square, Square, L1, Triangle, Circle, Triangle",
+   "pc": "LIFEISPASSINGMEBY",
+   "xbox": "B, B, LT, X, LT, X, X, X, LT, Y, B, Y"
+  },
+  {
+   "name": "Tommy Smokes",
+   "effect": "Makes Tommy smoke a cigarette",
+   "ps": "",
+   "pc": "CERTAINDEATH",
+   "xbox": ""
+  },
+  {
+   "name": "Armed Pedestrians",
+   "effect": "Pedestrians carry weapons (Pistol, Nightstick, Golf Club, Tec 9)",
+   "ps": "R2, R1, Cross, Triangle, Cross, Triangle, Up, Down",
+   "pc": "OURGODGIVENRIGHTTOBEARARMS",
+   "xbox": "RB, RT, A, Y, A, Y, Up, Down"
+  },
+  {
+   "name": "Peds Attack Tommy",
+   "effect": "Pedestrians hate Tommy (irreversible)",
+   "ps": "Down, Up, Up, Up, Cross, R2, R1, L2, L2",
+   "pc": "NOBODYLIKESME",
+   "xbox": "Down, Up, Up, Up, A, RB, RT, LB, LB"
+  },
+  {
+   "name": "Riot Mode",
+   "effect": "Pedestrian riot (irreversible)",
+   "ps": "Down, Left, Up, Left, Cross, R2, R1, L2, L1",
+   "pc": "FIGHTFIGHTFIGHT",
+   "xbox": "Down, Left, Up, Left, A, RB, RT, LB, LT"
+  },
+  {
+   "name": "Show Media Level",
+   "effect": "Shows media level when previous media level is beaten",
+   "ps": "R2, Circle, Up, L1, Right, R1, Right, Up, Square, Triangle",
+   "pc": "CHASESTAT",
+   "xbox": "RB, B, Up, LT, Right, RT, Right, Up, X, Y"
+  },
+  {
+   "name": "Play as Random Ped",
+   "effect": "Play as a pedestrian",
+   "ps": "Right, Right, Left, Up, L1, L2, Left, Up, Down, Right",
+   "pc": "STILLLIKEDRESSINGUP",
+   "xbox": "Right, Right, Left, Up, LT, LB, Left, Up, Down, Right"
+  },
+  {
+   "name": "Play as Hilary King",
+   "effect": "Play as Hilary King",
+   "ps": "R1, Circle, R2, L1, Right, R1, L1, Cross, R2",
+   "pc": "ILOOKLIKEHILARY",
+   "xbox": "RT, B, RB, LT, Right, RT, LT, A, RB"
+  },
+  {
+   "name": "Play as Ken Rosenberg",
+   "effect": "Play as Ken Rosenberg",
+   "ps": "Right, L1, Up, L2, L1, Right, R1, L1, Cross, R1",
+   "pc": "MYSONISALAWYER",
+   "xbox": "Right, LT, Up, LB, LT, Right, RT, LT, A, RT"
+  },
+  {
+   "name": "Play as Lance Vance",
+   "effect": "Play as Lance Vance",
+   "ps": "Circle, L2, Left, Cross, R1, L1, Cross, L1",
+   "pc": "LOOKLIKELANCE",
+   "xbox": "B, LB, Left, A, RT, LT, A, LT"
+  },
+  {
+   "name": "Play as Jezz Torrent",
+   "effect": "Play as Love Fist character Jezz Torrent",
+   "ps": "Down, L1, Down, L2, Left, Cross, R1, L1, Cross, Cross",
+   "pc": "ROCKANDROLLMAN",
+   "xbox": "Down, LT, Down, LB, Left, A, RT, LT, A, A"
+  },
+  {
+   "name": "Play as Mercedes Cortez",
+   "effect": "Play as Mercedes Cortez",
+   "ps": "R2, L1, Up, L1, Right, R1, Right, Up, Circle, Triangle",
+   "pc": "FOXYLITTLETHING",
+   "xbox": "RB, LT, Up, LT, Right, RT, Right, Up, B, Y"
+  },
+  {
+   "name": "Play as Phil Cassidy",
+   "effect": "Play as Phil Cassidy",
+   "ps": "Right, R1, Up, R2, L1, Right, R1, L1, Right, Circle",
+   "pc": "ONEARMEDBANDIT",
+   "xbox": "Right, RT, Up, RB, LT, Right, RT, LT, Right, B"
+  },
+  {
+   "name": "Play as Ricardo Diaz",
+   "effect": "Play as Ricardo Diaz",
+   "ps": "L1, L2, R1, R2, Down, L1, R2, L2",
+   "pc": "CHEATSHAVEBEENCRACKED",
+   "xbox": "LT, LB, RT, RB, Down, LT, RB, LB"
+  },
+  {
+   "name": "Play as Sonny Forelli",
+   "effect": "Play as Sonny Forelli",
+   "ps": "Circle, L1, Circle, L2, Left, Cross, R1, L1, Cross, Cross",
+   "pc": "IDONTHAVETHEMONEYSONNY",
+   "xbox": "B, LT, B, LB, Left, A, RT, LT, A, A"
+  }
+ ],
+ "gta-3": [
+  {
+   "name": "Full Health",
+   "effect": "Replenish player health; if driving a vehicle, its health will also be replenished",
+   "ps": "R2, R2, L1, R1, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "GESUNDHEIT",
+   "xbox": "RB, RB, LT, RT, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Full Armor",
+   "effect": "Replenish player armor",
+   "ps": "R2, R2, L1, L2, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "TURTOISE / TORTOISE",
+   "xbox": "RB, RB, LT, LB, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "All Weapons",
+   "effect": "Acquire all weapons",
+   "ps": "R2, R2, L1, R2, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "GUNSGUNSGUNS",
+   "xbox": "RB, RB, LT, RB, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "$250,000 Money",
+   "effect": "Acquire $250,000 in cash",
+   "ps": "R2, R2, L1, L1, Left, Down, Right, Up, Left, Down, Right, Up",
+   "pc": "IFIWEREARICHMAN",
+   "xbox": "RB, RB, LT, LT, Left, Down, Right, Up, Left, Down, Right, Up"
+  },
+  {
+   "name": "Spawn Rhino Tank",
+   "effect": "Spawn a Rhino (On Android, instead of a tank, the first time the cheat is used a Landstalker spawns, after which random cars are spawned)",
+   "ps": "Circle, Circle, Circle, Circle, Circle, Circle, R1, L2, L1, Triangle, Circle, Triangle",
+   "pc": "GIVEUSATANK",
+   "xbox": "B, B, B, B, B, B, RT, LB, LT, Y, B, Y"
+  },
+  {
+   "name": "Blow Up All Cars",
+   "effect": "Blow up/explode/destroy all vehicles, excluding police-controlled helicopters and NPC Dodo",
+   "ps": "L2, R2, L1, R1, L2, R2, Triangle, Square, Circle, Triangle, L2, L1",
+   "pc": "BANGBANGBANG",
+   "xbox": "LB, RB, LT, RT, LB, RB, Y, X, B, Y, LB, LT"
+  },
+  {
+   "name": "Flying Cars",
+   "effect": "Low gravity for cars, cars control like airborne planes",
+   "ps": "Right, R2, Circle, R1, L2, Down, L1, R1",
+   "pc": "CHITTYCHITTYBB",
+   "xbox": "Right, RB, B, RT, LB, Down, LT, RT"
+  },
+  {
+   "name": "Invisible Cars",
+   "effect": "Only the wheels of cars are visible",
+   "ps": "L1, L1, Square, R2, Triangle, L1, Triangle",
+   "pc": "ANICESETOFWHEELS",
+   "xbox": "LT, LT, X, RB, Y, LT, Y"
+  },
+  {
+   "name": "Better Handling",
+   "effect": "Increase grip on ground, boost jump ability in all cars, disables unique stunt jumps",
+   "ps": "R1, L1, R2, L1, Left, R1, R1, Triangle",
+   "pc": "CORNERSLIKEMAD",
+   "xbox": "RT, LT, RB, LT, Left, RT, RT, Y"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Increase wanted level by two stars",
+   "ps": "R2, R2, L1, R2, Left, Right, Left, Right, Left, Right",
+   "pc": "MOREPOLICEPLEASE",
+   "xbox": "RB, RB, LT, RB, Left, Right, Left, Right, Left, Right"
+  },
+  {
+   "name": "Remove Wanted Level",
+   "effect": "Remove all wanted level",
+   "ps": "R2, R2, L1, R2, Up, Down, Up, Down, Up, Down",
+   "pc": "NOPOLICEPLEASE",
+   "xbox": "RB, RB, LT, RB, Up, Down, Up, Down, Up, Down"
+  },
+  {
+   "name": "Cloudy Weather",
+   "effect": "Light clouds",
+   "ps": "L1, L2, R1, R2, R2, R1, L2, Triangle",
+   "pc": "SKINCANCERFORME",
+   "xbox": "LT, LB, RT, RB, RB, RT, LB, Y"
+  },
+  {
+   "name": "Stormy Weather",
+   "effect": "Stormy weather",
+   "ps": "L1, L2, R1, R2, R2, R1, L2, Circle",
+   "pc": "ILOVESCOTLAND",
+   "xbox": "LT, LB, RT, RB, RB, RT, LB, B"
+  },
+  {
+   "name": "Foggy Weather",
+   "effect": "Foggy weather",
+   "ps": "L1, L2, R1, R2, R2, R1, L2, Cross",
+   "pc": "PEASOUP",
+   "xbox": "LT, LB, RT, RB, RB, RT, LB, A"
+  },
+  {
+   "name": "Overcast Weather",
+   "effect": "Overcast weather",
+   "ps": "L1, L2, R1, R2, R2, R1, L2, Square",
+   "pc": "ILIKESCOTLAND",
+   "xbox": "LT, LB, RT, RB, RB, RT, LB, X"
+  },
+  {
+   "name": "Faster Gameplay",
+   "effect": "Increase game speed by 2, up to x4 normal speed",
+   "ps": "Triangle, Up, Right, Down, Square, L1, L2",
+   "pc": "TIMEFLIESWHENYOU",
+   "xbox": "Y, Up, Right, Down, X, LT, LB"
+  },
+  {
+   "name": "Slow Motion",
+   "effect": "Decrease game speed by half, down to x0.25 normal speed",
+   "ps": "Triangle, Up, Right, Down, Square, R1, R2",
+   "pc": "BOOOOORING",
+   "xbox": "Y, Up, Right, Down, X, RT, RB"
+  },
+  {
+   "name": "Faster Clock",
+   "effect": "Speed up game clock",
+   "ps": "Circle, Circle, Circle, Square, Square, Square, Square, Square, L1, Triangle, Circle, Triangle",
+   "pc": "MADWEATHER",
+   "xbox": "B, B, B, X, X, X, X, X, LT, Y, B, Y"
+  },
+  {
+   "name": "Riot Mode",
+   "effect": "Pedestrian riot",
+   "ps": "Down, Up, Left, Up, Cross, R1, R2, L2, L1",
+   "pc": "ITSALLGOINGMAAAD",
+   "xbox": "Down, Up, Left, Up, A, RT, RB, LB, LT"
+  },
+  {
+   "name": "Peds Attack Claude",
+   "effect": "Pedestrians attack Claude",
+   "ps": "Down, Up, Left, Up, Cross, R1, R2, L1, L2",
+   "pc": "NOBODYLIKESME",
+   "xbox": "Down, Up, Left, Up, A, RT, RB, LT, LB"
+  },
+  {
+   "name": "Armed Pedestrians",
+   "effect": "Pedestrians (except prostitutes and street criminals) carry weapons",
+   "ps": "R2, R1, Triangle, Cross, L2, L1, Up, Down",
+   "pc": "WEAPONSFORALL",
+   "xbox": "RB, RT, Y, A, LB, LT, Up, Down"
+  },
+  {
+   "name": "Play as Random Ped",
+   "effect": "Play as pedestrian",
+   "ps": "Right, Down, Left, Up, L1, L2, Up, Left, Down, Right",
+   "pc": "ILIKEDRESSINGUP",
+   "xbox": "Right, Down, Left, Up, LT, LB, Up, Left, Down, Right"
+  },
+  {
+   "name": "Gore Mode",
+   "effect": "Gore mode",
+   "ps": "Square, L1, Circle, Down, L1, R1, Triangle, Right, L1, Cross",
+   "pc": "NASTYLIMBSCHEAT",
+   "xbox": "X, LT, B, Down, LT, RT, Y, Right, LT, A"
+  }
+ ],
+ "gta-4": [
+  {
+   "name": "Health, Armor & Ammo",
+   "effect": "Refill health and ammo, repair vehicle, and advanced weapons set",
+   "phone": "482-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Health & Armor",
+   "effect": "Refill health and armor, repair vehicle",
+   "phone": "362-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Weapon Set 1",
+   "effect": "Advanced weapons set and refill ammo (Baseball Bat, Combat Pistol, Combat Shotgun, SMG, Carbine Rifle, Combat Sniper, Grenades and RPG)",
+   "phone": "486-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Weapon Set 2",
+   "effect": "Poor weapons set and refill ammo (Knife, Pistol, Pump Shotgun, Micro-SMG, Jbbjduc Rifle, Combat Sniper, Molotov Cocktail and RPG)",
+   "phone": "486-555-0150",
+   "episode": ""
+  },
+  {
+   "name": "Change Weather",
+   "effect": "Cycles weather sequentially to the next condition in the same order as the timecyc.dat file; there are eight different weather conditions",
+   "phone": "468-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Remove Wanted Level",
+   "effect": "Clear wanted level",
+   "phone": "267-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Increase wanted level by one star",
+   "phone": "267-555-0150",
+   "episode": ""
+  },
+  {
+   "name": "Spawn FIB Buffalo",
+   "effect": "FIB Buffalo",
+   "phone": "227-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Cognoscenti",
+   "effect": "Cognoscenti",
+   "phone": "227-555-0142",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Comet",
+   "effect": "Comet",
+   "phone": "227-555-0175",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Jetmax",
+   "effect": "Jetmax",
+   "phone": "938-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Annihilator",
+   "effect": "Annihilator",
+   "phone": "359-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Super GT",
+   "effect": "Super GT",
+   "phone": "227-555-0168",
+   "episode": ""
+  },
+  {
+   "name": "Spawn NRG 900",
+   "effect": "NRG 900",
+   "phone": "625-555-0100",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Sanchez",
+   "effect": "Sanchez",
+   "phone": "625-555-0150",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Turismo",
+   "effect": "Turismo",
+   "phone": "227-555-0147",
+   "episode": ""
+  },
+  {
+   "name": "Spawn Innovation",
+   "effect": "Innovation",
+   "phone": "245-555-0100",
+   "episode": "The Lost and Damned"
+  },
+  {
+   "name": "Spawn Double T Custom",
+   "effect": "Double T Custom",
+   "phone": "245-555-0125",
+   "episode": "The Lost and Damned"
+  },
+  {
+   "name": "Spawn Hexer",
+   "effect": "Hexer",
+   "phone": "245-555-0150",
+   "episode": "The Lost and Damned"
+  },
+  {
+   "name": "Spawn Hakuchou Custom",
+   "effect": "Hakuchou Custom",
+   "phone": "245-555-0199",
+   "episode": "The Lost and Damned"
+  },
+  {
+   "name": "Spawn Slamvan",
+   "effect": "Slamvan",
+   "phone": "826-555-0100",
+   "episode": "The Lost and Damned"
+  },
+  {
+   "name": "Spawn Gang Burrito",
+   "effect": "Gang Burrito",
+   "phone": "826-555-0150",
+   "episode": "The Lost and Damned"
+  },
+  {
+   "name": "Spawn Bullet GT",
+   "effect": "Bullet GT",
+   "phone": "227-555-9666",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Spawn APC",
+   "effect": "APC",
+   "phone": "272-555-8265",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Explosive Punches",
+   "effect": "Luis throws explosive punches",
+   "phone": "276-555-2666",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Spawn Buzzard",
+   "effect": "Buzzard",
+   "phone": "359-555-2899",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Spawn Parachute",
+   "effect": "Parachute",
+   "phone": "359-555-7272",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Explosive Sniper Rounds",
+   "effect": "Explosive sniper rounds",
+   "phone": "486-555-2526",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Spawn Akuma",
+   "effect": "Akuma",
+   "phone": "625-555-0200",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Spawn Vader",
+   "effect": "Vader",
+   "phone": "625-555-3273",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "Spawn Floater",
+   "effect": "Floater",
+   "phone": "938-555-0150",
+   "episode": "The Ballad of Gay Tony"
+  },
+  {
+   "name": "TBoGT Weapon Set",
+   "effect": "Advanced weapons set and refill ammo (Knife, Pistol .44, Explosive Shotgun, Jbbjduc SMG, Advanced MG, Advanced Sniper, Grenade Launcher, Sticky Bombs)",
+   "phone": "486-555-0100",
+   "episode": "The Ballad of Gay Tony"
+  }
+ ]
+}
