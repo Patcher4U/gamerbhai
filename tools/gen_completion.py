@@ -104,7 +104,7 @@ for gk, fn, name, emoji in GAMES:
     wiki = "https://gta.fandom.com/wiki/100%25_Completion_in_" + {"gta-5": "GTA_V", "gta-san-andreas": "GTA_San_Andreas", "gta-vice-city": "GTA_Vice_City", "gta-3": "GTA_III", "gta-4": "GTA_IV",
         "gta-liberty-city-stories": "GTA_Liberty_City_Stories", "gta-vice-city-stories": "GTA_Vice_City_Stories", "gta-chinatown-wars": "GTA_Chinatown_Wars"}[gk]
     top = (f'  <div class="warnbox">✅ Tick each task as you finish it – your ticks are saved in this browser only. <b id="chkc"></b></div>\n')
-    body = top + body + (f'  <p class="note">More: <a href="{gk}-missions">{e(name)} missions</a> · <a href="{gk}-cheats">{e(name)} cheats</a> (cheats can block achievements/trophies) · ' + ('<a href="gta-5-strangers-and-freaks">Strangers and Freaks missions</a> · ' if gk == "gta-5" else '')
+    body = top + body + (f'  <p class="note">More: <a href="{gk}-missions">{e(name)} missions</a> · <a href="{gk}-cheats">{e(name)} cheats</a> (cheats can block achievements/trophies) · ' + ('<a href="gta-5-strangers-and-freaks">Strangers and Freaks missions</a> · <a href="gta-5-random-events">random events</a> · ' if gk == "gta-5" else '') + ('<a href="gta-san-andreas-girlfriends">girlfriends guide</a> · ' if gk == "gta-san-andreas" else '')
              + " · ".join(f'<a href="{o}-100-percent-completion">{e(n2)} 100%</a>' for o, f2, n2, _ in GAMES if o != gk and os.path.exists(os.path.join(SRC, f2 + ".txt")))
              + f'. Checklist from the <a href="{wiki}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0). Unofficial fan guide, not affiliated with Rockstar Games.</p>\n')
     lead_txt = intro[0] if intro else f"Everything you need to do for 100% completion in {name}."
