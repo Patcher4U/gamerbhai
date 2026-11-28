@@ -94,8 +94,75 @@ for sec, c in rows("gta4.txt"):
     iv.append({"name": nm, "effect": clean_name(c[0]), "phone": num, "episode": ep})
 games["gta-4"] = iv
 
+# ---------- handheld-era games (LCS, VCS: PSP + PS2 same sequences; Chinatown Wars: DS / PSP / phone words)
+def sym(s):
+    s = s.replace("▲", "Triangle").replace("●", "Circle").replace("■", "Square").replace("↑", "Up").replace("↓", "Down").replace("←", "Left").replace("→", "Right")
+    s = re.sub(r"\s*/\s*.*$", "", s.strip(" /.:"))
+    parts = [p.strip().rstrip(".") for p in re.split(r"[,\s]+(?=\S)", s.replace(",", " , ")) if p.strip() and p.strip() != ","]
+    out = []
+    for p in parts:
+        u = p.upper()
+        out.append({"TRIANGLE": "Triangle", "CIRCLE": "Circle", "SQUARE": "Square", "O": "Circle", "UP": "Up", "DOWN": "Down", "LEFT": "Left", "RIGHT": "Right", "L": "L1", "R": "R1"}.get(u, u if u in ("X", "L1", "R1", "L2", "R2") else p[:1].upper() + p[1:].lower()))
+    return ", ".join(out)
+def tables(fn):
+    cur, t = None, []
+    for l in open(os.path.join(SRC, fn), encoding="utf-8").read().split("\n"):
+        if "|" not in l: continue
+        a, b = [x.strip(" /:") for x in l.split("|")[:2]]
+        if a in ("Code", "Cheat code") or "Grand Theft Auto" in a or "Protagonists" in b: 
+            if a in ("Code", "Cheat code"): t.append([]); 
+            continue
+        if not t: t.append([])
+        t[-1].append((a, b))
+    return t
+NOMP = ("multiplayer", "MP Content", "Credits")
+# LCS: table 0 = PSP (name|code), table 1 = PS2 (code|name)
+lt = tables("lcs.txt")
+psp = [(n, sym(c)) for n, c in lt[0] if not any(w.lower() in n.lower() for w in NOMP)]
+ps2 = {sym(c) for c, n in lt[1]} if len(lt) > 1 else set()
+seen = set(); lcs = []
+for n, c in psp:
+    if c in seen: continue
+    seen.add(c)
+    lcs.append({"name": n, "effect": n, "ps": c, "ps2_checked": c in ps2})
+games["gta-liberty-city-stories"] = [c for c in lcs if c.pop("ps2_checked")]
+# VCS: table 0 = PS2 (L1/R1), table 1 = PSP (L/R -> L1/R1); keep a cheat only once
+vt = tables("vcs.txt"); vcs = []; seen = set()
+pspc = {sym(c) for n, c in (vt[1] if len(vt) > 1 else [])}
+for n, c in vt[0]:
+    c2 = sym(c)
+    if c2 in seen or any(w.lower() in n.lower() for w in NOMP): continue
+    seen.add(c2); vcs.append({"name": n, "effect": n, "ps": c2, "psp_checked": c2 in pspc})
+games["gta-vice-city-stories"] = [c for c in vcs if c.pop("psp_checked")]
+# Chinatown Wars: DS rows, PSP rows, then phone words - matched by order of the cheat names
+rows = [r for t in tables("ctw.txt") for r in t]
+ds, pspr, words = rows[:16], rows[16:32], rows[32:]
+ctw = []
+DSMAP = {"A": "A", "B": "B", "X": "X", "Y": "Y", "L": "L", "R": "R", "UP": "Up", "DOWN": "Down", "LEFT": "Left", "RIGHT": "Right"}
+for i, (n, c) in enumerate(ds):
+    d = ", ".join(DSMAP.get(x, x) for x in c.split())
+    pc = sym(pspr[i][1].replace(" ", ", ")) if i < len(pspr) and pspr[i][0] == n else ""
+    if pc and len(pc.split(",")) != len(d.split(",")): pc = ""
+    w = next((b for a, b in words if a == n), "")
+    ctw.append({"name": n[:1].upper() + n[1:], "effect": n, "ds": d, "psp": pc, "phone": w})
+for a, b in words:
+    if not any(c["effect"] == a for c in ctw): ctw.append({"name": a[:1].upper() + a[1:], "effect": a, "ds": "", "psp": "", "phone": b})
+games["gta-chinatown-wars"] = [c for c in ctw if c["ds"] or re.fullmatch(r"[A-Z]{4,10}", c["phone"])]
+
 # ---------- short, search-friendly names (lists = used in order for duplicate rows); None = drop the row
 REN = {
+ "gta-liberty-city-stories": {"Get $250000": "$250,000 Money", "Armor": "Full Armor", "Health": "Full Health", "Spawn Rhino": "Spawn Rhino Tank", "Perfect Traction, Down=Car Hop": "Perfect Traction",
+  "Media Attention Meter": "Show Media Level", "Nearest Ped enters your car": "Peds Get in Your Car", "Certain Peds follow you": "Peds Follow You", "All Peds have big heads": "Big Heads",
+  "All Vehicles Chrome Plated": "Chrome Cars", "Cars Drive On Water": "Drive on Water"},
+ "gta-vice-city-stories": {"Full armor": "Full Armor", "Weapons (tier 1)": "Weapon Set 1", "Weapons (tier 2)": "Weapon Set 2", "Weapons (tier 3)": "Weapon Set 3", "Destroy all cars": "Destroy All Cars",
+  "Faster game time": "Faster Clock", "Slower game play": "Slower Gameplay", "Faster game play": "Faster Gameplay", "$250,000": "$250,000 Money", "Full health": "Full Health",
+  "Raise wanted level": "Raise Wanted Level", "Overcast weather": "Overcast Weather", "Rainy weather": "Rainy Weather", "Foggy weather": "Foggy Weather", "Sunny weather": "Sunny Weather",
+  "Clear weather": "Clear Weather", "Pedestrians attack": "Peds Attack You", "Pedestrians have weapons": "Armed Pedestrians", "Pedestrians riot": "Riot Mode", "Spawn Rhino tank": "Spawn Rhino Tank",
+  "Perfect handling": "Perfect Handling", "Chrome traffic": "Chrome Cars", "Commit suicide": "Commit Suicide"},
+ "gta-chinatown-wars": {"Weapon pack 1": "Weapon Pack 1", "Weapon pack 2": "Weapon Pack 2", "Weapon pack 3": "Weapon Pack 3", "Weapon pack 4": "Weapon Pack 4", "Armor": "Full Armor", "Health": "Full Health",
+  "Wanted level up": "Raise Wanted Level", "Wanted level down": "Lower Wanted Level", "Explosive eagle": "Explosive Pistol Rounds", "Sunny": "Sunny Weather", "Extra sunny": "Extra Sunny Weather",
+  "Cloud": "Cloudy Weather", "Rain": "Rainy Weather", "Heavy rain": "Heavy Rain", "Storm": "Stormy Weather", "Fog": "Foggy Weather", "Jump 1 hour": "Skip 1 Hour", "Jump 6 hours": "Skip 6 Hours",
+  "Jump 1 day": "Skip 1 Day", "Get $10,000": "$10,000 Money"},
  "gta-san-andreas": {"Adrenaline effects": "Adrenaline Mode", "Armor, health and $250,000 in money": "Health, Armor & $250,000 (HESOYAM)",
   "CJ jumps 10 times higher": "Super Jump", "Commit suicide": "Suicide", "Hitman level for all weapons": "Hitman Weapon Skills",
   "Lock wanted level": "Never Wanted", "Raise wanted level by two stars": "Raise Wanted Level", "Remove wanted level": "Remove Wanted Level",

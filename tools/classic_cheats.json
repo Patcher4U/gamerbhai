@@ -1872,5 +1872,451 @@
    "phone": "486-555-0100",
    "episode": "The Ballad of Gay Tony"
   }
+ ],
+ "gta-liberty-city-stories": [
+  {
+   "name": "Weapon Set 1",
+   "effect": "Weapon Set 1",
+   "ps": "Up, Square, Square, Down, Left, Square, Square, Right"
+  },
+  {
+   "name": "Weapon Set 2",
+   "effect": "Weapon Set 2",
+   "ps": "Up, Circle, Circle, Down, Left, Circle, Circle, Right"
+  },
+  {
+   "name": "Weapon Set 3",
+   "effect": "Weapon Set 3",
+   "ps": "Up, X, X, Down, Left, X, X, Right"
+  },
+  {
+   "name": "$250,000 Money",
+   "effect": "Get $250000",
+   "ps": "L1, R1, Triangle, L1, R1, Circle, L1, R1"
+  },
+  {
+   "name": "Full Armor",
+   "effect": "Armor",
+   "ps": "L1, R1, Circle, L1, R1, X, L1, R1"
+  },
+  {
+   "name": "Full Health",
+   "effect": "Health",
+   "ps": "L1, R1, X, L1, R1, Square, L1, R1"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Raise Wanted Level",
+   "ps": "L1, R1, Square, L1, R1, Triangle, L1, R1"
+  },
+  {
+   "name": "Never Wanted",
+   "effect": "Never Wanted",
+   "ps": "L1, L1, Triangle, R1, R1, X, Square, Circle"
+  },
+  {
+   "name": "Sunny Weather",
+   "effect": "Sunny Weather",
+   "ps": "L1, L1, Circle, R1, R1, Square, Triangle, X"
+  },
+  {
+   "name": "Clear Weather",
+   "effect": "Clear Weather",
+   "ps": "Up, Down, Circle, Up, Down, Square, L1, R1"
+  },
+  {
+   "name": "Overcast Weather",
+   "effect": "Overcast Weather",
+   "ps": "Up, Down, X, Up, Down, Triangle, L1, R1"
+  },
+  {
+   "name": "Rainy Weather",
+   "effect": "Rainy Weather",
+   "ps": "Up, Down, Square, Up, Down, Circle, L1, R1"
+  },
+  {
+   "name": "Foggy Weather",
+   "effect": "Foggy Weather",
+   "ps": "Up, Down, Triangle, Up, Down, X, L1, R1"
+  },
+  {
+   "name": "Spawn Rhino Tank",
+   "effect": "Spawn Rhino",
+   "ps": "L1, L1, Left, L1, L1, Right, Triangle, Circle"
+  },
+  {
+   "name": "Faster Clock",
+   "effect": "Faster Clock",
+   "ps": "L1, L1, Left, L1, L1, Right, Circle, X"
+  },
+  {
+   "name": "Destroy All Cars",
+   "effect": "Destroy All Cars",
+   "ps": "L1, L1, Left, L1, L1, Right, X, Square"
+  },
+  {
+   "name": "Peds Riot",
+   "effect": "Peds Riot",
+   "ps": "L1, L1, R1, L1, L1, R1, Left, Square"
+  },
+  {
+   "name": "Peds Attack You",
+   "effect": "Peds Attack You",
+   "ps": "L1, L1, R1, L1, L1, R1, Up, Triangle"
+  },
+  {
+   "name": "Peds Have Weapons",
+   "effect": "Peds Have Weapons",
+   "ps": "R1, R1, L1, R1, R1, L1, Right, Circle"
+  },
+  {
+   "name": "Faster Gameplay",
+   "effect": "Faster Gameplay",
+   "ps": "R1, R1, L1, R1, R1, L1, Down, X"
+  },
+  {
+   "name": "Slower Gameplay",
+   "effect": "Slower Gameplay",
+   "ps": "R1, Triangle, X, R1, Square, Circle, Left, Right"
+  },
+  {
+   "name": "Perfect Traction",
+   "effect": "Perfect Traction, Down=Car Hop",
+   "ps": "L1, Up, Left, R1, Triangle, Circle, Down, X"
+  },
+  {
+   "name": "Show Media Level",
+   "effect": "Media Attention Meter",
+   "ps": "L1, Up, Right, R1, Triangle, Square, Down, X"
+  },
+  {
+   "name": "Commit Suicide",
+   "effect": "Commit Suicide",
+   "ps": "L1, Down, Left, R1, X, Circle, Up, Triangle"
+  },
+  {
+   "name": "All Green Lights",
+   "effect": "All Green Lights",
+   "ps": "Triangle, Triangle, R1, Square, Square, L1, X, X"
+  },
+  {
+   "name": "Aggressive Drivers",
+   "effect": "Aggressive Drivers",
+   "ps": "Square, Square, R1, X, X, L1, Circle, Circle"
+  },
+  {
+   "name": "White Traffic",
+   "effect": "White Traffic",
+   "ps": "X, X, R1, Circle, Circle, L1, Triangle, Triangle"
+  },
+  {
+   "name": "Black Traffic",
+   "effect": "Black Traffic",
+   "ps": "Circle, Circle, R1, Triangle, Triangle, L1, Square, Square"
+  },
+  {
+   "name": "Spawn Trashmaster",
+   "effect": "Spawn Trashmaster",
+   "ps": "Triangle, Circle, Down, Triangle, Circle, Up, L1, L1"
+  },
+  {
+   "name": "Drive on Water",
+   "effect": "Cars Drive On Water",
+   "ps": "Circle, X, Down, Circle, X, Up, L1, L1"
+  },
+  {
+   "name": "Peds Get in Your Car",
+   "effect": "Nearest Ped enters your car",
+   "ps": "X, Square, Down, X, Square, Up, R1, R1"
+  },
+  {
+   "name": "Peds Follow You",
+   "effect": "Certain Peds follow you",
+   "ps": "Down, Down, Down, Triangle, Triangle, Circle, L1, R1"
+  },
+  {
+   "name": "Big Heads",
+   "effect": "All Peds have big heads",
+   "ps": "Down, Down, Down, Circle, Circle, X, L1, R1"
+  },
+  {
+   "name": "Change Bike Tire Size",
+   "effect": "Change Bike Tire Size",
+   "ps": "Circle, Right, X, Up, Right, X, L1, Square"
+  },
+  {
+   "name": "Chrome Cars",
+   "effect": "All Vehicles Chrome Plated",
+   "ps": "Triangle, R1, L1, Down, Down, R1, R1, Triangle"
+  }
+ ],
+ "gta-vice-city-stories": [
+  {
+   "name": "Full Armor",
+   "effect": "Full armor",
+   "ps": "Up, Down, Left, Right, Square, Square, L1, R1"
+  },
+  {
+   "name": "Weapon Set 1",
+   "effect": "Weapons (tier 1)",
+   "ps": "Left, Right, X, Up, Down, Square, Left, Right"
+  },
+  {
+   "name": "Weapon Set 2",
+   "effect": "Weapons (tier 2)",
+   "ps": "Left, Right, Square, Up, Down, Triangle, Left, Right"
+  },
+  {
+   "name": "Weapon Set 3",
+   "effect": "Weapons (tier 3)",
+   "ps": "Left, Right, Triangle, Up, Down, Circle, Left, Right"
+  },
+  {
+   "name": "Destroy All Cars",
+   "effect": "Destroy all cars",
+   "ps": "L1, R1, R1, Left, Right, Square, Down, R1"
+  },
+  {
+   "name": "Faster Clock",
+   "effect": "Faster game time",
+   "ps": "R1, L1, L1, Down, Up, X, Down, L1"
+  },
+  {
+   "name": "Slower Gameplay",
+   "effect": "Slower game play",
+   "ps": "Left, Left, Circle, Circle, Down, Up, Triangle, X"
+  },
+  {
+   "name": "Faster Gameplay",
+   "effect": "Faster game play",
+   "ps": "Left, Left, R1, R1, Up, Triangle, Down, X"
+  },
+  {
+   "name": "$250,000 Money",
+   "effect": "$250,000",
+   "ps": "Up, Down, Left, Right, X, X, L1, R1"
+  },
+  {
+   "name": "Full Health",
+   "effect": "Full health",
+   "ps": "Up, Down, Left, Right, Circle, Circle, L1, R1"
+  },
+  {
+   "name": "Never Wanted",
+   "effect": "Never Wanted",
+   "ps": "Up, Right, Triangle, Triangle, Down, Left, X, X"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Raise wanted level",
+   "ps": "Up, Right, Square, Square, Down, Left, Circle, Circle"
+  },
+  {
+   "name": "Overcast Weather",
+   "effect": "Overcast weather",
+   "ps": "Left, Down, L1, R1, Right, Up, Left, Square"
+  },
+  {
+   "name": "Rainy Weather",
+   "effect": "Rainy weather",
+   "ps": "Left, Down, L1, R1, Right, Up, Left, Triangle"
+  },
+  {
+   "name": "Foggy Weather",
+   "effect": "Foggy weather",
+   "ps": "Left, Down, Triangle, X, Right, Up, Left, L1"
+  },
+  {
+   "name": "Sunny Weather",
+   "effect": "Sunny weather",
+   "ps": "Left, Down, R1, L1, Right, Up, Left, Circle"
+  },
+  {
+   "name": "Clear Weather",
+   "effect": "Clear weather",
+   "ps": "Left, Down, R1, L1, Right, Up, Left, X"
+  },
+  {
+   "name": "Peds Attack You",
+   "effect": "Pedestrians attack",
+   "ps": "Down, Triangle, Up, X, L1, R1, L1, R1"
+  },
+  {
+   "name": "Armed Pedestrians",
+   "effect": "Pedestrians have weapons",
+   "ps": "Up, L1, Down, R1, Left, Circle, Right, Triangle"
+  },
+  {
+   "name": "Riot Mode",
+   "effect": "Pedestrians riot",
+   "ps": "R1, L1, L1, Down, Left, Circle, Down, L1"
+  },
+  {
+   "name": "Spawn Rhino Tank",
+   "effect": "Spawn Rhino tank",
+   "ps": "Up, L1, Down, R1, Left, L1, Right, R1"
+  },
+  {
+   "name": "Spawn Trashmaster",
+   "effect": "Spawn Trashmaster",
+   "ps": "Down, Up, Right, Triangle, L1, Triangle, L1, Triangle"
+  },
+  {
+   "name": "Perfect Handling",
+   "effect": "Perfect handling",
+   "ps": "Down, Left, Up, L1, R1, Triangle, Circle, X"
+  },
+  {
+   "name": "Chrome Cars",
+   "effect": "Chrome traffic",
+   "ps": "Right, Up, Left, Down, Triangle, Triangle, L1, R1"
+  },
+  {
+   "name": "Commit Suicide",
+   "effect": "Commit suicide",
+   "ps": "Right, Right, Circle, Circle, L1, R1, Down, X"
+  }
+ ],
+ "gta-chinatown-wars": [
+  {
+   "name": "Weapon Pack 1",
+   "effect": "Weapon pack 1",
+   "ds": "R, Up, B, Down, Left, R, B, Right",
+   "psp": "R1, Up, X, Down, Left, R1, X, Right",
+   "phone": "LOADOA"
+  },
+  {
+   "name": "Weapon Pack 2",
+   "effect": "Weapon pack 2",
+   "ds": "R, Up, A, Down, Left, R, A, Right",
+   "psp": "R1, Up, Circle, Down, Left, R1, Circle, Right",
+   "phone": "LOADOB"
+  },
+  {
+   "name": "Weapon Pack 3",
+   "effect": "Weapon pack 3",
+   "ds": "R, Up, Y, Down, Left, R, Y, Right",
+   "psp": "R1, Up, Square, Down, Left, R1, Square, Right",
+   "phone": "LOADOC"
+  },
+  {
+   "name": "Weapon Pack 4",
+   "effect": "Weapon pack 4",
+   "ds": "R, Up, X, Down, Left, R, X, Right",
+   "psp": "R1, Up, Triangle, Down, Left, R1, Triangle, Right",
+   "phone": "LOADOD"
+  },
+  {
+   "name": "Full Armor",
+   "effect": "Armor",
+   "ds": "L, L, R, B, B, A, A, R",
+   "psp": "L1, L1, R1, X, X, Circle, Circle, R1",
+   "phone": "SHELLY"
+  },
+  {
+   "name": "Full Health",
+   "effect": "Health",
+   "ds": "L, L, R, A, A, B, B, R",
+   "psp": "L1, L1, R1, Circle, Circle, X, X, R1",
+   "phone": "LIFEUP"
+  },
+  {
+   "name": "Raise Wanted Level",
+   "effect": "Wanted level up",
+   "ds": "L, L, R, Y, Y, X, X, R",
+   "psp": "L1, L1, R1, Square, Square, Triangle, Triangle, R1",
+   "phone": "COPIN"
+  },
+  {
+   "name": "Lower Wanted Level",
+   "effect": "Wanted level down",
+   "ds": "R, X, X, Y, Y, R, L, L",
+   "psp": "",
+   "phone": "COPOUT"
+  },
+  {
+   "name": "Explosive Pistol Rounds",
+   "effect": "Explosive eagle",
+   "ds": "L, R, X, Y, A, B, Up, Down",
+   "psp": "L1, R1, Triangle, Square, Circle, X, Up, Down",
+   "phone": "BOOMCAN"
+  },
+  {
+   "name": "Sunny Weather",
+   "effect": "Sunny",
+   "ds": "Up, Down, Left, Right, A, B, L, R",
+   "psp": "Up, Down, Left, Right, Circle, X, L1, R1",
+   "phone": ""
+  },
+  {
+   "name": "Extra Sunny Weather",
+   "effect": "Extra sunny",
+   "ds": "Up, Down, Left, Right, B, X, L, R",
+   "psp": "Up, Down, Left, Right, X, Triangle, L1, R1",
+   "phone": ""
+  },
+  {
+   "name": "Cloudy Weather",
+   "effect": "Cloud",
+   "ds": "Up, Down, Left, Right, X, Y, L, R",
+   "psp": "Up, Down, Left, Right, Triangle, Square, L1, R1",
+   "phone": ""
+  },
+  {
+   "name": "Rainy Weather",
+   "effect": "Rain",
+   "ds": "Up, Down, Left, Right, Y, A, L, R",
+   "psp": "Up, Down, Left, Right, Square, Circle, L1, R1",
+   "phone": ""
+  },
+  {
+   "name": "Heavy Rain",
+   "effect": "Heavy rain",
+   "ds": "Up, Down, Left, Right, A, X, R, L",
+   "psp": "Up, Down, Left, Right, Circle, Triangle, R1, L1",
+   "phone": ""
+  },
+  {
+   "name": "Stormy Weather",
+   "effect": "Storm",
+   "ds": "Up, Down, Left, Right, B, Y, R, L",
+   "psp": "Up, Down, Left, Right, X, Square, R1, L1",
+   "phone": ""
+  },
+  {
+   "name": "Foggy Weather",
+   "effect": "Fog",
+   "ds": "Up, Down, Left, Right, Y, B, R, L",
+   "psp": "Up, Down, Left, Right, Square, X, R1, L1",
+   "phone": ""
+  },
+  {
+   "name": "Skip 1 Hour",
+   "effect": "Jump 1 hour",
+   "ds": "",
+   "psp": "",
+   "phone": "JUMPHR"
+  },
+  {
+   "name": "Skip 6 Hours",
+   "effect": "Jump 6 hours",
+   "ds": "",
+   "psp": "",
+   "phone": "JUMPHRS"
+  },
+  {
+   "name": "Skip 1 Day",
+   "effect": "Jump 1 day",
+   "ds": "",
+   "psp": "",
+   "phone": "JUMPDAY"
+  },
+  {
+   "name": "$10,000 Money",
+   "effect": "Get $10,000",
+   "ds": "",
+   "psp": "",
+   "phone": "CASHIN"
+  }
  ]
 }

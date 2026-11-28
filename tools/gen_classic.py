@@ -54,7 +54,22 @@ G = {
        '<li>After the first use, the cheat is saved in the phone\'s <b>Cheats</b> menu so you can turn it on again quickly.</li></ol>'
        '<div class="warnbox">⚠️ Using cheats blocks some achievements/trophies (for example "One Man Army" and "Cleaned the Mean Streets"), even after you save.</div>'),
 }
-ORDER = ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4"]
+G.update({
+ "gta-liberty-city-stories": dict(name="GTA Liberty City Stories", full="Grand Theft Auto: Liberty City Stories", year=2005, city="Liberty City", hero="Toni Cipriani", emoji="🎰",
+   plats=[("PSP / PS2", "ps")],
+   how='<ol><li>Enter the button sequence quickly during gameplay (not in a menu). A message confirms the cheat.</li><li>On PSP, <b>L1/R1</b> are the <b>L</b> and <b>R</b> shoulder buttons. The same codes work on PS2.</li></ol>'
+       '<div class="warnbox">⚠️ Save before using cheats. Some cheats are counted in your stats, and a few (traffic, peds) stay on after saving.</div>'),
+ "gta-vice-city-stories": dict(name="GTA Vice City Stories", full="Grand Theft Auto: Vice City Stories", year=2006, city="Vice City", hero="Victor Vance", emoji="🌴",
+   plats=[("PS2 / PSP", "ps")],
+   how='<ol><li>Enter the button sequence quickly during gameplay (not in a menu). A message confirms the cheat.</li><li>On PSP, <b>L1/R1</b> are the <b>L</b> and <b>R</b> shoulder buttons.</li></ol>'
+       '<div class="warnbox">⚠️ Save before using cheats. Some cheats stay on after saving and can change your stats.</div>'),
+ "gta-chinatown-wars": dict(name="GTA Chinatown Wars", full="Grand Theft Auto: Chinatown Wars", year=2009, city="Liberty City", hero="Huang Lee", emoji="🐉",
+   plats=[("Nintendo DS", "ds"), ("PSP", "psp"), ("iPhone / Android (whiteboard)", "phone")],
+   how='<ol><li><b>DS / PSP:</b> enter the button sequence during gameplay (on PSP, L1/R1 = the L and R buttons).</li><li><b>iPhone / Android:</b> go to any safehouse and arrange the letters on the <b>whiteboard</b> to spell the code (not in the free "Lite" version).</li></ol>'
+       '<div class="warnbox">⚠️ Save first. Cheats can be counted in your stats.</div>'),
+})
+MISSIONS = {"gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4"}
+ORDER = ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4", "gta-liberty-city-stories", "gta-vice-city-stories", "gta-chinatown-wars"]
 
 def group(n):
     l = n.lower()
@@ -92,7 +107,7 @@ for gk in ORDER:
         body += sec("03", "How to enter it", g["how"])
         rel = [x for x in cheats if x is not c and x["grp"] == c["grp"]][:8] or [x for x in cheats if x is not c][:6]
         body += (f'  <section class="reveal"><h2><span class="n">04</span>More {e(g["name"])} cheats</h2><div class="grid">'
-                 + "".join(f'<a class="glass tilt area" href="{x["slug"]}"><div class="pop"><div class="ic">{g["emoji"]}</div><h3>{e(x["name"])}</h3><p class="code">{e(x.get("pc") or x.get("phone") or x.get("ps",""))[:60]}</p></div></a>' for x in rel)
+                 + "".join(f'<a class="glass tilt area" href="{x["slug"]}"><div class="pop"><div class="ic">{g["emoji"]}</div><h3>{e(x["name"])}</h3><p class="code">{e(x.get("pc") or x.get("phone") or x.get("ps") or x.get("ds",""))[:60]}</p></div></a>' for x in rel)
                  + f'</div><p class="note"><a href="{gk}-cheats">All {len(cheats)} {e(g["name"])} cheats →</a> · <a href="gta-cheats">Cheats for every GTA →</a> · <a href="guides#cheats">GTA 6 cheats →</a></p></section>\n')
         body += '  <p class="note">Codes are cross-checked with the GTA Wiki (CC BY-SA) and long-standing community lists. Unofficial fan guide, not affiliated with Rockstar Games.</p>\n'
         first = main[0][1] if main else ""
@@ -111,7 +126,7 @@ for gk in ORDER:
     for gr in grps:
         rows = "".join(f'<tr><td><a href="{c["slug"]}">{e(c["name"])}</a></td>' + "".join(f'<td>{code_html(c, k)}</td>' for _, k in plats) + '</tr>' for c in cheats if c["grp"] == gr)
         body += sec(f"{n:02d}", e(gr), f'<div class="gtable"><table class="cheats cw"><thead><tr><th>Cheat</th>{head}</tr></thead><tbody>{rows}</tbody></table></div>'); n += 1
-    body += f'  <p class="note">📖 <a href="{gk}-missions">All {e(g["name"])} missions (walkthrough)</a> · Other games: ' + " · ".join(f'<a href="{o}-cheats">{e(G[o]["name"])} cheats</a>' for o in ORDER if o != gk) + ' · <a href="guides#cheats">GTA 6 cheats</a>. Codes cross-checked with the GTA Wiki (CC BY-SA). Unofficial fan guide.</p>\n'
+    body += f'  <p class="note">' + (f'📖 <a href="{gk}-missions">All {e(g["name"])} missions (walkthrough)</a> · ' if gk in MISSIONS else '') + 'Other games: ' + " · ".join(f'<a href="{o}-cheats">{e(G[o]["name"])} cheats</a>' for o in ORDER if o != gk) + ' · <a href="guides#cheats">GTA 6 cheats</a>. Codes cross-checked with the GTA Wiki (CC BY-SA). Unofficial fan guide.</p>\n'
     top = ", ".join(f'{c["name"]} ({c.get("pc") or c.get("phone")})' for c in cheats[:3] if c.get("pc") or c.get("phone"))
     title = f"All {g['name']} Cheats ({len(cheats)} Codes)"
     desc = clip(f"Every {g['name']} cheat code for " + ", ".join(lab for lab, _ in plats) + f": {top} and more. How to enter them, one page per cheat.")
@@ -122,7 +137,7 @@ for gk in ORDER:
 
 # ---- all-games hub
 cards = '<div class="grid"><a class="glass tilt area" href="guides#cheats"><div class="pop"><div class="ic">🌴</div><h3>GTA 6 cheats</h3><p>17 confirmed codes for PS5 &amp; Xbox Series X|S (2026)</p></div></a>' + "".join(
-    f'<a class="glass tilt area" href="{gk}-cheats"><div class="pop"><div class="ic">{G[gk]["emoji"]}</div><h3>{e(G[gk]["name"])} cheats</h3><p>{len(DATA[gk])} codes · {G[gk]["year"]} · {e(", ".join(l for l, _ in G[gk]["plats"]))}</p></div></a>' for gk in ORDER) + '</div><p class="note">📖 Mission walkthroughs: <a href="walkthrough">GTA 6</a> · ' + " · ".join(f'<a href="{gk}-missions">{e(G[gk]["name"])}</a>' for gk in ORDER) + '</p>'
+    f'<a class="glass tilt area" href="{gk}-cheats"><div class="pop"><div class="ic">{G[gk]["emoji"]}</div><h3>{e(G[gk]["name"])} cheats</h3><p>{len(DATA[gk])} codes · {G[gk]["year"]} · {e(", ".join(l for l, _ in G[gk]["plats"]))}</p></div></a>' for gk in ORDER) + '</div><p class="note">📖 Mission walkthroughs: <a href="walkthrough">GTA 6</a> · ' + " · ".join(f'<a href="{gk}-missions">{e(G[gk]["name"])}</a>' for gk in ORDER if gk in MISSIONS) + '</p>'
 pop = ""
 for gk, nm in (("gta-san-andreas", "Health, Armor & $250,000 (HESOYAM)"), ("gta-san-andreas", "Never Wanted"), ("gta-5", "Invincibility"), ("gta-5", "Max Health & Armor"), ("gta-vice-city", "Full Health"), ("gta-4", "Health, Armor & Ammo")):
     c = next((x for x in DATA[gk] if x["name"] == nm), None)
@@ -130,8 +145,8 @@ for gk, nm in (("gta-san-andreas", "Health, Armor & $250,000 (HESOYAM)"), ("gta-
 body = sec("01", "Pick your game", cards) + sec("02", "Most searched cheats", f'<div class="gtable"><table class="cheats cw"><thead><tr><th>Cheat</th><th>PC / phone code</th></tr></thead><tbody>{pop}</tbody></table></div>')
 total = sum(len(DATA[g]) for g in ORDER)
 open(os.path.join(SITE, "gta-cheats.html"), "w", encoding="utf-8").write(
-    page("All GTA Cheats & Missions: GTA 6, 5, San Andreas, Vice City, 4, 3", clip(f"Cheat codes for every Grand Theft Auto: GTA 6, GTA 5, San Andreas, Vice City, GTA 4 and GTA 3 – {total}+ codes for PC, PlayStation, Xbox and phone."),
-         BASE + "gta-cheats", "GTA CHEATS · EVERY GAME", "GTA Cheats for Every Game", f"🎮 {total}+ cheat codes across 6 Grand Theft Auto games – one page per cheat.", body,
+    page("All GTA Cheats & Missions: GTA 6, 5, San Andreas, Vice City, 4, 3", clip(f"Cheat codes for every Grand Theft Auto: GTA 6, GTA 5, San Andreas, Vice City, GTA 4, GTA 3, Liberty City Stories, Vice City Stories and Chinatown Wars – {total}+ codes for PC, PlayStation, Xbox and phone."),
+         BASE + "gta-cheats", "GTA CHEATS · EVERY GAME", "GTA Cheats for Every Game", f"🎮 {total}+ cheat codes across 9 Grand Theft Auto games – one page per cheat.", body,
          [crumbs([("Home", ""), ("GTA cheats", "gta-cheats")])]))
 hubs.append("gta-cheats")
 
