@@ -4,9 +4,10 @@ Keeps story missions (plus VC asset missions, GTA III phone missions, GTA IV opt
 import json, os, re, sys
 SRC = sys.argv[1]
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "classic_missions.json")
-FILES = {"gta-5": "m_v.txt", "gta-san-andreas": "m_sa.txt", "gta-vice-city": "m_vc.txt", "gta-3": "m_3.txt", "gta-4": "m_4.txt"}
+FILES = {"gta-5": "m_v.txt", "gta-san-andreas": "m_sa.txt", "gta-vice-city": "m_vc.txt", "gta-3": "m_3.txt", "gta-4": "m_4.txt",
+         "gta-liberty-city-stories": "m_lcs.txt", "gta-vice-city-stories": "m_vcs.txt", "gta-chinatown-wars": "m_ctw.txt"}
 STOP = ("Side Missions", "Vehicle Missions", "Notes", "Navigation", "Trivia", "See Also", "Vice Street Racer", "Hyman Memorial",
-        "Sparrow Missions", "Off-Road Missions", "Remote Controlled", "Other Missions", "Mission Tree", "Family Missions")
+        "Sparrow Missions", "Off-Road Missions", "Empire Building", "Races and Trials", "Remote Controlled", "Other Missions", "Mission Tree", "Family Missions")
 SKIPHEAD = ("You shouldn't see this", "Label", "Story Missions", "Main Story Missions", "Phone Missions", "Pay Phone Missions", "Final Missions",
             "Asset Missions", "Optional Missions", "Whiz Cellphone", "Finale", "Middle Park East Safehouse Required")
 
@@ -15,14 +16,17 @@ def region_like(h):
 
 data = {}
 for g, fn in FILES.items():
+    if not os.path.exists(os.path.join(SRC, fn)): continue
     lines = open(os.path.join(SRC, fn), encoding="utf-8").read().split("\n")
-    region = {"gta-vice-city": "Vice City", "gta-3": "Portland"}.get(g, ""); giver = ""; started = False; ms = []; phone = False
+    region = {"gta-vice-city": "Vice City", "gta-3": "Portland", "gta-liberty-city-stories": "Portland"}.get(g, ""); giver = ""; started = False; ms = []; phone = False
     for l in lines:
         if l.startswith("### "):
             h = l[4:].strip()
             if started and h.startswith(STOP): break
-            if h in ("Story Missions", "Main Story Missions"): started = True; phone = False; continue
-            if g == "gta-3" and h in ("Portland", "Staunton Island", "Shoreside Vale"): region = h; started = True; continue
+            if h in ("Story Missions", "Main Story Missions", "Main Missions"): started = True; phone = False; region = region or ("Liberty City" if g == "gta-chinatown-wars" else ""); continue
+            if g == "gta-chinatown-wars" and started and h.startswith(("Exclusive", "Downloadable")): break
+            if g in ("gta-3", "gta-liberty-city-stories") and h in ("Portland", "Staunton Island", "Shoreside Vale"): region = h; started = True; continue
+            if g == "gta-vice-city-stories" and h in ("Vice City Mainland", "Vice City Beach", "Final Missions"): region = h.replace(" Missions", " missions"); started = True; giver = ""; continue
             if not started and g != "gta-san-andreas": continue
             if h in ("Asset Missions", "Pay Phone Missions", "Final Missions", "Optional Missions") and g in ("gta-vice-city", "gta-4"):
                 region = {"Asset Missions": "Asset missions", "Pay Phone Missions": "Phone missions", "Final Missions": "Final missions", "Optional Missions": "Optional missions"}[h]; giver = ""; continue

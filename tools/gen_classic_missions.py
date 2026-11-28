@@ -28,7 +28,10 @@ G = {"gta-5": dict(name="GTA 5", emoji="🌴", area="Chapter", heal=("Max Health
      "gta-vice-city": dict(name="GTA Vice City", emoji="🌆", area="Section", heal=("Full Health", "ASPIRINE (PC)", "gta-vice-city-full-health-cheat")),
      "gta-3": dict(name="GTA 3", emoji="🌃", area="Island", heal=("Full Health", "GESUNDHEIT (PC)", "gta-3-full-health-cheat")),
      "gta-4": dict(name="GTA 4", emoji="🗽", area="Part", heal=("Health & Armor", "call 362-555-0100", "gta-4-health-and-armor-cheat"))}
-ORDER = ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4"]
+G["gta-liberty-city-stories"] = dict(name="GTA Liberty City Stories", emoji="🎰", area="Island", heal=("Full Health", "L1, R1, X, L1, R1, Square, L1, R1", "gta-liberty-city-stories-full-health-cheat"))
+G["gta-vice-city-stories"] = dict(name="GTA Vice City Stories", emoji="🌴", area="Area", heal=("Full Health", "Up, Down, Left, Right, Circle, Circle, L1, R1", "gta-vice-city-stories-full-health-cheat"))
+G["gta-chinatown-wars"] = dict(name="GTA Chinatown Wars", emoji="🐉", area="City", heal=("Full Health", "L, L, R, A, A, B, B, R on DS or LIFEUP on the mobile whiteboard", "gta-chinatown-wars-full-health-cheat"))
+ORDER = [g for g in ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4", "gta-liberty-city-stories", "gta-vice-city-stories", "gta-chinatown-wars"] if g in DATA and g in G]
 
 pages, hubs = [], []
 for gk in ORDER:

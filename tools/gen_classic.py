@@ -68,7 +68,7 @@ G.update({
    how='<ol><li><b>DS / PSP:</b> enter the button sequence during gameplay (on PSP, L1/R1 = the L and R buttons).</li><li><b>iPhone / Android:</b> go to any safehouse and arrange the letters on the <b>whiteboard</b> to spell the code (not in the free "Lite" version).</li></ol>'
        '<div class="warnbox">⚠️ Save first. Cheats can be counted in your stats.</div>'),
 })
-MISSIONS = {"gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4"}
+MISSIONS = {"gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4", "gta-liberty-city-stories", "gta-vice-city-stories", "gta-chinatown-wars"}
 ORDER = ["gta-5", "gta-san-andreas", "gta-vice-city", "gta-3", "gta-4", "gta-liberty-city-stories", "gta-vice-city-stories", "gta-chinatown-wars"]
 
 def group(n):

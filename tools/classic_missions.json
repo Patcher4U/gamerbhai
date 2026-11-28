@@ -2801,5 +2801,1327 @@
    "desc": "Kill Playboy X or Dwayne Forge.",
    "reward": "Killing Playboy X: Playboy X's Penthouse, Claude's outfit, Patriot, Dwayne becomes a possible friend. or Killing Dwayne: $25,000."
   }
+ ],
+ "gta-liberty-city-stories": [
+  {
+   "name": "Introduction",
+   "region": "Portland",
+   "giver": "Introduction",
+   "desc": "Opening cutscene, where Toni Cipriani arrives back home to Liberty City.",
+   "reward": ""
+  },
+  {
+   "name": "Home Sweet Home",
+   "region": "Portland",
+   "giver": "Introduction",
+   "desc": "Drive to your new house and take Vincenzo to his warehouse in Atlantic Quays",
+   "reward": "$100 Portland Safehouse Leone's Suit"
+  },
+  {
+   "name": "Slacker",
+   "region": "Portland",
+   "giver": "Vincenzo Cilli",
+   "desc": "Take a reluctant drug dealer to Chinatown",
+   "reward": "$100"
+  },
+  {
+   "name": "Dealing Revenge",
+   "region": "Portland",
+   "giver": "Vincenzo Cilli",
+   "desc": "Kill members of the Sindacco Crime Family for killing a Leone dealer",
+   "reward": "$500 Baseball Bat becomes available at all three safehouses"
+  },
+  {
+   "name": "Snuff",
+   "region": "Portland",
+   "giver": "Vincenzo Cilli",
+   "desc": "Kill the Sindacco heavy keeping an eye on Joseph Daniel O'Toole",
+   "reward": "$500 Hellenbach GT Pistol available in Ammu-Nation Cellphone"
+  },
+  {
+   "name": "Smash and Grab",
+   "region": "Portland",
+   "giver": "Vincenzo Cilli",
+   "desc": "Rescue Leone Crime Family members from the cops after a botched raid",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Hot Wheels",
+   "region": "Portland",
+   "giver": "Vincenzo Cilli",
+   "desc": "Pick up Vincenzo's car full of drugs and escape the Police",
+   "reward": "Money received from crushing the Banshee"
+  },
+  {
+   "name": "Bone Voyeur!",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Gather JD's money from the prostitutes around the Red Light District.",
+   "reward": "$500"
+  },
+  {
+   "name": "Don in 60 Seconds",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Drive Salvatore away from Paulie's Revue Bar and the cops.",
+   "reward": "$1,000 Micro SMG available in Ammu-Nation"
+  },
+  {
+   "name": "A Volatile Situation",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Defend a Leone Casino from the Sindaccos.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Blow Up 'Dolls'",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Blow up the Sindacco owned brothel-casino.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Snappy Dresser",
+   "region": "Portland",
+   "giver": "Mrs. Cipriani",
+   "desc": "Follow Giovanni Casa and take embarrassing photos of him.",
+   "reward": "$100"
+  },
+  {
+   "name": "Big Rumble in Little China",
+   "region": "Portland",
+   "giver": "Mrs. Cipriani",
+   "desc": "Kill two gangs of Triads in Chinatown.",
+   "reward": ""
+  },
+  {
+   "name": "Grease Sucho",
+   "region": "Portland",
+   "giver": "Mrs. Cipriani",
+   "desc": "Win a street race and kill Dan Sucho.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Dead Meat",
+   "region": "Portland",
+   "giver": "Mrs. Cipriani",
+   "desc": "Kill Giovanni Casa and deliver his remains to his deli.",
+   "reward": "$500"
+  },
+  {
+   "name": "No Son of Mine",
+   "region": "Portland",
+   "giver": "Mrs. Cipriani",
+   "desc": "Survive the hitmen Ma has sent after Toni.",
+   "reward": ""
+  },
+  {
+   "name": "The Offer",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Deliver a bribe to Jane Hopper and escape her ambush.",
+   "reward": "$500"
+  },
+  {
+   "name": "Ho Selecta!",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Gather up prostitutes and deliver them to the docks.",
+   "reward": "$500"
+  },
+  {
+   "name": "Frighteners",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Scare three union bosses into submission.",
+   "reward": "$1,000 Avenging Angel's Fatigues"
+  },
+  {
+   "name": "Rollercoaster Ride",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Scare Jane Hopper into submission by recklessly driving her limo.",
+   "reward": "$1,000 Chauffeur's Clothes"
+  },
+  {
+   "name": "Shop 'til You Strop",
+   "region": "Portland",
+   "giver": "Maria Latore",
+   "desc": "Take Maria out shopping.",
+   "reward": "$100"
+  },
+  {
+   "name": "Taken for a Ride",
+   "region": "Portland",
+   "giver": "Maria Latore",
+   "desc": "Take Maria to her dealer and rescue her from the Sindaccos.",
+   "reward": "$500"
+  },
+  {
+   "name": "Booby Prize",
+   "region": "Portland",
+   "giver": "Maria Latore",
+   "desc": "Win a bike race.",
+   "reward": ""
+  },
+  {
+   "name": "Biker Heat",
+   "region": "Portland",
+   "giver": "Maria Latore",
+   "desc": "Kill Cedric 'Wayne' Fotheringay.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Overdose of Trouble",
+   "region": "Portland",
+   "giver": "Maria Latore",
+   "desc": "Find Maria's \"zap\" to prevent her from dying on a drug overdose.",
+   "reward": "Goodfella Outfit"
+  },
+  {
+   "name": "Contra-Banned",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Go to a drug deal in Portland Harbor and escape the Police.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Salvatore's Salvation",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Rescue Salvatore from his kidnappers.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Guns of Leone",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Protect Salvatore as he goes on a Sindacco killing rampage.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "Calm Before the Storm",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Follow Massimo Torini around town.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "The Made Man",
+   "region": "Portland",
+   "giver": "JD O'Toole",
+   "desc": "Take JD to be 'made'.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Portland Chainsaw Masquerade",
+   "region": "Portland",
+   "giver": "Vincenzo Cilli",
+   "desc": "Survive Vincenzo's ambush and kill him.",
+   "reward": "$3,000 Overalls Outfit"
+  },
+  {
+   "name": "Sindacco Sabotage",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Defend Red Light District from the Diablos.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Trouble With Triads",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Collect Salvatore's money from a Warehouse in Callahan Point.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Driving Mr Leone",
+   "region": "Portland",
+   "giver": "Salvatore Leone",
+   "desc": "Escape from the cops in Portland to Staunton Island with Salvatore.",
+   "reward": "$4,000 Staunton Island Safehouse Access to Staunton Island Ability to gain a five-star wanted level"
+  },
+  {
+   "name": "A Walk in the Park",
+   "region": "Staunton Island",
+   "giver": "Salvatore Leone",
+   "desc": "Assassinate Mayor Roger C. Hole.",
+   "reward": "$1,500 Sweats Outfit"
+  },
+  {
+   "name": "Making Toni",
+   "region": "Staunton Island",
+   "giver": "Salvatore Leone",
+   "desc": "Go to Toni's ceremony to be 'made'.",
+   "reward": "$2,000 Antonio Outfit Ma's Hitmen cease attempting to kill Toni"
+  },
+  {
+   "name": "The Morgue Party Candidate",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Steal a corpse to Donald Love.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Steering the Vote",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Campaign for Donald Love by driving his campaign van around Staunton Island.",
+   "reward": "$1,500 - $1,700"
+  },
+  {
+   "name": "Cam-Pain",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Kill Miles O'Donovan's campaigners.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Friggin' the Riggin'",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Burn down a Forelli warehouse full of voting machines and fake ballots.",
+   "reward": "$1,500 Shotgun, M4 and Flamethrower available in Phil Cassidy's Fully Cocked Gun Shop"
+  },
+  {
+   "name": "Love & Bullets",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Protect Donald from the Forellis.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Counterfeit Count",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Steal uncounted votes from couriers.",
+   "reward": "$2,500"
+  },
+  {
+   "name": "L.C. Confidential",
+   "region": "Staunton Island",
+   "giver": "Ned Burner",
+   "desc": "Steal a report and deliver it to Liberty Tree.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Passion of the Heist",
+   "region": "Staunton Island",
+   "giver": "Ned Burner",
+   "desc": "Steal stolen diamonds and deliver them to Liberty Tree.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Karmageddon",
+   "region": "Staunton Island",
+   "giver": "Ned Burner",
+   "desc": "Use a firetruck to cause havoc and desturction.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "False Idols",
+   "region": "Staunton Island",
+   "giver": "Ned Burner",
+   "desc": "Kill three celebrities: DB-P, Black Lightman and Faith W.",
+   "reward": "$1,500 Rocket Launcher available in Phil Cassidy's Fully Cocked Gun Shop"
+  },
+  {
+   "name": "Caught in the Act",
+   "region": "Staunton Island",
+   "giver": "Salvatore Leone",
+   "desc": "Protect Salvatore from the mayor's secret service as he interrogates the Mayor's Assistant.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Search and Rescue",
+   "region": "Staunton Island",
+   "giver": "Salvatore Leone",
+   "desc": "Rescue Salvatore from the Forellis in Fort Staunton.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Taking the Peace",
+   "region": "Staunton Island",
+   "giver": "Salvatore Leone",
+   "desc": "Remote control Paulie Sindacco's car to botch his meeting with the Forellis.",
+   "reward": "$2,500"
+  },
+  {
+   "name": "Shoot the Messenger",
+   "region": "Staunton Island",
+   "giver": "Salvatore Leone",
+   "desc": "Kill the Forelli wiseguy.",
+   "reward": "$3,000 Wiseguy Outfit"
+  },
+  {
+   "name": "Sayonara Sindaccos",
+   "region": "Staunton Island",
+   "giver": "Leon McAffrey",
+   "desc": "Kill a lot of Sindaccos with Leon McAffrey.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Whole 9 Yardies",
+   "region": "Staunton Island",
+   "giver": "Leon McAffrey",
+   "desc": "Lure Forellis into a Yardie ambush.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Crazy '69'",
+   "region": "Staunton Island",
+   "giver": "Leon McAffrey",
+   "desc": "Kill 20 Forellis in Belleville Park with a katana.",
+   "reward": "$2,000 Dragon Outfit"
+  },
+  {
+   "name": "Night of the Livid Dreads",
+   "region": "Staunton Island",
+   "giver": "Leon McAffrey",
+   "desc": "Protect Yardies from attacking Sindaccos.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Munitions Dump",
+   "region": "Staunton Island",
+   "giver": "Leon McAffrey",
+   "desc": "Destroy Forelli weapon trucks before they reach their destination.",
+   "reward": "$2,500"
+  },
+  {
+   "name": "Love on the Rocks",
+   "region": "Staunton Island",
+   "giver": "Donald Love",
+   "desc": "Steal the evidence linking Donald Love to the Leone Crime Family.",
+   "reward": "Shoreside Vale Safehouse Access to Shoreside Vale Ability to gain a six-star wanted level"
+  },
+  {
+   "name": "Rough Justice",
+   "region": "Shoreside Vale",
+   "giver": "Salvatore Leone",
+   "desc": "Exact revenge on the Forellis in Wichita Gardens.",
+   "reward": "$2,500 Lawyer Outfit"
+  },
+  {
+   "name": "Dead Reckoning",
+   "region": "Shoreside Vale",
+   "giver": "Salvatore Leone",
+   "desc": "Kill Paulie Sindacco.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "Shogun Showdown",
+   "region": "Shoreside Vale",
+   "giver": "Salvatore Leone",
+   "desc": "Infiltrate Yakuza's compound and destroy their tank.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "Panlantic Land Grab",
+   "region": "Shoreside Vale",
+   "giver": "Donald Love",
+   "desc": "Kill Avery Carrington and steal his redevelopment plans.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "Stop the Press",
+   "region": "Shoreside Vale",
+   "giver": "Donald Love",
+   "desc": "Kill Ned Burner.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "Morgue Party Resurrection",
+   "region": "Shoreside Vale",
+   "giver": "Donald Love",
+   "desc": "Collect the bodies of Avery Carrington and Ned Burner for Donald.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "More Deadly Than the Male",
+   "region": "Shoreside Vale",
+   "giver": "Toshiko Kasen",
+   "desc": "Steal a Yakuza arms shipment.",
+   "reward": "$2,000 Minigun available in Phil Cassidy's Fully Cocked Gun Shop"
+  },
+  {
+   "name": "Cash Clash",
+   "region": "Shoreside Vale",
+   "giver": "Toshiko Kasen",
+   "desc": "Destroy three Yakuza money shipments before they reach their destination.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "A Date With Death",
+   "region": "Shoreside Vale",
+   "giver": "Toshiko Kasen",
+   "desc": "Take Toshiko to an Opera and escape the Forellis.",
+   "reward": "$2,000 Tuxedo Outfit"
+  },
+  {
+   "name": "Cash in Kazuki's Chips",
+   "region": "Shoreside Vale",
+   "giver": "Toshiko Kasen",
+   "desc": "Kill Kazuki Kasen.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "No Money, Mo' Problems",
+   "region": "Shoreside Vale",
+   "giver": "8-Ball",
+   "desc": "Get $20,000 to pay 8-Ball for his explosives.",
+   "reward": ""
+  },
+  {
+   "name": "Bringing the House Down",
+   "region": "Shoreside Vale",
+   "giver": "8-Ball",
+   "desc": "Rig explosives in the tunnels under Fort Staunton and blow up the whole district.",
+   "reward": "$5,000"
+  },
+  {
+   "name": "Love on the Run",
+   "region": "Shoreside Vale",
+   "giver": "Donald Love",
+   "desc": "Defend Donald from the Colombian Cartel and take him to the airport.",
+   "reward": "$6,000"
+  },
+  {
+   "name": "The Shoreside Redemption",
+   "region": "Shoreside Vale",
+   "giver": "Salvatore Leone",
+   "desc": "Defend Salvatore's prison transport from the Sicilians.",
+   "reward": "$4,000"
+  },
+  {
+   "name": "The Sicilian Gambit",
+   "region": "Shoreside Vale",
+   "giver": "Salvatore Leone",
+   "desc": "Rescue Mayor Miles O'Donovan from Massimo Torini and the Sicilians.",
+   "reward": "$500,000 King Jumpsuit"
+  }
+ ],
+ "gta-vice-city-stories": [
+  {
+   "name": "Soldier",
+   "region": "Vice City Mainland",
+   "giver": "Introduction",
+   "desc": "Collect a drug delivery for Sgt. Martinez.",
+   "reward": "$50 Pistol"
+  },
+  {
+   "name": "Cleaning House",
+   "region": "Vice City Mainland",
+   "giver": "Jerry Martinez",
+   "desc": "Clear Phil Cassidy's house of the Cholos to get the money he owes to Martinez.",
+   "reward": "$100"
+  },
+  {
+   "name": "Conduct Unbecoming",
+   "region": "Vice City Mainland",
+   "giver": "Jerry Martinez",
+   "desc": "Pick up a prostitute for Martinez.",
+   "reward": "101 Bayshore Avenue Casual Outfit"
+  },
+  {
+   "name": "Cholo Victory",
+   "region": "Vice City Mainland",
+   "giver": "Phil Cassidy",
+   "desc": "Perform a drive-by on some Cholos.",
+   "reward": "$200"
+  },
+  {
+   "name": "Boomshine Blowout",
+   "region": "Vice City Mainland",
+   "giver": "Phil Cassidy",
+   "desc": "Get Phil's boomshine out of his warehouse before it goes up in flames.",
+   "reward": "$250"
+  },
+  {
+   "name": "Truck Stop",
+   "region": "Vice City Mainland",
+   "giver": "Phil Cassidy",
+   "desc": "Hijack an arms truck.",
+   "reward": "$300"
+  },
+  {
+   "name": "Shakedown",
+   "region": "Vice City Mainland",
+   "giver": "Marty Jay Williams",
+   "desc": "Help Marty take care of his protection racket.",
+   "reward": "$500"
+  },
+  {
+   "name": "Fear the Repo",
+   "region": "Vice City Mainland",
+   "giver": "Marty Jay Williams",
+   "desc": "Repossess three cars for Marty.",
+   "reward": "$500"
+  },
+  {
+   "name": "Waking Up the Neighbors",
+   "region": "Vice City Mainland",
+   "giver": "Marty Jay Williams",
+   "desc": "Blow up three Cholo vans with grenades.",
+   "reward": "$500"
+  },
+  {
+   "name": "O, Brothel, Where Art Thou?",
+   "region": "Vice City Mainland",
+   "giver": "Marty Jay Williams",
+   "desc": "Take over a Cholo brothel for Marty.",
+   "reward": "$700 Stonewall J's store"
+  },
+  {
+   "name": "Got Protection?",
+   "region": "Vice City Mainland",
+   "giver": "Marty Jay Williams",
+   "desc": "Rescue Marty's prostitutes from the Cholos.",
+   "reward": "$500"
+  },
+  {
+   "name": "Marked Men",
+   "region": "Vice City Mainland",
+   "giver": "Phil Cassidy",
+   "desc": "Escape an ambush set by Jerry Martinez.",
+   "reward": ""
+  },
+  {
+   "name": "When Funday Comes",
+   "region": "Vice City Mainland",
+   "giver": "Louise Cassidy-Williams",
+   "desc": "Participate in a quad bike race with Louise.",
+   "reward": "$500"
+  },
+  {
+   "name": "Takin' Out the White-Trash",
+   "region": "Vice City Mainland",
+   "giver": "Louise Cassidy-Williams",
+   "desc": "Retrieve Louise's belongings from Marty's trailer.",
+   "reward": "$200"
+  },
+  {
+   "name": "D.I.V.O.R.C.E.",
+   "region": "Vice City Mainland",
+   "giver": "Louise Cassidy-Williams",
+   "desc": "Rescue Louise from Marty and kill him.",
+   "reward": "The Compound Trailer Trash"
+  },
+  {
+   "name": "To Victor, the Spoils",
+   "region": "Vice City Mainland",
+   "giver": "Louise Cassidy-Williams",
+   "desc": "Take over Marty's businesses.",
+   "reward": "$1,500 Gang recruitment Ability to have a 5-star wanted level"
+  },
+  {
+   "name": "Jive Drive",
+   "region": "Vice City Mainland",
+   "giver": "Victor Vance",
+   "desc": "Defend Lance's car from the attacking Cholos.",
+   "reward": ""
+  },
+  {
+   "name": "Hose the Hoes",
+   "region": "Vice City Mainland",
+   "giver": "Louise Cassidy-Williams",
+   "desc": "Extinguish the fire at Vic's brothel.",
+   "reward": "$300"
+  },
+  {
+   "name": "Robbing the Cradle",
+   "region": "Vice City Mainland",
+   "giver": "Louise Cassidy-Williams",
+   "desc": "Convince the Welfare Agent to drop Louise's case.",
+   "reward": "$300"
+  },
+  {
+   "name": "Nice Package",
+   "region": "Vice City Mainland",
+   "giver": "Umberto Robina",
+   "desc": "Acquire a package for Umberto.",
+   "reward": "$750"
+  },
+  {
+   "name": "Balls",
+   "region": "Vice City Mainland",
+   "giver": "Umberto Robina",
+   "desc": "Take care of the Cholo troublemakers around Little Havana with Umberto's men.",
+   "reward": "$800"
+  },
+  {
+   "name": "Papi Don't Screech",
+   "region": "Vice City Mainland",
+   "giver": "Umberto Robina",
+   "desc": "Pick up Umberto's father from the Stadium and protect him from the Cholos.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Havana Good Time",
+   "region": "Vice City Mainland",
+   "giver": "Umberto Robina",
+   "desc": "Rob a Cholo warehouse and wipe them out once and for all.",
+   "reward": "$1,500 Cuban Style"
+  },
+  {
+   "name": "The Audition",
+   "region": "Vice City Mainland",
+   "giver": "Lance Vance",
+   "desc": "Retrieve the impounded car of Lance's new business associate.",
+   "reward": "$750"
+  },
+  {
+   "name": "Money for Nothing",
+   "region": "Vice City Mainland",
+   "giver": "Bryan Forbes",
+   "desc": "Distract the cops during Lance and Forbes' drug run.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Caught as an Act",
+   "region": "Vice City Mainland",
+   "giver": "Lance Vance",
+   "desc": "Confront and chase down Bryan Forbes.",
+   "reward": "$750"
+  },
+  {
+   "name": "Leap and Bound",
+   "region": "Vice City Mainland",
+   "giver": "Bryan Forbes",
+   "desc": "Rescue Lance from kidnapping drug dealers.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Bum Deal",
+   "region": "Vice City Mainland",
+   "giver": "Bryan Forbes",
+   "desc": "Survive Forbes' second betrayal and kill him.",
+   "reward": ""
+  },
+  {
+   "name": "Snitch Hitch",
+   "region": "Vice City Mainland",
+   "giver": "Lance Vance",
+   "desc": "Acquire the files detailing a big drug shipment.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "From Zero to Hero",
+   "region": "Vice City Mainland",
+   "giver": "Lance Vance",
+   "desc": "Steal Jerry Martinez's cocaine shipment.",
+   "reward": "$3,000 Infernus Access to Vice City Beach, Prawn Island, and Leaf Links Ability to have a 6-star wanted level"
+  },
+  {
+   "name": "Brawn of the Dead",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Act as a stuntman in a zombie horror film.",
+   "reward": "$850 Pastel Suit"
+  },
+  {
+   "name": "Blitzkrieg",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Defend Vance Brothers' businesses from the Mendez Cartel.",
+   "reward": "$500"
+  },
+  {
+   "name": "Accidents Will Happen",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Drive a stunt car for Reni's commercial.",
+   "reward": "$850"
+  },
+  {
+   "name": "The Mugshot Longshot",
+   "region": "Vice City Beach",
+   "giver": "Mendez Brothers",
+   "desc": "Take photos of Jerry Martinez to \"prove\" he's an undercover DEA agent.",
+   "reward": ""
+  },
+  {
+   "name": "Hostile Takeover",
+   "region": "Vice City Beach",
+   "giver": "Mendez Brothers",
+   "desc": "Kill a gang of bikers.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Unfriendly Competition",
+   "region": "Vice City Beach",
+   "giver": "Mendez Brothers",
+   "desc": "Kill two competing drug runners.",
+   "reward": "$1,300"
+  },
+  {
+   "name": "High Wire",
+   "region": "Vice City Beach",
+   "giver": "Mendez Brothers",
+   "desc": "Use a chopper with a magnet to steal back the drugs confiscated by the police.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Turn on, Tune in, Bug out",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Destroy three antennas used by the DEA to spy on the Vance Brothers.",
+   "reward": "$300 Rocket Launcher available in Ammu-Nation"
+  },
+  {
+   "name": "The Colonel's Coke",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Escort Gonzalez and his drug shipment to Viceport.",
+   "reward": "$850"
+  },
+  {
+   "name": "Kill Phil",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Rescue Phil Collins from Forelli Crime Family hitmen.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Say Cheese",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Act as a stunt driver in Reni's commercial.",
+   "reward": "$850"
+  },
+  {
+   "name": "Home's on the Range",
+   "region": "Vice City Beach",
+   "giver": "Gonzales",
+   "desc": "Kill a traitor in Gonzalez's organization using explosive golf balls.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Purple Haze",
+   "region": "Vice City Beach",
+   "giver": "Gonzales",
+   "desc": "Steal back Gonzalez's drugs after a botched deal.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "Kill Phil: Part 2",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Clear out the Hyman Memorial Stadium from hitmen and assassins.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Taking the Fall",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Take out the bikers who've been stealing the Vance Brothers' cocaine.",
+   "reward": "$300 Biker Angel"
+  },
+  {
+   "name": "White Lies",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Gather back all the drugs Lance throws away.",
+   "reward": "$1,500 Bovver'64 (available for purchase at The Clymenus Suite safehouse.)"
+  },
+  {
+   "name": "Where it Hurts Most",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Rescue Louise from Jerry Martinez's goons.",
+   "reward": "$500"
+  },
+  {
+   "name": "Steal the Deal",
+   "region": "Vice City Beach",
+   "giver": "Ricardo Diaz",
+   "desc": "Steal Gonzalez's drug boat.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "The Exchange",
+   "region": "Vice City Beach",
+   "giver": "Ricardo Diaz",
+   "desc": "Defend Diaz's men during a meeting with the DEA.",
+   "reward": "$1,750"
+  },
+  {
+   "name": "Farewell To Arms",
+   "region": "Vice City Beach",
+   "giver": "Gonzalez",
+   "desc": "Ensure Gonzalez's safe arrival to the airport.",
+   "reward": "$2,500 Minigun available in Ammu-Nation"
+  },
+  {
+   "name": "Burning Bridges",
+   "region": "Vice City Beach",
+   "giver": "Mendez Brothers",
+   "desc": "Survive Mendez Brothers' betrayal.",
+   "reward": ""
+  },
+  {
+   "name": "Blitzkrieg Strikes Again",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Defend the Vance Brothers' businesses from the Mendez Cartel.",
+   "reward": "$700"
+  },
+  {
+   "name": "Lost and Found",
+   "region": "Vice City Beach",
+   "giver": "Lance Vance",
+   "desc": "Pick up Louise from the hospital and save Lance from Martinez's goons.",
+   "reward": "$1,500"
+  },
+  {
+   "name": "Domo Arigato Domestoboto",
+   "region": "Vice City Beach",
+   "giver": "Ricardo Diaz",
+   "desc": "Destroy the contents of Armando Mendez's safe by remote controlling his robotic servant.",
+   "reward": "$2,000"
+  },
+  {
+   "name": "So Long Schlong",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Defend Reni from the Mendez Brothers' hitmen.",
+   "reward": "$1,000"
+  },
+  {
+   "name": "In the Air Tonight",
+   "region": "Vice City Beach",
+   "giver": "Reni Wassulmaier",
+   "desc": "Protect Phil Collins from saboteurs during his concert in Hyman Memorial Stadium.",
+   "reward": "$3,000 Can purchase a ticket for Phil Collins' concert by paying $6,000 at the stadium at any time."
+  },
+  {
+   "name": "Light My Pyre",
+   "region": "Final missions",
+   "giver": "Lance Vance",
+   "desc": "Protect Lance from the Mendez Cartel and kill Armando Mendez.",
+   "reward": "$2,500"
+  },
+  {
+   "name": "Over the Top",
+   "region": "Final missions",
+   "giver": "Ricardo Diaz",
+   "desc": "Steal a military helicopter from Fort Baxter.",
+   "reward": "$3,000"
+  },
+  {
+   "name": "Last Stand",
+   "region": "Final missions",
+   "giver": "Ricardo Diaz",
+   "desc": "Attack the Mendez Building and kill Diego Mendez and Jerry Martinez.",
+   "reward": "$5,000 Hunter Winner Outfit"
+  }
+ ],
+ "gta-chinatown-wars": [
+  {
+   "name": "Yu Jian",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Go to Kenny's home.",
+   "reward": "$50 Safehouse in Cerveza Heights"
+  },
+  {
+   "name": "Pursuit Farce",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Take Ling Shan and lose the cops.",
+   "reward": "$50"
+  },
+  {
+   "name": "Under the Gun",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Practice the fighting skills with Ling Shan and kill the goons attacking one of Kenny's restaurants, while witnessing Ling's death.",
+   "reward": "$50"
+  },
+  {
+   "name": "Payback",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Avenge Ling's death.",
+   "reward": "$50"
+  },
+  {
+   "name": "The Wheelman",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal 3 cars for Chan Jaoming in 6 hours.",
+   "reward": "$50"
+  },
+  {
+   "name": "Tricks of the Triad",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Do a drug deal with two drug dealers, then stash the drugs in the apartment.",
+   "reward": "Drug Dealing"
+  },
+  {
+   "name": "Pimp His Ride",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Sabotage the race car of Chan's opponent.",
+   "reward": "$50"
+  },
+  {
+   "name": "Natural Burn Killer",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Burn down 2 stores who won't pay their rent.",
+   "reward": "$50 Liberty City Gun Club: Grenades"
+  },
+  {
+   "name": "Recruitment Drive",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Recruit new crime victims and recruit them as Triads.",
+   "reward": "$50 Tattoo Parlors"
+  },
+  {
+   "name": "Whack the Racers",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Help Chan win a race by taking out the other racers.",
+   "reward": "$100 Turf map available in the PDA Races become available across the city Liberty City Gun Club: MP5"
+  },
+  {
+   "name": "Stealing the Show",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Sneak onto the back of a delivery truck and toss the merchandise to Zhou.",
+   "reward": "$150"
+  },
+  {
+   "name": "Jackin' Chan",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Rescue Chan from the Irish-American Killers.",
+   "reward": "$150"
+  },
+  {
+   "name": "Flatliner",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal an Ambulance containing Zhou's old friend Uri from Francis International Airport and drive it back to Zhou's house.",
+   "reward": "$150"
+  },
+  {
+   "name": "Bomb Disposal",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Disarm three of Hsin's vans containing bombs meant to destroy Zhou's drug stash cars, and stop further attempts to do so.",
+   "reward": "$200"
+  },
+  {
+   "name": "Carpe 'Dime'",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal a Spanish Lord's van to check for the Yu Jian.",
+   "reward": "Lancaster Safehouse Ability to steal gang Burritos for drugs Liberty City Gun Club: Pump Shotgun"
+  },
+  {
+   "name": "Store Wars",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Defend a store from the Spanish Lords.",
+   "reward": "$50"
+  },
+  {
+   "name": "Driven to Destruction",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Drive Zhou on his Bobcat to African-American drug dealers and let him shoot them with his minigun, until the Carnage meter is filled.",
+   "reward": "$150"
+  },
+  {
+   "name": "Raw Deal",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Protect Chan from the Spanish Lords during a drug deal.",
+   "reward": "$200 Safehouse in South Bohan"
+  },
+  {
+   "name": "The Tow Job",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal a Korean's car, gain police attention and park it outside the police station in Bohan.",
+   "reward": ""
+  },
+  {
+   "name": "The Tail Bagging the Dogs",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Kill the Korean and all his underbosses.",
+   "reward": ""
+  },
+  {
+   "name": "Trail Blazer",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Destroy a gambling den by ramming a leaking Tanker into it.",
+   "reward": "$300"
+  },
+  {
+   "name": "Copter Carnage",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Defend Kenny's merchandise from the Spanish Lords and tail the copter back to their warehouse.",
+   "reward": "$400"
+  },
+  {
+   "name": "Kenny Strikes Back",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal merchandise from the Spanish Lord's warehouse.",
+   "reward": "3 bags of Coke"
+  },
+  {
+   "name": "Weapons of Mass Distraction",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Distract the Midtown Gangsters while Heston plants a bug in their base.",
+   "reward": ""
+  },
+  {
+   "name": "Street of Rage",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Rescue Heston from the Wonsu Assassins.",
+   "reward": "$200"
+  },
+  {
+   "name": "Missed the Boat?",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Take a boat out to a drug deal and escape from the coast guards before bringing the drugs back to shore.",
+   "reward": "10 bags of Heroin Lower Easton Safehouse"
+  },
+  {
+   "name": "Cash & Burn",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Burn all of the Korean's goods at a construction site and kill the security forces.",
+   "reward": ""
+  },
+  {
+   "name": "Dragon Haul Z",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal a truck containing a dragon costume and after Zhou robs a bank, do the instructed moves in the dragon costume without arrousing too much suspicion and escape.",
+   "reward": "$1000"
+  },
+  {
+   "name": "Sa-Boat-Age",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Race Chan and protect him from the Spanish Lords.",
+   "reward": "12 bags of Ecstasy"
+  },
+  {
+   "name": "The Offshore Offload",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Rescue Hsin's men from the Feds, pick up Hsin's accountant and take them all to Castle Gardens.",
+   "reward": "$700 Fully Cocked License available at AmmuNation.net"
+  },
+  {
+   "name": "One Shot, One Kill",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Snipe an FIB informant against Chan Jaoming and lose the wanted level.",
+   "reward": "Liberty City Gun Club: Sniper Rifle"
+  },
+  {
+   "name": "Counterfeit Gangster",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Destroy all of Chan's goods before the FIB recovers them.",
+   "reward": ""
+  },
+  {
+   "name": "Slaying With Fire",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Kill all of Chan's entourage.",
+   "reward": "$250"
+  },
+  {
+   "name": "The Fandom Menace",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Escort Zhou and two other Triad members while avoiding paparazzi.",
+   "reward": "$200"
+  },
+  {
+   "name": "Operation Northwood",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Chase a drug dealer to his warehouse, then destroy it with the car bomb.",
+   "reward": "$200"
+  },
+  {
+   "name": "Torpedo Run",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Destroy Zhou Ming's drug boat then take out his escaping gang members.",
+   "reward": ""
+  },
+  {
+   "name": "So Near, Yet Sonar",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Recover sunken goods from Zhou's sunken ship using a sonar.",
+   "reward": "15 bags of Acid"
+  },
+  {
+   "name": "By Myriads of Swords",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Kill two of the Midtown Gangster leaders unfaithful to Hsin and collect their IDs.",
+   "reward": "$500"
+  },
+  {
+   "name": "A Shadow of Doubt",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Tail two Koreans to their hideout.",
+   "reward": ""
+  },
+  {
+   "name": "Double Trouble",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Take out some of The Lost gangsters and use the Monoglobe to destroy a building with The Lost members.",
+   "reward": ""
+  },
+  {
+   "name": "Grave Situation",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Protect D'Avanzo from Jimmy Capra's men.",
+   "reward": "$250 Safehouse in Northwood"
+  },
+  {
+   "name": "Faster Pusher Man! Sell! Sell!",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Sell all of the AoD's drugs before the rivals do.",
+   "reward": "10 bags of Coke"
+  },
+  {
+   "name": "Friend or Foe?",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Breach the Koreans' hideout and obtain the FIB files.",
+   "reward": ""
+  },
+  {
+   "name": "Scrambled",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Destroy 3 scramblers.",
+   "reward": ""
+  },
+  {
+   "name": "Steal the Wheels",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Steal Jimmy Capra's car.",
+   "reward": "$200"
+  },
+  {
+   "name": "Arms Out of Harm's Way",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Kill the Midtown Gangsters' arms dealer.",
+   "reward": "$200"
+  },
+  {
+   "name": "The Wages of Hsin",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Destroy the Koreans' hideout with explosives.",
+   "reward": "$2500"
+  },
+  {
+   "name": "Convoy Conflict",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Protect the Angels of Death convoy from The Lost MC members.",
+   "reward": "$500"
+  },
+  {
+   "name": "The World's a Stooge",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Take out three men mentioned in the record from Jimmy Capra's car.",
+   "reward": "$1500"
+  },
+  {
+   "name": "Evidence Dash",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Destroy evidence in Heston's Admiral.",
+   "reward": "$200"
+  },
+  {
+   "name": "Oversights",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Snipe Jimmy Capra and his men.",
+   "reward": "$250"
+  },
+  {
+   "name": "A Rude Awakening",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Chase and kill Rudy D'Avanzo.",
+   "reward": ""
+  },
+  {
+   "name": "See No Evil",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Protect Lester and Meredith from the Angels of Death as he transports her to her house, without frightening her.",
+   "reward": ""
+  },
+  {
+   "name": "Wi-Find",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Hack the FIB files to identify the Triad's rat.",
+   "reward": "$200"
+  },
+  {
+   "name": "Rat Race",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Defend Kenny while he drives to warn Hsin Jaoming of Zhou Ming and Chan Jaoming's betrayal.",
+   "reward": ""
+  },
+  {
+   "name": "Clear the Pier",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Chase and kill Chan Jaoming.",
+   "reward": "$500"
+  },
+  {
+   "name": "Hit from the Tong",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Kill Zhou Ming.",
+   "reward": "$1000"
+  },
+  {
+   "name": "Salt in the Wound",
+   "region": "Liberty City",
+   "giver": "",
+   "desc": "Chase and kill the real traitor.",
+   "reward": ""
+  }
  ]
 }
