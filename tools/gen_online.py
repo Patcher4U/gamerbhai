@@ -204,6 +204,8 @@ cards = "".join(f'<a class="glass tilt area" href="{s}"><div class="pop"><div cl
     ("gta-online-bunkers", "🪖", "Bunkers", "Locations, prices, upgrades"), ("gta-online-facilities", "🛰️", "Facilities", "Doomsday bases"),
     ("gta-online-garages", "🚗", "Garages", "Every address and price"), ("gta-online-races", "🏁", "Races", "Every Rockstar race"),
     ("gta-online-survival", "🧟", "Survival", "Waves and maps"), ("gta-online-vehicles", "🚘", "Vehicles", "Every vehicle by class"), ("gta-online-weapons", "🔫", "Weapons", "Every weapon by type"), ("gta-online-gang-attacks", "💀", "Gang attacks", "Every location")) if s in pages)
+_ex = os.path.join(HERE, "online_extra.json")
+if os.path.exists(_ex): cards += "".join(f'<a class="glass tilt area" href="{s2}"><div class="pop"><div class="ic">{ic2}</div><h3>{e(n2)}</h3><p>Locations, prices, how it works</p></div></a>' for s2, n2, ic2 in json.load(open(_ex, encoding="utf-8")))
 body = sec(1, "What is GTA Online?", "<p>GTA Online is the multiplayer world of GTA 5: build a criminal empire in Los Santos with friends, run businesses, pull heists and race. It launched in 2013 and keeps getting free updates. Story-mode cheats do not work here.</p>")
 body += sec(2, "Guides", f'<div class="grid">{cards}</div>') + MORE + credit("GTA_Online")
 write("gta-online", "GTA Online Guide: Heists, Missions, Ranks & Modes", "GTA Online guides: every heist with payouts, all contact missions, the full rank RP chart and every adversary mode.",
