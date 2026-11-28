@@ -17,7 +17,7 @@ def sec(n, h, inner): return f'  <section class="reveal"><h2><span class="n">{n:
 def tbl(head, rows): return '<div class="gtable"><table class="cheats cw"><thead><tr>' + "".join(f"<th>{e(h)}</th>" for h in head) + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table></div>"
 load = lambda f: json.loads(fix(open(os.path.join(SRC, f + ".json"), encoding="utf-8").read())) if os.path.exists(os.path.join(SRC, f + ".json")) else []
 def credit(pg): return f'  <p class="note">Data from the <a href="https://gta.fandom.com/wiki/{pg}" rel="nofollow noopener" target="_blank">GTA Wiki</a> (CC BY-SA 3.0). GTA Online changes with every update, so payouts can differ from what you see in game. Unofficial fan guide, not affiliated with Rockstar Games.</p>\n'
-MORE = '  <p class="note">More GTA Online: <a href="gta-online">GTA Online hub</a> · <a href="gta-online-heists">heists</a> · <a href="gta-online-contact-missions">contact missions</a> · <a href="gta-online-ranks">ranks &amp; RP</a> · <a href="gta-online-adversary-modes">adversary modes</a> · <a href="gta-5-cheats">GTA 5 story cheats</a> (cheats do not work in Online)</p>\n'
+MORE = '  <p class="note">More GTA Online: <a href="gta-online">GTA Online hub</a> · <a href="gta-online-heists">heists</a> · <a href="gta-online-contact-missions">contact missions</a> · <a href="gta-online-ranks">ranks &amp; RP</a> · <a href="gta-online-adversary-modes">adversary modes</a> · <a href="gta-online-mc-businesses">MC businesses</a> · <a href="gta-online-bunkers">bunkers</a> · <a href="gta-online-races">races</a> · <a href="gta-5-cheats">GTA 5 story cheats</a> (cheats do not work in Online)</p>\n'
 pages = []
 def write(slug, title, desc, kicker, h1, lead, body, crumbs):
     ld = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": BASE + u} for i, (n, u) in enumerate(crumbs)]}]
@@ -127,10 +127,83 @@ if groups:
           "GTA ONLINE · ADVERSARY MODES", "GTA Online Adversary Modes", f"🎯 {tot} modes from {len(groups)} updates.", body, [("Home", ""), ("GTA Online", "gta-online"), ("Adversary modes", "gta-online-adversary-modes")])
     print("adversary", tot)
 
+
+# ---------- generic wiki-section pages (businesses, properties, races ...)
+def render(d, maxp=3):
+    out, k, cur, pc, buf = "", 1, None, 0, ""
+    def flush():
+        nonlocal out, k, buf
+        if buf.strip() and cur: out += sec(k, e(cur), buf); k += 1
+        buf = ""
+    for x in d:
+        if "h" in x:
+            flush(); cur = x["h"]; pc = 0; continue
+        if cur is None: cur = "Overview"
+        if "p" in x and pc < maxp and len(x["p"]) > 40: buf += f"<p>{e(x['p'])}</p>"; pc += 1
+        elif "li" in x and len(x["li"]) < 300 and not re.match(r"^\d+(\.\d+)* ", x["li"]): buf += f"<ul><li>{e(x['li'])}</li></ul>"
+        elif "table" in x and len(x["table"]) > 1:
+            t = [list(r) for r in x["table"]]
+            if len(set(t[0])) == 1 and len(t) > 2: t = t[1:]
+            hd = t[0]; data = [r + [""] * (len(hd) - len(r)) for r in t[1:] if r != hd]
+            keep = [j for j, h in enumerate(hd) if h not in ("Image", "Map", "Icon") and any(r[j] for r in data)]
+            if keep and data: buf += tbl([hd[j] for j in keep], [[e(r[j]) for j in keep] for r in data])
+    flush()
+    return out.replace("</ul><ul>", "")
+GEN = [("o_mc", "gta-online-mc-businesses", "GTA Online MC Businesses: Prices, Upgrades & Profit", "GTA Online MC Businesses", "🏍️", "MC_Businesses",
+        "Every GTA Online MC business – Document Forgery, Weed, Counterfeit Cash, Meth and Cocaine – with all locations, prices, upgrade costs and profit per sale."),
+       ("o_cargo", "gta-online-special-cargo", "GTA Online Special Cargo: Warehouses, Items & Sell Values", "GTA Online Special Cargo", "📦", "Special_Cargo",
+        "How CEO Special Cargo works in GTA Online: products, special items with buy and sell values, and how to sell crates."),
+       ("o_bunker", "gta-online-bunkers", "GTA Online Bunkers: All Locations, Prices & Upgrades", "GTA Online Bunkers", "🪖", "Bunker",
+        "Every GTA Online bunker location and price, plus all upgrades and what moves over if you change bunkers."),
+       ("o_garages", "gta-online-garages", "GTA Online Garages: Every Address & Price", "GTA Online Garages", "🚗", "Garages_in_GTA_Online",
+        "Every GTA Online garage – low-end, medium and high-end – with address, price and notes."),
+       ("o_races", "gta-online-races", "All GTA Online Races: Land, Bike, Sea & Air (Full List)", "GTA Online Races", "🏁", "Races_in_GTA_Online",
+        "Every Rockstar-created GTA Online race – land, bike, sea and air – with the update it came in and which vehicles are allowed, plus how each race type works."),
+       ("o_surv", "gta-online-survival", "GTA Online Survival: Waves, Weapons & Every Map", "GTA Online Survival", "🧟", "Survival",
+        "How GTA Online Survival works: all waves with weapon spawns, enemy vehicles and NPC numbers, and the list of Survival maps."),
+       ("o_gang", "gta-online-gang-attacks", "GTA Online Gang Attacks: Every Location", "GTA Online Gang Attacks", "💀", "Gang_Attacks",
+        "Every GTA Online Gang Attack location with the gang you fight there, and what you earn for clearing them."),
+       ("o_fac", "gta-online-facilities", "GTA Online Facility (Doomsday): Locations, Prices & Upgrades", "GTA Online Facilities", "🛰️", "Facilities",
+        "Every GTA Online Facility (Doomsday Heist base) location and price, plus the layout and upgrades.")]
+for f, slug, title, h1, ic, wk, desc in GEN:
+    d = load(f)
+    if not d: continue
+    body = render(d)
+    if body.count("<section") < 2: continue
+    body += MORE + credit(wk)
+    write(slug, title, desc, "GTA ONLINE", h1, f"{ic} " + e(desc), body, [("Home", ""), ("GTA Online", "gta-online"), (h1.replace("GTA Online ", ""), slug)])
+    print(slug, body.count("<section"), "sections")
+
+# ---------- vehicles + weapons by class (link lists)
+TAGS = {"DLC", "MOD", "CE", "EV", "E&E", "EV/E&E", "R*", "HSW", "PS", "XB", "PC", "SC"}
+for f, slug, h1, ic, wk, what in (("o_veh", "gta-online-vehicles", "GTA Online Vehicles", "🚗", "Vehicles_in_GTA_Online", "vehicle"), ("o_wep", "gta-online-weapons", "GTA Online Weapons", "🔫", "Weapons_in_GTA_Online", "weapon")):
+    cats = []
+    for x in load(f):
+        if "table" not in x or cats: continue
+        t, L = x["table"], x["links"]
+        if not t or t[0] and t[0][0] in ("Reference",): continue
+        for i2 in range(len(L) - 1):
+            a, b = L[i2], L[i2 + 1]
+            if len(a) == len(b) and sum(map(len, b)) > sum(map(len, a)) + 3 and all(len(c) <= 2 for c in a):
+                for j, cb in enumerate(b):
+                    vs = [v for v in dict.fromkeys(cb) if v not in TAGS and not re.fullmatch(r"\[?\w{1,4}\]?", v)]
+                    nm = t[i2][j] if j < len(t[i2]) else ""
+                    if vs and nm: cats.append((nm, vs))
+    if not cats: continue
+    n = sum(len(v) for _, v in cats)
+    body = sec(1, f"All {n} {what}s by class", tbl(["Class", what.title() + "s"], [[f"<b>{e(c)}</b>", e(" · ".join(v))] for c, v in cats])) + MORE + credit(wk)
+    write(slug, f"All {n} {h1} (Full List by Class)", clip(f"Every {h1[11:].lower()[:-1]} in GTA Online ({n}) sorted by class: " + ", ".join(c for c, _ in cats[:8]) + "."),
+          "GTA ONLINE", h1, f"{ic} {n} {what}s in {len(cats)} classes.", body, [("Home", ""), ("GTA Online", "gta-online"), (h1[11:], slug)])
+    print(slug, n, len(cats))
+
 # ---------- hub
 cards = "".join(f'<a class="glass tilt area" href="{s}"><div class="pop"><div class="ic">{ic}</div><h3>{t}</h3><p>{p}</p></div></a>' for s, ic, t, p in (
     ("gta-online-heists", "💰", "Heists", "Payouts, setup costs and bonus challenges"), ("gta-online-contact-missions", "📱", "Contact missions", "Every job by contact, with rewards"),
-    ("gta-online-ranks", "⭐", "Ranks &amp; RP", "RP needed for every rank and unlocks"), ("gta-online-adversary-modes", "🎯", "Adversary modes", "Every mode by update")) if s in pages)
+    ("gta-online-ranks", "⭐", "Ranks &amp; RP", "RP needed for every rank and unlocks"), ("gta-online-adversary-modes", "🎯", "Adversary modes", "Every mode by update"),
+    ("gta-online-mc-businesses", "🏍️", "MC businesses", "Locations, prices, profit"), ("gta-online-special-cargo", "📦", "Special Cargo", "CEO crates and items"),
+    ("gta-online-bunkers", "🪖", "Bunkers", "Locations, prices, upgrades"), ("gta-online-facilities", "🛰️", "Facilities", "Doomsday bases"),
+    ("gta-online-garages", "🚗", "Garages", "Every address and price"), ("gta-online-races", "🏁", "Races", "Every Rockstar race"),
+    ("gta-online-survival", "🧟", "Survival", "Waves and maps"), ("gta-online-vehicles", "🚘", "Vehicles", "Every vehicle by class"), ("gta-online-weapons", "🔫", "Weapons", "Every weapon by type"), ("gta-online-gang-attacks", "💀", "Gang attacks", "Every location")) if s in pages)
 body = sec(1, "What is GTA Online?", "<p>GTA Online is the multiplayer world of GTA 5: build a criminal empire in Los Santos with friends, run businesses, pull heists and race. It launched in 2013 and keeps getting free updates. Story-mode cheats do not work here.</p>")
 body += sec(2, "Guides", f'<div class="grid">{cards}</div>') + MORE + credit("GTA_Online")
 write("gta-online", "GTA Online Guide: Heists, Missions, Ranks & Modes", "GTA Online guides: every heist with payouts, all contact missions, the full rank RP chart and every adversary mode.",
